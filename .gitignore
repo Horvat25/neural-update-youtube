@@ -1,0 +1,17 @@
+node_modules/
+.env
+.yt-tokens.json
+.yt-stats.json
+videos/
+.video-work/
+exports/
+data/
+assets/music/
+*.log
+*token*.json
+.browser-profile/
+*.mp4
+*.jpg
+*.jpeg
+neural-update-logo.png
+neural-update-banner.png

@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Neural Update — YouTube Shorts</title>
+<style>
+  :root { --bg:#080808; --panel:#111; --panel2:#171717; --line:#262626; --txt:#e8e8e8; --mut:#8a8a8a; --acc:#00ff88; --acc2:#00d9ff; --warn:#ffb020; --err:#ff4d4d; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { background:var(--bg); color:var(--txt); font-family:'Segoe UI',system-ui,sans-serif; line-height:1.5; }
+  header { padding:18px 24px; border-bottom:1px solid var(--line); display:flex; align-items:center; gap:14px; position:sticky; top:0; background:rgba(8,8,8,.92); backdrop-filter:blur(8px); z-index:10; }
+  header h1 { font-size:18px; font-weight:700; letter-spacing:.5px; }
+  header h1 span { color:var(--acc); }
+  .pills { margin-left:auto; display:flex; gap:8px; font-size:12px; }
+  .pill { padding:5px 10px; border-radius:20px; border:1px solid var(--line); color:var(--mut); }
+  .pill.on { color:var(--acc); border-color:var(--acc); }
+  .pill.off { color:var(--err); border-color:var(--err); }
+  nav { display:flex; gap:4px; padding:0 24px; border-bottom:1px solid var(--line); overflow-x:auto; }
+  nav button { background:none; border:none; color:var(--mut); padding:14px 16px; cursor:pointer; font-size:14px; border-bottom:2px solid transparent; white-space:nowrap; }
+  nav button.active { color:var(--acc); border-bottom-color:var(--acc); }
+  main { padding:24px; max-width:1100px; margin:0 auto; }
+  .tab { display:none; } .tab.active { display:block; animation:fade .2s ease; }
+  @keyframes fade { from{opacity:0;transform:translateY(4px)} to{opacity:1;transform:none} }
+  .card { background:var(--panel); border:1px solid var(--line); border-radius:12px; padding:20px; margin-bottom:16px; }
+  .card h2 { font-size:15px; margin-bottom:14px; color:var(--acc2); }
+  .grid { display:grid; gap:14px; }
+  .g3 { grid-template-columns:repeat(3,1fr); } .g4 { grid-template-columns:repeat(4,1fr); }
+  @media(max-width:720px){ .g3,.g4{grid-template-columns:1fr 1fr} }
+  .stat { background:var(--panel2); border:1px solid var(--line); border-radius:10px; padding:16px; text-align:center; }
+  .stat .n { font-size:26px; font-weight:800; color:var(--acc); } .stat .l { font-size:12px; color:var(--mut); margin-top:4px; }
+  button.btn { background:var(--acc); color:#001b0e; border:none; border-radius:8px; padding:11px 18px; font-weight:700; cursor:pointer; font-size:14px; }
+  button.btn:hover { filter:brightness(1.1); } button.btn:disabled { opacity:.5; cursor:not-allowed; }
+  button.ghost { background:none; border:1px solid var(--line); color:var(--txt); border-radius:8px; padding:9px 14px; cursor:pointer; font-size:13px; }
+  button.ghost:hover { border-color:var(--acc); }
+  select,input { background:var(--panel2); border:1px solid var(--line); color:var(--txt); border-radius:8px; padding:10px; font-size:14px; }
+  .row { display:flex; gap:10px; flex-wrap:wrap; align-items:center; }
+  .muted { color:var(--mut); font-size:13px; } .small { font-size:12px; }
+  .post { border:1px solid var(--line); border-radius:10px; padding:14px; margin-bottom:10px; background:var(--panel2); }
+  .post .t { font-weight:600; margin-bottom:4px; } .badge { font-size:11px; padding:2px 8px; border-radius:12px; border:1px solid var(--line); color:var(--mut); margin-left:6px; }
+  .badge.ok{color:var(--acc);border-color:var(--acc)} .badge.run{color:var(--warn);border-color:var(--warn)} .badge.err{color:var(--err);border-color:var(--err)}
+  video { width:100%; max-width:240px; border-radius:8px; margin-top:8px; background:#000; }
+  table { width:100%; border-collapse:collapse; font-size:13px; } th,td { text-align:left; padding:8px; border-bottom:1px solid var(--line); } th { color:var(--mut); font-weight:600; }
+  a { color:var(--acc2); } .pipe { display:flex; gap:6px; flex-wrap:wrap; margin-top:8px; }
+  .step { font-size:11px; padding:4px 9px; border-radius:14px; border:1px solid var(--line); color:var(--mut); } .step.on{color:var(--acc);border-color:var(--acc)}
+  .hl { color:var(--acc); }
+</style>
+</head>
+<body>
+<header>
+  <h1>NEURAL <span>UPDATE</span> · YouTube Shorts</h1>
+  <div class="pills">
+    <span class="pill" id="pill-yt">YouTube</span>
+    <span class="pill" id="pill-img">Banco de imagens</span>
+    <span class="pill" id="pill-privacy">privacy</span>
+  </div>
+</header>
+<nav>
+  <button class="active" data-tab="inicio">Início</button>
+  <button data-tab="formatos">Formatos</button>
+  <button data-tab="agendar">Agendar</button>
+  <button data-tab="stats">Estatísticas</button>
+  <button data-tab="pesquisa">Pesquisa</button>
+  <button data-tab="config">⚙ Configuração</button>
+</nav>
+<main>
+  <!-- INÍCIO -->
+  <section class="tab active" id="inicio">
+    <div class="card">
+      <h2>Publicar agora</h2>
+      <div class="row">
+        <button class="btn" id="btn-run">▶ Gerar + Publicar (rotação automática)</button>
+        <select id="run-privacy"><option value="">privacy padrão</option><option value="unlisted">unlisted</option><option value="public">public</option><option value="private">private</option></select>
+        <span class="muted" id="busy-note"></span>
+      </div>
+      <div class="grid g4" id="quick-stats" style="margin-top:16px">
+        <div class="stat"><div class="n" id="qs-subs">—</div><div class="l">Inscritos</div></div>
+        <div class="stat"><div class="n" id="qs-views">—</div><div class="l">Views totais</div></div>
+        <div class="stat"><div class="n" id="qs-vids">—</div><div class="l">Vídeos</div></div>
+        <div class="stat"><div class="n" id="qs-queue">—</div><div class="l">Na fila</div></div>
+      </div>
+    </div>
+    <div class="card">
+      <h2>Pipeline ao vivo & fila</h2>
+      <div id="queue"><p class="muted">Carregando…</p></div>
+    </div>
+  </section>
+
+  <!-- FORMATOS -->
+  <section class="tab" id="formatos">
+    <div class="card">
+      <h2>Gerar por formato (diversificação)</h2>
+      <p class="muted" style="margin-bottom:14px">Gera o vídeo (sem publicar) pra você revisar. O robô alterna entre estes formatos automaticamente.</p>
+      <div class="grid g3" id="format-cards"></div>
+    </div>
+  </section>
+
+  <!-- AGENDAR -->
+  <section class="tab" id="agendar">
+    <div class="card">
+      <h2>Agendar publicação</h2>
+      <div class="row">
+        <input type="datetime-local" id="sch-when" />
+        <select id="sch-format"><option value="">rotação automática</option></select>
+        <select id="sch-privacy"><option value="">privacy padrão</option><option value="unlisted">unlisted</option><option value="public">public</option><option value="private">private</option></select>
+        <button class="btn" id="btn-schedule">Agendar</button>
+      </div>
+      <p class="muted small" style="margin-top:8px">O painel verifica a cada 1 min e publica no horário marcado (além do automático 2x/dia).</p>
+    </div>
+    <div class="card"><h2>Agendamentos</h2><div id="sch-list"><p class="muted">—</p></div></div>
+  </section>
+
+  <!-- ESTATÍSTICAS -->
+  <section class="tab" id="stats">
+    <div class="card">
+      <h2>Canal — dados reais (YouTube API) <button class="ghost" id="btn-refresh-stats" style="float:right">↻ Atualizar</button></h2>
+      <div class="grid g4">
+        <div class="stat"><div class="n" id="st-subs">—</div><div class="l">Inscritos</div></div>
+        <div class="stat"><div class="n" id="st-views">—</div><div class="l">Views totais</div></div>
+        <div class="stat"><div class="n" id="st-vids">—</div><div class="l">Vídeos</div></div>
+        <div class="stat"><div class="n" id="st-gained">—</div><div class="l">Inscritos (28d)</div></div>
+      </div>
+      <p class="muted small" id="st-analytics" style="margin-top:12px"></p>
+    </div>
+    <div class="card"><h2>Últimos vídeos</h2><div id="st-recent"><p class="muted">—</p></div></div>
+  </section>
+
+  <!-- PESQUISA -->
+  <section class="tab" id="pesquisa">
+    <div class="card">
+      <h2>O que o bot está lendo <button class="ghost" id="btn-refresh-research" style="float:right">↻</button></h2>
+      <p class="muted" style="margin-bottom:12px">Manchetes do Google News + artigos do seu blog. Para "notícia", o tema vem do topo desta lista.</p>
+      <div id="research"><p class="muted">Carregando…</p></div>
+    </div>
+  </section>
+
+  <!-- CONFIGURAÇÃO -->
+  <section class="tab" id="config">
+    <div class="card">
+      <h2>Conexão com o YouTube</h2>
+      <div id="cfg-status" class="muted">Carregando…</div>
+    </div>
+    <div class="card">
+      <h2>1. Credenciais do Google Cloud</h2>
+      <p class="muted small" style="margin-bottom:10px">No <a href="https://console.cloud.google.com/" target="_blank">Google Cloud</a>: ative <b>YouTube Data API v3</b> + <b>YouTube Analytics API</b>, crie um <b>OAuth Client ID</b> (tipo "Aplicativo da Web") e adicione este Redirect URI autorizado:</p>
+      <p style="margin-bottom:14px"><code id="cfg-redirect" style="background:#000;padding:6px 10px;border-radius:6px;border:1px solid var(--line);color:var(--acc)">—</code></p>
+      <div style="display:flex;flex-direction:column;gap:10px;max-width:560px">
+        <input id="cfg-client-id" placeholder="Client ID (xxx.apps.googleusercontent.com)" />
+        <input id="cfg-client-secret" type="password" placeholder="Client Secret" />
+        <div class="row">
+          <label class="muted small">Privacidade dos uploads:</label>
+          <select id="cfg-privacy"><option value="unlisted">unlisted (revisar)</option><option value="public">public</option><option value="private">private</option></select>
+        </div>
+        <input id="cfg-blog" placeholder="URL do blog (CTA)" />
+        <button class="btn" id="cfg-save">Salvar credenciais</button>
+      </div>
+    </div>
+    <div class="card">
+      <h2>2. Conectar a conta</h2>
+      <p class="muted small" style="margin-bottom:12px">Depois de salvar, autorize no Google (abre nova aba). Se aparecer "app não verificado", clique em <b>Avançado → continuar</b> (é o seu próprio app).</p>
+      <button class="btn" id="cfg-connect">🔗 Conectar conta do YouTube</button>
+      <div class="muted small" id="cfg-connect-note" style="margin-top:8px"></div>
+    </div>
+  </section>
+</main>
+
+<script>
+const $ = s => document.querySelector(s);
+const api = (p, opt) => fetch(p, opt).then(r => r.json());
+const fmtNum = n => (n>=1000 ? (n/1000).toFixed(n>=10000?0:1)+'k' : String(n??'—'));
+
+// Navegação
+document.querySelectorAll('nav button').forEach(b => b.onclick = () => {
+  document.querySelectorAll('nav button').forEach(x=>x.classList.remove('active'));
+  document.querySelectorAll('.tab').forEach(x=>x.classList.remove('active'));
+  b.classList.add('active'); $('#'+b.dataset.tab).classList.add('active');
+  if (b.dataset.tab==='stats') loadStats();
+  if (b.dataset.tab==='pesquisa') loadResearch();
+  if (b.dataset.tab==='agendar') loadSchedule();
+  if (b.dataset.tab==='config') loadConfig();
+});
+
+let FORMATS = {};
+async function loadStatus(){
+  const s = await api('/api/status').catch(()=>({}));
+  FORMATS = s.formats || {};
+  setPill('#pill-yt','YouTube', s.youtube_connected);
+  setPill('#pill-img','Banco de imagens', s.image_agent_up);
+  $('#pill-privacy').textContent = 'privacy: '+(s.privacy||'—');
+  $('#busy-note').textContent = s.busy ? '⏳ ciclo em andamento…' : '';
+  $('#btn-run').disabled = !!s.busy;
+  // popula selects/cards de formato
+  const fc = $('#format-cards'); if (fc && !fc.dataset.done && Object.keys(FORMATS).length){
+    fc.innerHTML = Object.entries(FORMATS).map(([k,label])=>`
+      <div class="stat" style="text-align:left">
+        <div class="t" style="font-weight:700;margin-bottom:6px">${label}</div>
+        <div class="muted small" style="margin-bottom:10px">${k}</div>
+        <button class="btn" data-fmt="${k}">Gerar</button>
+      </div>`).join('');
+    fc.querySelectorAll('button[data-fmt]').forEach(btn=>btn.onclick=()=>generate(btn.dataset.fmt));
+    fc.dataset.done='1';
+    const sf=$('#sch-format'); Object.entries(FORMATS).forEach(([k,label])=>{const o=document.createElement('option');o.value=k;o.textContent=label;sf.appendChild(o);});
+  }
+}
+function setPill(sel,label,on){ const e=$(sel); e.textContent=label; e.className='pill '+(on?'on':'off'); }
+
+const STAGES = {tts:'Narração',music:'Trilha',images:'Imagens',rendering:'Render',done:'Pronto'};
+async function loadQueue(){
+  const posts = await api('/api/posts').catch(()=>[]);
+  $('#qs-queue').textContent = posts.filter(p=>!['posted','drafted'].includes(p.status)).length;
+  if (!posts.length){ $('#queue').innerHTML='<p class="muted">Nenhum vídeo ainda. Clique em “Gerar + Publicar”.</p>'; return; }
+  $('#queue').innerHTML = posts.map(p=>{
+    const st = p.status||'';
+    const badge = st==='posted'?'<span class="badge ok">publicado</span>'
+      : st==='video_ready'?'<span class="badge ok">pronto</span>'
+      : st==='creating_video'?'<span class="badge run">gerando</span>'
+      : /error/.test(st)?'<span class="badge err">'+st+'</span>'
+      : '<span class="badge">'+st+'</span>';
+    const pipe = st==='creating_video' ? '<div class="pipe">'+Object.entries(STAGES).map(([k,l])=>`<span class="step ${p.stage===k?'on':''}">${l}</span>`).join('')+'</div>'+(p.stage_msg?`<div class="muted small">${p.stage_msg}</div>`:'') : '';
+    const vid = p.video_path ? `<br><video controls src="/videos/${p.video_path.split(/[\\\\/]/).pop()}"></video>` : '';
+    const link = p.youtube_url ? ` · <a href="${p.youtube_url}" target="_blank">abrir no YouTube</a>` : '';
+    const pub = (st==='video_ready') ? ` <button class="ghost" data-pub="${p.id}">Publicar</button>` : '';
+    return `<div class="post"><div class="t">${p.title||p.topic||'(sem título)'} <span class="badge">${FORMATS[p.format]||p.format||''}</span> ${badge}${link}</div>
+      <div class="muted small">${p.topic||''}</div>${pipe}${pub}${vid}</div>`;
+  }).join('');
+  $('#queue').querySelectorAll('button[data-pub]').forEach(b=>b.onclick=async()=>{
+    b.disabled=true; b.textContent='Publicando…';
+    const r=await api('/api/publish',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({id:b.dataset.pub})});
+    if(r.error) alert('Erro: '+r.error); loadQueue();
+  });
+}
+
+async function generate(format){
+  const r = await api('/api/generate',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({format})});
+  if(r.error){ alert(r.error); return; }
+  document.querySelector('nav button[data-tab="inicio"]').click();
+  loadStatus(); loadQueue();
+}
+$('#btn-run').onclick = async()=>{
+  $('#btn-run').disabled=true;
+  const privacyStatus = $('#run-privacy').value || undefined;
+  const r = await api('/api/run-now',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({privacyStatus})});
+  if(r.error) alert(r.error);
+  loadStatus(); loadQueue();
+};
+
+async function loadStats(){
+  const d = await api('/api/stats').catch(()=>({}));
+  const c = d.channel || (d.cache&&d.cache.channel) || {};
+  $('#st-subs').textContent=fmtNum(c.subscribers); $('#st-views').textContent=fmtNum(c.views); $('#st-vids').textContent=c.videos??'—';
+  $('#qs-subs').textContent=fmtNum(c.subscribers); $('#qs-views').textContent=fmtNum(c.views); $('#qs-vids').textContent=c.videos??'—';
+  const a = d.analytics || (d.cache&&d.cache.analytics) || null;
+  $('#st-gained').textContent = a ? (a.subscribersGained??'—') : '—';
+  $('#st-analytics').textContent = a ? `Período 28d — views: ${a.views??0} · min assistidos: ${a.estimatedMinutesWatched??0} · duração média: ${Math.round(a.averageViewDuration||0)}s` : (d.connected?'Sem dados de analytics ainda (vídeos muito recentes).':'Conecte o YouTube (node youtube-login.js) pra ver dados reais.');
+  const rec = d.recent || (d.cache&&d.cache.recent) || [];
+  $('#st-recent').innerHTML = rec.length ? '<table><tr><th>Vídeo</th><th>Views</th><th>Likes</th><th>Coment.</th></tr>'+rec.map(v=>`<tr><td><a href="${v.url}" target="_blank">${(v.title||'').slice(0,50)}</a></td><td>${fmtNum(v.views)}</td><td>${fmtNum(v.likes)}</td><td>${fmtNum(v.comments)}</td></tr>`).join('')+'</table>' : '<p class="muted">Nenhum vídeo publicado ainda.</p>';
+}
+$('#btn-refresh-stats').onclick = async()=>{ $('#btn-refresh-stats').textContent='…'; await api('/api/stats?refresh=1'); await loadStats(); $('#btn-refresh-stats').textContent='↻ Atualizar'; };
+
+async function loadResearch(){
+  const d = await api('/api/research').catch(()=>({items:[]}));
+  const items = d.items||[];
+  $('#research').innerHTML = items.length ? items.map((it,i)=>`<div class="post"><div class="t">${i===0?'⭐ ':''}${it.title}</div><div class="muted small">${/blog/i.test(it.source)?'<span class="hl">':''}${it.source}${/blog/i.test(it.source)?'</span>':''}${it.link?` · <a href="${it.link}" target="_blank">abrir</a>`:''}</div></div>`).join('') : '<p class="muted">Sem manchetes agora (RSS pode ter falhado).</p>';
+}
+$('#btn-refresh-research').onclick = loadResearch;
+
+async function loadSchedule(){
+  const arr = await api('/api/schedule').catch(()=>[]);
+  $('#sch-list').innerHTML = arr.length ? arr.slice().reverse().map(s=>`<div class="post"><div class="t">${new Date(s.when).toLocaleString('pt-BR')} <span class="badge ${s.status==='done'?'ok':s.status==='error'?'err':s.status==='running'?'run':''}">${s.status}</span></div><div class="muted small">${FORMATS[s.format]||s.format||'rotação'} · ${s.privacyStatus||'privacy padrão'}${s.result?(' · '+(/^http/.test(s.result)?`<a href="${s.result}" target="_blank">ver</a>`:s.result)):''}</div> <button class="ghost" data-del="${s.id}">remover</button></div>`).join('') : '<p class="muted">Nenhum agendamento.</p>';
+  $('#sch-list').querySelectorAll('button[data-del]').forEach(b=>b.onclick=async()=>{await api('/api/schedule/'+b.dataset.del,{method:'DELETE'});loadSchedule();});
+}
+$('#btn-schedule').onclick = async()=>{
+  const when=$('#sch-when').value; if(!when){alert('Escolha data e hora.');return;}
+  const r=await api('/api/schedule',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({when,format:$('#sch-format').value||undefined,privacyStatus:$('#sch-privacy').value||undefined})});
+  if(r.error)alert(r.error); $('#sch-when').value=''; loadSchedule();
+};
+
+// Configuração / conexão de conta
+async function loadConfig(){
+  const c = await api('/api/config').catch(()=>({}));
+  $('#cfg-redirect').textContent = c.redirect_uri || '';
+  $('#cfg-status').innerHTML = c.youtube_connected
+    ? '<span class="hl">✅ Conta conectada.</span> Já dá pra publicar e ver estatísticas reais.'
+    : '🔴 <b>Não conectado.</b> Preencha as credenciais abaixo e clique em Conectar.';
+  $('#cfg-client-id').placeholder = c.has_client_id ? 'Client ID — já salvo (deixe em branco pra manter)' : 'Client ID (xxx.apps.googleusercontent.com)';
+  $('#cfg-client-secret').placeholder = c.has_client_secret ? 'Client Secret — já salvo (deixe em branco pra manter)' : 'Client Secret';
+  if (c.privacy) $('#cfg-privacy').value = c.privacy;
+  if (c.blog_url && !$('#cfg-blog').value) $('#cfg-blog').value = c.blog_url;
+}
+$('#cfg-save').onclick = async()=>{
+  const body={ clientId:$('#cfg-client-id').value, clientSecret:$('#cfg-client-secret').value, privacy:$('#cfg-privacy').value, blogUrl:$('#cfg-blog').value };
+  const r=await api('/api/config',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)});
+  if(r.error) alert('Erro: '+r.error); else { $('#cfg-client-id').value=''; $('#cfg-client-secret').value=''; $('#cfg-connect-note').textContent='Credenciais salvas. Agora clique em Conectar.'; loadConfig(); }
+};
+$('#cfg-connect').onclick = async()=>{
+  const r=await api('/api/youtube/connect').catch(()=>({error:'falha de rede'}));
+  if(r.error){ alert('Erro: '+r.error); return; }
+  if(r.url){ window.open(r.url,'_blank'); $('#cfg-connect-note').textContent='Autorize na nova aba… aguardando confirmação.';
+    const t=setInterval(async()=>{ const c=await api('/api/config').catch(()=>({})); if(c.youtube_connected){ clearInterval(t); $('#cfg-connect-note').innerHTML='<span class="hl">✅ Conectado!</span>'; loadConfig(); loadStatus(); } }, 3000);
+  }
+};
+
+// Boot + polling
+loadStatus(); loadQueue();
+setInterval(()=>{ loadStatus(); loadQueue(); }, 4000);
+</script>
+</body>
+</html>
