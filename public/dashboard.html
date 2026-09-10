@@ -5,62 +5,125 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Neural Update — YouTube Shorts</title>
 <style>
-  :root { --bg:#080808; --panel:#111; --panel2:#171717; --line:#262626; --txt:#e8e8e8; --mut:#8a8a8a; --acc:#00ff88; --acc2:#00d9ff; --warn:#ffb020; --err:#ff4d4d; }
+  :root {
+    --bg:#070a0f; --panel:#0d1219; --panel2:#121a24; --line:#1d2937; --line2:#27384c;
+    --txt:#e9eef4; --mut:#7e8ea0; --acc:#00ff88; --acc2:#00d9ff; --warn:#ffb020; --err:#ff5d5d;
+    --grad:linear-gradient(135deg,#00ff88,#00d9ff);
+  }
   * { box-sizing:border-box; margin:0; padding:0; }
-  body { background:var(--bg); color:var(--txt); font-family:'Segoe UI',system-ui,sans-serif; line-height:1.5; }
-  header { padding:18px 24px; border-bottom:1px solid var(--line); display:flex; align-items:center; gap:14px; position:sticky; top:0; background:rgba(8,8,8,.92); backdrop-filter:blur(8px); z-index:10; }
-  header h1 { font-size:18px; font-weight:700; letter-spacing:.5px; }
-  header h1 span { color:var(--acc); }
-  .pills { margin-left:auto; display:flex; gap:8px; font-size:12px; }
-  .pill { padding:5px 10px; border-radius:20px; border:1px solid var(--line); color:var(--mut); }
-  .pill.on { color:var(--acc); border-color:var(--acc); }
-  .pill.off { color:var(--err); border-color:var(--err); }
-  nav { display:flex; gap:4px; padding:0 24px; border-bottom:1px solid var(--line); overflow-x:auto; }
-  nav button { background:none; border:none; color:var(--mut); padding:14px 16px; cursor:pointer; font-size:14px; border-bottom:2px solid transparent; white-space:nowrap; }
-  nav button.active { color:var(--acc); border-bottom-color:var(--acc); }
+  body { background:radial-gradient(1200px 600px at 80% -10%, #0c2238 0%, var(--bg) 55%); min-height:100vh; color:var(--txt); font-family:'Segoe UI',system-ui,sans-serif; line-height:1.5; }
+  header { padding:16px 24px; border-bottom:1px solid var(--line); display:flex; align-items:center; gap:14px; position:sticky; top:0; background:rgba(7,10,15,.85); backdrop-filter:blur(10px); z-index:10; }
+  .logo { width:34px; height:34px; border-radius:9px; background:var(--grad); display:flex; align-items:center; justify-content:center; font-weight:900; color:#04140c; font-size:15px; }
+  header h1 { font-size:17px; font-weight:700; letter-spacing:.5px; }
+  header h1 span { background:var(--grad); -webkit-background-clip:text; background-clip:text; color:transparent; }
+  header .sub { font-size:11px; color:var(--mut); margin-top:-2px }
+  .pills { margin-left:auto; display:flex; gap:8px; font-size:12px; flex-wrap:wrap; }
+  .pill { padding:5px 11px; border-radius:20px; border:1px solid var(--line); color:var(--mut); display:flex; align-items:center; gap:6px; background:var(--panel); }
+  .pill .dot { width:7px; height:7px; border-radius:50%; background:var(--mut); }
+  .pill.on { color:var(--acc); border-color:rgba(0,255,136,.35); } .pill.on .dot { background:var(--acc); box-shadow:0 0 8px var(--acc); }
+  .pill.off { color:var(--err); border-color:rgba(255,93,93,.4); } .pill.off .dot { background:var(--err); }
+  nav { display:flex; gap:2px; padding:0 24px; border-bottom:1px solid var(--line); overflow-x:auto; background:rgba(7,10,15,.6); }
+  nav button { background:none; border:none; color:var(--mut); padding:13px 16px; cursor:pointer; font-size:14px; border-bottom:2px solid transparent; white-space:nowrap; transition:color .15s; }
+  nav button:hover { color:var(--txt); }
+  nav button.active { color:var(--acc); border-bottom-color:var(--acc); font-weight:600; }
   main { padding:24px; max-width:1100px; margin:0 auto; }
-  .tab { display:none; } .tab.active { display:block; animation:fade .2s ease; }
-  @keyframes fade { from{opacity:0;transform:translateY(4px)} to{opacity:1;transform:none} }
-  .card { background:var(--panel); border:1px solid var(--line); border-radius:12px; padding:20px; margin-bottom:16px; }
-  .card h2 { font-size:15px; margin-bottom:14px; color:var(--acc2); }
-  .grid { display:grid; gap:14px; }
-  .g3 { grid-template-columns:repeat(3,1fr); } .g4 { grid-template-columns:repeat(4,1fr); }
-  @media(max-width:720px){ .g3,.g4{grid-template-columns:1fr 1fr} }
-  .stat { background:var(--panel2); border:1px solid var(--line); border-radius:10px; padding:16px; text-align:center; }
-  .stat .n { font-size:26px; font-weight:800; color:var(--acc); } .stat .l { font-size:12px; color:var(--mut); margin-top:4px; }
-  button.btn { background:var(--acc); color:#001b0e; border:none; border-radius:8px; padding:11px 18px; font-weight:700; cursor:pointer; font-size:14px; }
-  button.btn:hover { filter:brightness(1.1); } button.btn:disabled { opacity:.5; cursor:not-allowed; }
-  button.ghost { background:none; border:1px solid var(--line); color:var(--txt); border-radius:8px; padding:9px 14px; cursor:pointer; font-size:13px; }
-  button.ghost:hover { border-color:var(--acc); }
-  select,input { background:var(--panel2); border:1px solid var(--line); color:var(--txt); border-radius:8px; padding:10px; font-size:14px; }
+  .tab { display:none; } .tab.active { display:block; animation:fade .25s ease; }
+  @keyframes fade { from{opacity:0;transform:translateY(6px)} to{opacity:1;transform:none} }
+  .card { background:linear-gradient(180deg,var(--panel),rgba(13,18,25,.7)); border:1px solid var(--line); border-radius:14px; padding:20px; margin-bottom:16px; box-shadow:0 4px 24px rgba(0,0,0,.25); }
+  .card h2 { font-size:14px; margin-bottom:14px; color:var(--acc2); text-transform:uppercase; letter-spacing:1px; font-weight:700; display:flex; align-items:center; gap:8px; }
+  .card h2 .right { margin-left:auto; }
+  .grid { display:grid; gap:12px; }
+  .g2 { grid-template-columns:repeat(2,1fr); } .g3 { grid-template-columns:repeat(3,1fr); } .g4 { grid-template-columns:repeat(4,1fr); }
+  @media(max-width:720px){ .g3,.g4{grid-template-columns:1fr 1fr} .g2{grid-template-columns:1fr} }
+  .stat { background:var(--panel2); border:1px solid var(--line); border-radius:12px; padding:16px 12px; text-align:center; transition:border-color .2s; }
+  .stat:hover { border-color:var(--line2); }
+  .stat .n { font-size:26px; font-weight:800; background:var(--grad); -webkit-background-clip:text; background-clip:text; color:transparent; }
+  .stat .l { font-size:11px; color:var(--mut); margin-top:4px; text-transform:uppercase; letter-spacing:.5px; }
+  button.btn { background:var(--grad); color:#04140c; border:none; border-radius:9px; padding:11px 18px; font-weight:700; cursor:pointer; font-size:14px; transition:transform .1s, filter .15s; }
+  button.btn:hover { filter:brightness(1.12); transform:translateY(-1px); }
+  button.btn:disabled { opacity:.45; cursor:not-allowed; transform:none; }
+  button.ghost { background:none; border:1px solid var(--line2); color:var(--txt); border-radius:9px; padding:8px 14px; cursor:pointer; font-size:13px; transition:border-color .15s; }
+  button.ghost:hover { border-color:var(--acc); color:var(--acc); }
+  select,input { background:var(--panel2); border:1px solid var(--line2); color:var(--txt); border-radius:9px; padding:10px; font-size:14px; outline:none; }
+  select:focus,input:focus { border-color:var(--acc2); }
   .row { display:flex; gap:10px; flex-wrap:wrap; align-items:center; }
   .muted { color:var(--mut); font-size:13px; } .small { font-size:12px; }
-  .post { border:1px solid var(--line); border-radius:10px; padding:14px; margin-bottom:10px; background:var(--panel2); }
-  .post .t { font-weight:600; margin-bottom:4px; } .badge { font-size:11px; padding:2px 8px; border-radius:12px; border:1px solid var(--line); color:var(--mut); margin-left:6px; }
-  .badge.ok{color:var(--acc);border-color:var(--acc)} .badge.run{color:var(--warn);border-color:var(--warn)} .badge.err{color:var(--err);border-color:var(--err)}
-  video { width:100%; max-width:240px; border-radius:8px; margin-top:8px; background:#000; }
-  table { width:100%; border-collapse:collapse; font-size:13px; } th,td { text-align:left; padding:8px; border-bottom:1px solid var(--line); } th { color:var(--mut); font-weight:600; }
-  a { color:var(--acc2); } .pipe { display:flex; gap:6px; flex-wrap:wrap; margin-top:8px; }
-  .step { font-size:11px; padding:4px 9px; border-radius:14px; border:1px solid var(--line); color:var(--mut); } .step.on{color:var(--acc);border-color:var(--acc)}
+  .post { border:1px solid var(--line); border-radius:12px; padding:14px; margin-bottom:10px; background:var(--panel2); transition:border-color .15s; }
+  .post:hover { border-color:var(--line2); }
+  .post .t { font-weight:600; margin-bottom:4px; }
+  .badge { font-size:11px; padding:2px 9px; border-radius:12px; border:1px solid var(--line2); color:var(--mut); margin-left:6px; white-space:nowrap; }
+  .badge.ok{color:var(--acc);border-color:rgba(0,255,136,.4)} .badge.run{color:var(--warn);border-color:rgba(255,176,32,.4)} .badge.err{color:var(--err);border-color:rgba(255,93,93,.4)}
+  video { width:100%; max-width:230px; border-radius:10px; margin-top:10px; background:#000; border:1px solid var(--line); }
+  table { width:100%; border-collapse:collapse; font-size:13px; } th,td { text-align:left; padding:9px 8px; border-bottom:1px solid var(--line); } th { color:var(--mut); font-weight:600; font-size:11px; text-transform:uppercase; letter-spacing:.5px; }
+  tr:hover td { background:rgba(255,255,255,.015); }
+  a { color:var(--acc2); text-decoration:none; } a:hover { text-decoration:underline; }
+  .pipe { display:flex; gap:6px; flex-wrap:wrap; margin-top:10px; }
+  .step { font-size:11px; padding:4px 10px; border-radius:14px; border:1px solid var(--line); color:var(--mut); }
+  .step.on { color:#04140c; background:var(--grad); border-color:transparent; font-weight:700; animation:pulse 1.2s ease infinite; }
+  @keyframes pulse { 50%{opacity:.65} }
   .hl { color:var(--acc); }
+  /* Metas */
+  .goal { margin-bottom:14px; }
+  .goal .gtop { display:flex; justify-content:space-between; font-size:13px; margin-bottom:6px; }
+  .goal .gtop b { font-weight:700; }
+  .bar { height:10px; background:var(--panel2); border:1px solid var(--line); border-radius:8px; overflow:hidden; }
+  .bar i { display:block; height:100%; background:var(--grad); border-radius:8px; transition:width .6s ease; box-shadow:0 0 10px rgba(0,255,136,.35); }
+  .bar i.full { background:linear-gradient(135deg,#ffd54a,#00ff88); }
+  /* Análise */
+  .theme-row { display:flex; align-items:center; gap:10px; padding:9px 0; border-bottom:1px solid var(--line); }
+  .theme-row:last-child { border-bottom:none; }
+  .theme-row .tl { flex:0 0 220px; font-size:13px; font-weight:600; }
+  .theme-row .tbar { flex:1; height:14px; background:var(--panel2); border-radius:7px; overflow:hidden; }
+  .theme-row .tbar i { display:block; height:100%; background:var(--grad); border-radius:7px; }
+  .theme-row .tv { flex:0 0 130px; text-align:right; font-size:12px; color:var(--mut); }
+  @media(max-width:720px){ .theme-row .tl{flex-basis:120px} .theme-row .tv{flex-basis:90px} }
+  .sug { display:flex; align-items:center; gap:10px; justify-content:space-between; padding:10px 12px; border:1px solid var(--line); border-radius:10px; margin-bottom:8px; background:var(--panel2); }
+  .sug .st { font-size:13px; }
+  .sug .meta { font-size:11px; color:var(--mut); }
+  .empty { color:var(--mut); font-size:13px; padding:8px 0; }
+  /* Engrenagem + modal de configuração */
+  .gear-btn { background:none; border:1px solid var(--line2); color:var(--mut); border-radius:9px; width:36px; height:36px; font-size:16px; cursor:pointer; transition:border-color .15s,color .15s,transform .2s; flex:0 0 auto; }
+  .gear-btn:hover { border-color:var(--acc); color:var(--acc); transform:rotate(20deg); }
+  .modal-backdrop { position:fixed; inset:0; background:rgba(0,0,0,.6); backdrop-filter:blur(3px); display:none; align-items:center; justify-content:center; z-index:100; padding:20px; }
+  .modal-backdrop.open { display:flex; }
+  .modal-box { background:var(--panel); border:1px solid var(--line2); border-radius:16px; padding:24px; max-width:560px; width:100%; max-height:85vh; overflow-y:auto; box-shadow:0 20px 60px rgba(0,0,0,.5); }
+  .modal-box h2 { font-size:15px; color:var(--acc2); text-transform:uppercase; letter-spacing:1px; margin-bottom:16px; display:flex; align-items:center; gap:8px; }
+  .modal-close { margin-left:auto; background:none; border:none; color:var(--mut); font-size:20px; cursor:pointer; line-height:1; }
+  .modal-close:hover { color:var(--txt); }
+  .conn-status { display:flex; align-items:center; gap:10px; padding:14px; border-radius:10px; background:var(--panel2); border:1px solid var(--line); margin-bottom:14px; }
+  .conn-status .ic { font-size:20px; }
+  .conn-status.ok { border-color:rgba(0,255,136,.35); } .conn-status.bad { border-color:rgba(255,93,93,.4); }
+  details.advanced { margin-top:6px; } details.advanced summary { cursor:pointer; color:var(--mut); font-size:13px; padding:6px 0; } details.advanced summary:hover { color:var(--txt); }
+  details.advanced[open] summary { color:var(--acc2); }
+  /* Histórico */
+  .hist-item { display:flex; gap:10px; padding:8px; border-radius:10px; border:1px solid var(--line); background:var(--panel2); margin-bottom:8px; align-items:center; }
+  .hist-item img { width:56px; height:99px; object-fit:cover; border-radius:6px; background:#000; flex:0 0 auto; }
+  .hist-item .ht { font-size:12.5px; font-weight:600; line-height:1.3; margin-bottom:4px; }
+  .hist-item .hm { font-size:11px; color:var(--mut); }
+  @media(max-width:720px){ #history-grid.g2 { grid-template-columns:1fr; } }
 </style>
 </head>
 <body>
 <header>
-  <h1>NEURAL <span>UPDATE</span> · YouTube Shorts</h1>
-  <div class="pills">
-    <span class="pill" id="pill-yt">YouTube</span>
-    <span class="pill" id="pill-img">Banco de imagens</span>
-    <span class="pill" id="pill-privacy">privacy</span>
+  <div class="logo">N</div>
+  <div>
+    <h1>NEURAL <span>UPDATE</span> · YouTube Shorts</h1>
+    <div class="sub">agente autônomo de conteúdo</div>
   </div>
+  <div class="pills">
+    <span class="pill" id="pill-yt"><span class="dot"></span>YouTube</span>
+    <span class="pill" id="pill-privacy"><span class="dot"></span>privacy</span>
+  </div>
+  <button id="btn-settings" class="gear-btn" title="Configuração">⚙</button>
 </header>
 <nav>
   <button class="active" data-tab="inicio">Início</button>
   <button data-tab="formatos">Formatos</button>
   <button data-tab="agendar">Agendar</button>
   <button data-tab="stats">Estatísticas</button>
-  <button data-tab="pesquisa">Pesquisa</button>
-  <button data-tab="config">⚙ Configuração</button>
+  <button data-tab="pesquisa">Pesquisa & Análise</button>
+  <button data-tab="historico">📜 Histórico</button>
+  <button data-tab="loop">🔁 Loop</button>
 </nav>
 <main>
   <!-- INÍCIO -->
@@ -76,11 +139,31 @@
         <div class="stat"><div class="n" id="qs-subs">—</div><div class="l">Inscritos</div></div>
         <div class="stat"><div class="n" id="qs-views">—</div><div class="l">Views totais</div></div>
         <div class="stat"><div class="n" id="qs-vids">—</div><div class="l">Vídeos</div></div>
-        <div class="stat"><div class="n" id="qs-queue">—</div><div class="l">Na fila</div></div>
+        <div class="stat"><div class="n" id="qs-queue">—</div><div class="l">Em produção</div></div>
       </div>
     </div>
+
     <div class="card">
-      <h2>Pipeline ao vivo & fila</h2>
+      <h2>🎯 Metas do canal <button class="ghost right" id="btn-edit-goals">editar</button></h2>
+      <div id="goals-view"><p class="muted">Carregando…</p></div>
+      <div id="goals-edit" style="display:none">
+        <div class="row" style="margin-bottom:10px">
+          <label class="muted small" style="width:140px">Inscritos:</label><input type="number" id="goal-subs" style="width:120px" min="1" />
+          <label class="muted small" style="width:140px">Views totais:</label><input type="number" id="goal-views" style="width:120px" min="1" />
+        </div>
+        <div class="row" style="margin-bottom:12px">
+          <label class="muted small" style="width:140px">Vídeos por semana:</label><input type="number" id="goal-vpw" style="width:120px" min="1" />
+        </div>
+        <div class="row"><button class="btn" id="btn-save-goals">Salvar metas</button><button class="ghost" id="btn-cancel-goals">cancelar</button></div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Pipeline ao vivo</h2>
+      <div id="pipeline"><p class="muted">Nada em produção agora.</p></div>
+    </div>
+    <div class="card">
+      <h2>Últimos vídeos do agente</h2>
       <div id="queue"><p class="muted">Carregando…</p></div>
     </div>
   </section>
@@ -89,7 +172,7 @@
   <section class="tab" id="formatos">
     <div class="card">
       <h2>Gerar por formato (diversificação)</h2>
-      <p class="muted" style="margin-bottom:14px">Gera o vídeo (sem publicar) pra você revisar. O robô alterna entre estes formatos automaticamente.</p>
+      <p class="muted" style="margin-bottom:14px">Gera o vídeo (sem publicar) pra você revisar. O robô alterna entre estes formatos automaticamente — agora com peso maior pro formato que mais rende views.</p>
       <div class="grid g3" id="format-cards"></div>
     </div>
   </section>
@@ -104,7 +187,7 @@
         <select id="sch-privacy"><option value="">privacy padrão</option><option value="unlisted">unlisted</option><option value="public">public</option><option value="private">private</option></select>
         <button class="btn" id="btn-schedule">Agendar</button>
       </div>
-      <p class="muted small" style="margin-top:8px">O painel verifica a cada 1 min e publica no horário marcado (além do automático 2x/dia).</p>
+      <p class="muted small" style="margin-top:8px">A fila é processada pelo verificador autônomo (a cada 15 min), mesmo com o painel fechado.</p>
     </div>
     <div class="card"><h2>Agendamentos</h2><div id="sch-list"><p class="muted">—</p></div></div>
   </section>
@@ -112,7 +195,7 @@
   <!-- ESTATÍSTICAS -->
   <section class="tab" id="stats">
     <div class="card">
-      <h2>Canal — dados reais (YouTube API) <button class="ghost" id="btn-refresh-stats" style="float:right">↻ Atualizar</button></h2>
+      <h2>Canal — dados reais (YouTube API) <button class="ghost right" id="btn-refresh-stats">↻ Atualizar</button></h2>
       <div class="grid g4">
         <div class="stat"><div class="n" id="st-subs">—</div><div class="l">Inscritos</div></div>
         <div class="stat"><div class="n" id="st-views">—</div><div class="l">Views totais</div></div>
@@ -124,59 +207,230 @@
     <div class="card"><h2>Últimos vídeos</h2><div id="st-recent"><p class="muted">—</p></div></div>
   </section>
 
-  <!-- PESQUISA -->
+  <!-- PESQUISA & ANÁLISE -->
   <section class="tab" id="pesquisa">
     <div class="card">
-      <h2>O que o bot está lendo <button class="ghost" id="btn-refresh-research" style="float:right">↻</button></h2>
-      <p class="muted" style="margin-bottom:12px">Manchetes do Google News + artigos do seu blog. Para "notícia", o tema vem do topo desta lista.</p>
+      <h2>📊 O que está rendendo views <button class="ghost right" id="btn-refresh-analysis">↻</button></h2>
+      <p class="muted small" style="margin-bottom:12px">Ranking por tema, calculado dos vídeos reais do canal (views médias por vídeo).</p>
+      <div id="theme-ranking"><p class="muted">Carregando…</p></div>
+    </div>
+    <div class="card">
+      <h2>💡 Sugestões pros próximos posts</h2>
+      <p class="muted small" style="margin-bottom:12px">Temas do pool que <b>ainda não saíram</b> recentemente, ordenados pelo desempenho do tema no canal. Clique pra gerar e publicar.</p>
+      <div id="suggestions"><p class="muted">—</p></div>
+    </div>
+    <div class="card">
+      <h2>🔥 Ideias geniais — próximos virais</h2>
+      <p class="muted small" style="margin-bottom:12px">Curadas com base nos temas campeões do canal. Hook pronto + justificativa de por que tende a viralizar.</p>
+      <div id="viral-ideas"><p class="muted">—</p></div>
+    </div>
+    <div class="card">
+      <h2>⚠️ Repetições detectadas</h2>
+      <div id="repeated"><p class="muted">—</p></div>
+    </div>
+    <div class="card">
+      <h2>📰 O que o bot está lendo <button class="ghost right" id="btn-refresh-research">↻</button></h2>
+      <p class="muted" style="margin-bottom:12px">Manchetes do Google News + artigos do seu blog. Para "notícia", o robô agora pula manchetes que já viraram vídeo.</p>
       <div id="research"><p class="muted">Carregando…</p></div>
     </div>
   </section>
 
-  <!-- CONFIGURAÇÃO -->
-  <section class="tab" id="config">
+  <!-- HISTÓRICO -->
+  <section class="tab" id="historico">
     <div class="card">
-      <h2>Conexão com o YouTube</h2>
-      <div id="cfg-status" class="muted">Carregando…</div>
+      <h2>📜 Histórico — Publicados &amp; Agendados <button class="ghost right" id="btn-refresh-history">↻ Atualizar</button></h2>
+      <p class="muted small">Últimos vídeos de cada canal — postados (✅) e agendados (🕒). Ordenados por data, mais recente/próximo primeiro.</p>
     </div>
-    <div class="card">
-      <h2>1. Credenciais do Google Cloud</h2>
-      <p class="muted small" style="margin-bottom:10px">No <a href="https://console.cloud.google.com/" target="_blank">Google Cloud</a>: ative <b>YouTube Data API v3</b> + <b>YouTube Analytics API</b>, crie um <b>OAuth Client ID</b> (tipo "Aplicativo da Web") e adicione este Redirect URI autorizado:</p>
-      <p style="margin-bottom:14px"><code id="cfg-redirect" style="background:#000;padding:6px 10px;border-radius:6px;border:1px solid var(--line);color:var(--acc)">—</code></p>
-      <div style="display:flex;flex-direction:column;gap:10px;max-width:560px">
-        <input id="cfg-client-id" placeholder="Client ID (xxx.apps.googleusercontent.com)" />
-        <input id="cfg-client-secret" type="password" placeholder="Client Secret" />
-        <div class="row">
-          <label class="muted small">Privacidade dos uploads:</label>
-          <select id="cfg-privacy"><option value="unlisted">unlisted (revisar)</option><option value="public">public</option><option value="private">private</option></select>
-        </div>
-        <input id="cfg-blog" placeholder="URL do blog (CTA)" />
-        <button class="btn" id="cfg-save">Salvar credenciais</button>
+    <div class="grid g2" id="history-grid">
+      <div class="card">
+        <h2>🇧🇷 YouTube Brasil</h2>
+        <div id="hist-br"><p class="muted">Carregando…</p></div>
+      </div>
+      <div class="card">
+        <h2>🌎 YouTube English</h2>
+        <div id="hist-en"><p class="muted">Carregando…</p></div>
       </div>
     </div>
+  </section>
+
+  <!-- LOOP -->
+  <section class="tab" id="loop">
     <div class="card">
-      <h2>2. Conectar a conta</h2>
-      <p class="muted small" style="margin-bottom:12px">Depois de salvar, autorize no Google (abre nova aba). Se aparecer "app não verificado", clique em <b>Avançado → continuar</b> (é o seu próprio app).</p>
-      <button class="btn" id="cfg-connect">🔗 Conectar conta do YouTube</button>
-      <div class="muted small" id="cfg-connect-note" style="margin-top:8px"></div>
+      <h2>🔁 Loop de Monetização — Neural Update</h2>
+      <p class="muted small" style="margin-bottom:16px">Ciclo autônomo: analisar → decidir → agir → medir → repetir. Meta: <b>1.000 inscritos</b> + <b>10M views Shorts (90 dias)</b>.</p>
+
+      <!-- Progresso -->
+      <div class="grid g3" style="margin-bottom:20px">
+        <div class="stat" style="border:1px solid var(--line);border-radius:10px;padding:14px">
+          <div class="n" id="loop-subs" style="font-size:2rem">77</div>
+          <div class="l">Inscritos (meta: 1.000)</div>
+          <div style="margin-top:8px;background:var(--line);border-radius:4px;height:6px">
+            <div id="loop-bar-subs" style="height:6px;border-radius:4px;background:var(--acc);width:7.7%;transition:width .5s"></div>
+          </div>
+          <div class="muted small" id="loop-subs-pct" style="margin-top:4px">7,7% da meta</div>
+        </div>
+        <div class="stat" style="border:1px solid var(--line);border-radius:10px;padding:14px">
+          <div class="n" id="loop-videos" style="font-size:2rem">67</div>
+          <div class="l">Vídeos publicados</div>
+          <div class="muted small" style="margin-top:8px">~3x/dia via agendamento</div>
+        </div>
+        <div class="stat" style="border:1px solid var(--line);border-radius:10px;padding:14px">
+          <div class="n" style="font-size:2rem">🎯</div>
+          <div class="l">Status do Loop</div>
+          <div class="muted small" style="margin-top:8px" id="loop-status">Fase 1 — Volume + Formato</div>
+        </div>
+      </div>
+
+      <!-- O loop em etapas -->
+      <h2 style="margin-bottom:12px">♻️ O ciclo ativo</h2>
+      <div style="display:flex;flex-direction:column;gap:10px;margin-bottom:24px">
+        <div style="display:flex;align-items:flex-start;gap:12px;background:var(--bg2);border-radius:8px;padding:12px">
+          <span style="font-size:1.3rem;min-width:28px">📊</span>
+          <div><b>1. Analisar</b> — <span class="muted">Toda sessão: checar quais temas geraram mais views (aba Pesquisa). Hoje: buraco negro, diamante, Einstein = 700–900 views cada.</span></div>
+        </div>
+        <div style="display:flex;align-items:flex-start;gap:12px;background:var(--bg2);border-radius:8px;padding:12px">
+          <span style="font-size:1.3rem;min-width:28px">🎯</span>
+          <div><b>2. Decidir</b> — <span class="muted">Dobrar no formato campeão. <b>Suspender notícia_tech</b> (0–23 views). Focar 100% em "conhecimento" com fórmula viral.</span></div>
+        </div>
+        <div style="display:flex;align-items:flex-start;gap:12px;background:var(--bg2);border-radius:8px;padding:12px">
+          <span style="font-size:1.3rem;min-width:28px">⚙️</span>
+          <div><b>3. Agir</b> — <span class="muted">Ajustar <code>auto-agent.js</code> (rotação), expandir pool de temas campeões, subir frequência se possível. Ver "Próximos passos" abaixo.</span></div>
+        </div>
+        <div style="display:flex;align-items:flex-start;gap:12px;background:var(--bg2);border-radius:8px;padding:12px">
+          <span style="font-size:1.3rem;min-width:28px">📈</span>
+          <div><b>4. Medir</b> — <span class="muted">Após 48h: checar CTR e views dos novos vídeos (aba Stats). Se tema &gt;300 views em 48h = escalar.</span></div>
+        </div>
+        <div style="display:flex;align-items:flex-start;gap:12px;background:var(--bg2);border-radius:8px;padding:12px">
+          <span style="font-size:1.3rem;min-width:28px">🔁</span>
+          <div><b>5. Repetir</b> — <span class="muted">Volta para o passo 1 a cada sessão Cowork. O agente continua postando 24/7, o loop direciona o que ele posta.</span></div>
+        </div>
+      </div>
+
+      <!-- Diagnóstico -->
+      <h2 style="margin-bottom:12px">🔬 Diagnóstico dos dados (23 jun 2026)</h2>
+      <div style="background:var(--bg2);border-radius:8px;padding:14px;margin-bottom:20px">
+        <table>
+          <thead><tr><th>Tipo de vídeo</th><th>Exemplo</th><th>Views</th><th>Veredicto</th></tr></thead>
+          <tbody>
+            <tr><td>Curiosidade espacial</td><td>Buraco negro engolindo planeta</td><td style="color:#4ade80">927</td><td>✅ Escalar</td></tr>
+            <tr><td>Fato histórico chocante</td><td>Médico roubou cérebro de Einstein</td><td style="color:#4ade80">850</td><td>✅ Escalar</td></tr>
+            <tr><td>Planeta impossível</td><td>Planeta feito de diamante</td><td style="color:#4ade80">851</td><td>✅ Escalar</td></tr>
+            <tr><td>Tecnologia futurista</td><td>Robôs gigantes de aço</td><td style="color:#4ade80">817</td><td>✅ Escalar</td></tr>
+            <tr><td>Notícia tech (BR)</td><td>Nvidia alerta Brasil perde IA</td><td style="color:#f87171">~5</td><td>❌ Pausar</td></tr>
+            <tr><td>Tutorial IA</td><td>Como usar Claude pra textos</td><td style="color:#f87171">~10</td><td>❌ Pausar</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Fórmula viral -->
+      <h2 style="margin-bottom:12px">🧬 Fórmula dos vídeos que viralizam</h2>
+      <div style="background:var(--bg2);border-radius:8px;padding:14px;margin-bottom:20px">
+        <p style="margin-bottom:8px"><b>Estrutura do título:</b> <code>[COISA IMPOSSÍVEL] + [verbo de choque] + [FATO] + emoji</code></p>
+        <p class="muted small" style="margin-bottom:12px">Ex: "Um planeta sendo ENGOLIDO por um buraco negro 🕳️" / "O médico ROUBOU o cérebro de Einstein e guardou por 40 anos 🧠"</p>
+        <p style="margin-bottom:8px"><b>3 arquétipos que funcionam:</b></p>
+        <div style="display:flex;gap:10px;flex-wrap:wrap">
+          <span style="background:#1e3a2f;color:#4ade80;padding:6px 12px;border-radius:20px;font-size:13px">🌌 "Isso EXISTE no universo?"</span>
+          <span style="background:#1e3a2f;color:#4ade80;padding:6px 12px;border-radius:20px;font-size:13px">🧠 "Fato histórico que te escondem"</span>
+          <span style="background:#1e3a2f;color:#4ade80;padding:6px 12px;border-radius:20px;font-size:13px">⚡ "Isso é IMPOSSÍVEL (mas aconteceu)"</span>
+        </div>
+      </div>
+
+      <!-- Próximos passos para Claude Code -->
+      <h2 style="margin-bottom:12px">🤖 Próximos passos — alimente o Claude Code</h2>
+      <div style="display:flex;flex-direction:column;gap:8px;margin-bottom:20px">
+
+        <div style="border-left:3px solid #facc15;padding:10px 14px;background:var(--bg2);border-radius:0 8px 8px 0">
+          <b style="color:#facc15">PRIORIDADE 1 — Rotação</b><br>
+          <span class="muted small">Em <code>auto-agent.js</code>: mudar rotação para <code>['conhecimento','conhecimento','conhecimento','conhecimento','tutorial']</code> — 80% conhecimento, 0% notícia_tech por 2 semanas. Medir impacto.</span>
+        </div>
+
+        <div style="border-left:3px solid #facc15;padding:10px 14px;background:var(--bg2);border-radius:0 8px 8px 0">
+          <b style="color:#facc15">PRIORIDADE 2 — Pool de temas</b><br>
+          <span class="muted small">Em <code>content-generator.js</code>: adicionar 20 temas novos no pool "conhecimento" dentro das famílias campeãs: buracos negros, planetas impossíveis, fatos históricos chocantes de cientistas, paradoxos quânticos. Evitar temas repetidos dos últimos 15 posts.</span>
+        </div>
+
+        <div style="border-left:3px solid #60a5fa;padding:10px 14px;background:var(--bg2);border-radius:0 8px 8px 0">
+          <b style="color:#60a5fa">PRIORIDADE 3 — Hook do roteiro</b><br>
+          <span class="muted small">Em <code>content-generator.js</code>, no prompt do Claude: reforçar que o <b>1º segundo deve ter a palavra-chave do título na voz</b> e criar tensão imediata. Ex: "Um planeta feito de diamante EXISTE — e você nunca vai poder tocar nele."</span>
+        </div>
+
+        <div style="border-left:3px solid #60a5fa;padding:10px 14px;background:var(--bg2);border-radius:0 8px 8px 0">
+          <b style="color:#60a5fa">PRIORIDADE 4 — Frequência</b><br>
+          <span class="muted small">Testar subir de 3x para <b>5x/dia</b>: adicionar horários 07h e 22h na tarefa <code>NeuralUpdate-YouTube-3x</code> do Agendador do Windows. Mais vídeos = mais chances de um viralizar.</span>
+        </div>
+
+        <div style="border-left:3px solid #a78bfa;padding:10px 14px;background:var(--bg2);border-radius:0 8px 8px 0">
+          <b style="color:#a78bfa">PRIORIDADE 5 — CTA de inscrição</b><br>
+          <span class="muted small">A cada 10 vídeos publicados, postar 1 vídeo de CTA ("Inscreva-se!") como fez com "Faltam 31 pra 100" (171 views). Automatizar isso no <code>auto-agent.js</code> com contador em <code>data/posts.json</code>.</span>
+        </div>
+      </div>
+
+      <!-- Projeção -->
+      <h2 style="margin-bottom:12px">📅 Projeção realista</h2>
+      <div style="background:var(--bg2);border-radius:8px;padding:14px">
+        <table>
+          <thead><tr><th>Semana</th><th>Vídeos acum.</th><th>Inscritos estimados</th><th>Ação</th></tr></thead>
+          <tbody>
+            <tr><td>Semana 1</td><td>~100</td><td>150–200</td><td>Aplicar prioridades 1 e 2</td></tr>
+            <tr><td>Semana 2</td><td>~135</td><td>300–400</td><td>Checar qual tema viraliza, dobrar</td></tr>
+            <tr><td>Semana 3</td><td>~170</td><td>500–600</td><td>Ativar 5x/dia, CTAs automáticos</td></tr>
+            <tr><td>Semana 4</td><td>~205</td><td>700–1.000</td><td>🎯 Meta de monetização no horizonte</td></tr>
+          </tbody>
+        </table>
+        <p class="muted small" style="margin-top:10px">* Projeção baseada em 1 vídeo viral/semana (média atual dos tops: ~800 views). Se 2+ viralizarem/semana, meta em 2 semanas.</p>
+      </div>
     </div>
   </section>
 </main>
 
+<!-- Modal de Configuração (engrenagem no header) -->
+<div class="modal-backdrop" id="settings-modal">
+  <div class="modal-box">
+    <h2>⚙ Configuração <button class="modal-close" id="modal-close">✕</button></h2>
+    <div class="conn-status" id="conn-status">
+      <span class="ic">⏳</span>
+      <div>
+        <div id="conn-status-text" class="muted">Verificando…</div>
+      </div>
+      <button class="ghost" id="btn-verify" style="margin-left:auto">↻ Verificar agora</button>
+    </div>
+    <details class="advanced">
+      <summary>Configuração avançada (credenciais do Google Cloud)</summary>
+      <div style="padding-top:14px">
+        <p class="muted small" style="margin-bottom:10px">No <a href="https://console.cloud.google.com/" target="_blank">Google Cloud</a>: ative <b>YouTube Data API v3</b> + <b>YouTube Analytics API</b>, crie um <b>OAuth Client ID</b> (tipo "Aplicativo da Web") e adicione este Redirect URI autorizado:</p>
+        <p style="margin-bottom:14px"><code id="cfg-redirect" style="background:#000;padding:6px 10px;border-radius:6px;border:1px solid var(--line);color:var(--acc)">—</code></p>
+        <div style="display:flex;flex-direction:column;gap:10px">
+          <input id="cfg-client-id" placeholder="Client ID (xxx.apps.googleusercontent.com)" />
+          <input id="cfg-client-secret" type="password" placeholder="Client Secret" />
+          <div class="row">
+            <label class="muted small">Privacidade dos uploads:</label>
+            <select id="cfg-privacy"><option value="unlisted">unlisted (revisar)</option><option value="public">public</option><option value="private">private</option></select>
+          </div>
+          <input id="cfg-blog" placeholder="URL do blog (CTA)" />
+          <button class="btn" id="cfg-save">Salvar credenciais</button>
+          <button class="btn" id="cfg-connect">🔗 Conectar conta do YouTube</button>
+          <div class="muted small" id="cfg-connect-note"></div>
+        </div>
+      </div>
+    </details>
+  </div>
+</div>
+
 <script>
 const $ = s => document.querySelector(s);
 const api = (p, opt) => fetch(p, opt).then(r => r.json());
-const fmtNum = n => (n>=1000 ? (n/1000).toFixed(n>=10000?0:1)+'k' : String(n??'—'));
+const fmtNum = n => (n==null ? '—' : n>=1000 ? (n/1000).toFixed(n>=10000?0:1)+'k' : String(n));
+const esc = s => String(s||'').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 
 // Navegação
 document.querySelectorAll('nav button').forEach(b => b.onclick = () => {
   document.querySelectorAll('nav button').forEach(x=>x.classList.remove('active'));
   document.querySelectorAll('.tab').forEach(x=>x.classList.remove('active'));
   b.classList.add('active'); $('#'+b.dataset.tab).classList.add('active');
-  if (b.dataset.tab==='stats') loadStats();
-  if (b.dataset.tab==='pesquisa') loadResearch();
+  if (b.dataset.tab==='stats') loadStats(true);
+  if (b.dataset.tab==='pesquisa'){ loadResearch(); loadAnalysis(); }
   if (b.dataset.tab==='agendar') loadSchedule();
-  if (b.dataset.tab==='config') loadConfig();
+  if (b.dataset.tab==='historico') loadHistory();
 });
 
 let FORMATS = {};
@@ -184,15 +438,13 @@ async function loadStatus(){
   const s = await api('/api/status').catch(()=>({}));
   FORMATS = s.formats || {};
   setPill('#pill-yt','YouTube', s.youtube_connected);
-  setPill('#pill-img','Banco de imagens', s.image_agent_up);
-  $('#pill-privacy').textContent = 'privacy: '+(s.privacy||'—');
+  $('#pill-privacy').innerHTML = '<span class="dot"></span>privacy: '+(s.privacy||'—');
   $('#busy-note').textContent = s.busy ? '⏳ ciclo em andamento…' : '';
   $('#btn-run').disabled = !!s.busy;
-  // popula selects/cards de formato
   const fc = $('#format-cards'); if (fc && !fc.dataset.done && Object.keys(FORMATS).length){
     fc.innerHTML = Object.entries(FORMATS).map(([k,label])=>`
       <div class="stat" style="text-align:left">
-        <div class="t" style="font-weight:700;margin-bottom:6px">${label}</div>
+        <div style="font-weight:700;margin-bottom:6px;color:var(--txt)">${esc(label)}</div>
         <div class="muted small" style="margin-bottom:10px">${k}</div>
         <button class="btn" data-fmt="${k}">Gerar</button>
       </div>`).join('');
@@ -201,28 +453,33 @@ async function loadStatus(){
     const sf=$('#sch-format'); Object.entries(FORMATS).forEach(([k,label])=>{const o=document.createElement('option');o.value=k;o.textContent=label;sf.appendChild(o);});
   }
 }
-function setPill(sel,label,on){ const e=$(sel); e.textContent=label; e.className='pill '+(on?'on':'off'); }
+function setPill(sel,label,on){ const e=$(sel); e.innerHTML='<span class="dot"></span>'+label; e.className='pill '+(on?'on':'off'); }
 
 const STAGES = {tts:'Narração',music:'Trilha',images:'Imagens',rendering:'Render',done:'Pronto'};
+function renderPost(p){
+  const st = p.status||'';
+  const badge = st==='posted'?'<span class="badge ok">publicado</span>'
+    : st==='video_ready'?'<span class="badge ok">pronto</span>'
+    : st==='creating_video'?'<span class="badge run">gerando</span>'
+    : /error/.test(st)?'<span class="badge err">'+esc(st)+'</span>'
+    : '<span class="badge">'+esc(st)+'</span>';
+  const pipe = st==='creating_video' ? '<div class="pipe">'+Object.entries(STAGES).map(([k,l])=>`<span class="step ${p.stage===k?'on':''}">${l}</span>`).join('')+'</div>'+(p.stage_msg?`<div class="muted small" style="margin-top:6px">${esc(p.stage_msg)}</div>`:'') : '';
+  const vid = p.video_path ? `<br><video controls preload="none" src="/videos/${encodeURIComponent(p.video_path.split(/[\\\\/]/).pop())}"></video>` : '';
+  const link = p.youtube_url ? ` · <a href="${esc(p.youtube_url)}" target="_blank">abrir no YouTube</a>` : '';
+  const pub = (st==='video_ready') ? ` <button class="ghost" data-pub="${p.id}">Publicar</button>` : '';
+  const when = p.posted_at || p.created_at;
+  const dt = when ? `<span class="muted small"> · ${new Date(when).toLocaleString('pt-BR',{day:'2-digit',month:'2-digit',hour:'2-digit',minute:'2-digit'})}</span>` : '';
+  return `<div class="post"><div class="t">${esc(p.title||p.topic||'(sem título)')} <span class="badge">${esc(FORMATS[p.format]||p.format||'')}</span> ${badge}${link}${dt}</div>
+    <div class="muted small">${esc(p.topic||'')}</div>${pipe}${pub}${vid}</div>`;
+}
 async function loadQueue(){
   const posts = await api('/api/posts').catch(()=>[]);
-  $('#qs-queue').textContent = posts.filter(p=>!['posted','drafted'].includes(p.status)).length;
-  if (!posts.length){ $('#queue').innerHTML='<p class="muted">Nenhum vídeo ainda. Clique em “Gerar + Publicar”.</p>'; return; }
-  $('#queue').innerHTML = posts.map(p=>{
-    const st = p.status||'';
-    const badge = st==='posted'?'<span class="badge ok">publicado</span>'
-      : st==='video_ready'?'<span class="badge ok">pronto</span>'
-      : st==='creating_video'?'<span class="badge run">gerando</span>'
-      : /error/.test(st)?'<span class="badge err">'+st+'</span>'
-      : '<span class="badge">'+st+'</span>';
-    const pipe = st==='creating_video' ? '<div class="pipe">'+Object.entries(STAGES).map(([k,l])=>`<span class="step ${p.stage===k?'on':''}">${l}</span>`).join('')+'</div>'+(p.stage_msg?`<div class="muted small">${p.stage_msg}</div>`:'') : '';
-    const vid = p.video_path ? `<br><video controls src="/videos/${p.video_path.split(/[\\\\/]/).pop()}"></video>` : '';
-    const link = p.youtube_url ? ` · <a href="${p.youtube_url}" target="_blank">abrir no YouTube</a>` : '';
-    const pub = (st==='video_ready') ? ` <button class="ghost" data-pub="${p.id}">Publicar</button>` : '';
-    return `<div class="post"><div class="t">${p.title||p.topic||'(sem título)'} <span class="badge">${FORMATS[p.format]||p.format||''}</span> ${badge}${link}</div>
-      <div class="muted small">${p.topic||''}</div>${pipe}${pub}${vid}</div>`;
-  }).join('');
-  $('#queue').querySelectorAll('button[data-pub]').forEach(b=>b.onclick=async()=>{
+  const active = posts.filter(p=>['creating_video','scripted'].includes(p.status));
+  $('#qs-queue').textContent = active.length;
+  $('#pipeline').innerHTML = active.length ? active.map(renderPost).join('') : '<p class="muted">Nada em produção agora.</p>';
+  const rest = posts.filter(p=>!['creating_video','scripted'].includes(p.status)).slice(0,12);
+  $('#queue').innerHTML = rest.length ? rest.map(renderPost).join('') : '<p class="muted">Nenhum vídeo ainda. Clique em "Gerar + Publicar".</p>';
+  document.querySelectorAll('button[data-pub]').forEach(b=>b.onclick=async()=>{
     b.disabled=true; b.textContent='Publicando…';
     const r=await api('/api/publish',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({id:b.dataset.pub})});
     if(r.error) alert('Erro: '+r.error); loadQueue();
@@ -243,29 +500,151 @@ $('#btn-run').onclick = async()=>{
   loadStatus(); loadQueue();
 };
 
-async function loadStats(){
+async function loadStats(refreshRecent){
   const d = await api('/api/stats').catch(()=>({}));
   const c = d.channel || (d.cache&&d.cache.channel) || {};
   $('#st-subs').textContent=fmtNum(c.subscribers); $('#st-views').textContent=fmtNum(c.views); $('#st-vids').textContent=c.videos??'—';
   $('#qs-subs').textContent=fmtNum(c.subscribers); $('#qs-views').textContent=fmtNum(c.views); $('#qs-vids').textContent=c.videos??'—';
+  // Loop tab
+  const subs = c.subscribers||0; const vids = c.videos||0; const META = 1000;
+  if($('#loop-subs')){ $('#loop-subs').textContent=subs; $('#loop-videos').textContent=vids; }
+  if($('#loop-bar-subs')){ const pct=Math.min(100,subs/META*100); $('#loop-bar-subs').style.width=pct+'%'; $('#loop-subs-pct').textContent=(pct.toFixed(1))+'% da meta ('+META+' inscritos)'; }
+  if($('#loop-status')){ $('#loop-status').textContent = subs<200?'Fase 1 — Volume + Formato':subs<500?'Fase 2 — Escalar o que funciona':subs<800?'Fase 3 — Sprint final':'🎉 Perto da monetização!'; }
   const a = d.analytics || (d.cache&&d.cache.analytics) || null;
   $('#st-gained').textContent = a ? (a.subscribersGained??'—') : '—';
-  $('#st-analytics').textContent = a ? `Período 28d — views: ${a.views??0} · min assistidos: ${a.estimatedMinutesWatched??0} · duração média: ${Math.round(a.averageViewDuration||0)}s` : (d.connected?'Sem dados de analytics ainda (vídeos muito recentes).':'Conecte o YouTube (node youtube-login.js) pra ver dados reais.');
-  const rec = d.recent || (d.cache&&d.cache.recent) || [];
-  $('#st-recent').innerHTML = rec.length ? '<table><tr><th>Vídeo</th><th>Views</th><th>Likes</th><th>Coment.</th></tr>'+rec.map(v=>`<tr><td><a href="${v.url}" target="_blank">${(v.title||'').slice(0,50)}</a></td><td>${fmtNum(v.views)}</td><td>${fmtNum(v.likes)}</td><td>${fmtNum(v.comments)}</td></tr>`).join('')+'</table>' : '<p class="muted">Nenhum vídeo publicado ainda.</p>';
+  $('#st-analytics').textContent = a ? `Período 28d — views: ${a.views??0} · min assistidos: ${a.estimatedMinutesWatched??0} · duração média: ${Math.round(a.averageViewDuration||0)}s` : (d.connected?'Sem dados de analytics ainda (vídeos muito recentes).':'Conecte o YouTube na aba Configuração pra ver dados reais.');
+  if (refreshRecent){
+    const rec = d.recent || (d.cache&&d.cache.recent) || [];
+    $('#st-recent').innerHTML = rec.length ? '<table><tr><th>Vídeo</th><th>Views</th><th>Likes</th><th>Coment.</th></tr>'+rec.map(v=>`<tr><td><a href="${esc(v.url)}" target="_blank">${esc((v.title||'').slice(0,55))}</a></td><td>${fmtNum(v.views)}</td><td>${fmtNum(v.likes)}</td><td>${fmtNum(v.comments)}</td></tr>`).join('')+'</table>' : '<p class="muted">Nenhum vídeo publicado ainda.</p>';
+  }
 }
-$('#btn-refresh-stats').onclick = async()=>{ $('#btn-refresh-stats').textContent='…'; await api('/api/stats?refresh=1'); await loadStats(); $('#btn-refresh-stats').textContent='↻ Atualizar'; };
+$('#btn-refresh-stats').onclick = async()=>{ $('#btn-refresh-stats').textContent='…'; await api('/api/stats?refresh=1'); await loadStats(true); loadGoals(); $('#btn-refresh-stats').textContent='↻ Atualizar'; };
 
+// ── Metas ─────────────────────────────────────────────────────────────────────
+let _goals = null;
+function goalBar(label, cur, target, suffix){
+  const pct = Math.min(100, Math.round((cur/Math.max(1,target))*100));
+  return `<div class="goal">
+    <div class="gtop"><span>${label}</span><b>${fmtNum(cur)} / ${fmtNum(target)}${suffix||''} <span class="muted small">(${pct}%)</span></b></div>
+    <div class="bar"><i class="${pct>=100?'full':''}" style="width:${pct}%"></i></div>
+  </div>`;
+}
+async function loadGoals(){
+  const d = await api('/api/goals').catch(()=>null);
+  if(!d){ $('#goals-view').innerHTML='<p class="muted">Não consegui carregar as metas.</p>'; return; }
+  _goals = d.goals;
+  const c = d.current||{};
+  let html = goalBar('🧑‍🤝‍🧑 Inscritos', c.subscribers||0, d.goals.subscribers)
+    + goalBar('👁 Views totais', c.views||0, d.goals.views)
+    + goalBar('🎬 Vídeos esta semana', c.videos_per_week||0, d.goals.videos_per_week);
+  if (d.analytics) html += `<p class="muted small" style="margin-top:4px">Ritmo (28d): +${d.analytics.subscribersGained??0} inscritos · ${fmtNum(d.analytics.views??0)} views</p>`;
+  $('#goals-view').innerHTML = html;
+}
+$('#btn-edit-goals').onclick = ()=>{
+  if(!_goals) return;
+  $('#goal-subs').value=_goals.subscribers; $('#goal-views').value=_goals.views; $('#goal-vpw').value=_goals.videos_per_week;
+  $('#goals-edit').style.display='block'; $('#goals-view').style.display='none';
+};
+$('#btn-cancel-goals').onclick = ()=>{ $('#goals-edit').style.display='none'; $('#goals-view').style.display='block'; };
+$('#btn-save-goals').onclick = async()=>{
+  const r = await api('/api/goals',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({subscribers:+$('#goal-subs').value, views:+$('#goal-views').value, videos_per_week:+$('#goal-vpw').value})});
+  if(r.error){ alert('Erro: '+r.error); return; }
+  $('#goals-edit').style.display='none'; $('#goals-view').style.display='block'; loadGoals();
+};
+
+// ── Análise de temas ─────────────────────────────────────────────────────────
+async function loadAnalysis(){
+  const d = await api('/api/topic-analysis').catch(()=>null);
+  if(!d || d.error){ $('#theme-ranking').innerHTML='<p class="muted">Sem dados ainda — atualize as estatísticas primeiro.</p>'; return; }
+  const max = Math.max(1, ...(d.ranking||[]).map(t=>t.avgViews));
+  $('#theme-ranking').innerHTML = (d.ranking||[]).length ? d.ranking.map((t,i)=>`
+    <div class="theme-row">
+      <div class="tl">${i===0?'🏆 ':''}${esc(t.label)}</div>
+      <div class="tbar"><i style="width:${Math.max(3,Math.round(t.avgViews/max*100))}%"></i></div>
+      <div class="tv"><b style="color:var(--txt)">${fmtNum(t.avgViews)}</b> views/vídeo · ${t.videos} vídeo${t.videos>1?'s':''}</div>
+    </div>
+    ${t.best ? `<div class="muted small" style="margin:-2px 0 6px">↳ melhor: <a href="${esc(t.best.url)}" target="_blank">${esc(t.best.title.slice(0,70))}</a> (${fmtNum(t.best.views)} views)</div>`:''}
+  `).join('') : '<p class="muted">Sem vídeos analisados ainda.</p>';
+
+  $('#suggestions').innerHTML = (d.suggestions||[]).length ? d.suggestions.map((s,i)=>`
+    <div class="sug">
+      <div>
+        <div class="st">${esc(s.topic)}</div>
+        <div class="meta">${esc(s.theme)} · formato ${esc(FORMATS[s.format]||s.format)} · score ${fmtNum(s.themeScore)}</div>
+      </div>
+      <button class="btn" style="padding:7px 14px;font-size:13px;white-space:nowrap" data-sug="${i}">⚡ Gerar</button>
+    </div>`).join('') : '<p class="empty">Pool esgotado — todos os temas saíram recentemente.</p>';
+  document.querySelectorAll('button[data-sug]').forEach(b=>b.onclick=()=>gerarDeSugestao(d.suggestions[+b.dataset.sug], b));
+
+  // ── Ideias virais curadas
+  const vi = d.viral_ideas || [];
+  const themeColor = t => {
+    if(/buraco|black hole|hawking|relatividade/i.test(t)) return '#7c3aed';
+    if(/qu[âa]ntic|schr|entrela/i.test(t)) return '#0891b2';
+    if(/universo|cosmos|estrela|big bang/i.test(t)) return '#059669';
+    if(/mente|c[ée]rebro|tempo|seta/i.test(t)) return '#d97706';
+    return '#6b7280';
+  };
+  $('#viral-ideas').innerHTML = vi.length ? vi.map((v,i)=>`
+    <div class="sug" style="align-items:flex-start;gap:12px;padding:14px 0;border-bottom:1px solid var(--border)">
+      <div style="flex:1;min-width:0">
+        <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:6px">
+          <span style="background:${themeColor(v.theme)};color:#fff;font-size:11px;font-weight:600;padding:2px 8px;border-radius:20px;white-space:nowrap">${esc(v.theme)}</span>
+        </div>
+        <div class="st" style="margin-bottom:4px">${esc(v.topic)}</div>
+        <div style="font-size:12px;color:#10b981;font-weight:600;margin-bottom:3px">Hook: "${esc(v.hook)}"</div>
+        <div style="font-size:12px;color:var(--muted)">${esc(v.why)}</div>
+      </div>
+      <button class="btn" style="padding:7px 14px;font-size:13px;white-space:nowrap;flex-shrink:0" data-vi="${i}">⚡ Gerar</button>
+    </div>`).join('')
+    : '<p class="muted">Todos os temas virais já foram usados recentemente.</p>';
+  document.querySelectorAll('button[data-vi]').forEach(b=>b.onclick=()=>{
+    const v=vi[+b.dataset.vi]; if(!v) return;
+    if(!confirm('Gerar e PUBLICAR um Short sobre:\n\n"'+v.topic+'"?\n\nHook: "'+v.hook+'"\n\n(leva ~2-3 min)')) return;
+    b.disabled=true; b.textContent='⏳…';
+    api('/api/generate-from-topic',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({title:v.topic,format:v.format,source:'Neural Update',privacyStatus:'public'})})
+      .then(r=>{ if(r&&r.error){alert('Erro: '+r.error);b.disabled=false;b.textContent='⚡ Gerar';return;} b.textContent='✅ Na fila!'; document.querySelector('nav button[data-tab="inicio"]').click(); })
+      .catch(()=>{ b.disabled=false; b.textContent='⚡ Gerar'; });
+  });
+
+  $('#repeated').innerHTML = (d.repeated||[]).length
+    ? d.repeated.map(r=>`<div class="post" style="padding:10px 14px"><span class="badge err">${r.times}x</span> ${esc(r.topic)}</div>`).join('') + '<p class="muted small">O robô agora evita repetir temas dos últimos 7 dias automaticamente.</p>'
+    : '<p class="muted">✅ Nenhuma repetição nos últimos posts.</p>';
+}
+async function gerarDeSugestao(s, btn){
+  if(!s) return;
+  if(!confirm('Gerar e PUBLICAR um Short sobre:\n\n"'+s.topic+'"?\n\n(leva ~2-3 min)')) return;
+  btn.disabled=true; btn.textContent='⏳…';
+  const r = await api('/api/generate-from-topic',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({title:s.topic, format:s.format, source:'Neural Update', privacyStatus:'public'})}).catch(()=>({error:'falha de rede'}));
+  if(r && r.error){ alert('Erro: '+r.error); btn.disabled=false; btn.textContent='⚡ Gerar'; return; }
+  btn.textContent='✅ Na fila!';
+  document.querySelector('nav button[data-tab="inicio"]').click();
+}
+$('#btn-refresh-analysis').onclick = loadAnalysis;
+
+// ── Pesquisa (manchetes) ─────────────────────────────────────────────────────
+let _research = [];
 async function loadResearch(){
   const d = await api('/api/research').catch(()=>({items:[]}));
-  const items = d.items||[];
-  $('#research').innerHTML = items.length ? items.map((it,i)=>`<div class="post"><div class="t">${i===0?'⭐ ':''}${it.title}</div><div class="muted small">${/blog/i.test(it.source)?'<span class="hl">':''}${it.source}${/blog/i.test(it.source)?'</span>':''}${it.link?` · <a href="${it.link}" target="_blank">abrir</a>`:''}</div></div>`).join('') : '<p class="muted">Sem manchetes agora (RSS pode ter falhado).</p>';
+  _research = d.items||[];
+  $('#research').innerHTML = _research.length ? _research.map((it,i)=>`<div class="post"><div class="t">${i===0?'⭐ ':''}${esc(it.title)}</div><div class="row" style="justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;margin-top:6px"><div class="muted small">${/blog/i.test(it.source)?'<span class="hl">':''}${esc(it.source)}${/blog/i.test(it.source)?'</span>':''}${it.link?` · <a href="${esc(it.link)}" target="_blank">abrir</a>`:''}</div><button class="btn" style="padding:6px 14px;font-size:13px;white-space:nowrap" data-news="${i}">⚡ Gerar Short</button></div></div>`).join('') : '<p class="muted">Sem manchetes agora (RSS pode ter falhado).</p>';
+  document.querySelectorAll('button[data-news]').forEach(b=>b.onclick=()=>gerarShort(+b.dataset.news, b));
+}
+async function gerarShort(i, btn){
+  const it = _research[i]; if(!it) return;
+  if(!confirm('Gerar e PUBLICAR um Short sobre:\n\n"'+it.title+'"?\n\n(leva ~2-3 min)')) return;
+  const old = btn.textContent; btn.disabled=true; btn.textContent='⏳ Gerando…';
+  const r = await api('/api/generate-from-topic',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({title:it.title, source:it.source, link:it.link||'', privacyStatus:'public'})}).catch(()=>({error:'falha de rede'}));
+  if(r && r.error){ alert('Erro: '+r.error); btn.disabled=false; btn.textContent=old; return; }
+  btn.textContent='✅ Na fila!';
+  document.querySelector('nav button[data-tab="inicio"]').click();
 }
 $('#btn-refresh-research').onclick = loadResearch;
 
+// ── Agendamentos ──────────────────────────────────────────────────────────────
 async function loadSchedule(){
   const arr = await api('/api/schedule').catch(()=>[]);
-  $('#sch-list').innerHTML = arr.length ? arr.slice().reverse().map(s=>`<div class="post"><div class="t">${new Date(s.when).toLocaleString('pt-BR')} <span class="badge ${s.status==='done'?'ok':s.status==='error'?'err':s.status==='running'?'run':''}">${s.status}</span></div><div class="muted small">${FORMATS[s.format]||s.format||'rotação'} · ${s.privacyStatus||'privacy padrão'}${s.result?(' · '+(/^http/.test(s.result)?`<a href="${s.result}" target="_blank">ver</a>`:s.result)):''}</div> <button class="ghost" data-del="${s.id}">remover</button></div>`).join('') : '<p class="muted">Nenhum agendamento.</p>';
+  $('#sch-list').innerHTML = arr.length ? arr.slice().reverse().map(s=>`<div class="post"><div class="t">${new Date(s.when).toLocaleString('pt-BR')} <span class="badge ${s.status==='done'?'ok':s.status==='error'?'err':s.status==='running'?'run':''}">${esc(s.status)}</span></div><div class="muted small">${esc(FORMATS[s.format]||s.format||'rotação')} · ${esc(s.privacyStatus||'privacy padrão')}${s.result?(' · '+(/^http/.test(s.result)?`<a href="${esc(s.result)}" target="_blank">ver</a>`:esc(s.result))):''}</div> <button class="ghost" data-del="${s.id}" style="margin-top:8px">remover</button></div>`).join('') : '<p class="muted">Nenhum agendamento.</p>';
   $('#sch-list').querySelectorAll('button[data-del]').forEach(b=>b.onclick=async()=>{await api('/api/schedule/'+b.dataset.del,{method:'DELETE'});loadSchedule();});
 }
 $('#btn-schedule').onclick = async()=>{
@@ -274,18 +653,58 @@ $('#btn-schedule').onclick = async()=>{
   if(r.error)alert(r.error); $('#sch-when').value=''; loadSchedule();
 };
 
-// Configuração / conexão de conta
+// ── Histórico — BR + EN, publicados e agendados ──────────────────────────────
+function renderHistoryList(list, err){
+  if (err) return `<p class="muted">⚠️ ${esc(err)}</p>`;
+  if (!list || !list.length) return '<p class="muted">Nenhum vídeo encontrado.</p>';
+  return list.map(v=>{
+    const isScheduled = v.privacyStatus === 'private' && v.publishAt;
+    const when = isScheduled ? new Date(v.publishAt) : new Date(v.publishedAt);
+    const badge = isScheduled ? '<span class="badge run">🕒 agendado</span>' : (v.privacyStatus==='public' ? '<span class="badge ok">✅ publicado</span>' : `<span class="badge">${esc(v.privacyStatus)}</span>`);
+    return `<div class="hist-item">
+      <img src="${esc(v.thumbnail)}" loading="lazy" />
+      <div style="flex:1;min-width:0">
+        <div class="ht">${esc(v.title)}</div>
+        <div class="hm">${badge} · ${when.toLocaleString('pt-BR',{day:'2-digit',month:'2-digit',hour:'2-digit',minute:'2-digit'})}${!isScheduled?` · ${Number(v.views||0).toLocaleString('pt-BR')} views`:''}</div>
+      </div>
+      <a class="ghost" href="https://youtube.com/shorts/${v.id}" target="_blank" style="padding:6px 10px;font-size:12px">abrir</a>
+    </div>`;
+  }).join('');
+}
+async function loadHistory(){
+  $('#hist-br').innerHTML = '<p class="muted">Carregando…</p>';
+  $('#hist-en').innerHTML = '<p class="muted">Carregando…</p>';
+  const d = await api('/api/history').catch(()=>({}));
+  $('#hist-br').innerHTML = renderHistoryList(d.br, d.brError);
+  $('#hist-en').innerHTML = renderHistoryList(d.en, d.enError);
+}
+$('#btn-refresh-history').onclick = loadHistory;
+
+// ── Configuração / conexão de conta (modal da engrenagem) ───────────────────
 async function loadConfig(){
   const c = await api('/api/config').catch(()=>({}));
   $('#cfg-redirect').textContent = c.redirect_uri || '';
-  $('#cfg-status').innerHTML = c.youtube_connected
-    ? '<span class="hl">✅ Conta conectada.</span> Já dá pra publicar e ver estatísticas reais.'
-    : '🔴 <b>Não conectado.</b> Preencha as credenciais abaixo e clique em Conectar.';
   $('#cfg-client-id').placeholder = c.has_client_id ? 'Client ID — já salvo (deixe em branco pra manter)' : 'Client ID (xxx.apps.googleusercontent.com)';
   $('#cfg-client-secret').placeholder = c.has_client_secret ? 'Client Secret — já salvo (deixe em branco pra manter)' : 'Client Secret';
   if (c.privacy) $('#cfg-privacy').value = c.privacy;
   if (c.blog_url && !$('#cfg-blog').value) $('#cfg-blog').value = c.blog_url;
 }
+async function verifyConnection(){
+  const box = $('#conn-status'); const ic = box.querySelector('.ic'); const txt = $('#conn-status-text');
+  box.className = 'conn-status'; ic.textContent = '⏳'; txt.textContent = 'Verificando…';
+  const r = await api('/api/youtube/verify').catch(()=>({connected:false,reason:'network'}));
+  if (r.connected) {
+    box.className = 'conn-status ok'; ic.textContent = '✅';
+    txt.innerHTML = `<span class="hl">Conta conectada de verdade.</span> Canal: <b>${r.channelTitle||'—'}</b>`;
+  } else {
+    box.className = 'conn-status bad'; ic.textContent = '🔴';
+    const reasons = { no_token:'Nenhuma conta conectada ainda.', no_channel:'Conectado, mas nenhum canal encontrado nessa conta.', api_error:'Token salvo, mas a API recusou (provavelmente revogado/expirado).', network:'Falha de rede ao verificar.' };
+    txt.innerHTML = `<b>Não conectado.</b> ${reasons[r.reason]||r.error||''} Use a configuração avançada abaixo.`;
+  }
+}
+$('#btn-settings').onclick = () => { $('#settings-modal').classList.add('open'); loadConfig(); verifyConnection(); };
+$('#modal-close').onclick = () => $('#settings-modal').classList.remove('open');
+$('#settings-modal').onclick = (e) => { if (e.target.id === 'settings-modal') $('#settings-modal').classList.remove('open'); };
 $('#cfg-save').onclick = async()=>{
   const body={ clientId:$('#cfg-client-id').value, clientSecret:$('#cfg-client-secret').value, privacy:$('#cfg-privacy').value, blogUrl:$('#cfg-blog').value };
   const r=await api('/api/config',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)});
@@ -295,13 +714,16 @@ $('#cfg-connect').onclick = async()=>{
   const r=await api('/api/youtube/connect').catch(()=>({error:'falha de rede'}));
   if(r.error){ alert('Erro: '+r.error); return; }
   if(r.url){ window.open(r.url,'_blank'); $('#cfg-connect-note').textContent='Autorize na nova aba… aguardando confirmação.';
-    const t=setInterval(async()=>{ const c=await api('/api/config').catch(()=>({})); if(c.youtube_connected){ clearInterval(t); $('#cfg-connect-note').innerHTML='<span class="hl">✅ Conectado!</span>'; loadConfig(); loadStatus(); } }, 3000);
+    const t=setInterval(async()=>{ const c=await api('/api/config').catch(()=>({})); if(c.youtube_connected){ clearInterval(t); $('#cfg-connect-note').innerHTML='<span class="hl">✅ Conectado!</span>'; loadConfig(); loadStatus(); verifyConnection(); } }, 3000);
   }
 };
+$('#btn-verify').onclick = verifyConnection;
 
-// Boot + polling
-loadStatus(); loadQueue();
+// Boot + polling — FIX: stats e metas agora carregam já na abertura (antes só
+// apareciam depois de visitar a aba Estatísticas).
+loadStatus(); loadQueue(); loadStats(false); loadGoals();
 setInterval(()=>{ loadStatus(); loadQueue(); }, 4000);
+setInterval(loadGoals, 60000);
 </script>
 </body>
 </html>

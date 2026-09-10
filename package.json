@@ -11,7 +11,13 @@
     "login": "node youtube-login.js",
     "stats": "node youtube-stats.js"
   },
-  "keywords": ["youtube", "shorts", "automation", "ai", "neural-update"],
+  "keywords": [
+    "youtube",
+    "shorts",
+    "automation",
+    "ai",
+    "neural-update"
+  ],
   "author": "Neural Update",
   "license": "ISC",
   "type": "commonjs",
@@ -25,6 +31,7 @@
     "msedge-tts": "^2.0.5",
     "node-cron": "^3.0.3",
     "node-gtts": "^2.0.2",
+    "puppeteer-core": "^25.2.1",
     "xml2js": "^0.6.2"
   }
 }

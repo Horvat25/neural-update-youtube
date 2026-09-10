@@ -1,0 +1,105 @@
+[
+  {
+    "slug": "nw-lua-sem-planeta",
+    "stream": "news",
+    "publishAt": "2026-08-11T11:00:00.000Z",
+    "track": "cosmic-ambient-espacial.mp3",
+    "topic": "lua orbitando ana marrom VLT descoberta",
+    "isca": false,
+    "title": "📰 Acharam uma LUA que não orbita planeta nenhum 🌙 #Shorts",
+    "desc1": "O Very Large Telescope encontrou evidências de um objeto do tamanho de uma lua girando em torno de uma anã marrom — que não é estrela nem planeta, mas o meio-termo entre os dois. Essa anã marrom, por sua vez, orbita a estrela CD-35 2722. É a primeira vez que algo assim é flagrado fora do sistema solar.",
+    "tags": ["lua", "ana marrom", "exolua", "very large telescope", "descoberta espacial", "astronomia", "ciência"],
+    "hashtags": ["#exolua", "#astronomia", "#ciência", "#espaço", "#neuralupdate"],
+    "hook": "UMA LUA QUE NÃO\nORBITA PLANETA\nNENHUM",
+    "roteiro": "Acharam uma lua que não orbita planeta nenhum. O Very Large Telescope viu um objeto do tamanho de uma lua girando em volta de uma anã marrom, que não é estrela nem planeta: é o meio-termo entre os dois. E essa anã marrom, por sua vez, orbita uma estrela lá longe. É a primeira vez que a gente flagra uma coisa dessas fora do sistema solar. Os nossos nomes pras coisas do céu estão ficando pequenos demais pro que existe lá fora. Neural Update. O universo está te esperando.",
+    "cues": [
+      "Acharam uma lua",
+      "O Very Large Telescope viu",
+      "não é estrela nem planeta",
+      "orbita uma estrela lá longe",
+      "primeira vez que a gente flagra",
+      "Os nossos nomes pras coisas do céu",
+      "Neural Update"
+    ],
+    "bank": [],
+    "prompts": [
+      "Cinematic 9:16 vertical shot of a small rocky moon orbiting a dim glowing reddish sphere in deep space, no planet anywhere in frame, unsettling wrongness of scale, shot on ARRI Alexa with 35mm anamorphic lens, subtle chromatic aberration, high contrast against void black, photorealistic with fine grain, no text, no words, no letters, no watermark",
+      "Cinematic 9:16 vertical shot of a giant ground telescope dome open to a brilliant night sky in a high desert, laser guide star beam rising into the dark, cold blue night photography, photorealistic with grain, no text, no words, no letters, no watermark",
+      "Cinematic 9:16 vertical shot of a dim failed star glowing sullen deep red and brown, too faint to be a sun and too massive to be a planet, brooding and strange, deep contrast against black, photorealistic with fine grain, no text, no words, no letters, no watermark",
+      "Cinematic 9:16 vertical wide shot of a distant bright star with a much dimmer companion far out on a wide slow orbit, immense separation, cold blue and amber points against black, photorealistic astrophotography with grain, no text, no words, no letters, no watermark",
+      "Cinematic 9:16 vertical shot of an astronomer's dark control room with a faint new signal curve glowing on a screen, the moment of a first detection, cold monitor light on a silhouette, documentary photography, photorealistic, no text, no words, no letters, no watermark",
+      "Cinematic 9:16 vertical still life of old handwritten astronomy labels and category cards scattered on a dark desk, edges curling and fading, the idea of names no longer fitting, warm lamp light and deep shadow, photorealistic texture, no text, no words, no letters, no watermark",
+      "Cinematic 9:16 vertical wide shot of a vast strange star field full of unfamiliar objects, quiet and humbling, deep blues and blacks, photorealistic astrophotography with fine grain, no text, no words, no letters, no watermark"
+    ]
+  },
+  {
+    "slug": "pl15-escada-cosmica",
+    "stream": "aula",
+    "publishAt": "2026-08-11T17:00:00.000Z",
+    "track": "dark-tension-pixabay.mp3",
+    "topic": "aula escada cosmica paralaxe cefeidas supernovas distancia",
+    "isca": false,
+    "title": "🔭 Como alguém mede a distância de uma ESTRELA sem sair daqui #Shorts",
+    "desc1": "Aula da escola Universo do Zero: a escada de distâncias cósmicas. O primeiro degrau é a paralaxe — o mesmo efeito de fechar um olho e depois o outro. Depois vêm estrelas variáveis que pulsam em ritmo fixo e supernovas de brilho conhecido. Cada degrau é calibrado pelo anterior: errou um, errou todos.",
+    "tags": ["paralaxe", "escada cosmica", "distancia das estrelas", "cefeidas", "supernova", "curso de astronomia", "ciência"],
+    "hashtags": ["#astronomia", "#paralaxe", "#ciência", "#universo", "#neuralupdate"],
+    "hook": "COMO SE MEDE\nA DISTÂNCIA DE\nUMA ESTRELA",
+    "roteiro": "Como é que alguém mede a distância de uma estrela sem sair daqui? O primeiro degrau é o mesmo truque do seu dedo: feche um olho, depois o outro, e ele parece pular. A Terra faz isso em escala gigante, olhando dos dois lados da órbita, e o quanto a estrela pula entrega a distância dela. Só que isso só funciona pra quem está perto. Pra ir mais longe, a gente usa estrelas que piscam num ritmo fixo, e depois supernovas de brilho conhecido. Cada degrau é calibrado pelo anterior. Errou um, errou todos. Neural Update. O universo está te esperando.",
+    "cues": [
+      "Como é que alguém mede a distância",
+      "o mesmo truque do seu dedo",
+      "A Terra faz isso em escala gigante",
+      "o quanto a estrela pula",
+      "só funciona pra quem está perto",
+      "estrelas que piscam num ritmo fixo",
+      "Cada degrau é calibrado",
+      "Neural Update"
+    ],
+    "bank": [],
+    "prompts": [
+      "Cinematic 9:16 vertical shot of a single distant star burning alone in absolute blackness with a faint measuring line stretching away from it into the void, the question of distance made visual, shot on ARRI Alexa with 35mm anamorphic lens, subtle chromatic aberration, high contrast, photorealistic with fine grain, no text, no words, no letters, no watermark",
+      "Cinematic 9:16 vertical extreme close shot of a human thumb held up at arm's length against a blurred night sky, doubled into two ghosted positions as if seen by two different eyes, simple and clear, warm skin tone against cool dark background, photorealistic, no text, no words, no letters, no watermark",
+      "Cinematic 9:16 vertical wide shot of Earth at two opposite points of its orbit around the Sun, both positions visible with the vast diameter between them, clean scientific space illustration made photoreal, deep black background, no text, no words, no letters, no watermark",
+      "Cinematic 9:16 vertical shot of a single foreground star visibly shifted between two overlaid star field exposures, the background stars perfectly still, subtle doubled point of light, cold blue-white against black, photorealistic astrophotography, no text, no words, no letters, no watermark",
+      "Cinematic 9:16 vertical shot of a bright nearby star in sharp focus in the foreground while countless distant stars blur into an unreadable haze behind it, the limit of a method made visible, shallow depth of field, photorealistic with grain, no text, no words, no letters, no watermark",
+      "Cinematic 9:16 vertical shot of a pulsating variable star brightening and dimming, captured as concentric rings of light expanding outward in a steady rhythm, cold white and blue against black, photorealistic with grain, no text, no words, no letters, no watermark",
+      "Cinematic 9:16 vertical shot of a luminous staircase of light climbing upward into deep space, each step further and fainter than the last, conceptual but photoreal, deep blues and blacks with warm step highlights, fine grain, no text, no words, no letters, no watermark",
+      "Cinematic 9:16 vertical wide shot of a calm immense star field receding into darkness, contemplative, deep blues and blacks, photorealistic astrophotography with fine grain, no text, no words, no letters, no watermark"
+    ]
+  },
+  {
+    "slug": "v37-dobrar-papel",
+    "stream": "viral",
+    "publishAt": "2026-08-11T21:00:00.000Z",
+    "track": "dark-some-amount-of-evil.mp3",
+    "topic": "crescimento exponencial dobrar papel distancia da lua",
+    "isca": true,
+    "title": "Dobre um papel 42 vezes e ele CHEGA na Lua 🌕 #Shorts",
+    "desc1": "Cada dobra multiplica a espessura por dois. Na dobra 10 você tem a altura de uma mão; na 20, um prédio; na 30 já passou da estratosfera; na 42, cerca de 380 mil quilômetros — a distância da Lua. O cérebro humano não foi feito para sentir crescimento exponencial, e é por isso que ele nos engana com juros, epidemias e com o universo.",
+    "tags": ["crescimento exponencial", "dobrar papel", "distancia da lua", "matematica", "curiosidade cientifica", "ciência"],
+    "hashtags": ["#exponencial", "#matemática", "#lua", "#ciência", "#neuralupdate"],
+    "hook": "DOBRE UM PAPEL\n42 VEZES E ELE\nCHEGA NA LUA",
+    "roteiro": "Dobre uma folha de papel quarenta e duas vezes e ela chega na Lua. Parece mentira, mas é matemática simples: cada dobra multiplica a espessura por dois. Na dobra dez, você tem a altura de uma mão. Na vinte, um prédio. Na trinta, você já passou da estratosfera. E na quarenta e duas, trezentos e oitenta mil quilômetros. O seu cérebro não foi feito pra sentir crescimento exponencial, e é por isso que ele te engana com juros, com epidemia e com o universo. Juntei os cinco fenômenos mais assustadores do universo num PDF grátis. Link na bio. Neural Update. O universo está te esperando.",
+    "cues": [
+      "Dobre uma folha de papel",
+      "cada dobra multiplica a espessura",
+      "Na dobra dez",
+      "Na trinta você já passou",
+      "trezentos e oitenta mil",
+      "não foi feito pra sentir crescimento",
+      "cinco fenômenos",
+      "Neural Update"
+    ],
+    "bank": [],
+    "prompts": [
+      "Cinematic 9:16 vertical shot of a single sheet of white paper folded once, resting on black velvet under a hard spotlight, impossibly ordinary against deep darkness, extreme macro detail of the fold crease and paper fibre, high contrast, photorealistic with grain, no text, no words, no letters, no watermark",
+      "Cinematic 9:16 vertical macro shot of layers of paper stacking and doubling upward in a precise geometric tower, each layer twice the last, clean studio lighting against black, photorealistic paper texture, no text, no words, no letters, no watermark",
+      "Cinematic 9:16 vertical shot of a small stack of folded paper standing beside an open human hand for scale on a dark table, intimate and simple, warm side lighting with deep shadows, photorealistic skin and paper texture, no text, no words, no letters, no watermark",
+      "Cinematic 9:16 vertical upward shot of an impossibly tall thin white column rising past clouds and out of the blue atmosphere into black space, dizzying vertical perspective, photorealistic with atmospheric haze and grain, no text, no words, no letters, no watermark",
+      "Cinematic 9:16 vertical shot of the Moon large and detailed in the black sky with a hair-thin line of white stretching all the way from far below up to its surface, absurd scale made real, cold moonlight, photorealistic with fine grain, no text, no words, no letters, no watermark",
+      "Cinematic 9:16 vertical abstract shot of a curve of light rising gently and then exploding almost vertically off the top of the frame, the shape of exponential growth, cold blue turning to hot white, deep black background, photorealistic with grain, no text, no words, no letters, no watermark",
+      "Cinematic 9:16 vertical still life of a dark hardcover book closed on black stone, faint cosmic light leaking from between the pages, five small points of light hovering above it, mysterious and inviting, deep blues and violets, photorealistic with fine grain, no text, no words, no letters, no watermark",
+      "Cinematic 9:16 vertical wide shot of the Moon over a quiet dark landscape, calm and immense, deep blues with soft lunar glow, photorealistic with fine grain, no text, no words, no letters, no watermark"
+    ]
+  }
+]

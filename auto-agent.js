@@ -10,8 +10,11 @@ const { parseStringPromise } = require('xml2js');
 const fs = require('fs');
 const path = require('path');
 const { generateScript, TUTORIAL_POOL, CONHECIMENTO_POOL, pickFromPool, BLOG_URL } = require('./content-generator');
-const { createVideo } = require('./video-creator');
+const { createVideo, WORK_DIR, buildFromDir, wrapHook } = require('./video-creator-higgsfield');
+const { adaptToEnglish } = require('./translate-to-en');
+const { spawn } = require('child_process');
 const { uploadToYouTube, isConnected: isYouTubeConnected } = require('./youtube-uploader');
+const { planCta, saveCount } = require('./cta');
 
 const DATA_DIR = path.join(__dirname, 'data');
 if (!fs.existsSync(DATA_DIR)) fs.mkdirSync(DATA_DIR, { recursive: true });
@@ -19,7 +22,9 @@ const POSTS_FILE = path.join(DATA_DIR, 'posts.json');
 const ROTATION_FILE = path.join(DATA_DIR, 'format-rotation.json');
 
 // ─── Rotação de formatos (diversificação automática) ──────────────────────────
-const FORMAT_ROTATION = ['noticia_tech', 'conhecimento', 'noticia_tech', 'tutorial'];
+// Pesos pela performance real do canal (jun/2026): conhecimento (espaço/quântica)
+// faz 5-10x mais views que notícia → 80% conhecimento, 20% tutorial, 0% notícia_tech (pausado, ~5 views).
+const FORMAT_ROTATION = ['conhecimento', 'conhecimento', 'conhecimento', 'conhecimento', 'tutorial'];
 function nextFormat(forced) {
   if (forced && FORMAT_ROTATION.includes(forced)) return forced;
   let i = 0;
@@ -39,6 +44,16 @@ function updatePost(id, updates) {
   if (i >= 0) { Object.assign(posts[i], updates); persist(); }
 }
 function getInMemoryPosts() { return posts; }
+
+// Temas dos últimos posts (anti-repetição): tudo que virou vídeo nos últimos 21 dias
+// ou os últimos 40 posts (o que cobrir mais). Era 7 dias/15 posts — curto demais pro
+// volume do canal (3-5/dia), deixava tema do pool de "conhecimento" (35 itens) repetir
+// (ex.: dilatação do tempo virou 4-5 vídeos quase idênticos).
+function getRecentTopics() {
+  const cutoff = Date.now() - 21 * 864e5;
+  const recent = posts.filter((p, i) => i < 40 || new Date(p.created_at || 0).getTime() > cutoff);
+  return [...new Set(recent.map(p => (p.topic || '').toLowerCase().trim()).filter(Boolean))];
+}
 
 // ─── RSS trending: Google News + blog Neural Update ───────────────────────────
 const RSS_FEEDS = [
@@ -76,23 +91,28 @@ async function fetchTrendingFromRSS() {
 }
 
 // ─── Pipeline principal ───────────────────────────────────────────────────────
-async function runAutoAgent({ withVideo = false, format: forcedFormat } = {}) {
-  const format = nextFormat(forcedFormat);
+async function runAutoAgent({ withVideo = false, format: forcedFormat, forcedTopic } = {}) {
+  const format = forcedTopic ? (forcedTopic.format || 'noticia_tech') : nextFormat(forcedFormat);
   console.log(`\n[auto-agent] ${new Date().toLocaleString('pt-BR')} — iniciando (formato: ${format})`);
 
-  // 1. Define o TEMA conforme o formato
+  // 1. Define o TEMA conforme o formato (ou usa o tema forçado vindo da aba Pesquisa)
+  // Anti-repetição: pula temas/manchetes que já viraram vídeo recentemente.
+  const recentTopics = getRecentTopics();
   let topic;
-  if (format === 'noticia_tech') {
+  if (forcedTopic && forcedTopic.title) {
+    topic = { title: forcedTopic.title, source: forcedTopic.source || 'Neural Update', link: forcedTopic.link || '', angle: `Tema escolhido na Pesquisa — fonte: ${forcedTopic.source || 'pesquisa'}` };
+  } else if (format === 'noticia_tech') {
     const trending = await fetchTrendingFromRSS();
-    if (trending.length > 0) {
-      topic = { title: trending[0].title, source: trending[0].source, link: trending[0].link || '', angle: `Em alta — fonte: ${trending[0].source}` };
+    const fresh = trending.find(t => !recentTopics.includes((t.title || '').toLowerCase().trim())) || trending[0];
+    if (fresh) {
+      topic = { title: fresh.title, source: fresh.source, link: fresh.link || '', angle: `Em alta — fonte: ${fresh.source}` };
     } else {
       topic = { title: 'IA substituindo empregos no Brasil em 2026', source: 'Neural Update', angle: 'impacto real no mercado' };
     }
   } else if (format === 'tutorial') {
-    topic = { title: pickFromPool(TUTORIAL_POOL), angle: 'tutorial prático' };
+    topic = { title: pickFromPool(TUTORIAL_POOL, recentTopics), angle: 'tutorial prático' };
   } else {
-    topic = { title: pickFromPool(CONHECIMENTO_POOL), angle: 'conhecimento fascinante' };
+    topic = { title: pickFromPool(CONHECIMENTO_POOL, recentTopics), angle: 'conhecimento fascinante' };
   }
   console.log(`[auto-agent] Tema (${format}): "${topic.title}"`);
 
@@ -117,27 +137,33 @@ async function runAutoAgent({ withVideo = false, format: forcedFormat } = {}) {
 
   // 4. Vídeo
   if (withVideo) {
+    const ctaPlan = await planCta({ commit: false });
+    const subscriberCta = ctaPlan.hasCta ? ctaPlan.cta : null;
+    const videoScript = subscriberCta ? `${script.script} ${subscriberCta.narration}` : script.script;
+    const videoCtaOverlay = subscriberCta ? subscriberCta.label : script.cta_text_overlay;
+    if (subscriberCta) console.log(`[auto-agent] CTA de inscritos ativo: ${subscriberCta.bar} (video #${ctaPlan.videoNumber})`);
     console.log('[auto-agent] Criando vídeo...');
     updatePost(post.id, { status: 'creating_video', stage: 'tts', stage_msg: 'Iniciando...' });
     try {
       const videoPath = await createVideo({
-        script: script.script, title: script.title, topic: topic.title,
+        script: videoScript, title: script.title, topic: topic.title,
         hashtags: script.hashtags, hookTextOverlay: script.hook_text_overlay,
-        ctaTextOverlay: script.cta_text_overlay, imageQueries: script.image_queries,
+        ctaTextOverlay: videoCtaOverlay, imageQueries: script.image_queries,
+        subscriberCta,
         postId: String(post.id),
         onProgress: (stage, message) => updatePost(post.id, { stage, stage_msg: message }),
       });
-      updatePost(post.id, { status: 'video_ready', stage: 'done', stage_msg: null, video_path: videoPath });
+      updatePost(post.id, { status: 'video_ready', stage: 'done', stage_msg: null, video_path: videoPath, subscriber_cta: subscriberCta });
       // Sidecar JSON (sobrevive a reinício; alimenta o botão Publicar do painel)
       try {
         fs.writeFileSync(videoPath.replace(/\.mp4$/i, '.json'), JSON.stringify({
           title: script.title, description: script.description, tags: script.tags,
           hashtags: script.hashtags, source: script.source || topic.source || null,
-          topic: topic.title, script: script.script, created_at: new Date().toISOString(),
+          topic: topic.title, script: videoScript, subscriber_cta: subscriberCta, created_at: new Date().toISOString(),
         }, null, 2));
       } catch {}
       console.log(`[auto-agent] Vídeo pronto: ${videoPath}`);
-      return { post, videoPath };
+      return { post, videoPath, ctaPlan };
     } catch (err) {
       console.error('[auto-agent] Erro no vídeo:', err.message);
       updatePost(post.id, { status: 'video_error', stage: null, error: err.message });
@@ -147,8 +173,8 @@ async function runAutoAgent({ withVideo = false, format: forcedFormat } = {}) {
 }
 
 // ─── Ciclo completo: tema → roteiro → vídeo → PUBLICA no YouTube ───────────────
-async function runDailyPost({ privacyStatus, format } = {}) {
-  const privacy = privacyStatus || process.env.YT_PRIVACY || 'unlisted';
+async function runDailyPost({ privacyStatus, format, forcedTopic } = {}) {
+  const privacy = privacyStatus || process.env.YT_PRIVACY || 'public';
   console.log(`\n[daily-post] ${new Date().toLocaleString('pt-BR')} — ciclo iniciado (privacy: ${privacy}${format ? ', formato ' + format : ''})`);
 
   if (!isYouTubeConnected()) {
@@ -156,7 +182,7 @@ async function runDailyPost({ privacyStatus, format } = {}) {
     return { ok: false, reason: 'youtube_desconectado' };
   }
 
-  const result = await runAutoAgent({ withVideo: true, format });
+  const result = await runAutoAgent({ withVideo: true, format, forcedTopic });
   if (!result || !result.videoPath) {
     console.error('[daily-post] Vídeo não foi gerado — nada a publicar.');
     return { ok: false, reason: 'sem_video', post: result && result.post };
@@ -168,9 +194,26 @@ async function runDailyPost({ privacyStatus, format } = {}) {
       videoPath: result.videoPath, title: p.title, description: p.description,
       tags: p.tags, hashtags: p.hashtags, privacyStatus: privacy,
     });
+    if (result.ctaPlan) saveCount(result.ctaPlan.videoNumber);
     updatePost(p.id, { status: 'posted', youtube_id: up.id, youtube_url: up.url, privacy: up.privacyStatus, posted_at: new Date().toISOString() });
     console.log(`[daily-post] ✓ publicado (${up.privacyStatus}): ${up.url}`);
-    return { ok: true, post: p, videoPath: result.videoPath, youtube: up };
+
+    // Publica também em inglês (reaproveita as imagens, só traduz). Não derruba
+    // o resultado BR se o EN falhar — só registra o erro.
+    let englishUrl = null, englishError = null;
+    try {
+      console.log('[daily-post] Traduzindo e publicando versão EN...');
+      const enRes = await publishToEnglish(p, result.videoPath);
+      englishUrl = enRes.url;
+      updatePost(p.id, { english_url: englishUrl });
+      console.log(`[daily-post] ✓ EN publicado: ${englishUrl}`);
+    } catch (e) {
+      englishError = e.message;
+      console.error('[daily-post] EN falhou (BR já está no ar):', e.message);
+      updatePost(p.id, { english_error: englishError });
+    }
+
+    return { ok: true, post: p, videoPath: result.videoPath, youtube: up, englishUrl, englishError };
   } catch (e) {
     console.error('[daily-post] Erro ao publicar:', e.message);
     updatePost(p.id, { status: 'post_error', error: e.message });
@@ -178,4 +221,47 @@ async function runDailyPost({ privacyStatus, format } = {}) {
   }
 }
 
-module.exports = { runAutoAgent, runDailyPost, fetchTrendingFromRSS, getInMemoryPosts, updatePost, savePost };
+// ─── Publica também no canal EN, reaproveitando as MESMAS imagens (sem gastar
+// crédito Higgsfield de novo) — só traduz a narração e refaz o áudio/legenda. ───
+let EN_VOICE_TOGGLE = 0;
+async function publishToEnglish(post, brVideoPath) {
+  const brDir = path.join(WORK_DIR, `post-${post.id}`);
+  if (!fs.existsSync(brDir)) throw new Error('Pasta de imagens BR não encontrada: ' + brDir);
+
+  const en = await adaptToEnglish({ title: post.title, description: post.description, roteiro: post.script });
+
+  const enDir = `${brDir}-en`;
+  fs.mkdirSync(enDir, { recursive: true });
+  for (const f of fs.readdirSync(brDir)) {
+    if (/^img\d+\.(png|jpe?g|webp)$/i.test(f)) fs.copyFileSync(path.join(brDir, f), path.join(enDir, f));
+  }
+  fs.writeFileSync(path.join(enDir, 'roteiro.txt'), String(en.script || '').trim() + '\n', 'utf8');
+  fs.writeFileSync(path.join(enDir, 'hook.txt'), wrapHook(en.hook || en.title) + '\n', 'utf8');
+
+  const voice = (EN_VOICE_TOGGLE++ % 2 === 0) ? 'englishMale' : 'englishFemale';
+  const enOutPath = path.join(__dirname, 'videos', `post-${post.id}-en.mp4`);
+  buildFromDir(enDir, enOutPath, en.topic || en.title, voice);
+
+  const metaPath = path.join(enDir, 'meta.json');
+  fs.writeFileSync(metaPath, JSON.stringify({
+    title: en.title, description: en.description, tags: en.tags || [],
+    hashtags: en.hashtags && en.hashtags.length ? en.hashtags : ['#Shorts', '#Science', '#NeuralUpdate'],
+    privacyStatus: 'public', defaultLanguage: 'en-US', defaultAudioLanguage: 'en-US',
+  }, null, 2));
+
+  // Sobe via processo separado (post-video-en.js) — evita o singleton de token
+  // BR que esse processo do painel já carregou em memória.
+  return new Promise((resolve, reject) => {
+    const child = spawn(process.execPath, [path.join(__dirname, 'post-video-en.js'), enOutPath, metaPath], { cwd: __dirname });
+    let out = '';
+    child.stdout.on('data', d => out += d);
+    child.stderr.on('data', d => out += d);
+    child.on('close', code => {
+      const m = out.match(/https?:\/\/youtube\.com\/shorts\/[\w-]+/);
+      if (code === 0 && m) resolve({ url: m[0] });
+      else reject(new Error('post-video-en falhou: ' + out.slice(-400)));
+    });
+  });
+}
+
+module.exports = { runAutoAgent, runDailyPost, publishToEnglish, fetchTrendingFromRSS, getInMemoryPosts, getRecentTopics, updatePost, savePost };

@@ -1,0 +1,45 @@
+{
+  "slug": "nw-planeta-nao-fica-perto-estrela",
+  "stream": "news",
+  "track": "dark-some-amount-of-evil.mp3",
+  "topic": "planeta rochoso distante ordem invertida sistema exoplanetas gas vazio Cheops ESA fevereiro 2026",
+  "isca": false,
+  "title": "📰 Este planeta NÃO fica perto da estrela (ele nasceu longe) 🪐 #Shorts",
+  "desc1": "A missão Cheops da Agência Espacial Europeia revelou em 12 de fevereiro de 2026 um sistema com ordem planetária incomum: um planeta rochoso é o mais externo, depois de dois planetas gasosos. Em geral, mundos rochosos se formam perto da estrela, onde a radiação remove o gás, enquanto planetas gasosos crescem mais longe. A equipe descartou que um grande impacto tenha removido a atmosfera ou que os planetas tenham trocado de órbita. A explicação mais forte é que os quatro planetas tenham nascido em momentos diferentes; quando o último mundo rochoso se formou, o gás do sistema talvez já estivesse esgotado.",
+  "tags": [
+    "planeta rochoso distante",
+    "sistema planetário invertido",
+    "Cheops ESA",
+    "planetas gasosos",
+    "formação de planetas",
+    "exoplaneta estranho",
+    "astronomia"
+  ],
+  "hashtags": [
+    "#exoplaneta",
+    "#astronomia",
+    "#neuralupdate"
+  ],
+  "hook": "O PLANETA\nROCHOSO FICOU\nNO LUGAR ERRADO",
+  "roteiro": "Um planeta rochoso apareceu no lugar errado.\n\nEle não fica perto da estrela: é o mais distante.\n\nDois gigantes cheios de gás ficam antes dele.\n\nNormalmente rochas crescem no calor perto da estrela.\n\nLonge dela, gás frio forma gigantes.\n\nImpacto e troca de órbitas foram testados.\n\nMas os cálculos descartaram essas hipóteses.\n\nAgora a pista diz que os planetas nasceram em tempos diferentes.\n\nQuando esse último nasceu, o gás talvez já tivesse acabado.\n\nSerá que nosso sistema é que tem a ordem estranha?\n\n\n\nNeural Update. O universo está te esperando.",
+  "cues": [
+    "Um planeta rochoso",
+    "Ele não fica",
+    "Dois gigantes cheios",
+    "Normalmente rochas crescem",
+    "Longe dela, gás",
+    "Impacto e troca",
+    "Mas os cálculos"
+  ],
+  "prompts": [
+    "A small rocky exoplanet orbiting at the outermost edge of an alien planetary system, far beyond glowing gas giants, rocky world and giant planets large and dominant in a tall vertical frame, cinematic scientific realism, one single continuous scene with no frames or borders",
+    "A rocky planet definitely not close to its red star, shown far outside the orbits of several giant planets, star and distant rocky world large and dominant in a tall vertical frame, high contrast astronomy visualization, one single continuous scene with no frames or borders",
+    "Two immense swirling gas giant planets orbiting between a red dwarf star and a small outer rocky planet, planets large and dominant in a tall vertical frame, realistic exoplanet documentary image, one single continuous scene with no frames or borders",
+    "A young planetary disk near a bright star where small rocky worlds assemble in the hot inner region, glowing dust and rocky embryos large and dominant in a tall vertical frame, cinematic scientific visualization, one single continuous scene with no frames or borders",
+    "The cold outer edge of a young planetary disk where thick gas gathers around forming giant planets, gas giants and icy dust large and dominant in a tall vertical frame, astrophysics documentary realism, one single continuous scene with no frames or borders",
+    "A dramatic ancient collision between planets beside a star followed by changing orbital paths, shattered debris and curving orbital trails large and dominant in a tall vertical frame, scientific hypothesis visualization, one single continuous scene with no frames or borders",
+    "A late small rocky planet condensing from a nearly gas-empty planetary disk after its giant siblings already formed, rocky world and sparse fading disk large and dominant in a tall vertical frame, cinematic astronomy realism, one single continuous scene with no frames or borders"
+  ],
+  "fonte": "Agência Espacial Europeia / Cheops, 12/02/2026 — https://www.esa.int/Science_Exploration/Space_Science/Cheops/Cheops_discovers_late_bloomer_from_another_era",
+  "extra": "Fonte primária confirma o planeta externo rochoso após dois gasosos, hipóteses de impacto e troca de órbita descartadas e a explicação de formação tardia em ambiente sem gás. Roteiro com 83 palavras e sem nomes estrangeiros. Tema conferido contra usados e pendentes: foca na ordem invertida de composição do sistema, não em microlente ou atmosferas planetárias."
+}

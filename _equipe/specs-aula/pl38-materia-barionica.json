@@ -1,0 +1,48 @@
+[
+  {
+    "slug": "pl38-materia-barionica",
+    "stream": "aula",
+    "voice": "female",
+    "publishAt": "2026-09-08T17:00:00.000Z",
+    "track": "dark-some-amount-of-evil.mp3",
+    "topic": "materia barionica cinco por cento do universo maior parte em gas entre galaxias",
+    "isca": false,
+    "title": "🔭 Tudo que você já viu na vida é 5% do universo 🌌 #Shorts",
+    "desc1": "AULA da escola Universo do Zero. Matéria bariônica é a matéria comum, a de átomos — a que forma estrela, planeta e você. Ela responde por cerca de cinco por cento do universo, e mesmo dentro desses cinco por cento a maior parte não está em estrelas.",
+    "tags": [
+      "matéria bariônica",
+      "matéria escura",
+      "energia escura",
+      "cosmologia",
+      "meio intergaláctico",
+      "aula de astronomia"
+    ],
+    "hashtags": [
+      "#cosmologia",
+      "#astronomia",
+      "#neuralupdate"
+    ],
+    "hook": "SOME COM TUDO\nQUE VOCÊ VÊ:\nSÓ 5% SUMIU",
+    "roteiro": "Some com tudo que você já viu na vida e o universo perde cinco por cento.\n\nEstrela, planeta, o seu corpo: tudo isso é matéria comum, feita de átomos.\n\nE ela é só cerca de cinco por cento do total.\n\nO resto é matéria escura e energia escura, que ninguém enxergou direto.\n\nE mesmo desses cinco por cento, a maior parte não está em estrelas.\n\nEstá em gás fino, espalhado no vazio entre as galáxias.\n\n>> Na próxima aula: como um computador simula o universo inteiro. Quarta, dia nove, às duas.",
+    "cues": [
+      "Some com tudo que",
+      "Estrela, planeta, o seu",
+      "E ela é só",
+      "O resto é matéria",
+      "E mesmo desses cinco",
+      "Está em gás fino,",
+      "Na próxima aula: como"
+    ],
+    "prompts": [
+      "A tiny sliver of a glowing pie chart solid and bright while the rest is dark and empty, subject large and dominant in frame, filling most of the tall vertical frame, cinematic astrophysics visualization, deep black space, no text, no logo, no watermark, one single continuous scene with no frames or borders",
+      "A huge telescope pointed at an empty dark sky finding nothing, plainly the wrong answer, subject large and dominant in frame, filling most of the tall vertical frame, cinematic astrophysics visualization, deep black space, no text, no logo, no watermark, one single continuous scene with no frames or borders",
+      "Ordinary glowing atoms assembling into a star, a planet and a human silhouette, subject large and dominant in frame, filling most of the tall vertical frame, cinematic astrophysics visualization, deep black space, no text, no logo, no watermark, one single continuous scene with no frames or borders",
+      "A vast dark halo of invisible mass dwarfing a small bright galaxy at its centre, subject large and dominant in frame, filling most of the tall vertical frame, cinematic astrophysics visualization, deep black space, no text, no logo, no watermark, one single continuous scene with no frames or borders",
+      "A bright galaxy shown small against an enormous surrounding cloud of faint diffuse gas, subject large and dominant in frame, filling most of the tall vertical frame, cinematic astrophysics visualization, deep black space, no text, no logo, no watermark, one single continuous scene with no frames or borders",
+      "Thin glowing filaments of gas stretching through the emptiness between distant galaxies, subject large and dominant in frame, filling most of the tall vertical frame, cinematic astrophysics visualization, deep black space, no text, no logo, no watermark, one single continuous scene with no frames or borders",
+      "A glowing computer simulated cosmic web of galaxies filling the whole frame, subject large and dominant in frame, filling most of the tall vertical frame, cinematic astrophysics visualization, deep black space, no text, no logo, no watermark, one single continuous scene with no frames or borders"
+    ],
+    "fonte": "Cosmologia — composição do universo (Planck 2018): ~5% bariônica, ~27% escura, ~68% energia escura",
+    "extra": "Aula 12. Fecha o arco. Anuncia simulações cosmológicas (próximo item do MAPA-ESTUDOS)."
+  }
+]

@@ -1,0 +1,45 @@
+{
+  "slug": "nw-ia-ouve-mancha-solar",
+  "stream": "news",
+  "track": "dark-some-amount-of-evil.mp3",
+  "topic": "inteligencia artificial prever manchas solares ondas magneticas NASA agosto 2026",
+  "isca": false,
+  "title": "📰 A IA NÃO espera a mancha solar aparecer (ela ouve o Sol antes) ☀️ #Shorts",
+  "desc1": "Uma equipe da NASA desenvolveu um modelo de aprendizado de máquina que consegue prever o surgimento de regiões ativas no Sol até 12 horas antes de elas aparecerem na superfície. Essas regiões produzem manchas solares e impulsionam eventos severos, como erupções solares e ejeções de massa coronal. O modelo procura reduções sutis nas ondas acústicas e no campo magnético enquanto a estrutura ainda sobe pelo interior do Sol. A NASA ressalta que a técnica é promissora, mas ainda não está pronta para previsão operacional em tempo real.",
+  "tags": [
+    "IA prevê manchas solares",
+    "inteligência artificial",
+    "manchas solares",
+    "tempestade solar",
+    "ondas acústicas do Sol",
+    "NASA",
+    "astronomia"
+  ],
+  "hashtags": [
+    "#inteligenciaartificial",
+    "#sol",
+    "#neuralupdate"
+  ],
+  "hook": "A IA OUVE\nA MANCHA ANTES\nDE ELA NASCER",
+  "roteiro": "Uma mancha solar que ainda nem apareceu.\n\nUma inteligência artificial consegue enxergar seus sinais antes de uma região nova.\n\nEla ouve ondas minúsculas vibrando debaixo da superfície solar.\n\nEssas ondas mudam quando campos magnéticos sobem.\n\nMas ninguém vê o campo enquanto ele está escondido.\n\nO programa aprende o ritmo de um Sol muito barulhento, cheio de ruído.\n\nEle pode marcar o lugar da próxima mancha até doze horas antes.\n\nSerá que isso um dia vai avisar uma tempestade antes de ela nascer?\n\n\n\nNeural Update. O universo está te esperando.",
+  "cues": [
+    "Uma mancha solar",
+    "Uma inteligência artificial",
+    "Ela ouve ondas",
+    "Essas ondas mudam",
+    "Mas ninguém vê",
+    "O programa aprende",
+    "Ele pode marcar"
+  ],
+  "prompts": [
+    "A close dramatic view of the Sun with one dark active region still hidden beneath its glowing surface, brilliant solar plasma filling most of a tall vertical frame, cinematic scientific documentary realism, one single continuous scene with no frames or borders",
+    "An elegant artificial intelligence visualization observing the blazing Sun, subtle luminous patterns flowing over a solar surface while no visible sunspot exists yet, subjects large and dominant in a tall vertical frame, realistic science documentary style, one single continuous scene with no frames or borders",
+    "A cutaway of the Sun showing tiny acoustic waves rippling below the glowing orange surface, concentric vibrations large and dominant in a tall vertical frame, high contrast solar science visualization, one single continuous scene with no frames or borders",
+    "Powerful magnetic fields rising upward through the Sun as twisting bright loops disturb subtle wave patterns below the surface, solar structure large and dominant in a tall vertical frame, cinematic scientific realism, one single continuous scene with no frames or borders",
+    "A hidden magnetic structure deep below the Sun's bright turbulent surface, visible only as a dark ghostly shape beneath glowing plasma, subject large and dominant in a tall vertical frame, immediate cosmic awe, one single continuous scene with no frames or borders",
+    "A roaring noisy solar surface with countless chaotic waves and plasma cells while a single faint rhythm emerges among them, the Sun filling most of the tall vertical frame, realistic astronomical imaging, one single continuous scene with no frames or borders",
+    "A newly emerging sunspot beginning to darken the solar surface as a solar flare arcs above it, active region large and dominant in a tall vertical frame, high contrast NASA documentary realism, one single continuous scene with no frames or borders"
+  ],
+  "fonte": "NASA / COFFIES, 14/08/2026 — https://science.nasa.gov/science-research/heliophysics/nasas-coffies-uses-ai-to-predict-storm-causing-active-regions-on-sun/",
+  "extra": "Spec da semana seguinte, com ângulo de previsão por IA e não da tempestade solar G2 já produzida. A fonte confirma até 12 horas de antecedência para regiões ativas, mas informa que o modelo ainda não está pronto para previsão operacional; o roteiro não promete uso atual."
+}

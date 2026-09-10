@@ -1,0 +1,45 @@
+{
+  "slug": "nw-planeta-luz-tremeu",
+  "stream": "news",
+  "track": "dark-some-amount-of-evil.mp3",
+  "topic": "planeta super jupiter microlente gravitacional luz estrela NASA julho 2026",
+  "isca": false,
+  "title": "📰 Esse planeta NÃO devia aparecer (a luz entregou ele) 🪐 #Shorts",
+  "desc1": "A NASA anunciou em 1 de julho de 2026 que a missão TESS identificou pela primeira vez um sistema planetário por microlente gravitacional: a gravidade do sistema ampliou temporariamente a luz de uma estrela de fundo, e a cadência da missão revelou detalhes adicionais causados pelo planeta. O mundo é um super-Júpiter de cerca de 1,6 massas de Júpiter, orbitando longe de sua estrela anfitriã. A técnica abre uma nova forma de encontrar planetas que não cruzam o disco de suas estrelas.",
+  "tags": [
+    "microlente gravitacional",
+    "planeta escondido",
+    "super Jupiter",
+    "exoplaneta",
+    "NASA",
+    "gravidade",
+    "astronomia"
+  ],
+  "hashtags": [
+    "#exoplaneta",
+    "#astronomia",
+    "#neuralupdate"
+  ],
+  "hook": "A LUZ\nENTREGOU ESSE\nPLANETA",
+  "roteiro": "Um planeta escondido que dobrou a luz de uma estrela.\n\nUm telescópio achou suas pistas em ondulações no espaço.\n\nAté agora, ele procurava planetas vendo a estrela piscar.\n\nMas esse gigante ficou longe demais para passar na frente dela.\n\nA gravidade dele ampliou a luz de outra estrela por acaso.\n\nO telescópio viu um detalhe extra nesse clarão.\n\nEle tem mais de uma vez e meia a massa de Júpiter e mora longe da estrela.\n\nQuantos planetas escondidos estão fazendo a luz tremer sem ninguém perceber?\n\n\n\nNeural Update. O universo está te esperando.",
+  "cues": [
+    "Um planeta escondido",
+    "Um telescópio achou",
+    "Até agora, ele",
+    "Mas esse gigante",
+    "A gravidade dele",
+    "O telescópio viu",
+    "Ele tem mais"
+  ],
+  "prompts": [
+    "A massive hidden gas giant bending and amplifying the brilliant light of a distant star, the planet large and dominant in a tall vertical frame, intense gravitational lensing arcs against black space, cinematic scientific documentary realism, one single continuous scene with no frames or borders",
+    "A realistic space telescope observing a far star field as one star's light ripples into a bright warped ring, telescope and glowing lensing event large and dominant in a tall vertical frame, cinematic scientific documentary photography, one single continuous scene with no frames or borders",
+    "A single distant star blinking with a tiny dark planet passing directly across its bright face, close dramatic view with the star filling most of the tall vertical frame, high contrast astronomical survey realism, one single continuous scene with no frames or borders",
+    "A huge distant gas giant orbiting far from its faint host star, clearly missing the direct line between star and observer, planet large and dominant in a tall vertical frame, deep black space, cinematic scientific realism, one single continuous scene with no frames or borders",
+    "Gravity from a giant planet warping the light of a background star into luminous curved streaks around it, the warped star light large and dominant in frame, high contrast cosmic documentary image, one single continuous scene with no frames or borders",
+    "A space telescope detector view transformed into a vivid close cosmic scene, one sudden extra bright bump appearing within a stellar light curve in space, bright event large and dominant in a tall vertical frame, cinematic scientific realism, one single continuous scene with no frames or borders",
+    "A colossal super-Jupiter floating far from its small host star, broad rings of bent starlight trembling around the planet, subject large and dominant in a tall vertical frame, immediate awe, realistic astronomical imaging, one single continuous scene with no frames or borders"
+  ],
+  "fonte": "NASA / TESS, 01/07/2026 — https://science.nasa.gov/missions/tess/nasas-tess-mission-finds-planetary-system-in-new-way/",
+  "extra": "Spec da semana seguinte. A fonte confirma a primeira identificação de um sistema planetário pela missão TESS via microlente e um super-Júpiter de cerca de 1,6 massas de Júpiter. O roteiro evita TESS e microlente para não introduzir grafia fonética nova. Corpo: 86 palavras."
+}

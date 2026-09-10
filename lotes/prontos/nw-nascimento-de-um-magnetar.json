@@ -1,0 +1,47 @@
+[
+  {
+    "slug": "nw-nascimento-de-um-magnetar",
+    "stream": "news",
+    "track": "dark-some-amount-of-evil.mp3",
+    "topic": "nascimento magnetar SN2024afav supernova superluminosa chirp lense-thirring",
+    "isca": false,
+    "title": "📰 Viram o ímã mais forte do universo NASCER (dentro de uma explosão) ⚡ #Shorts",
+    "desc1": "Pela primeira vez, astrônomos acompanharam o nascimento de um magnetar. Na supernova SN 2024afav, a curva de luz apresentou uma variação repetida, descrita como um chirp, atribuída à precessão de Lense-Thirring prevista pela relatividade geral: o núcleo recém-formado gira inclinado e arrasta o espaço-tempo ao redor. É a primeira evidência direta de que magnetares, estrelas de nêutrons com campo magnético extremo e rotação rápida, alimentam pelo menos parte das supernovas superluminosas, as explosões estelares mais brilhantes já registradas. Estudo divulgado pela Universidade da Califórnia em Berkeley em março de 2026.",
+    "tags": [
+      "magnetar",
+      "estrela de neutrons",
+      "supernova superluminosa",
+      "SN 2024afav",
+      "relatividade geral",
+      "astronomia",
+      "astrofisica"
+    ],
+    "hashtags": [
+      "#magnetar",
+      "#astronomia",
+      "#neuralupdate"
+    ],
+    "hook": "O ÍMÃ MAIS\nFORTE DO\nUNIVERSO NASCEU",
+    "roteiro": "O ímã mais forte do universo nasce dentro de uma explosão.\n\nE alguém finalmente viu isso acontecer.\n\nA estrela explodiu brilhando muito mais do que uma supernova comum consegue brilhar.\n\nMas o que entregou o segredo foi um tremor no brilho, que se repetia.\n\nEsse tremor é o núcleo girando torto e arrastando o espaço em volta dele.\n\nÉ a assinatura de uma estrela de neutrons com campo magnético absurdo.\n\nQuantas explosões que a gente já viu tinham um ímã escondido dentro?\n\n\n\nNeural Update. O universo está te esperando.",
+    "cues": [
+      "O ímã mais forte",
+      "E alguém finalmente viu",
+      "A estrela explodiu brilhando",
+      "Mas o que entregou",
+      "Esse tremor é o",
+      "É a assinatura de",
+      "Quantas explosões que a"
+    ],
+    "prompts": [
+      "A neutron star blazing with violent magnetic field lines erupting from its poles, twisted loops of energy wrapping the tiny brilliant sphere, subject large and dominant in frame, filling most of the tall vertical frame, bright and high contrast against black space, cinematic scientific documentary photography, immediate awe, one single continuous scene with no frames or borders",
+      "A colossal star exploding in a blinding white flash, shock wave of light expanding outward through space, subject large and dominant in frame, filling most of the tall vertical frame, cinematic scientific documentary photography, bright and high contrast against black space, immediate awe, one single continuous scene with no frames or borders",
+      "An extraordinarily bright supernova outshining an entire galaxy behind it, the galaxy dim and small next to the blazing point of light, subject large and dominant in frame, filling most of the tall vertical frame, cinematic scientific documentary photography, high contrast, one single continuous scene with no frames or borders",
+      "A brilliant point of light in deep space pulsing in a rhythmic pattern, luminous rings of brightness rippling outward from it in waves, subject large and dominant in frame, filling most of the tall vertical frame, cinematic scientific documentary photography, high contrast against black space, one single continuous scene with no frames or borders",
+      "A dense spinning stellar core tilted on its axis, dragging the fabric of space around it into a visible swirling vortex of warped light, subject large and dominant in frame, filling most of the tall vertical frame, cinematic scientific documentary photography, immediate awe, one single continuous scene with no frames or borders",
+      "An extreme close view of a magnetar: a small incandescent sphere surrounded by an overwhelming cage of glowing magnetic field lines, subject large and dominant in frame, filling most of the tall vertical frame, bright and high contrast against black space, cinematic scientific documentary photography, one single continuous scene with no frames or borders",
+      "A wide field of deep space scattered with the fading remnants of many ancient supernovae, glowing shells of gas at different stages, subject large and dominant in frame, filling most of the tall vertical frame, astronomical survey image, immediate awe, one single continuous scene with no frames or borders"
+    ],
+    "fonte": "UC Berkeley / SN 2024afav, março de 2026 — news.berkeley.edu/2026/03/11/astronomers-capture-birth-of-a-magnetar-confirming-link-to-some-of-universes-brightest-exploding-stars/",
+    "extra": "Siglas e nome da supernova ficam so na descricao. | TTS: escrever neutrons SEM acento (nêutrons sai como neutros)."
+  }
+]

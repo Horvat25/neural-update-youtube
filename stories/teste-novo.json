@@ -1,0 +1,29 @@
+[
+  {
+    "slug": "teste-noticia",
+    "tipo": "noticia",
+    "selo": "descoberta",
+    "fato": "Acharam [[água]] na porta do buraco negro da Via Láctea.",
+    "fonte": "A meio ano-luz do monstro do centro da galáxia — onde a conta dizia que nada sobrevive.",
+    "cta": "O vídeo completo está no perfil",
+    "ctaSub": "E o texto, no blog"
+  },
+  {
+    "slug": "teste-kindle",
+    "tipo": "kindle",
+    "selo": "leitura",
+    "fato": "Em 40 segundos [[não cabe]] o universo.",
+    "fonte": "O que não coube nos vídeos está nos livros. O primeiro mês do Kindle Unlimited é grátis.",
+    "cta": "Um mês de leitura ilimitada",
+    "ctaSub": "Link na bio · sem precisar ter um Kindle"
+  },
+  {
+    "slug": "teste-blog",
+    "tipo": "blog",
+    "selo": "no blog hoje",
+    "fato": "Por que a noite é [[escura]]?",
+    "fonte": "A pergunta parece boba e derrubou a ideia de um universo eterno. Matéria completa no blog.",
+    "cta": "Leia no neural-update.com.br",
+    "ctaSub": "Link na bio · matéria nova todo dia"
+  }
+]

@@ -1,0 +1,48 @@
+[
+  {
+    "slug": "pl30-estrelas-de-neutrons",
+    "stream": "aula",
+    "voice": "female",
+    "publishAt": "2026-08-31T17:00:00.000Z",
+    "track": "dark-some-amount-of-evil.mp3",
+    "topic": "estrela de neutrons colapso eletrons empurrados nos protons vinte quilometros colher bilhoes de toneladas",
+    "isca": false,
+    "title": "🔭 Estrela de nêutrons: uma colher pesa BILHÕES de toneladas ⚪ #Shorts",
+    "desc1": "AULA da escola Universo do Zero. Quando uma estrela grande colapsa e não vira buraco negro, a gravidade aperta tanto que os elétrons são empurrados para dentro dos prótons. Sobra uma esfera de cerca de vinte quilômetros carregando mais massa que o Sol inteiro.",
+    "tags": [
+      "estrela de nêutrons",
+      "supernova",
+      "densidade",
+      "astrofísica",
+      "colapso estelar",
+      "aula de astronomia"
+    ],
+    "hashtags": [
+      "#estreladeneutrons",
+      "#astrofísica",
+      "#neuralupdate"
+    ],
+    "hook": "UMA COLHER\nPESA BILHÕES\nDE TONELADAS",
+    "roteiro": "O que sobra quando uma estrela grande morre e não chega a virar buraco negro?\n\nA resposta errada é: uma bola de pedra apagada.\n\nA gravidade aperta tanto que os elétrons entram nos prótons, e sobra quase só neutron.\n\nSobra uma esfera de vinte quilômetros carregando mais massa que o Sol inteiro.\n\nUma colher disso pesaria bilhões de toneladas.\n\nÉ o mais perto que a matéria chega de virar buraco negro sem conseguir.\n\n>> Na próxima aula: a que gira e pisca no ritmo de um relógio. Terça, dia primeiro, às duas.",
+    "cues": [
+      "O que sobra quando",
+      "A resposta errada é:",
+      "A gravidade aperta tanto",
+      "Sobra uma esfera de",
+      "Uma colher disso pesaria",
+      "É o mais perto",
+      "Na próxima aula: a"
+    ],
+    "prompts": [
+      "A giant star collapsing inward in a violent implosion of light, subject large and dominant in frame, filling most of the tall vertical frame, cinematic astrophysics visualization, deep black space, no text, no logo, no watermark, one single continuous scene with no frames or borders",
+      "A dull grey lifeless rock drifting in space, plainly unremarkable and wrong, subject large and dominant in frame, filling most of the tall vertical frame, cinematic astrophysics visualization, deep black space, no text, no logo, no watermark, one single continuous scene with no frames or borders",
+      "Particles crushed together into a single uniform dense mass under immense compressive force, subject large and dominant in frame, filling most of the tall vertical frame, cinematic astrophysics visualization, deep black space, no text, no logo, no watermark, one single continuous scene with no frames or borders",
+      "A tiny perfectly smooth white blue sphere held against the enormous glowing disc of a sun for scale, no craters, no rings, subject large and dominant in frame, filling most of the tall vertical frame, cinematic astrophysics visualization, deep black space, no text, no logo, no watermark, one single continuous scene with no frames or borders",
+      "A single spoonful of impossibly dense glowing matter sinking heavily and bending the ground beneath it, subject large and dominant in frame, filling most of the tall vertical frame, cinematic astrophysics visualization, deep black space, no text, no logo, no watermark, one single continuous scene with no frames or borders",
+      "A small brilliant sphere sitting just outside a dark event horizon, holding its shape against it, subject large and dominant in frame, filling most of the tall vertical frame, cinematic astrophysics visualization, deep black space, no text, no logo, no watermark, one single continuous scene with no frames or borders",
+      "A small smooth sphere spinning fast with two narrow light beams sweeping out from its poles, subject large and dominant in frame, filling most of the tall vertical frame, cinematic astrophysics visualization, deep black space, no text, no logo, no watermark, one single continuous scene with no frames or borders"
+    ],
+    "fonte": "Astrofísica estelar — colapso, degenerescência de nêutrons e densidade nuclear",
+    "extra": "Aula 4. Anuncia pulsares. ATENÇÃO: escrevi neutron SEM acento de propósito — o TTS erra nêutrons."
+  }
+]

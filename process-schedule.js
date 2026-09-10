@@ -10,11 +10,9 @@
  *   node process-schedule.js          → posta 1 vencido + reagenda o resto
  *   node process-schedule.js --dry    → só mostra o que faria (não posta)
  */
-require('dotenv').config();
-const fs = require('fs');
 const path = require('path');
-const { spawn } = require('child_process');
-const axios = require('axios');
+require('dotenv').config({ path: path.join(__dirname, '.env') });
+const fs = require('fs');
 const { runDailyPost } = require('./auto-agent');
 
 const DRY = process.argv.includes('--dry');
@@ -24,18 +22,17 @@ const RESCHEDULE_GAP_MS = 3 * 60 * 60 * 1000; // 3h entre os reagendados
 function load() { try { return JSON.parse(fs.readFileSync(SCHEDULE_FILE, 'utf8')); } catch { return []; } }
 function save(a) { fs.mkdirSync(path.dirname(SCHEDULE_FILE), { recursive: true }); fs.writeFileSync(SCHEDULE_FILE, JSON.stringify(a, null, 2)); }
 
-const AGENT_URL = process.env.IMAGE_AGENT_URL || 'http://localhost:3030';
-const AGENT_DIR = process.env.IMAGE_AGENT_DIR || path.join(__dirname, '..', 'neural-image-agent');
-async function isAgentUp() { try { await axios.get(AGENT_URL + '/', { timeout: 2500 }); return true; } catch (e) { return !!(e.response && e.response.status); } }
-async function ensureImageAgent() {
-  if (await isAgentUp()) return true;
-  try { const c = spawn(process.execPath, ['src/index.js'], { cwd: AGENT_DIR, detached: true, stdio: 'ignore', windowsHide: true }); c.unref(); } catch {}
-  for (let i = 0; i < 8; i++) { await new Promise(r => setTimeout(r, 2000)); if (await isAgentUp()) return true; }
-  return false;
-}
-
 (async () => {
   const now = Date.now();
+
+  // Guarda de horário: não postar entre 00h-07h (hora local).
+  // Shorts recebem boost nas primeiras 1-2h — madrugada = zero engajamento inicial.
+  const hourNow = new Date().getHours();
+  if (hourNow >= 0 && hourNow < 7) {
+    console.log(`[process-schedule] ${hourNow}h — fora da janela de publicação (00h-07h). Aguardando próximo slot.`);
+    return;
+  }
+
   let arr = load();
   const overdue = arr
     .filter(s => s.status === 'pending' && new Date(s.when).getTime() <= now)
@@ -66,7 +63,6 @@ async function ensureImageAgent() {
   if (fi >= 0) arr[fi].status = 'running';
   save(arr);
 
-  await ensureImageAgent();
   let r;
   try { r = await runDailyPost({ format: first.format || undefined, privacyStatus: first.privacyStatus || undefined }); }
   catch (e) { r = { ok: false, reason: e.message }; }

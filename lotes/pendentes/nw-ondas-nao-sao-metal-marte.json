@@ -1,0 +1,45 @@
+{
+  "slug": "nw-ondas-nao-sao-metal-marte",
+  "stream": "news",
+  "track": "dark-some-amount-of-evil.mp3",
+  "topic": "ondas metalicas nao sao metal dunas areia gelo cratera Kaiser Marte ESA 2026",
+  "isca": false,
+  "title": "📰 Essas ondas NÃO são de metal (são areia marciana) 🪐 #Shorts",
+  "desc1": "Uma imagem da Mars Express, da Agência Espacial Europeia, mostra ondas escuras e quase brilhantes no fundo da cratera Kaiser, em Marte. Publicada em 15 de julho de 2026, a observação revela um campo de dunas de areia basáltica, rica em minerais vulcânicos como piroxênio e olivina. As dunas podem ultrapassar 100 metros acima do terreno ao redor e são moldadas por ventos que sopram predominantemente do oeste. O aspecto metálico não vem de metal: a ESA atribui o brilho a depósitos claros de gelo nas encostas voltadas ao sul. A paisagem muda lentamente porque o vento move areia o tempo todo.",
+  "tags": [
+    "ondas de metal em Marte",
+    "dunas marcianas",
+    "cratera Kaiser",
+    "Mars Express",
+    "areia basaltica",
+    "gelo em Marte",
+    "astronomia"
+  ],
+  "hashtags": [
+    "#marte",
+    "#astronomia",
+    "#neuralupdate"
+  ],
+  "hook": "ONDAS DE\nMETAL EM\nMARTE?",
+  "roteiro": "Ondas escuras cobrem o fundo de uma cratera gigantesca em Marte.\n\nElas parecem feitas de METAL, mas são areia.\n\nSão dunas de minerais vulcânicos moldadas pelo vento marciano.\n\nAlgumas se erguem mais de cem metros acima do chão.\n\nMas o brilho vem de gelo claro acumulado nas encostas voltadas ao sul.\n\nA areia continua mudando de lugar enquanto o vento passa.\n\nDunas em meia lua se juntam e formam ondas longas.\n\nQuanto do passado de Marte fica gravado num grão de areia?\n\n\n\nNeural Update. O universo está te esperando.",
+  "cues": [
+    "Ondas escuras cobrem",
+    "Elas parecem feitas",
+    "São dunas de minerais",
+    "Algumas se erguem",
+    "Mas o brilho vem",
+    "A areia continua mudando",
+    "Quanto do passado de"
+  ],
+  "prompts": [
+    "A vast Martian crater floor filled with dark metallic-looking waves of sand dunes, the black ridges gleaming under low sunlight, subjects large and dominant in a tall vertical frame, cinematic scientific documentary photography, bright high contrast against red Mars, one single continuous scene with no frames or borders",
+    "Extreme close view of dark glossy Martian dune waves that look like sculpted metal but reveal fine granular sand along their sharp ridges, subject large and dominant in frame, cinematic scientific realism, one single continuous scene with no frames or borders",
+    "A powerful field of black basaltic sand dunes flowing across an ancient red Martian crater, volcanic mineral grains sparkling in the light, subject large and dominant in a tall vertical frame, astronomical survey image realism, immediate awe, one single continuous scene with no frames or borders",
+    "Ground-level view of an enormous Martian dune rising like a dark ocean wave far above the surrounding crater floor, its crest towering against a thin orange sky, subject large and dominant in frame, cinematic scientific documentary photography, one single continuous scene with no frames or borders",
+    "Close orbital view of dark Martian dunes with pale frost glowing on their south-facing slopes, a striking contrast of black sand and bright ice, subject large and dominant in a tall vertical frame, high contrast astronomical survey image, one single continuous scene with no frames or borders",
+    "Wind sweeping fine dark sand across the rippled surface of a Martian dune field, fresh moving grains tracing luminous lines over the red terrain, subject large and dominant in frame, cinematic scientific documentary photography, one single continuous scene with no frames or borders",
+    "A majestic panorama of crescent dunes merging into long dark waves across an ancient Martian crater, endless patterns disappearing toward the horizon, subjects large and dominant in a tall vertical frame, sense of scale that feels physically impossible, one single continuous scene with no frames or borders"
+  ],
+  "fonte": "Agência Espacial Europeia / Mars Express, 15/07/2026 — https://www.esa.int/Science_Exploration/Space_Science/Mars_Express/Metallic_waves_on_ancient_Mars",
+  "extra": "Fonte primária confirma dunas basálticas, mais de 100 m, ventos de oeste e o brilho causado por gelo nas encostas sul. Tema separado dos redemoinhos marcianos: geologia de dunas e aparência metálica. Corpo: 82 palavras."
+}

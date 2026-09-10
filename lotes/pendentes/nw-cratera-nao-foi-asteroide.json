@@ -1,0 +1,45 @@
+{
+  "slug": "nw-cratera-nao-foi-asteroide",
+  "stream": "news",
+  "track": "dark-some-amount-of-evil.mp3",
+  "topic": "cratera Lua estagio foguete impacto poeira antiga material fresco LRO NASA agosto 2026",
+  "isca": false,
+  "title": "📰 Esta cratera NÃO nasceu de um asteroide (foi um foguete) 🌕 #Shorts",
+  "desc1": "A sonda Lunar Reconnaissance Orbiter da NASA fotografou em 11 e 12 de agosto de 2026 uma cratera nova na Lua, aberta seis dias antes pelo estágio superior de um foguete Falcon 9. A cratera tem cerca de 18 metros de largura e menos de 3 metros de profundidade. As imagens mostram raios escuros de poeira e rochas alteradas por radiação e impactos por muito tempo, e riscos claros de material fresco retirado de camadas mais profundas. Para registrar o local, os engenheiros inclinaram a sonda a cada passagem; dez segundos de diferença tirariam a cratera do centro da imagem.",
+  "tags": [
+    "cratera não foi asteroide",
+    "Lua impacto foguete",
+    "Lunar Reconnaissance Orbiter",
+    "cratera recém-nascida",
+    "poeira lunar",
+    "NASA Lua",
+    "astronomia"
+  ],
+  "hashtags": [
+    "#lua",
+    "#astronomia",
+    "#neuralupdate"
+  ],
+  "hook": "A CRATERA QUE\nNÃO VEIO DO\nESPAÇO",
+  "roteiro": "Uma cápsula de foguete abriu uma nova ferida na Lua.\n\nEla não chegou lá em missão: caiu depois de vagar pelo espaço.\n\nO impacto lançou poeira velha para longe da superfície.\n\nNas imagens, faixas escuras mostram o material exposto à radiação por eras.\n\nPerto da borda, riscos claros vieram de camadas mais profundas.\n\nMas a câmera viu tudo apenas porque ajustou sua mira durante cada passagem.\n\nUma diferença de dez segundos mudaria o alvo por quilômetros.\n\nQue outras histórias uma cratera recém-nascida ainda pode revelar?\n\n\n\nNeural Update. O universo está te esperando.",
+  "cues": [
+    "Uma cápsula de foguete",
+    "Ela não chegou",
+    "O impacto lançou",
+    "Nas imagens, faixas",
+    "Perto da borda",
+    "Mas a câmera",
+    "Uma diferença de"
+  ],
+  "prompts": [
+    "A newly formed sharp lunar crater on gray powdery ground, fresh broken rim and a dramatic gouge in the Moon's surface, crater large and dominant in a tall vertical frame, realistic lunar orbital photography, one single continuous scene with no frames or borders",
+    "An unmarked rocket upper stage drifting silently above the Moon before falling toward the gray surface, the small metallic object and lunar horizon large and dominant in a tall vertical frame, cinematic space documentary realism, one single continuous scene with no frames or borders",
+    "A violent impact plume on the Moon throwing a wide fan of old gray lunar dust away from a fresh crater, lunar terrain and plume large and dominant in a tall vertical frame, high speed scientific visualization, one single continuous scene with no frames or borders",
+    "Close orbital view of a lunar crater surrounded by dark weathered rays of dusty rock, dark ejecta streaks spreading across gray regolith, crater and rays large and dominant in a tall vertical frame, realistic scientific photography, one single continuous scene with no frames or borders",
+    "A sharp fresh lunar crater rim with bright pale streaks of newly excavated material rising from deeper layers, brilliant ejecta contrasting with older gray dust, subjects large and dominant in a tall vertical frame, cinematic scientific realism, one single continuous scene with no frames or borders",
+    "A lunar orbiter tilting its camera toward a tiny fresh crater far below, spacecraft and illuminated lunar target large and dominant in a tall vertical frame, realistic NASA-style documentary image, one single continuous scene with no frames or borders",
+    "A precise orbital camera view sweeping rapidly over a small fresh crater on the Moon, the crater centered while the gray surface races beneath, subject large and dominant in a tall vertical frame, cinematic scientific visualization, one single continuous scene with no frames or borders"
+  ],
+  "fonte": "NASA / Lunar Reconnaissance Orbiter, 18/08/2026 — https://science.nasa.gov/solar-system/moon/nasas-lro-images-falcon-9-crater-on-moon-learns-new-details/",
+  "extra": "Fonte primária confirma o impacto em 05/08, imagens em 11–12/08, largura de 60 pés, profundidade inferior a 10 pés e a janela de dez segundos. Roteiro com 85 palavras; evita nomes de missões e marcas na locução para TTS. Tema conferido contra usados e pendentes: o foco é uma cratera causada por foguete e suas camadas de solo, não micróbios nem geologia lunar geral."
+}

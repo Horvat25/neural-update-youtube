@@ -1,0 +1,48 @@
+[
+  {
+    "slug": "pl33-nucleossintese-estelar",
+    "stream": "aula",
+    "voice": "female",
+    "publishAt": "2026-09-03T17:00:00.000Z",
+    "track": "dark-some-amount-of-evil.mp3",
+    "topic": "ferro mata a estrela camadas de cebola fusao ate o ferro colapso do nucleo supernova",
+    "isca": false,
+    "title": "🔭 Toda estrela grande morre por causa do FERRO ⚙️ #Shorts",
+    "desc1": "AULA da escola Universo do Zero. Por dentro, uma estrela massiva é como uma cebola: cada camada funde um elemento diferente, e toda fusão até o ferro libera energia — é essa energia que sustenta a estrela contra a própria gravidade. Fundir ferro, porém, consome energia em vez de liberar. No instante em que o núcleo vira ferro, o apoio desaparece e a estrela colapsa em menos de um segundo.",
+    "tags": [
+      "nucleossíntese",
+      "fusão nuclear",
+      "supernova",
+      "ferro",
+      "astrofísica",
+      "aula de astronomia"
+    ],
+    "hashtags": [
+      "#astrofísica",
+      "#supernova",
+      "#neuralupdate"
+    ],
+    "hook": "O FERRO É O QUE\nMATA UMA\nESTRELA",
+    "roteiro": "Toda estrela grande morre por causa de um elemento só: o ferro.\n\nPor dentro ela é uma cebola: cada camada funde um elemento mais pesado.\n\nHidrogênio fica fora; ferro se acumula no centro.\n\nEssa fusão solta energia e segura a estrela contra a própria gravidade.\n\nMas fundir ferro faz o contrário: consome energia.\n\nQuando o núcleo vira ferro, o empurrão acaba e a estrela desaba em menos de um segundo.\n\nÉ a supernova: morrendo, ela espalha tudo que fabricou.\n\n>> Na próxima aula: o gráfico que organiza todas as estrelas do céu. Sexta, dia quatro, às duas.",
+    "cues": [
+      "Toda estrela grande morre",
+      "Por dentro ela é",
+      "Essa fusão solta",
+      "Mas fundir ferro",
+      "Quando o núcleo vira",
+      "É a supernova",
+      "Na próxima aula: o"
+    ],
+    "prompts": [
+      "A human hand dissolving into glowing atoms that drift out into a starfield, subject large and dominant in frame, filling most of the tall vertical frame, cinematic astrophysics visualization, deep black space, no text, no logo, no watermark, one single continuous scene with no frames or borders",
+      "Atoms sitting frozen and unchanged in empty space, plainly the wrong idea, subject large and dominant in frame, filling most of the tall vertical frame, cinematic astrophysics visualization, deep black space, no text, no logo, no watermark, one single continuous scene with no frames or borders",
+      "Two simple glowing hydrogen nuclei fusing into a heavier one, releasing light, subject large and dominant in frame, filling most of the tall vertical frame, cinematic astrophysics visualization, deep black space, no text, no logo, no watermark, one single continuous scene with no frames or borders",
+      "Concentric glowing shells inside a giant star, each layer a different burning element, the core brightest, subject large and dominant in frame, filling most of the tall vertical frame, cinematic astrophysics visualization, deep black space, no text, no logo, no watermark, one single continuous scene with no frames or borders",
+      "A dense iron core at the centre of a star turning dark and collapsing inward, subject large and dominant in frame, filling most of the tall vertical frame, cinematic astrophysics visualization, deep black space, no text, no logo, no watermark, one single continuous scene with no frames or borders",
+      "A supernova scattering glowing heavy elements outward across space, subject large and dominant in frame, filling most of the tall vertical frame, cinematic astrophysics visualization, deep black space, no text, no logo, no watermark, one single continuous scene with no frames or borders",
+      "A scatter graph of stars forming a clear diagonal band of light, subject large and dominant in frame, filling most of the tall vertical frame, cinematic astrophysics visualization, deep black space, no text, no logo, no watermark, one single continuous scene with no frames or borders"
+    ],
+    "fonte": "Nucleossíntese estelar — cadeia de fusão até o ferro e enriquecimento por supernova (Burbidge et al., 1957)",
+    "extra": "Aula 7. Prometida pela pl32 (\"de onde vieram os átomos do seu corpo\"). Anuncia o diagrama HR."
+  }
+]

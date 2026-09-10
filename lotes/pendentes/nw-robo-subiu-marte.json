@@ -1,0 +1,45 @@
+{
+  "slug": "nw-robo-subiu-marte",
+  "stream": "news",
+  "track": "dark-some-amount-of-evil.mp3",
+  "topic": "rover Curiosity marco um quilometro subida Monte Sharp Marte agosto 2026",
+  "isca": false,
+  "title": "📰 Esse robô NÃO parou de subir Marte (já ganhou 1 km) 🤖 #Shorts",
+  "desc1": "Em 26 de agosto de 2026, o rover Curiosity da NASA completou um ganho de elevação de um quilômetro desde a cratera Gale, na subida do Monte Sharp em Marte. A missão, em atividade há 14 anos, registrou a vista com um mosaico de 323 imagens capturadas no início de agosto. A montanha tem cerca de cinco quilômetros de altura; o rover a escala desde 2014 para investigar as camadas geológicas que registram os antigos ambientes marcianos.",
+  "tags": [
+    "Curiosity Marte",
+    "rover marciano",
+    "Monte Sharp",
+    "cratera Gale",
+    "NASA Marte",
+    "exploração espacial",
+    "geologia marciana"
+  ],
+  "hashtags": [
+    "#marte",
+    "#nasa",
+    "#neuralupdate"
+  ],
+  "hook": "UM ROBÔ\nSUBIU 1 KM\nEM MARTE",
+  "roteiro": "Marcas de rodas subindo uma montanha em Marte.\n\nUm robô chegou a mil metros acima do ponto onde pousou.\n\nEle levou quatorze anos para vencer essa subida.\n\nO caminho atravessa camadas de pedra deixadas por ambientes antigos.\n\nMas a montanha ainda tem quatro quilômetros de altura.\n\nA imagem nova juntou trezentas e vinte e três fotos numa só paisagem.\n\nLá de cima, as marcas das rodas somem na poeira marciana.\n\nO que essas camadas ainda guardam sobre a história da água?\n\n\n\nNeural Update. O universo está te esperando.",
+  "cues": [
+    "Marcas de rodas",
+    "Um robô chegou",
+    "Ele levou quatorze",
+    "O caminho atravessa",
+    "Mas a montanha",
+    "A imagem nova",
+    "O que essas camadas"
+  ],
+  "prompts": [
+    "Deep rover tracks climbing a red rocky mountainside on Mars, the wheel marks large and dominant in a tall vertical frame, dusty orange sky and layered cliffs, cinematic planetary realism, one single continuous scene with no frames or borders",
+    "A rugged six-wheeled Mars rover climbing a steep red slope, subject large and dominant in frame with a vast crater floor below, realistic solar panels and instruments, one single continuous scene with no frames or borders",
+    "A lone Mars rover paused halfway up a giant mountain after a long ascent, its wheels dusty and its trail winding far below, filling most of tall vertical frame, cinematic realism, one single continuous scene with no frames or borders",
+    "Close view of ancient layered sedimentary rock walls on Mars, horizontal bands of red, tan and gray stone towering over a small rover, subjects large and dominant in frame, one single continuous scene with no frames or borders",
+    "A colossal five-kilometer Martian mountain rising through a thin dusty atmosphere, a tiny rover trail climbing its lower flank but the mountain itself dominant in frame, cinematic planetary realism, one single continuous scene with no frames or borders",
+    "A Mars rover camera view creating a seamless wide panorama of a broad red valley and distant crater rim, subject large and dominant in tall vertical frame, realistic dust haze, one single continuous scene with no frames or borders",
+    "Wheel tracks fading into red Martian dust beneath towering ancient rock layers, a small rover visible near the horizon, subject large and dominant in frame, contemplative planetary realism, one single continuous scene with no frames or borders"
+  ],
+  "fonte": "NASA / JPL-Caltech / Curiosity, 26/08/2026 — https://science.nasa.gov/mars/curiosity-reaches-1-kilometer-elevation-gain/",
+  "extra": "Marco recente de missão em curso. O roteiro evita Curiosity, Gale e Mount Sharp para não introduzir grafia fonética nova no TTS. Os 323 quadros e o ganho de 1 km vêm da fonte primária. Corpo: 81 palavras."
+}

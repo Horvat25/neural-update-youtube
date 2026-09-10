@@ -1,0 +1,47 @@
+[
+  {
+    "slug": "nw-deimos-impacto-unico",
+    "stream": "news",
+    "track": "dark-some-amount-of-evil.mp3",
+    "topic": "deimos lua marte impacto asteroide depressao sul superficie lisa",
+    "isca": false,
+    "title": "📰 Deimos NÃO nasceu assim (um impacto explica tudo) 🌑 #Shorts",
+    "desc1": "Um estudo publicado em 18 de agosto de 2026 na Nature Astronomy propõe que um único impacto de asteroide, sem destruir Deimos, pode explicar duas características estranhas da menor lua de Marte: a grande depressão no polo sul e sua superfície globalmente lisa e empoeirada. As simulações indicam que o impacto espalharia regolito pela lua, cobrindo parte das marcas antigas. É uma hipótese testável por missões futuras, não uma conclusão definitiva.",
+    "tags": [
+      "deimos",
+      "lua de marte",
+      "impacto de asteroide",
+      "cratera deimos",
+      "marte",
+      "astronomia",
+      "nature astronomy"
+    ],
+    "hashtags": [
+      "#marte",
+      "#astronomia",
+      "#neuralupdate"
+    ],
+    "hook": "A LUA DE MARTE\nNÃO NASCEU\nASSIM",
+    "roteiro": "Uma lua de Marte com cicatriz enorme.\n\nAquela cavidade no sul pode ter nascido num único impacto.\n\nEla parece lisa demais para rocha tão antiga.\n\nA simulação mostra que o choque jogou poeira por toda a lua.\n\nMas a pancada não a destruiu: ela sobreviveu como um monte de escombros.\n\nCom o tempo, essa poeira cobriu as marcas menores da superfície.\n\nAgora a cratera do sul e o rosto liso estranho da lua podem ter a mesma origem.\n\nSerá que uma marca de impacto pode reescrever um mundo inteiro?\n\n\n\nNeural Update. O universo está te esperando.",
+    "cues": [
+      "Uma lua de Marte com",
+      "Aquela cavidade no sul",
+      "Ela parece lisa demais",
+      "A simulação mostra que",
+      "Mas a pancada não",
+      "Com o tempo, essa",
+      "Agora a cratera e"
+    ],
+    "prompts": [
+      "Deimos, the small outer moon of Mars, seen extremely close as an irregular rocky world with an enormous south polar scar, subject large and dominant in frame, filling most of the tall vertical frame, bright and high contrast against black space, cinematic scientific documentary photography, immediate awe, no text, no logo, no watermark, one single continuous scene with no frames or borders",
+      "A single asteroid striking the southern end of a small Martian moon, a vast explosion of rock and dust erupting from the impact basin, subject large and dominant in frame, filling most of the tall vertical frame, cinematic scientific documentary photography, high contrast against black space, no text, no logo, no watermark, one single continuous scene with no frames or borders",
+      "A close orbital view of a tiny moon with an unnaturally smooth dusty surface and muted grey regolith, the huge southern depression visible at the edge, subject large and dominant in frame, filling most of the tall vertical frame, scientific space photography, immediate awe, no text, no logo, no watermark, one single continuous scene with no frames or borders",
+      "A violent cloud of pale dust and broken rock spreading around a small moon after an asteroid impact, the moon still intact at the center, subject large and dominant in frame, filling most of the tall vertical frame, cinematic scientific documentary photography, bright and high contrast against black space, no text, no logo, no watermark, one single continuous scene with no frames or borders",
+      "An irregular porous rubble-pile moon holding together after a catastrophic-looking collision, loose boulders and dust drifting just above its surface, subject large and dominant in frame, filling most of the tall vertical frame, cinematic scientific documentary photography, immediate awe, no text, no logo, no watermark, one single continuous scene with no frames or borders",
+      "Fine grey regolith slowly cascading over the scarred surface of a small Martian moon, burying tiny craters beneath a soft dusty layer, subject large and dominant in frame, filling most of the tall vertical frame, cinematic scientific documentary photography, high contrast against black space, no text, no logo, no watermark, one single continuous scene with no frames or borders",
+      "A dramatic full view of Deimos above Mars, one giant south polar depression and a smooth dusty face illuminated by sunlight, subject large and dominant in frame, filling most of the tall vertical frame, cinematic scientific documentary photography, immediate awe, no text, no logo, no watermark, one single continuous scene with no frames or borders"
+    ],
+    "fonte": "Nature Astronomy, 18/08/2026 — https://www.nature.com/articles/s41550-026-02956-w",
+    "extra": "Deimos aparece apenas em título, descrição, tags e prompts. O roteiro evita nome estrangeiro para o TTS. Corpo: 84 palavras. Estudo propõe uma hipótese de impacto subcatastrófico; não narrar como certeza. | TTS: cratera seguida de e vira crateria — separar com outra palavra."
+  }
+]

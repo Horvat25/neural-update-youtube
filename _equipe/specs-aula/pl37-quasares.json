@@ -1,0 +1,48 @@
+[
+  {
+    "slug": "pl37-quasares",
+    "stream": "aula",
+    "voice": "female",
+    "publishAt": "2026-09-07T17:00:00.000Z",
+    "track": "dark-some-amount-of-evil.mp3",
+    "topic": "quasar buraco negro supermassivo comendo rapido brilha mais que a galaxia luz do passado",
+    "isca": false,
+    "title": "🔭 Quasar: parecia estrela, mas estava a bilhões de anos-luz 🔦 #Shorts",
+    "desc1": "AULA da escola Universo do Zero. Um quasar é um buraco negro supermassivo se alimentando depressa demais, com o disco em brasa. Quando foram descobertos pareciam estrelas no telescópio — mas a luz vinha de bilhões de anos-luz de distância.",
+    "tags": [
+      "quasar",
+      "buraco negro supermassivo",
+      "universo jovem",
+      "redshift",
+      "astrofísica",
+      "aula de astronomia"
+    ],
+    "hashtags": [
+      "#quasar",
+      "#astronomia",
+      "#neuralupdate"
+    ],
+    "hook": "ACHARAM QUE\nERA UMA\nESTRELA COMUM",
+    "roteiro": "Viram um ponto de luz no telescópio e acharam que era uma estrela.\n\nSó que aquela luz vinha de bilhões de anos-luz de distância.\n\nÉ um quasar: um buraco negro supermassivo comendo rápido demais.\n\nDo tamanho do sistema solar, brilhando mais que a galáxia inteira.\n\nE como olhar longe é olhar para o passado, quase todo quasar é um retrato do universo jovem.\n\nO objeto mais brilhante que existe é também um dos mais antigos.\n\n>> Na próxima aula: a matéria bariônica. Terça, dia oito, às duas.",
+    "cues": [
+      "Viram um ponto de",
+      "Só que aquela luz",
+      "É um quasar: um",
+      "Do tamanho do sistema",
+      "E como olhar longe",
+      "O objeto mais brilhante",
+      "Na próxima aula: a"
+    ],
+    "prompts": [
+      "A single blazing point of light outshining an entire spiral galaxy beside it, subject large and dominant in frame, filling most of the tall vertical frame, cinematic astrophysics visualization, deep black space, no text, no logo, no watermark, one single continuous scene with no frames or borders",
+      "An ordinary large star glowing quietly, plainly not enough to explain it, subject large and dominant in frame, filling most of the tall vertical frame, cinematic astrophysics visualization, deep black space, no text, no logo, no watermark, one single continuous scene with no frames or borders",
+      "A furious white hot disc whirling around a supermassive black sphere, subject large and dominant in frame, filling most of the tall vertical frame, cinematic astrophysics visualization, deep black space, no text, no logo, no watermark, one single continuous scene with no frames or borders",
+      "A point of light seen through a telescope eyepiece looking deceptively like a nearby star, subject large and dominant in frame, filling most of the tall vertical frame, cinematic astrophysics visualization, deep black space, no text, no logo, no watermark, one single continuous scene with no frames or borders",
+      "A beam of ancient light travelling across an enormous stretch of space toward a small blue planet, subject large and dominant in frame, filling most of the tall vertical frame, cinematic astrophysics visualization, deep black space, no text, no logo, no watermark, one single continuous scene with no frames or borders",
+      "A young chaotic universe full of brilliant quasars burning in the distance, subject large and dominant in frame, filling most of the tall vertical frame, cinematic astrophysics visualization, deep black space, no text, no logo, no watermark, one single continuous scene with no frames or borders",
+      "A galaxy with most of its substance drawn as invisible faint outline, only a sliver glowing solid, subject large and dominant in frame, filling most of the tall vertical frame, cinematic astrophysics visualization, deep black space, no text, no logo, no watermark, one single continuous scene with no frames or borders"
+    ],
+    "fonte": "Quasares — 3C 273 (Schmidt, 1963) e núcleos ativos de galáxias no universo jovem",
+    "extra": "Aula 11. Anuncia matéria bariônica."
+  }
+]

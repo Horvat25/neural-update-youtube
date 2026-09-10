@@ -1,0 +1,62 @@
+[
+  {
+    "slug": "pl27-espaco-tempo",
+    "publishAt": "2026-08-28T17:00:00.000Z",
+    "desc1": "AULA da escola Universo do Zero. O tempo não é igual para todos: ele depende da velocidade de quem mede. Quanto mais rápido alguém se move, mais devagar o relógio dele anda — já foi medido com relógios atômicos em avião. Na velocidade da luz o tempo pararia, mas nada com massa chega lá. Quem chega é a própria luz, e para ela o tempo não passa.",
+    "hashtags": [
+      "#relatividade",
+      "#física",
+      "#neuralupdate"
+    ]
+  },
+  {
+    "slug": "pl28-lentes-gravitacionais",
+    "publishAt": "2026-08-29T17:00:00.000Z",
+    "desc1": "AULA da escola Universo do Zero. Massa entorta o espaço, e a luz que passa perto segue esse desvio. Um aglomerado de galáxias na frente vira uma lente natural: ele espalha em arcos a imagem do que está atrás, às vezes em várias cópias da mesma galáxia — e amplifica objetos fracos demais para qualquer telescópio sozinho.",
+    "hashtags": [
+      "#relatividade",
+      "#astronomia",
+      "#neuralupdate"
+    ]
+  },
+  {
+    "slug": "pl29-raio-de-schwarzschild",
+    "publishAt": "2026-08-30T17:00:00.000Z",
+    "desc1": "AULA da escola Universo do Zero. Buraco negro não é uma coisa pesada, é uma coisa apertada. Para cada massa existe um raio crítico: se ela couber dentro dele, nada mais escapa. O da Terra tem cerca de nove milímetros; o do Sol, cerca de três quilômetros.",
+    "hashtags": [
+      "#buraconegro",
+      "#física",
+      "#neuralupdate"
+    ]
+  },
+  {
+    "slug": "pl30-estrelas-de-neutrons",
+    "publishAt": "2026-08-31T17:00:00.000Z",
+    "desc1": "AULA da escola Universo do Zero. Quando uma estrela grande colapsa e não vira buraco negro, a gravidade aperta tanto que os elétrons são empurrados para dentro dos prótons. Sobra uma esfera de cerca de vinte quilômetros carregando mais massa que o Sol inteiro.",
+    "hashtags": [
+      "#estreladeneutrons",
+      "#astrofísica",
+      "#neuralupdate"
+    ]
+  },
+  {
+    "slug": "pl31-pulsares",
+    "publishAt": "2026-09-01T17:00:00.000Z",
+    "desc1": "AULA da escola Universo do Zero. Um pulsar é uma estrela de nêutrons girando: ela dispara dois feixes pelos polos e, se um deles varre a Terra, chega um pulso a cada volta. Farol, não mensagem. Alguns giram centenas de vezes por segundo, sempre no mesmo compasso.",
+    "hashtags": [
+      "#pulsar",
+      "#astronomia",
+      "#neuralupdate"
+    ]
+  },
+  {
+    "slug": "pl32-magnetares",
+    "publishAt": "2026-09-02T17:00:00.000Z",
+    "desc1": "AULA da escola Universo do Zero. Um magnetar é uma estrela de nêutrons com o campo magnético mais intenso que se conhece. Ele é tão forte que deforma átomos e faz a própria crosta da estrela rachar — e cada rachadura solta um surto de raios gama que atravessa a galáxia.",
+    "hashtags": [
+      "#magnetar",
+      "#astrofísica",
+      "#neuralupdate"
+    ]
+  }
+]

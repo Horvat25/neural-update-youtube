@@ -1,0 +1,45 @@
+{
+  "slug": "nw-galaxia-nao-esta-vazia",
+  "stream": "news",
+  "track": "dark-some-amount-of-evil.mp3",
+  "topic": "galaxia fantasma materia escura aglomerados globulares gas arrancado Perseus ESA fevereiro 2026",
+  "isca": false,
+  "title": "📰 Esta galáxia NÃO está vazia (a massa dela é invisível) 🌌 #Shorts",
+  "desc1": "A Agência Espacial Europeia divulgou em 18 de fevereiro de 2026 a identificação de uma galáxia extremamente fraca, quase toda dominada por matéria escura. O objeto, chamado CDG-2, fica no aglomerado de Perseu, a cerca de 300 milhões de anos-luz, e parece ter apenas quatro aglomerados globulares de estrelas, contra mais de 150 na Via Láctea. Os astrônomos encontraram primeiro esse pequeno grupo de aglomerados e só depois confirmaram um brilho difuso ao redor. A análise preliminar indica que 99% da massa é matéria escura; interações gravitacionais podem ter removido o hidrogênio que formaria estrelas.",
+  "tags": [
+    "galáxia invisível",
+    "galáxia fantasma",
+    "matéria escura",
+    "aglomerados globulares",
+    "Perseu galáxia",
+    "Euclid ESA",
+    "astronomia"
+  ],
+  "hashtags": [
+    "#materiaescura",
+    "#galaxia",
+    "#neuralupdate"
+  ],
+  "hook": "ELA NÃO ESTÁ\nVAZIA\nA MASSA É INVISÍVEL",
+  "roteiro": "Uma galáxia quase não mostra estrelas.\n\nEla não está vazia: a massa parece invisível.\n\nEssa galáxia tem só quatro conjuntos de estrelas.\n\nEsses grupos densos resistem à gravidade vizinha.\n\nPor isso viraram pistas de uma galáxia fantasma.\n\nSó depois apareceu um brilho fraco ao redor deles.\n\nMas noventa e nove por cento da massa pode ser escura.\n\nInterações talvez arrancaram o gás necessário às estrelas.\n\nSem gás, ela teve pouco material para fabricar estrelas.\n\nQuantas galáxias invisíveis estão escondidas no universo?\n\n\n\nNeural Update. O universo está te esperando.",
+  "cues": [
+    "Uma galáxia quase",
+    "Ela não está",
+    "Essa galáxia tem",
+    "Esses grupos densos",
+    "Por isso viraram",
+    "Só depois apareceu",
+    "Mas noventa e"
+  ],
+  "prompts": [
+    "A ghostly diffuse galaxy barely visible against deep black space, only a faint cloud of starlight surrounding a few bright compact star clusters, galaxy and clusters large and dominant in a tall vertical frame, realistic telescope imagery, one single continuous scene with no frames or borders",
+    "A galaxy definitely not empty, shown as an almost invisible halo of dark matter bending faint starlight around a sparse stellar core, dark halo and galaxy large and dominant in a tall vertical frame, cinematic scientific visualization, one single continuous scene with no frames or borders",
+    "Four brilliant compact globular star clusters floating alone in the darkness where a galaxy should be, clusters large and dominant in a tall vertical frame, high contrast astronomical photography, one single continuous scene with no frames or borders",
+    "Close majestic view of a dense spherical globular cluster packed with ancient gold and blue stars, the cluster large and dominant in a tall vertical frame against black space, scientific telescope image realism, one single continuous scene with no frames or borders",
+    "Several compact star clusters acting as luminous clues around an almost completely hidden ghost galaxy, clusters and faint galaxy outline large and dominant in a tall vertical frame, cinematic astronomy documentary realism, one single continuous scene with no frames or borders",
+    "An extremely faint diffuse glow emerging around four bright star clusters after long telescope observation, delicate halo and clusters large and dominant in a tall vertical frame, realistic scientific imagery, one single continuous scene with no frames or borders",
+    "A dark matter dominated ghost galaxy with a vast invisible mass halo and only a few stars, no bright spiral arms, halo and sparse clusters large and dominant in a tall vertical frame, scientific visualization, one single continuous scene with no frames or borders"
+  ],
+  "fonte": "Agência Espacial Europeia / Hubble e Euclid, 18/02/2026 — https://www.esa.int/Science_Exploration/Space_Science/Hubble_Euclid_Subaru_uncover_dark_galaxy",
+  "extra": "Fonte primária confirma os quatro aglomerados, brilho difuso posterior, cerca de 99% de massa escura como análise preliminar e possível remoção de hidrogênio. Roteiro com 81 palavras e não usa nomes estrangeiros. Tema conferido contra usados e pendentes: foca numa galáxia fantasma detectada pelos aglomerados, distinto de mapeamento geral de matéria escura, fusões ou lentes gravitacionais."
+}

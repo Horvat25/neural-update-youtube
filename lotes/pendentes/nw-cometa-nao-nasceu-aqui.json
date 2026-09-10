@@ -1,0 +1,45 @@
+{
+  "slug": "nw-cometa-nao-nasceu-aqui",
+  "stream": "news",
+  "track": "dark-some-amount-of-evil.mp3",
+  "topic": "cometa interestelar 3I ATLAS agua pesada carbono antigo origem antes do Sol Webb ESA 2026",
+  "isca": false,
+  "title": "📰 Esse cometa NÃO nasceu aqui (é mais velho que o Sol) ☄️ #Shorts",
+  "desc1": "O cometa interestelar 3I/ATLAS, o terceiro já confirmado vindo de fora do Sistema Solar, foi analisado pelo telescópio espacial James Webb depois de passar perto do Sol. A Agência Espacial Europeia informou em 22 de junho de 2026 que o objeto tem uma proporção de deutério — hidrogênio pesado — cerca de 30 vezes maior que a dos cometas do nosso sistema, e pouco carbono-13. As assinaturas químicas sugerem que ele se formou em uma nuvem muito fria, num sistema estelar antigo, possivelmente há 10 a 12 bilhões de anos. A idade é uma estimativa, não uma medição direta.",
+  "tags": [
+    "cometa interestelar",
+    "3I ATLAS",
+    "cometa mais velho que o Sol",
+    "agua pesada",
+    "James Webb",
+    "origem do Sistema Solar",
+    "astronomia"
+  ],
+  "hashtags": [
+    "#cometa",
+    "#astronomia",
+    "#neuralupdate"
+  ],
+  "hook": "COMETA\nDE OUTRA\nESTRELA",
+  "roteiro": "Um cometa de fora do Sistema Solar atravessou nosso bairro cósmico.\n\nEle traz água pesada demais para ter nascido perto do Sol.\n\nO gelo dele guarda muito mais hidrogênio pesado que os cometas daqui.\n\nEsse sinal aponta para uma nuvem fria em outra época da galáxia.\n\nMas o carbono também parece antigo demais para o nosso sistema.\n\nO material pode ter se formado antes mesmo do Sol existir.\n\nPesquisadores calculam que ele nasceu há até doze bilhões de anos.\n\nQuantos segredos de outras estrelas ainda cruzam nosso caminho?\n\n\n\nNeural Update. O universo está te esperando.",
+  "cues": [
+    "Um cometa de fora",
+    "Ele traz água pesada",
+    "O gelo dele guarda",
+    "Esse sinal aponta",
+    "Mas o carbono também",
+    "O material pode ter",
+    "Quantos segredos de outras"
+  ],
+  "prompts": [
+    "An ancient interstellar comet with a rugged dark icy nucleus and a brilliant blue-white gas coma crossing through a deep black starfield, subject large and dominant in frame, filling most of the tall vertical frame, cinematic scientific documentary photography, immediate awe, one single continuous scene with no frames or borders",
+    "Close view of an icy comet nucleus glowing as sunlight turns ancient frozen material into a luminous cloud of gas, subject large and dominant in a tall vertical frame, bright and high contrast against black space, astronomical survey image realism, one single continuous scene with no frames or borders",
+    "A translucent comet coma filled with shimmering ice particles and luminous molecular vapor surrounding a dark core, intricate cold blue detail, subject large and dominant in frame, cinematic scientific documentary photography, one single continuous scene with no frames or borders",
+    "A solitary comet emerging from a vast frozen dark molecular cloud far from any visible star, its long pale tail stretching across the cosmos, subject large and dominant in a tall vertical frame, sense of scale that feels physically impossible, one single continuous scene with no frames or borders",
+    "An ancient comet nucleus drifting through a field of soft amber and blue starlight, delicate spectral-like glowing bands around the coma suggesting unusual chemistry, subject large and dominant in frame, astronomical survey image realism, one single continuous scene with no frames or borders",
+    "A primordial comet flying past a young golden star in the distance, the comet's scarred icy surface sharply visible and far older than the bright stellar system, subject large and dominant in a tall vertical frame, cinematic scientific documentary photography, one single continuous scene with no frames or borders",
+    "A brilliant interstellar comet crossing between distant stars and the faint glow of a spiral galaxy, its luminous tail pointing into the unknown, subject large and dominant in frame, immediate awe, one single continuous scene with no frames or borders"
+  ],
+  "fonte": "Agência Espacial Europeia / James Webb, 22/06/2026 — https://www.esa.int/Science_Exploration/Space_Science/Webb/Webb_finds_clues_to_ancient_origin_of_Comet_3I_ATLAS",
+  "extra": "Fonte primária cita deutério cerca de 30 vezes acima dos cometas do Sistema Solar, baixo carbono-13 e estimativa de origem há 10–12 bilhões de anos. O roteiro evita 3I/ATLAS e Webb para não exigir grafia fonética. Corpo: 88 palavras."
+}

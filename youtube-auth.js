@@ -8,12 +8,21 @@ const { google } = require('googleapis');
 const fs = require('fs');
 const path = require('path');
 
-const TOKENS_PATH = path.join(__dirname, '.yt-tokens.json');
+const TOKENS_PATH = path.isAbsolute(process.env.YT_TOKENS_FILE || '')
+  ? process.env.YT_TOKENS_FILE
+  : path.join(__dirname, process.env.YT_TOKENS_FILE || '.yt-tokens.json');
 
 const SCOPES = [
-  'https://www.googleapis.com/auth/youtube.upload',
-  'https://www.googleapis.com/auth/youtube.readonly',
+  'https://www.googleapis.com/auth/youtube',           // escopo completo: upload + editar + deletar
   'https://www.googleapis.com/auth/yt-analytics.readonly',
+  // ⚠️ COMENTÁRIO EXIGE ESTE ESCOPO, e só ele (21/08/2026).
+  // `auth/youtube` NÃO cobre comentário: sem `force-ssl` a API devolve
+  // `insufficientPermissions` até pra LER os comentários de um vídeo do próprio canal.
+  // Por que importa: no YouTube o espectador de Short não abre o perfil, então o
+  // comentário fixado é o único caminho até a oferta. Ver ESTADO-DA-OPERACAO.md.
+  // ⚠️ Mudar esta lista NÃO invalida o token atual — `getAuthorizedClient` só carrega o
+  // arquivo salvo. O escopo novo só passa a valer depois de rodar `node youtube-login.js`.
+  'https://www.googleapis.com/auth/youtube.force-ssl',
 ];
 
 function getOAuthClient(redirectUri) {

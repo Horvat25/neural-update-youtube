@@ -1,0 +1,47 @@
+[
+  {
+    "slug": "nw-estrela-explodiu-sem-jato",
+    "stream": "news",
+    "track": "dark-some-amount-of-evil.mp3",
+    "topic": "supernova SN 2026gzf clarão inicial onda de choque sem jato relativistico agosto 2026",
+    "isca": false,
+    "title": "📰 Essa estrela NÃO lançou o jato esperado (mas explodiu igual) 💥 #Shorts",
+    "desc1": "Uma equipe liderada pela Carnegie Mellon acompanhou a supernova SN 2026gzf desde o primeiro clarão de raios X, detectado em março de 2026. Divulgado em 5 de agosto, o estudo descreve apenas o segundo caso claro em mais de 20 anos de uma onda de choque vista saindo de uma estrela moribunda. A explosão tinha características associadas a jatos e rajadas de raios gama, mas observações de rádio e raios X não encontraram o jato relativístico esperado. Uma hipótese é que ele tenha ficado preso na estrela ou no material ao redor.",
+    "tags": [
+      "supernova",
+      "explosão estelar",
+      "onda de choque",
+      "raios X",
+      "jato relativístico",
+      "astronomia",
+      "Chandra"
+    ],
+    "hashtags": [
+      "#supernova",
+      "#astronomia",
+      "#neuralupdate"
+    ],
+    "hook": "A ESTRELA\nEXPLODIU\nSEM JATO",
+  "roteiro": "Uma estrela explodindo, vista no primeiro clarão de luz.\n\nTelescópios pegaram a onda saindo da superfície.\n\nEsse brilho dura segundos ou horas e escapa.\n\nA explosão aconteceu numa galáxia a quinhentos milhões de anos-luz.\n\nMas ela parecia uma explosão que deveria lançar um jato violentíssimo.\n\nPesquisadores procuraram o jato e não acharam nada.\n\nTalvez ele tenha morrido preso bem dentro da própria estrela.\n\nQuantas explosões parecidas escondem jatos que nunca chegam ao espaço até nós?\n\n\n\nNeural Update. O universo está te esperando.",
+    "cues": [
+      "Uma estrela explodindo",
+      "Telescópios pegaram",
+      "Esse brilho dura",
+      "A explosão aconteceu",
+      "Mas ela parecia",
+    "Pesquisadores procuraram",
+      "Quantas explosões parecidas"
+    ],
+    "prompts": [
+      "A massive blue star exploding in deep space at the exact first instant of a supernova, a brilliant white shock wave breaking through its surface, subject large and dominant in a tall vertical frame, cinematic scientific realism, one single continuous scene with no frames or borders",
+      "A glowing spherical shock wave bursting outward from the surface of a dying star, layers of hot gas tearing open, filling most of tall vertical frame, high-energy astrophysics realism, one single continuous scene with no frames or borders",
+      "A brilliant short-lived X-ray flash radiating from a supernova shock breakout, electric blue and white light cutting across black space, subject large and dominant in frame, one single continuous scene with no frames or borders",
+      "A distant spiral galaxy with one newly exploded blue-white supernova blazing near its outer edge, subject large and dominant in tall vertical frame, profound cosmic scale, one single continuous scene with no frames or borders",
+      "An enormous supernova blast with a narrow dark jet-shaped channel that stops inside the exploding star instead of escaping, subject large and dominant in frame, realistic turbulent stellar gas, one single continuous scene with no frames or borders",
+      "A sensitive space X-ray observatory aiming at a fading supernova in a distant galaxy, subject large and dominant in a tall vertical frame, dark clean starfield, cinematic scientific realism, one single continuous scene with no frames or borders",
+      "A dying supernova star with a faint trapped jet glowing beneath its expanding shell, huge and dramatic against black space, subject large and dominant in tall vertical frame, one single continuous scene with no frames or borders"
+    ],
+    "fonte": "Chandra X-ray Observatory / Carnegie Mellon University, 05/08/2026 — https://chandra.harvard.edu/press/26_releases/press_080526.html",
+  "extra": "Variação de montagem com cinco palavras cortadas para a faixa de retenção. A fonte descreve o jato preso como hipótese, não conclusão. Roteiro evita os nomes SN 2026gzf, Chandra e Einstein Probe para não exigir grafia fonética nova."
+  }
+]

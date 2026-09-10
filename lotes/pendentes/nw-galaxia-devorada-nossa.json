@@ -1,0 +1,45 @@
+{
+  "slug": "nw-galaxia-devorada-nossa",
+  "stream": "news",
+  "track": "dark-some-amount-of-evil.mp3",
+  "topic": "via lactea galaxia ana fusao antiga aglomerados estrelas ESA agosto 2026",
+  "isca": false,
+  "title": "📰 Nossa galáxia NÃO nasceu sozinha (ela devorou uma menor) 🌌 #Shorts",
+  "desc1": "Dados do Hubble e da missão Gaia deram evidência definitiva de que a jovem Via Láctea absorveu uma galáxia anã há cerca de 11,8 bilhões de anos, apenas 2 bilhões de anos após o Big Bang. Pesquisadores estudaram 39 aglomerados globulares no interior da galáxia e identificaram uma terceira população: mais velha que a de uma fusão posterior, mas mais jovem que os grupos nascidos na própria Via Láctea. A galáxia absorvida, batizada de Low-energy-Kraken-Heracles, tinha cerca de 500 milhões de massas solares em estrelas.",
+  "tags": [
+    "galáxia anã devorada",
+    "Via Láctea",
+    "fusão de galáxias",
+    "aglomerados globulares",
+    "Hubble",
+    "Gaia",
+    "astronomia"
+  ],
+  "hashtags": [
+    "#galaxia",
+    "#astronomia",
+    "#neuralupdate"
+  ],
+  "hook": "NOSSA GALÁXIA\nDEVOROU UMA\nGALÁXIA MENOR",
+  "roteiro": "Uma galáxia anã devorada pela nossa galáxia.\n\nEla caiu nela quando o universo era bebê.\n\nPor muito tempo, essa colisão só aparecia em simulações.\n\nAgora, aglomerados velhos guardaram as estrelas invasoras.\n\nEles são enormes coleções redondas com milhares de estrelas antigas.\n\nMas eles ficavam escondidos no centro tumultuado da galáxia.\n\nUm telescópio comparou a idade e os metais dessas estrelas.\n\nA turma estranha veio de uma galáxia menor, totalmente destruída.\n\nQuantas outras galáxias viraram parte da nossa sem deixar um mapa?\n\n\n\nNeural Update. O universo está te esperando.",
+  "cues": [
+    "Uma galáxia anã",
+    "Ela caiu nela",
+    "Por muito tempo",
+    "Agora, aglomerados velhos",
+    "Eles são enormes",
+    "Mas eles ficavam",
+    "Um telescópio comparou"
+  ],
+  "prompts": [
+    "A small glowing dwarf galaxy being torn apart and swallowed by the bright young spiral of the Milky Way, both galaxies large and dominant in a tall vertical frame, cinematic scientific documentary realism, one single continuous scene with no frames or borders",
+    "A newborn-looking early universe with a tiny dwarf galaxy plunging into a larger turbulent young galaxy, collision subjects large and dominant in a tall vertical frame, immediate cosmic awe, realistic astronomical imagery, one single continuous scene with no frames or borders",
+    "Two faint ancient galaxies on a collision course in deep space, their stars beginning to mix while ghostly orbital trails show only a subtle hidden merger, subjects large and dominant in frame, cinematic survey realism, one single continuous scene with no frames or borders",
+    "A dense ancient globular cluster of countless old stars floating in front of the Milky Way's glowing core, spherical cluster large and dominant in a tall vertical frame, high contrast astronomical photography, one single continuous scene with no frames or borders",
+    "Close majestic view of a round globular cluster packed with thousands of golden and blue stars, the sphere filling most of the tall vertical frame against black space, realistic scientific telescope image, one single continuous scene with no frames or borders",
+    "A swarm of ancient star clusters partly concealed against the crowded chaotic center of a spiral galaxy, bright galactic core and clusters large and dominant in a tall vertical frame, cinematic scientific realism, one single continuous scene with no frames or borders",
+    "A powerful space telescope observing several globular clusters whose stars glow in distinctly different colors and ages, telescope view and star clusters large and dominant in a tall vertical frame, documentary astronomical realism, one single continuous scene with no frames or borders"
+  ],
+  "fonte": "European Space Agency / Hubble e Gaia, 17/08/2026 — https://www.esa.int/Science_Exploration/Space_Science/Hubble_Gaia_solve_our_galaxy_s_merger_mystery",
+  "extra": "Spec da semana seguinte, em história galáctica. A fonte chama a evidência de definitiva e fornece 11,8 bilhões de anos; a locução evita o nome Low-energy-Kraken-Heracles e a abertura A Via Láctea, que são desnecessários e podem falhar no TTS."
+}

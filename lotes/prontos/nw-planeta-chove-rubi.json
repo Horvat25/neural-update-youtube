@@ -1,0 +1,47 @@
+[
+  {
+    "slug": "nw-planeta-chove-rubi",
+    "stream": "news",
+    "track": "dark-some-amount-of-evil.mp3",
+    "topic": "WASP-121b chuva de rubi safira vento supersonico ano de 30 horas jupiter ultraquente",
+    "isca": false,
+    "title": "📰 Existe um planeta onde chove RUBI e SAFIRA (e o ano dura 30 horas) 💎 #Shorts",
+    "desc1": "Chuva de pedras preciosas em outro mundo: observações do telescópio James Webb sobre o exoplaneta WASP-121b, um Júpiter ultraquente, indicam ventos de cerca de 18 mil quilômetros por hora e precipitação de metal líquido no lado noturno, com condensação de minerais como corindo, a mesma substância que forma rubis e safiras. O planeta orbita tão perto da estrela que um ano dele dura aproximadamente 30,5 horas, e mantém sempre a mesma face voltada para ela: o lado do dia derrete a rocha, o vento supersônico carrega o vapor para o lado da noite, e lá o material esfria e se condensa.",
+    "tags": [
+      "WASP-121b",
+      "chuva de rubi",
+      "exoplaneta",
+      "james webb",
+      "jupiter ultraquente",
+      "astronomia",
+      "atmosfera"
+    ],
+    "hashtags": [
+      "#exoplaneta",
+      "#astronomia",
+      "#neuralupdate"
+    ],
+    "hook": "NESSE PLANETA\nCHOVE RUBI\nE SAFIRA",
+    "roteiro": "Existe um planeta onde chove rubi e safira.\n\nE o vento lá passa de dezoito mil quilômetros por hora.\n\nEle fica tão perto da estrela que o ano dele dura trinta horas.\n\nMas o motivo da chuva não é romântico: é a rocha derretendo de dia.\n\nA rocha vira vapor no lado quente, e o vento leva esse vapor pro lado da noite.\n\nLá, longe da estrela, o vapor esfria e cai como cristal.\n\nQue outros minerais estão caindo do céu em algum lugar agora?\n\n\n\nNeural Update. O universo está te esperando.",
+    "cues": [
+      "Existe um planeta onde",
+      "E o vento lá",
+      "Ele fica tão perto",
+      "Mas o motivo da",
+      "A rocha vira vapor",
+      "Lá longe da estrela",
+      "Que outros minerais estão"
+    ],
+    "prompts": [
+      "A glowing alien gas giant planet with deep red and blue crystalline rain falling in streaks through its upper atmosphere, jewel like glints catching the light, subject large and dominant in frame, filling most of the tall vertical frame, bright and high contrast against black space, cinematic scientific documentary photography, immediate awe, one single continuous scene with no frames or borders",
+      "Violent supersonic winds tearing across the face of a hot giant planet, long streaked cloud bands smeared by extreme speed, subject large and dominant in frame, filling most of the tall vertical frame, cinematic scientific documentary photography, bright and high contrast, one single continuous scene with no frames or borders",
+      "A giant planet orbiting extremely close to a blazing star, the star enormous and blinding just beside it, the planet glowing from the heat, subject large and dominant in frame, filling most of the tall vertical frame, cinematic scientific documentary photography, high contrast against black space, immediate awe, one single continuous scene with no frames or borders",
+      "The scorched day side of a tidally locked planet, molten rock glowing orange across the surface and vaporising into the air, subject large and dominant in frame, filling most of the tall vertical frame, cinematic scientific documentary photography, bright and high contrast, one single continuous scene with no frames or borders",
+      "A planet split between a blazing molten day side and a dark night side, glowing vapour streaming across the terminator line from one to the other, subject large and dominant in frame, filling most of the tall vertical frame, cinematic scientific documentary photography, high contrast against black space, one single continuous scene with no frames or borders",
+      "The dark night side of an alien planet where deep red and blue crystals fall like rain through the black atmosphere, faint glints of light on each falling gem, subject large and dominant in frame, filling most of the tall vertical frame, cinematic scientific documentary photography, immediate awe, one single continuous scene with no frames or borders",
+      "A wide view of several strange alien worlds scattered across deep space, each glowing with a different exotic colour, subject large and dominant in frame, filling most of the tall vertical frame, astronomical survey image, bright and high contrast against black space, immediate awe, one single continuous scene with no frames or borders"
+    ],
+    "fonte": "James Webb / WASP-121b — space.com/astronomy/exoplanets/james-webb-space-telescope-forecasts-extreme-weather-on-exoplanet-that-rains-rubies-and-sapphires",
+    "extra": "O nome WASP-121b fica so na descricao, nao entra na narracao."
+  }
+]

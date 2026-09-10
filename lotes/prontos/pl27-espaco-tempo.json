@@ -1,0 +1,48 @@
+[
+  {
+    "slug": "pl27-espaco-tempo",
+    "stream": "aula",
+    "voice": "female",
+    "publishAt": "2026-08-28T17:00:00.000Z",
+    "track": "dark-some-amount-of-evil.mp3",
+    "topic": "dilatacao do tempo muon atmosfera relogio anda mais devagar espaco-tempo",
+    "isca": false,
+    "title": "🔭 Na velocidade da luz o tempo PARA (e por isso você nunca chega lá) ⏱️ #Shorts",
+    "desc1": "AULA da escola Universo do Zero. O tempo não é igual para todos: ele depende da velocidade de quem mede. Quanto mais rápido alguém se move, mais devagar o relógio dele anda — já foi medido com relógios atômicos em avião. Na velocidade da luz o tempo pararia, mas nada com massa chega lá. Quem chega é a própria luz, e para ela o tempo não passa.",
+    "tags": [
+      "dilatação do tempo",
+      "relatividade especial",
+      "velocidade da luz",
+      "fóton",
+      "einstein",
+      "aula de astronomia"
+    ],
+    "hashtags": [
+      "#relatividade",
+      "#física",
+      "#neuralupdate"
+    ],
+    "hook": "E SE VOCÊ FOSSE\nNA VELOCIDADE\nDA LUZ?",
+    "roteiro": "O tempo não passa igual pra todo mundo. Depende do quanto você corre.\n\nDuas pessoas, uma parada e uma correndo: os relógios discordam.\n\nQuanto mais rápido, mais devagar o tempo anda. Já mediram com avião.\n\nE se você chegasse na velocidade da luz? O tempo pararia.\n\nSó que ninguém com massa chega lá. Quem chega é a luz.\n\nPra ela o tempo não existe: o fóton de uma estrela de mil anos atrás chega num instante.\n\n>> Na próxima aula: como funcionam as lentes gravitacionais. Sábado, dia vinte e nove, às duas.",
+    "cues": [
+      "O tempo não passa",
+      "Duas pessoas, uma parada",
+      "Quanto mais rápido, mais",
+      "E se você chegasse",
+      "Só que ninguém com",
+      "Pra ela o tempo",
+      "Na próxima aula: como"
+    ],
+    "prompts": [
+      "A running figure and a still figure side by side, each with a glowing clock, the clocks visibly out of step, subject large and dominant in frame, filling most of the tall vertical frame, cinematic astrophysics visualization, deep black space, no text, no logo, no watermark, one single continuous scene with no frames or borders",
+      "A broken mechanical clock with loose gears falling out, plainly the wrong explanation, subject large and dominant in frame, filling most of the tall vertical frame, cinematic astrophysics visualization, deep black space, no text, no logo, no watermark, one single continuous scene with no frames or borders",
+      "A single glowing particle born at the very top of the atmosphere with the curve of Earth far below, subject large and dominant in frame, filling most of the tall vertical frame, cinematic astrophysics visualization, deep black space, no text, no logo, no watermark, one single continuous scene with no frames or borders",
+      "A vertical measuring scale down through the atmosphere, a short glowing segment near the top against the huge full height to the ground, subject large and dominant in frame, filling most of the tall vertical frame, cinematic astrophysics visualization, deep black space, no text, no logo, no watermark, one single continuous scene with no frames or borders",
+      "A glowing particle streaking down and reaching the ground, a slow clock trailing beside it, subject large and dominant in frame, filling most of the tall vertical frame, cinematic astrophysics visualization, deep black space, no text, no logo, no watermark, one single continuous scene with no frames or borders",
+      "A grid of space and time woven together as one glowing fabric, stretching as something moves through it, subject large and dominant in frame, filling most of the tall vertical frame, cinematic astrophysics visualization, deep black space, no text, no logo, no watermark, one single continuous scene with no frames or borders",
+      "A bright galaxy cluster bending light into luminous arcs with the same background galaxy repeated four times, subject large and dominant in frame, filling most of the tall vertical frame, cinematic astrophysics visualization, deep black space, no text, no logo, no watermark, one single continuous scene with no frames or borders"
+    ],
+    "fonte": "Relatividade especial — dilatação do tempo e o experimento do múon atmosférico (Rossi & Hall, 1941)",
+    "extra": "Aula 1 do arco avançado de espaço-tempo. Tema PROMETIDO no ar pela pl26. Anuncia lentes gravitacionais. GRAFIA FONETICA: o roteiro diz \"muón\" (acento no O) porque toda outra grafia sai como \"Moon\" em ingles. A legenda mostra MÚON por substituicao no .ass."
+  }
+]

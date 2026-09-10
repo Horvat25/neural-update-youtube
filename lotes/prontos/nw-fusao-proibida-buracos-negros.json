@@ -1,0 +1,47 @@
+[
+  {
+    "slug": "nw-fusao-proibida-buracos-negros",
+    "stream": "news",
+    "track": "dark-some-amount-of-evil.mp3",
+    "topic": "GW231123 maior fusao buracos negros 225 massas solares vao proibido ligo virgo kagra",
+    "isca": false,
+    "title": "📰 Detectaram uma fusão de buracos negros que NÃO deveria existir 🕳️ #Shorts",
+    "desc1": "A maior fusão de buracos negros já detectada: o evento GW231123, registrado pela rede LIGO-Virgo-KAGRA, deixou como resultado um buraco negro de cerca de 225 massas solares. O problema é que essa massa cai no chamado vão de massa superior, uma faixa que a teoria de evolução estelar considera proibida: estrelas nessa escala terminam em explosão de instabilidade de pares e não deixam buraco negro. A explicação mais aceita é a fusão hierárquica, ou seja, os dois objetos que se fundiram já seriam eles próprios resultado de fusões anteriores, algo esperado em ambientes densos como aglomerados globulares.",
+    "tags": [
+      "fusao de buracos negros",
+      "GW231123",
+      "ondas gravitacionais",
+      "ligo",
+      "buraco negro de massa intermediaria",
+      "astronomia",
+      "astrofisica"
+    ],
+    "hashtags": [
+      "#buraconegro",
+      "#astronomia",
+      "#neuralupdate"
+    ],
+    "hook": "ESSA FUSÃO\nNÃO DEVERIA\nEXISTIR",
+    "roteiro": "Dois buracos negros se fundiram e criaram um que não deveria existir.\n\nO resultado tem duzentas e vinte e cinco vezes a massa do Sol.\n\nÉ a maior fusão de buracos negros já detectada.\n\nMas o problema é a faixa: essa massa cai num vão que a teoria diz ser proibido.\n\nEstrela nenhuma colapsa e vira um buraco negro desse tamanho.\n\nA explicação mais provável é que eles já eram fusões de fusões anteriores.\n\nQuantas gerações de buracos negros existem acima da gente?\n\n\n\nNeural Update. O universo está te esperando.",
+    "cues": [
+      "Dois buracos negros se",
+      "O resultado tem duzentas",
+      "É a maior fusão",
+      "Mas o problema é",
+      "Estrela nenhuma colapsa",
+      "A explicação mais provável",
+      "Quantas gerações de buracos"
+    ],
+    "prompts": [
+      "Two enormous black holes spiralling into each other, their accretion discs stretched and merging into one warped ring of light, space visibly bent between them, subject large and dominant in frame, filling most of the tall vertical frame, bright and high contrast against black space, cinematic scientific documentary photography, immediate awe, one single continuous scene with no frames or borders",
+      "A single colossal black hole silhouetted against a blazing orange accretion disc, absurdly massive, dwarfing everything around it, subject large and dominant in frame, filling most of the tall vertical frame, cinematic scientific documentary photography, bright and high contrast, immediate awe, one single continuous scene with no frames or borders",
+      "Ripples of gravitational waves spreading outward through a grid of warped space after a violent merger, luminous distortion rings expanding, subject large and dominant in frame, filling most of the tall vertical frame, cinematic scientific documentary photography, high contrast against black space, one single continuous scene with no frames or borders",
+      "A vast dark empty gap in space flanked by black holes of very different sizes on either side, the emptiness between them stark and deliberate, subject large and dominant in frame, filling most of the tall vertical frame, cinematic scientific documentary photography, high contrast, one single continuous scene with no frames or borders",
+      "A giant dying star tearing itself apart in a brilliant explosion that leaves nothing behind, expanding shell of light and gas, subject large and dominant in frame, filling most of the tall vertical frame, cinematic scientific documentary photography, bright and high contrast against black space, one single continuous scene with no frames or borders",
+      "A dense globular star cluster packed with brilliant stars and several dark black holes sinking toward its glowing core, subject large and dominant in frame, filling most of the tall vertical frame, cinematic scientific documentary photography, immediate awe, one single continuous scene with no frames or borders",
+      "A towering hierarchy of black holes of increasing size receding into the depth of black space, each larger than the one before, overwhelming sense of scale, subject large and dominant in frame, filling most of the tall vertical frame, cinematic scientific documentary photography, immediate awe, one single continuous scene with no frames or borders"
+    ],
+    "fonte": "LIGO-Virgo-KAGRA — evento GW231123, maior fusão binária de buracos negros detectada, ~225 massas solares",
+    "extra": "A sigla GW231123 fica so na descricao, nao entra na narracao."
+  }
+]

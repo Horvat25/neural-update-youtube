@@ -1,0 +1,45 @@
+{
+  "slug": "nw-telescopio-nao-ve-mais-nitido",
+  "stream": "news",
+  "track": "dark-some-amount-of-evil.mp3",
+  "topic": "telescopio Roman campo visao cem vezes maior galáxias planetas microlente NASA agosto 2026",
+  "isca": false,
+  "title": "📰 Este telescópio NÃO vê mais nítido (ele vê muito mais céu) 🔭 #Shorts",
+  "desc1": "A NASA informa que o telescópio espacial Roman, previsto para lançamento em 30 de agosto de 2026, terá campo de visão ao menos 100 vezes maior que o do Hubble, mantendo sensibilidade e resolução parecidas no infravermelho. Assim, poderá pesquisar o céu até mil vezes mais rápido e observar bilhões de objetos cósmicos. Seu espelho de 2,4 metros e o instrumento de campo amplo vão mapear galáxias, matéria escura e expansão cósmica. Uma das pesquisas deve monitorar 100 milhões de estrelas para detectar cerca de 2.500 planetas pela microlente gravitacional, inclusive mundos menores que Marte.",
+  "tags": [
+    "telescópio Roman",
+    "campo de visão espaço",
+    "mapa de galáxias",
+    "microlente gravitacional",
+    "planetas menores que Marte",
+    "NASA novo telescópio",
+    "astronomia"
+  ],
+  "hashtags": [
+    "#telescopio",
+    "#espaco",
+    "#neuralupdate"
+  ],
+  "hook": "NÃO VÊ MAIS\nNÍTIDO\nVÊ MAIS CÉU",
+  "roteiro": "Um novo telescópio abraçará uma área enorme do céu.\n\nEle não verá mais detalhes: verá muito mais céu.\n\nCada foto cobrirá uma área cem vezes maior.\n\nUm espelho de dois metros e meio recolherá luz distante.\n\nA missão vai mapear como galáxias se espalham pelo universo.\n\nEla também vai procurar mundos pequenos usando a gravidade das estrelas.\n\nMas essas pistas aparecem quando duas estrelas se alinham por pouco tempo.\n\nUma mudança breve no brilho pode denunciar um planeta escondido.\n\nQuantos mundos cabem num retrato grande demais para nossos olhos?\n\n\n\nNeural Update. O universo está te esperando.",
+  "cues": [
+    "Um novo telescópio",
+    "Ele não verá",
+    "Cada foto cobrirá",
+    "Um espelho de",
+    "A missão vai",
+    "Ela também vai",
+    "Mas essas pistas"
+  ],
+  "prompts": [
+    "A powerful modern space telescope floating above Earth while an immense rectangular swath of star-filled sky opens before it, telescope and vast sky area large and dominant in a tall vertical frame, cinematic scientific documentary realism, one single continuous scene with no frames or borders",
+    "A space telescope looking at an incredibly wide starfield rather than a single zoomed object, hundreds of galaxies and stars filling the enormous survey view, telescope and sky large and dominant in a tall vertical frame, realistic astronomy visualization, one single continuous scene with no frames or borders",
+    "A dramatic comparison of one tiny telescope view nested inside a survey view one hundred times wider, the huge cosmic field packed with galaxies, view boundaries and galaxies large and dominant in a tall vertical frame, clean scientific visualization, one single continuous scene with no frames or borders",
+    "A gleaming 2.4 meter space telescope mirror collecting faint infrared light from distant galaxies, golden mirror and incoming light large and dominant in a tall vertical frame, high detail space engineering documentary image, one single continuous scene with no frames or borders",
+    "A vast three-dimensional map of countless galaxies spreading across the universe, bright galaxy clusters connected through deep space, cosmic map large and dominant in a tall vertical frame, cinematic scientific visualization, one single continuous scene with no frames or borders",
+    "A small hidden exoplanet orbiting a foreground star while its gravity bends and brightens light from a farther background star, stars and planet large and dominant in a tall vertical frame, realistic microlensing scientific visualization, one single continuous scene with no frames or borders",
+    "Two stars briefly aligning in deep space as a tiny exoplanet creates an extra flash in magnified starlight, alignment and bright signal large and dominant in a tall vertical frame, high contrast documentary astronomy, one single continuous scene with no frames or borders"
+  ],
+  "fonte": "NASA / Roman Space Telescope, atualizado em 23/08/2026 — https://science.nasa.gov/mission/roman-space-telescope/why-the-roman-space-telescope/",
+  "extra": "Fonte primária confirma o campo de visão ao menos 100 vezes maior, pesquisa até mil vezes mais rápida, espelho de 2,4 m e previsão de 2.500 planetas por microlente. Roteiro com 89 palavras e evita Roman e Hubble na locução para o TTS. Tema conferido contra usados e pendentes: foca no campo amplo e no método de pesquisa do novo observatório, não em uma descoberta de planeta já feita."
+}

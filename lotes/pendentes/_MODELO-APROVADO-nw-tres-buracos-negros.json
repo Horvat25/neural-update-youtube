@@ -1,0 +1,45 @@
+{
+  "slug": "nw-tres-buracos-negros",
+  "stream": "news",
+  "track": "dark-some-amount-of-evil.mp3",
+  "topic": "tres buracos negros supermassivos na galaxia J0148-4214 James Webb Max Planck fusao",
+  "isca": false,
+  "title": "📰 Acharam TRÊS buracos negros na MESMA galáxia (nunca tinha acontecido) 🕳️ #Shorts",
+  "desc1": "Três buracos negros supermassivos na mesma galáxia: anunciado em 12 de agosto de 2026 pelo Instituto Max Planck de Física Extraterrestre, com dados do telescópio James Webb. A galáxia J0148-4214 está a mais de 12,5 bilhões de anos-luz, e a vemos como era cerca de 1,2 bilhão de anos depois do Big Bang. Os três estão ativos, devorando matéria. Dois ficam perto do centro, separados por apenas 620 anos-luz, e devem se fundir em algumas centenas de milhões de anos. O terceiro está a cerca de 5.500 anos-luz do centro. É a primeira vez que três buracos negros supermassivos são detectados numa única galáxia, e sugere que fusões foram um atalho para eles crescerem tão rápido no universo jovem.",
+  "tags": [
+    "tres buracos negros",
+    "J0148-4214",
+    "james webb",
+    "buraco negro supermassivo",
+    "universo primitivo",
+    "astronomia",
+    "max planck"
+  ],
+  "hashtags": [
+    "#buraconegro",
+    "#astronomia",
+    "#neuralupdate"
+  ],
+  "hook": "TRÊS BURACOS\nNEGROS NA\nMESMA GALÁXIA",
+  "roteiro": "Uma galáxia com três buracos negros gigantes no centro.\n\nÉ a primeira vez que acham três na mesma galáxia.\n\nDois estão a seiscentos e vinte anos-luz um do outro: em escala de galáxia, encostados.\n\nMas essa luz saiu quando o universo tinha um bilhão e duzentos milhões de anos.\n\nBuraco negro desse tamanho não teve tempo de crescer sozinho.\n\nCresceram se engolindo, e os dois do centro ainda vão se fundir.\n\nQuantos dos buracos negros de hoje começaram assim?\n\n\n\nNeural Update. O universo está te esperando.",
+  "cues": [
+    "Uma galáxia com três",
+    "É a primeira vez",
+    "Dois estão a seiscentos",
+    "Mas essa luz saiu",
+    "Buraco negro desse tamanho",
+    "Cresceram se engolindo",
+    "Quantos dos buracos negros"
+  ],
+  "prompts": [
+    "A distant spiral galaxy seen face on in deep space with three separate blazing points of light burning inside it, two of them almost touching near the core and one far out in the disc, only two focal points and nothing else in frame, luminous subject standing out against deep black negative space, overwhelming sense of scale that feels physically impossible, immediate awe, composed in the upper two thirds of a tall vertical frame with clear empty space along the bottom edge",
+    "A space telescope with a golden honeycomb mirror alone in deep space, faint red light from the most ancient galaxies falling across the mirror, only two focal points and nothing else in frame, luminous subject standing out against deep black negative space, overwhelming sense of scale that feels physically impossible, immediate awe, composed in the upper two thirds of a tall vertical frame with clear empty space along the bottom edge",
+    "Two black holes side by side against a wall of star fire, each wrapped in its own glowing accretion disc, so close their discs almost touch, only two focal points and nothing else in frame, luminous subject standing out against deep black negative space, overwhelming sense of scale that feels physically impossible, immediate awe, composed in the upper two thirds of a tall vertical frame with clear empty space along the bottom edge",
+    "The infant universe: a dense chaotic field of small red proto galaxies packed together, almost no mature stars lit yet, everything young and unformed, only two focal points and nothing else in frame, luminous subject standing out against deep black negative space, overwhelming sense of scale that feels physically impossible, immediate awe, composed in the upper two thirds of a tall vertical frame with clear empty space along the bottom edge",
+    "A single enormous black hole silhouetted against a torrent of infalling gas, absurdly large next to the small young galaxy around it, wrong in scale, only two focal points and nothing else in frame, luminous subject standing out against deep black negative space, overwhelming sense of scale that feels physically impossible, immediate awe, composed in the upper two thirds of a tall vertical frame with clear empty space along the bottom edge",
+    "Two black holes spiralling into each other, their accretion discs stretched and merging into one warped ring of light, space itself bent between them, only two focal points and nothing else in frame, luminous subject standing out against deep black negative space, overwhelming sense of scale that feels physically impossible, immediate awe, composed in the upper two thirds of a tall vertical frame with clear empty space along the bottom edge",
+    "A vast field of galaxies stretching to the horizon of deep space, a dark point burning at the heart of every single one, only two focal points and nothing else in frame, luminous subject standing out against deep black negative space, overwhelming sense of scale that feels physically impossible, immediate awe, composed in the upper two thirds of a tall vertical frame with clear empty space along the bottom edge"
+  ],
+  "fonte": "Max Planck Institute for Extraterrestrial Physics / James Webb, 12/08/2026",
+  "extra": "Primeira detecção de três buracos negros supermassivos numa única galáxia. Sugere fusão como atalho de crescimento no universo jovem."
+}

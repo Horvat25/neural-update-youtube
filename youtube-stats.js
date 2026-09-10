@@ -7,7 +7,7 @@
  *
  * CLI:  node youtube-stats.js
  */
-require('dotenv').config();
+require('dotenv').config({ path: require('path').join(__dirname, '.env') });
 const fs = require('fs');
 const path = require('path');
 const { google, getAuthorizedClient } = require('./youtube-auth');
@@ -74,7 +74,7 @@ async function getFullStats() {
   const channel = await getChannelStats();
   let recent = [];
   let analytics = null;
-  try { recent = await getRecentVideos(10); } catch (e) { console.warn('[stats] vídeos:', e.message); }
+  try { recent = await getRecentVideos(25); } catch (e) { console.warn('[stats] vídeos:', e.message); }
   try { analytics = await getAnalytics(28); } catch (e) { console.warn('[stats] analytics:', e.message); }
   const data = { channel, recent, analytics, fetched_at: new Date().toISOString() };
   try { fs.writeFileSync(STATS_CACHE, JSON.stringify(data, null, 2)); } catch {}

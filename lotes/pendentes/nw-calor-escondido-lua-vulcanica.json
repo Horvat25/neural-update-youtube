@@ -1,0 +1,45 @@
+{
+  "slug": "nw-calor-escondido-lua-vulcanica",
+  "stream": "news",
+  "track": "dark-some-amount-of-evil.mp3",
+  "topic": "temperatura abaixo da superficie lua Io vulcanismo Juno julho 2026",
+  "isca": false,
+  "title": "📰 A lua mais vulcânica NÃO é quente só na superfície 🌋 #Shorts",
+  "desc1": "A missão Juno da NASA divulgou em 22 de julho de 2026 as primeiras medições de temperatura abaixo da superfície de Io, a lua mais vulcânica do Sistema Solar. Em dados de dois voos próximos, o radiômetro detectou que a temperatura aumenta mais de 40 graus Fahrenheit a poucos metros de profundidade. A fonte descreve duas hipóteses: calor subindo por uma crosta condutiva ou fluxos de lava resfriando sob uma capa sólida. O estudo também encontrou extensas áreas de material leve, parecido com pedra-pomes ou cinza vulcânica.",
+  "tags": [
+    "Io lua vulcânica",
+    "calor subterrâneo",
+    "Juno NASA",
+    "vulcões espaciais",
+    "Júpiter",
+    "lava",
+    "astronomia"
+  ],
+  "hashtags": [
+    "#vulcao",
+    "#astronomia",
+    "#neuralupdate"
+  ],
+  "hook": "CALOR\nESCONDIDO\nSOB A LUA",
+  "roteiro": "Uma lua inteira coberta por vulcões.\n\nUma sonda mediu o calor escondido abaixo das pedras.\n\nEm vários pontos, a temperatura sobe mais de vinte graus Celsius poucos metros abaixo.\n\nIsso indica calor vindo do interior dessa lua.\n\nMas ninguém tinha medido a temperatura sob uma lua vulcânica desse jeito.\n\nA superfície parece lisa e guarda calor como cinza quente.\n\nParte dele pode vir de rios de lava cobertos por crosta.\n\nSerá que outros mundos distantes escondem oceanos e vulcões aquecidos assim?\n\n\n\nNeural Update. O universo está te esperando.",
+  "cues": [
+    "Uma lua inteira",
+    "Uma sonda mediu",
+    "Em vários pontos",
+    "Isso indica calor",
+    "Mas ninguém tinha",
+    "A superfície parece",
+    "Será que outros mundos"
+  ],
+  "prompts": [
+    "A volcanic moon covered by enormous active lava fountains and glowing fissures, subject large and dominant in a tall vertical frame, a giant striped planet blurred behind it, cinematic planetary realism, one single continuous scene with no frames or borders",
+    "A compact scientific spacecraft skimming above a fiery volcanic moon, its sensor scanning through a glowing rocky surface, subject large and dominant in frame, deep space backdrop, one single continuous scene with no frames or borders",
+    "A cutaway view of a volcanic moon showing warm red heat rising beneath a dark rocky crust, the underground glow large and dominant in tall vertical frame, realistic geological texture, one single continuous scene with no frames or borders",
+    "A vast underground heat glow spreading through layered volcanic rock beneath a moon's surface, subject large and dominant in frame, red-orange thermal light under black stone, one single continuous scene with no frames or borders",
+    "A close scientific view of a rocky moon surface with a transparent cross-section revealing a strong thermal gradient below, subject large and dominant in tall vertical frame, cinematic realism, one single continuous scene with no frames or borders",
+    "Smooth dark volcanic plains on an alien moon covered with soft pale ash and faint red heat glowing through cracks, subject large and dominant in frame, cinematic planetary realism, one single continuous scene with no frames or borders",
+    "A moon with distant volcanoes glowing under a giant planet, while subtle red light beneath its crust hints at hidden oceans and heat, filling most of tall vertical frame, one single continuous scene with no frames or borders"
+  ],
+  "fonte": "NASA / JPL-Caltech / Juno, 22/07/2026 — https://www.nasa.gov/missions/juno/nasas-juno-takes-temperature-of-jupiters-fiery-moon-io/",
+  "extra": "Fonte primária: primeira medição abaixo da superfície, mais de 40 graus Fahrenheit a poucos metros de profundidade; roteiro converteu conservadoramente para mais de 20 graus Celsius. As duas explicações para o calor são hipóteses da pesquisa. O roteiro evita Io e Juno para não exigir grafia fonética nova. Corpo: 81 palavras."
+}

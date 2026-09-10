@@ -1,0 +1,47 @@
+[
+  {
+    "slug": "nw-asteroide-de-metal",
+    "stream": "news",
+    "track": "dark-some-amount-of-evil.mp3",
+    "topic": "psyche asteroide metalico nucleo exposto sobrevoo de marte cinturao principal 2029",
+    "isca": false,
+    "title": "📰 Tem um asteroide feito de METAL e uma sonda indo até lá 🛰️ #Shorts",
+    "desc1": "A missão Psyche, da NASA, está a caminho do asteroide 16 Psyche, no cinturão principal, um corpo rico em metal que pode ser o núcleo exposto de um planetesimal que nunca chegou a virar planeta. A sonda concluiu recentemente um sobrevoo de Marte para ganho gravitacional, com imagens já divulgadas, e retomou o uso dos motores elétricos rumo ao destino. A chegada está prevista para 2029. Se a hipótese do núcleo exposto se confirmar, será a primeira vez que a humanidade observa de perto o interior metálico de um corpo planetário, algo que na Terra está a milhares de quilômetros de profundidade e é inacessível.",
+    "tags": [
+      "asteroide de metal",
+      "psyche",
+      "16 psyche",
+      "nucleo planetario",
+      "nasa",
+      "cinturao de asteroides",
+      "astronomia"
+    ],
+    "hashtags": [
+      "#asteroide",
+      "#astronomia",
+      "#neuralupdate"
+    ],
+    "hook": "UM ASTEROIDE\nFEITO DE\nMETAL",
+    "roteiro": "Existe um asteroide feito de metal no cinturão principal.\n\nE tem uma sonda a caminho dele agora.\n\nEla acabou de passar raspando por Marte pra ganhar impulso.\n\nMas o alvo é mais estranho: pode ser o núcleo exposto de um planeta que nunca nasceu.\n\nSe for isso, é a única chance de ver de perto do que um núcleo é feito.\n\nNa Terra, o nosso está a milhares de quilômetros de profundidade.\n\nO que a gente descobre olhando o miolo de um mundo que não deu certo?\n\n\n\nNeural Update. O universo está te esperando.",
+    "cues": [
+      "Existe um asteroide feito",
+      "E tem uma sonda",
+      "Ela acabou de passar",
+      "Mas o alvo é",
+      "Se for isso é",
+      "Na Terra o nosso",
+      "O que a gente"
+    ],
+    "prompts": [
+      "A large irregular asteroid with a raw metallic surface, grey iron and nickel catching hard sunlight, pitted and scarred, floating in black space, subject large and dominant in frame, filling most of the tall vertical frame, bright and high contrast, cinematic scientific documentary photography, immediate awe, one single continuous scene with no frames or borders",
+      "A solar powered spacecraft with wide angular solar arrays gliding through deep space, faint blue ion engine glow behind it, subject large and dominant in frame, filling most of the tall vertical frame, cinematic scientific documentary photography, high contrast against black space, one single continuous scene with no frames or borders",
+      "A spacecraft passing close above the rust coloured cratered surface of Mars, the curved planet limb filling the lower frame, subject large and dominant in frame, filling most of the tall vertical frame, cinematic scientific documentary photography, bright and high contrast, one single continuous scene with no frames or borders",
+      "A cutaway of a rocky planet revealing a dense glowing metallic core at its centre, layers of rock peeled away around it, subject large and dominant in frame, filling most of the tall vertical frame, cinematic scientific documentary photography, high contrast, one single continuous scene with no frames or borders",
+      "A bare metallic planetary core floating alone in space with no rock left around it, its surface raw and reflective, subject large and dominant in frame, filling most of the tall vertical frame, cinematic scientific documentary photography, bright and high contrast against black space, immediate awe, one single continuous scene with no frames or borders",
+      "A deep cutaway of Earth showing the immense distance down to its glowing molten core through thick layers of rock, subject large and dominant in frame, filling most of the tall vertical frame, cinematic scientific documentary photography, high contrast, one single continuous scene with no frames or borders",
+      "A wide view of the asteroid belt: countless rocky and metallic bodies of every size drifting through sunlit space, subject large and dominant in frame, filling most of the tall vertical frame, astronomical survey image, immediate awe, one single continuous scene with no frames or borders"
+    ],
+    "fonte": "NASA / missão Psyche — sobrevoo de Marte concluído, chegada ao asteroide 16 Psyche prevista para 2029",
+    "extra": "O nome Psyche fica so na descricao: nome estrangeiro nao testado no TTS, evitado na narracao."
+  }
+]

@@ -1,0 +1,45 @@
+{
+  "slug": "nw-antena-nao-ouve-radio",
+  "stream": "news",
+  "track": "dark-some-amount-of-evil.mp3",
+  "topic": "antena espaco profundo deserto sinais sondas sala subterranea NASA agosto 2026",
+  "isca": false,
+  "title": "📰 Esta antena NÃO ouve rádio comum (ela conversa com naves) 📡 #Shorts",
+  "desc1": "A NASA inaugurou em 25 de agosto de 2026 uma antena de 34 metros no complexo de comunicações de Goldstone, no deserto da Califórnia. Ela é a Deep Space Station 23 e entrou em operação em 3 de agosto, rastreando o observatório Chandra e conversando com dezenas de missões, entre elas Voyager 1, Juno, Psyche e a sonda Mars Reconnaissance Orbiter. A rede usa grandes antenas em três complexos globais. Nesta geração, os sinais são conduzidos para equipamentos numa sala subterrânea climatizada, o que facilita manutenção e atualizações.",
+  "tags": [
+    "antena espaço profundo",
+    "sinais de sondas",
+    "Deep Space Network",
+    "antena NASA deserto",
+    "Voyager comunicação",
+    "naves no espaço",
+    "astronomia"
+  ],
+  "hashtags": [
+    "#nasa",
+    "#espaco",
+    "#neuralupdate"
+  ],
+  "hook": "ELA NÃO OUVE\nRÁDIO\nCOMUM",
+  "roteiro": "Uma antena gigante no deserto acordou.\n\nEla não aponta para emissoras: conversa com naves além da Terra.\n\nO prato tem trinta e quatro metros de largura.\n\nDesde agosto, ele rastreia um observatório de raios X e dezenas de missões.\n\nSinais de sondas chegam fracos após cruzar o Sistema Solar.\n\nPor isso antenas em três continentes revezam a escuta.\n\nMas o segredo não fica no prato giratório.\n\nOs sinais descem até uma sala subterrânea estável.\n\nQual mensagem distante essa orelha de metal vai captar amanhã?\n\n\n\nNeural Update. O universo está te esperando.",
+  "cues": [
+    "Uma antena gigante",
+    "Ela não aponta",
+    "O prato tem",
+    "Desde agosto, ele",
+    "Sinais de sondas",
+    "Por isso antenas",
+    "Mas o segredo"
+  ],
+  "prompts": [
+    "A colossal white radio dish antenna standing alone in a sunlit desert, enormous parabolic dish large and dominant in a tall vertical frame, cinematic scientific documentary photography, one single continuous scene with no frames or borders",
+    "A giant desert radio antenna aimed at a dark star-filled sky while faint luminous signal waves connect it to distant robotic spacecraft, dish and spacecraft signal large and dominant in a tall vertical frame, realistic space documentary image, one single continuous scene with no frames or borders",
+    "Close low-angle view of a massive 34 meter radio dish rising above desert terrain, huge curved metal surface filling most of the tall vertical frame, high detail engineering documentary realism, one single continuous scene with no frames or borders",
+    "A deep space observatory and several robotic probes sending faint radio signals toward a giant Earth antenna, spacecraft and signal paths large and dominant in a tall vertical frame, cinematic scientific visualization, one single continuous scene with no frames or borders",
+    "A tiny distant spacecraft beyond the outer planets transmitting an extremely faint beam of light across the vast Solar System toward Earth, spacecraft and glowing signal line large and dominant in a tall vertical frame, sense of impossible scale, one single continuous scene with no frames or borders",
+    "Three giant radio dish facilities on different parts of Earth passing a glowing deep-space signal from one horizon to the next, Earth curve and antennas large and dominant in a tall vertical frame, cinematic scientific documentary realism, one single continuous scene with no frames or borders",
+    "Inside the base of a giant radio antenna, glowing signal pathways travel down from the rotating dish into a stable underground control room, equipment and signal paths large and dominant in a tall vertical frame, high-tech documentary realism, one single continuous scene with no frames or borders"
+  ],
+  "fonte": "NASA / Jet Propulsion Laboratory, 25/08/2026 — https://www.nasa.gov/technology/space-comms/deep-space-network/new-next-gen-dish-adds-muscle-to-nasas-deep-space-network/",
+  "extra": "Fonte primária confirma 34 metros, entrada em operação em 03/08, o rastreio do Chandra, as dezenas de missões e o sinal levado a uma sala subterrânea climatizada. Roteiro com 84 palavras; evita o nome Deep Space Station 23 e as missões estrangeiras na locução para não criar risco de TTS. Tema distinto de os usados e pendentes: comunicação de espaço profundo, não telescópio ou descoberta astronômica."
+}

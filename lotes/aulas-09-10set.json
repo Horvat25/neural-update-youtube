@@ -1,0 +1,94 @@
+[
+  {
+    "slug": "pl39-simulacoes-cosmologicas",
+    "stream": "aula",
+    "voice": "female",
+    "publishAt": "2026-09-09T17:00:00.000Z",
+    "track": "dark-some-amount-of-evil.mp3",
+    "topic": "simulacoes cosmologicas universo dentro do computador materia escura teia cosmica",
+    "isca": false,
+    "title": "🔭 O universo inteiro cabe dentro de um computador 🌌 #Shorts",
+    "desc1": "AULA da escola Universo do Zero. Ninguém pode repetir o universo para ver o que mudaria, então os cosmólogos constroem um dentro do computador: partem de pequenas diferenças de densidade no começo, deixam a gravidade agir e comparam o resultado com o céu real.",
+    "tags": [
+      "simulações cosmológicas",
+      "teia cósmica",
+      "matéria escura",
+      "cosmologia",
+      "formação de estruturas",
+      "aula de astronomia"
+    ],
+    "hashtags": [
+      "#cosmologia",
+      "#astronomia",
+      "#neuralupdate"
+    ],
+    "hook": "NÃO DÁ PRA\nRODAR O UNIVERSO\nDUAS VEZES",
+    "roteiro": "Ninguém pode rodar o universo duas vezes para ver o que muda.\n\nEntão os cosmólogos constroem um dentro do computador.\n\nComeçam com pequenas diferenças de densidade logo depois do começo de tudo.\n\nA gravidade faz o resto: puxa matéria, forma filamentos, acende galáxias.\n\nMas o universo simulado só fica parecido com o real quando a matéria escura entra na conta.\n\nSem ela, as estruturas não têm tempo de crescer.\n\n>> Na próxima aula: o instante em que o espaço se esticou. Quinta, dia dez, às duas.",
+    "cues": [
+      "Ninguém pode rodar o",
+      "Então os cosmólogos constroem",
+      "Começam com pequenas diferenças",
+      "A gravidade faz o",
+      "Mas o universo simulado",
+      "Sem ela, as estruturas",
+      "Na próxima aula: o"
+    ],
+    "prompts": [
+      "A single vast galaxy cluster glowing in deep space with no second copy beside it, subject large and dominant in frame, filling most of the tall vertical frame, cinematic astrophysics visualization, deep black space, no text, no logo, no watermark, one single continuous scene with no frames or borders",
+      "A glowing three dimensional grid of light being built out of nothing, cube by cube, like a universe under construction, subject large and dominant in frame, filling most of the tall vertical frame, cinematic astrophysics visualization, deep black space, no text, no logo, no watermark, one single continuous scene with no frames or borders",
+      "An almost uniform field of faint light with barely visible ripples of higher density scattered across it, subject large and dominant in frame, filling most of the tall vertical frame, cinematic astrophysics visualization, deep black space, no text, no logo, no watermark, one single continuous scene with no frames or borders",
+      "Bright filaments of matter collapsing together into glowing knots where galaxies ignite, subject large and dominant in frame, filling most of the tall vertical frame, cinematic astrophysics visualization, deep black space, no text, no logo, no watermark, one single continuous scene with no frames or borders",
+      "A dense luminous cosmic web of filaments and voids stretching edge to edge, bright and high contrast against black space, subject large and dominant in frame, filling most of the tall vertical frame, cinematic astrophysics visualization, no text, no logo, no watermark, one single continuous scene with no frames or borders",
+      "A sparse faded web of barely formed structures, thin and unfinished, clearly weaker than a full cosmic web, subject large and dominant in frame, filling most of the tall vertical frame, cinematic astrophysics visualization, deep black space, no text, no logo, no watermark, one single continuous scene with no frames or borders",
+      "An intensely bright point of light beginning to stretch space outward around it in every direction, subject large and dominant in frame, filling most of the tall vertical frame, cinematic astrophysics visualization, deep black space, no text, no logo, no watermark, one single continuous scene with no frames or borders"
+    ],
+    "fonte": "Simulações cosmológicas de N-corpos (ex.: Millennium, IllustrisTNG) — a estrutura em larga escala só reproduz o céu observado com matéria escura fria",
+    "extra": "Aula 13. Honra o anúncio feito pela pl38 no ar. Anuncia inflação cósmica, que o MAPA-ESTUDOS lista e o anúncio anterior tinha pulado."
+  },
+  {
+    "slug": "pl40-inflacao-cosmica",
+    "stream": "aula",
+    "voice": "female",
+    "publishAt": "2026-09-10T17:00:00.000Z",
+    "track": "dark-some-amount-of-evil.mp3",
+    "topic": "inflacao cosmica flutuacoes quanticas sementes das galaxias regioes mais densas",
+    "isca": false,
+    "title": "🔭 Toda galáxia começou menor que um átomo 🌌 #Shorts",
+    "desc1": "AULA da escola Universo do Zero. A inflação cósmica não só esticou o espaço: ela pegou tremores quânticos microscópicos e os ampliou até virarem as regiões mais densas de onde nasceram as galáxias. O que hoje é uma galáxia inteira já foi uma ondulação menor que um átomo.",
+    "tags": [
+      "inflação cósmica",
+      "flutuações quânticas",
+      "formação de galáxias",
+      "cosmologia",
+      "estrutura do universo",
+      "aula de astronomia"
+    ],
+    "hashtags": [
+      "#cosmologia",
+      "#astronomia",
+      "#neuralupdate"
+    ],
+    "hook": "TODA GALÁXIA\nCOMEÇOU MENOR\nQUE UM ÁTOMO",
+    "roteiro": "Toda galáxia que existe começou como uma ondulação menor que um átomo.\n\nNo primeiro instante, o espaço se esticou de forma absurda.\n\nEsse estirão pegou tremores quânticos minúsculos e os ampliou junto.\n\nO que era ruído do vácuo virou mapa de matéria.\n\nMas o universo não ficou liso: sobraram regiões um tiquinho mais densas.\n\nA gravidade puxou dali, e cada uma virou uma galáxia.\n\n>> Na próxima aula: procurar vida em outros mundos. Sexta, dia onze, às duas.",
+    "cues": [
+      "Toda galáxia que existe",
+      "No primeiro instante,",
+      "Esse estirão pegou",
+      "O que era ruído",
+      "Mas o universo não",
+      "A gravidade puxou dali,",
+      "Na próxima aula: procurar"
+    ],
+    "prompts": [
+      "A vast deep field crowded with galaxies, one single tiny bright ripple glowing at the very centre, filling the tall vertical frame",
+      "The fabric of space itself stretching violently outward in every direction in one instant, filling the tall vertical frame",
+      "Microscopic quantum tremors being magnified into enormous glowing waves across space, filling the tall vertical frame",
+      "Faint formless static resolving into a structured glowing map of matter, filling the tall vertical frame",
+      "A cosmic map where slightly denser bright patches stand out against a smoother darker background, filling the tall vertical frame",
+      "Matter streaming inward under gravity and igniting into a bright spiral galaxy, filling the tall vertical frame",
+      "A small blue green world with a thin atmosphere seen against a rich starfield, filling the tall vertical frame"
+    ],
+    "fonte": "Inflação cósmica — flutuações quânticas como sementes da estrutura em larga escala",
+    "extra": "Aula 14 (refeita 09/09: a v1 repetia a pl21). Honra a promessa da pl39 e anuncia astrobiologia."
+  }
+]

@@ -1,0 +1,233 @@
+[
+  {
+    "slug": "story-noticia-2026-09-11",
+    "tipo": "noticia",
+    "dia": "2026-09-11",
+    "quando": "2026-09-11T11:00:00.000Z",
+    "selo": "descoberta",
+    "fato": "A IA NÃO espera a mancha solar aparecer (ela ouve o Sol antes).",
+    "fonte": "Uma equipe da NASA desenvolveu um modelo de aprendizado de máquina que consegue prever o surgimento de regiões ativas no Sol até 12 horas antes de…",
+    "cta": "O vídeo completo está no perfil",
+    "ctaSub": "E o texto, no blog"
+  },
+  {
+    "slug": "story-blog-2026-09-11",
+    "tipo": "blog",
+    "dia": "2026-09-11",
+    "quando": "2026-09-11T19:00:00.000Z",
+    "selo": "no blog hoje",
+    "fato": "Por que não acontece eclipse todo mês?",
+    "fonte": "Não há eclipse mensal porque a órbita da Lua é inclinada cerca de cinco graus em relação ao plano da órbita terrestre. Eclipses só ocorrem quando…",
+    "cta": "Leia em neural-update.com.br",
+    "ctaSub": "Link na bio · matéria nova todo dia"
+  },
+  {
+    "slug": "story-kindle-2026-09-11",
+    "tipo": "kindle",
+    "dia": "2026-09-11",
+    "quando": "2026-09-11T23:00:00.000Z",
+    "selo": "sem desculpa",
+    "fato": "Você [[não precisa]] ter um Kindle pra usar o Kindle Unlimited.",
+    "fonte": "O aplicativo é grátis e roda no celular que está na sua mão agora. O aparelho é opcional — a assinatura é que é paga, depois do primeiro mês.",
+    "cta": "Começa hoje, do celular mesmo",
+    "ctaSub": "Link na bio"
+  },
+  {
+    "slug": "story-noticia-2026-09-12",
+    "tipo": "noticia",
+    "dia": "2026-09-12",
+    "quando": "2026-09-12T11:00:00.000Z",
+    "selo": "descoberta",
+    "fato": "Esses tornados NÃO são da Terra (passam de 8 km).",
+    "fonte": "A sonda Mars Express da Agência Espacial Europeia registrou mais de 30 redemoinhos de poeira ativos em Mamers Valles, sistema de vales de Marte.",
+    "cta": "O vídeo completo está no perfil",
+    "ctaSub": "E o texto, no blog"
+  },
+  {
+    "slug": "story-blog-2026-09-12",
+    "tipo": "blog",
+    "dia": "2026-09-12",
+    "quando": "2026-09-12T19:00:00.000Z",
+    "selo": "no blog hoje",
+    "fato": "Estrelas tremem? Como ouvimos o interior estelar",
+    "fonte": "Estrelas oscilam em padrões produzidos por ondas que atravessam seu interior. A asterossismologia mede frequências minúsculas no brilho ou na…",
+    "cta": "Leia em neural-update.com.br",
+    "ctaSub": "Link na bio · matéria nova todo dia"
+  },
+  {
+    "slug": "story-kindle-2026-09-12",
+    "tipo": "kindle",
+    "dia": "2026-09-12",
+    "quando": "2026-09-12T23:00:00.000Z",
+    "selo": "sem pegadinha",
+    "fato": "O primeiro mês é [[grátis]] — e dá pra cancelar em dois toques.",
+    "fonte": "Se não gostar, cancela antes de acabar o mês e não paga nada. Leva menos tempo que assistir a um Short.",
+    "cta": "Testa e vê se vale",
+    "ctaSub": "Link na bio"
+  },
+  {
+    "slug": "story-noticia-2026-09-13",
+    "tipo": "noticia",
+    "dia": "2026-09-13",
+    "quando": "2026-09-13T11:00:00.000Z",
+    "selo": "descoberta",
+    "fato": "Esta cratera NÃO nasceu de um asteroide (foi um foguete).",
+    "fonte": "A sonda Lunar Reconnaissance Orbiter da NASA fotografou em 11 e 12 de agosto de 2026 uma cratera nova na Lua, aberta seis dias antes pelo estágio…",
+    "cta": "O vídeo completo está no perfil",
+    "ctaSub": "E o texto, no blog"
+  },
+  {
+    "slug": "story-blog-2026-09-13",
+    "tipo": "blog",
+    "dia": "2026-09-13",
+    "quando": "2026-09-13T19:00:00.000Z",
+    "selo": "no blog hoje",
+    "fato": "Meteoro, meteorito e meteoroide",
+    "fonte": "Meteoroide é o pequeno corpo no espaço; meteoro é o fenômeno luminoso durante a entrada atmosférica; meteorito é o fragmento que sobrevive e alcança…",
+    "cta": "Leia em neural-update.com.br",
+    "ctaSub": "Link na bio · matéria nova todo dia"
+  },
+  {
+    "slug": "story-kindle-2026-09-13",
+    "tipo": "kindle",
+    "dia": "2026-09-13",
+    "quando": "2026-09-13T23:00:00.000Z",
+    "selo": "leitura",
+    "fato": "Em 40 segundos [[não cabe]] o universo.",
+    "fonte": "O que não coube no vídeo está nos livros. O primeiro mês é grátis; depois vira assinatura, e dá pra cancelar antes disso.",
+    "cta": "Um mês de leitura ilimitada",
+    "ctaSub": "Link na bio"
+  },
+  {
+    "slug": "story-noticia-2026-09-14",
+    "tipo": "noticia",
+    "dia": "2026-09-14",
+    "quando": "2026-09-14T11:00:00.000Z",
+    "selo": "descoberta",
+    "fato": "Essa atmosfera NÃO pode ser do planeta (a estrela finge).",
+    "fonte": "A missão Pandora da NASA começou a observar exoplanetas e suas estrelas ao mesmo tempo, em luz visível e infravermelha.",
+    "cta": "O vídeo completo está no perfil",
+    "ctaSub": "E o texto, no blog"
+  },
+  {
+    "slug": "story-blog-2026-09-14",
+    "tipo": "blog",
+    "dia": "2026-09-14",
+    "quando": "2026-09-14T19:00:00.000Z",
+    "selo": "no blog hoje",
+    "fato": "O que é um magnetar, o ímã mais extremo do cosmos?",
+    "fonte": "Magnetar é uma estrela de nêutrons com campo magnético extraordinariamente intenso. Tensões e rearranjos desse campo aquecem a crosta e podem gerar…",
+    "cta": "Leia em neural-update.com.br",
+    "ctaSub": "Link na bio · matéria nova todo dia"
+  },
+  {
+    "slug": "story-kindle-2026-09-14",
+    "tipo": "kindle",
+    "dia": "2026-09-14",
+    "quando": "2026-09-14T23:00:00.000Z",
+    "selo": "sem desculpa",
+    "fato": "Você [[não precisa]] ter um Kindle pra usar o Kindle Unlimited.",
+    "fonte": "O aplicativo é grátis e roda no celular que está na sua mão agora. O aparelho é opcional — a assinatura é que é paga, depois do primeiro mês.",
+    "cta": "Começa hoje, do celular mesmo",
+    "ctaSub": "Link na bio"
+  },
+  {
+    "slug": "story-noticia-2026-09-15",
+    "tipo": "noticia",
+    "dia": "2026-09-15",
+    "quando": "2026-09-15T11:00:00.000Z",
+    "selo": "descoberta",
+    "fato": "Esse asteroide NÃO era asteroide (a órbita entregou).",
+    "fonte": "O objeto próximo da Terra 1998 SH2 parecia um asteroide desde sua descoberta, mas uma análise liderada pelo JPL da NASA revelou perturbações em sua…",
+    "cta": "O vídeo completo está no perfil",
+    "ctaSub": "E o texto, no blog"
+  },
+  {
+    "slug": "story-blog-2026-09-15",
+    "tipo": "blog",
+    "dia": "2026-09-15",
+    "quando": "2026-09-15T19:00:00.000Z",
+    "selo": "no blog hoje",
+    "fato": "O elo perdido dos buracos negros existe?",
+    "fonte": "Há candidatos a buracos negros de massa intermediária, aproximadamente entre centenas e centenas de milhares de massas solares, mas confirmar uma…",
+    "cta": "Leia em neural-update.com.br",
+    "ctaSub": "Link na bio · matéria nova todo dia"
+  },
+  {
+    "slug": "story-kindle-2026-09-15",
+    "tipo": "kindle",
+    "dia": "2026-09-15",
+    "quando": "2026-09-15T23:00:00.000Z",
+    "selo": "sem pegadinha",
+    "fato": "O primeiro mês é [[grátis]] — e dá pra cancelar em dois toques.",
+    "fonte": "Se não gostar, cancela antes de acabar o mês e não paga nada. Leva menos tempo que assistir a um Short.",
+    "cta": "Testa e vê se vale",
+    "ctaSub": "Link na bio"
+  },
+  {
+    "slug": "story-noticia-2026-09-16",
+    "tipo": "noticia",
+    "dia": "2026-09-16",
+    "quando": "2026-09-16T11:00:00.000Z",
+    "selo": "descoberta",
+    "fato": "Esta galáxia NÃO usa um anel comum (ele gira pelos polos).",
+    "fonte": "A NASA apresentou em 25 de agosto de 2026 uma nova imagem da galáxia NGC 660, um caso raro de galáxia com anel polar.",
+    "cta": "O vídeo completo está no perfil",
+    "ctaSub": "E o texto, no blog"
+  },
+  {
+    "slug": "story-blog-2026-09-16",
+    "tipo": "blog",
+    "dia": "2026-09-16",
+    "quando": "2026-09-16T19:00:00.000Z",
+    "selo": "no blog hoje",
+    "fato": "Como estrelas que pulsam medem distâncias no Universo?",
+    "fonte": "Cefeidas e outros tipos de estrelas variáveis podem indicar distância porque certas propriedades de sua pulsação revelam luminosidade intrínseca.…",
+    "cta": "Leia em neural-update.com.br",
+    "ctaSub": "Link na bio · matéria nova todo dia"
+  },
+  {
+    "slug": "story-kindle-2026-09-16",
+    "tipo": "kindle",
+    "dia": "2026-09-16",
+    "quando": "2026-09-16T23:00:00.000Z",
+    "selo": "leitura",
+    "fato": "Em 40 segundos [[não cabe]] o universo.",
+    "fonte": "O que não coube no vídeo está nos livros. O primeiro mês é grátis; depois vira assinatura, e dá pra cancelar antes disso.",
+    "cta": "Um mês de leitura ilimitada",
+    "ctaSub": "Link na bio"
+  },
+  {
+    "slug": "story-noticia-2026-09-17",
+    "tipo": "noticia",
+    "dia": "2026-09-17",
+    "quando": "2026-09-17T11:00:00.000Z",
+    "selo": "descoberta",
+    "fato": "Este escudo NÃO é ar (ele segura o vento solar).",
+    "fonte": "A missão Smile, parceria entre a Agência Espacial Europeia e a Academia Chinesa de Ciências, foi lançada em 19 de maio de 2026 para observar como a…",
+    "cta": "O vídeo completo está no perfil",
+    "ctaSub": "E o texto, no blog"
+  },
+  {
+    "slug": "story-blog-2026-09-17",
+    "tipo": "blog",
+    "dia": "2026-09-17",
+    "quando": "2026-09-17T19:00:00.000Z",
+    "selo": "no blog hoje",
+    "fato": "Buracos negros primordiais podem ser matéria escura?",
+    "fonte": "Buracos negros formados no Universo muito jovem podem contribuir para a matéria escura em algumas faixas de massa, mas não há prova de que expliquem…",
+    "cta": "Leia em neural-update.com.br",
+    "ctaSub": "Link na bio · matéria nova todo dia"
+  },
+  {
+    "slug": "story-kindle-2026-09-17",
+    "tipo": "kindle",
+    "dia": "2026-09-17",
+    "quando": "2026-09-17T23:00:00.000Z",
+    "selo": "sem desculpa",
+    "fato": "Você [[não precisa]] ter um Kindle pra usar o Kindle Unlimited.",
+    "fonte": "O aplicativo é grátis e roda no celular que está na sua mão agora. O aparelho é opcional — a assinatura é que é paga, depois do primeiro mês.",
+    "cta": "Começa hoje, do celular mesmo",
+    "ctaSub": "Link na bio"
+  }
+]

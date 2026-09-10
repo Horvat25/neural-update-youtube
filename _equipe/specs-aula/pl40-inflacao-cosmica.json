@@ -1,0 +1,48 @@
+[
+  {
+    "slug": "pl40-inflacao-cosmica",
+    "stream": "aula",
+    "voice": "female",
+    "publishAt": "2026-09-10T17:00:00.000Z",
+    "track": "dark-some-amount-of-evil.mp3",
+    "topic": "inflacao cosmica flutuacoes quanticas sementes das galaxias regioes mais densas",
+    "isca": false,
+    "title": "🔭 Toda galáxia começou menor que um átomo 🌌 #Shorts",
+    "desc1": "AULA da escola Universo do Zero. A inflação cósmica não só esticou o espaço: ela pegou tremores quânticos microscópicos e os ampliou até virarem as regiões mais densas de onde nasceram as galáxias. O que hoje é uma galáxia inteira já foi uma ondulação menor que um átomo.",
+    "tags": [
+      "inflação cósmica",
+      "flutuações quânticas",
+      "formação de galáxias",
+      "cosmologia",
+      "estrutura do universo",
+      "aula de astronomia"
+    ],
+    "hashtags": [
+      "#cosmologia",
+      "#astronomia",
+      "#neuralupdate"
+    ],
+    "hook": "TODA GALÁXIA\nCOMEÇOU MENOR\nQUE UM ÁTOMO",
+    "roteiro": "Toda galáxia que existe começou como uma ondulação menor que um átomo.\n\nNo primeiro instante, o espaço se esticou de forma absurda.\n\nEsse estirão pegou tremores quânticos minúsculos e os ampliou junto.\n\nO que era ruído do vácuo virou mapa de matéria.\n\nMas o universo não ficou liso: sobraram regiões um tiquinho mais densas.\n\nA gravidade puxou dali, e cada uma virou uma galáxia.\n\n>> Na próxima aula: procurar vida em outros mundos. Sexta, dia onze, às duas.",
+    "cues": [
+      "Toda galáxia que existe",
+      "No primeiro instante,",
+      "Esse estirão pegou",
+      "O que era ruído",
+      "Mas o universo não",
+      "A gravidade puxou dali,",
+      "Na próxima aula: procurar"
+    ],
+    "prompts": [
+      "A vast deep field crowded with galaxies, one single tiny bright ripple glowing at the very centre, filling the tall vertical frame",
+      "The fabric of space itself stretching violently outward in every direction in one instant, filling the tall vertical frame",
+      "Microscopic quantum tremors being magnified into enormous glowing waves across space, filling the tall vertical frame",
+      "Faint formless static resolving into a structured glowing map of matter, filling the tall vertical frame",
+      "A cosmic map where slightly denser bright patches stand out against a smoother darker background, filling the tall vertical frame",
+      "Matter streaming inward under gravity and igniting into a bright spiral galaxy, filling the tall vertical frame",
+      "A small blue green world with a thin atmosphere seen against a rich starfield, filling the tall vertical frame"
+    ],
+    "fonte": "Inflação cósmica — flutuações quânticas como sementes da estrutura em larga escala",
+    "extra": "Aula 14 (refeita 09/09: a v1 repetia a pl21). Honra a promessa da pl39 e anuncia astrobiologia."
+  }
+]

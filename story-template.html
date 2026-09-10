@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<!--
+  Molde de STORY do Neural Update — 1080x1920.
+
+  Por que HTML e nao imagem gerada por IA: sai de graca, e repetivel e o texto fica
+  nitido de verdade. A IA nunca escreve texto na imagem (regra que custou caro no
+  cliente: ela erra letra e inventa marca).
+
+  ⚠️ Story publicado pela API do Instagram IGNORA texto, figurinha e link —
+  `media_type=STORIES` so aceita a imagem. Por isso TODO o recado, inclusive o
+  "link na bio", precisa estar QUEIMADO aqui dentro.
+
+  REDESENHO DE 20/08/2026 (o Marcelo: "to achando ele feio hoje e falta mais marketing").
+  O que mudou e por que:
+
+  1. FUNDO COM IMAGEM. A versao antiga era texto sobre degrade liso — num canal de
+     ESPACO, com ~1.400 imagens no banco de graca. Agora entra uma foto do banco com
+     um vidro escuro por cima, que e o que da profundidade sem atrapalhar a leitura.
+  2. ZONA SEGURA. O Instagram cobre o topo (~230px, foto e nome) e a base (~280px,
+     "Enviar mensagem"). O CTA antigo ficava a 170px do rodape — debaixo do teclado.
+     Agora nada vital passa dessas margens.
+  3. RODAPE DE MARKETING FIXO. Antes so existia o Kindle. Agora todo story leva blog
+     e canal do YouTube, porque quem ve story do Insta nao sabe que os dois existem.
+  4. COR POR TIPO. Noticia (ciano), Kindle (verde) e blog (roxo) — o seguidor
+     reconhece o assunto antes de ler.
+
+  Os campos entre chaves duplas sao trocados pelo gera-stories.js.
+  NAO escrever placeholder dentro deste comentario: o replace pegaria ele primeiro.
+-->
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;700;900&display=swap');
+  * { margin:0; padding:0; box-sizing:border-box; }
+  html, body { width:1080px; height:1920px; }
+
+  body {
+    font-family:'Archivo', system-ui, sans-serif;
+    color:#fff; position:relative; overflow:hidden;
+    background:#05070f;
+    --cor: {{COR}};
+  }
+
+  /* Foto do banco. Fica no terco de cima, que e onde sobrava buraco morto. */
+  .foto { position:absolute; inset:0 0 auto 0; height:1180px;
+    background-image:url('{{FUNDO}}'); background-size:cover; background-position:center 40%;
+    filter:saturate(1.05) contrast(1.05); }
+
+  /* O vidro: escurece de baixo pra cima. Sem isso o texto briga com a foto. */
+  .vidro { position:absolute; inset:0;
+    background:
+      linear-gradient(180deg, rgba(5,7,15,.62) 0%, rgba(5,7,15,.18) 22%, rgba(5,7,15,.72) 52%, #05070f 68%),
+      radial-gradient(ellipse 760px 520px at 50% 12%, rgba(27,47,107,.55) 0%, transparent 70%);
+  }
+
+  /* Um facho da cor do tipo, so pra nao ficar chapado */
+  .brilho { position:absolute; left:-160px; bottom:120px; width:760px; height:760px;
+    background:radial-gradient(circle, var(--cor) 0%, transparent 62%); opacity:.13; }
+
+  /* ── topo: marca + selo. Abaixo dos 230px que o Instagram cobre ── */
+  .topo { position:absolute; top:250px; left:88px; right:88px;
+    display:flex; align-items:center; gap:18px; }
+  .marca { font-weight:900; font-size:38px; letter-spacing:.14em; text-transform:uppercase;
+    text-shadow:0 2px 18px rgba(0,0,0,.75); }
+  .marca span { color:var(--cor); }
+  .selo { margin-left:auto; font-size:26px; font-weight:900; letter-spacing:.1em;
+    color:var(--cor); border:2px solid var(--cor); border-radius:999px; padding:10px 24px;
+    background:rgba(0,0,0,.35); text-transform:uppercase; }
+
+  /* ⚠️ TUDO QUE É TEXTO VIVE NESTA COLUNA, empilhado.
+     A primeira versão posicionava miolo, CTA e rodapé com `absolute` cada um na sua
+     altura — e eles COLIDIRAM: a caixa do CTA entrou por cima da última linha do
+     texto e comeu a palavra "blog". Empilhado, um empurra o outro e não tem como
+     sobrepor, seja o texto curto ou longo.
+     `bottom:190px` é a margem da faixa "Enviar mensagem" do Instagram. */
+  .baixo { position:absolute; left:88px; right:88px; bottom:190px;
+    display:flex; flex-direction:column; gap:38px; }
+
+  .fato { font-weight:900; font-size:92px; line-height:1.06; letter-spacing:-.02em;
+    text-wrap:balance; text-shadow:0 4px 30px rgba(0,0,0,.6); }
+  .fato em { font-style:normal; color:var(--cor); }
+  .fonte { font-size:42px; line-height:1.38; color:#aab6c8; font-weight:400;
+    border-left:6px solid var(--cor); padding-left:28px; }
+
+  .cta { background:rgba(255,255,255,.06); border:2px solid var(--cor);
+    border-radius:26px; padding:32px 38px; backdrop-filter:blur(8px); }
+  .cta b { display:block; font-size:50px; font-weight:900; line-height:1.15; }
+  .cta small { display:block; margin-top:12px; font-size:34px; font-weight:400; color:#b9c4d4; }
+
+  /* Rodapé de marketing: em TODO story. `nowrap` porque quebrando em duas linhas
+     ele desalinha e vira sujeira visual. */
+  .rodape { display:flex; gap:16px; align-items:center; justify-content:center;
+    font-size:26px; color:#8b97a8; font-weight:700; white-space:nowrap; }
+  .rodape i { font-style:normal; color:var(--cor); }
+  .ponto { opacity:.4; }
+</style>
+</head>
+<body>
+  <div class="foto"></div>
+  <div class="vidro"></div>
+  <div class="brilho"></div>
+
+  <div class="topo">
+    <div class="marca">NEURAL<span>UPDATE</span></div>
+    <div class="selo">{{SELO}}</div>
+  </div>
+
+  <div class="baixo">
+    <div class="fato">{{FATO}}</div>
+    <div class="fonte">{{FONTE}}</div>
+
+    <div class="cta">
+      <b>{{CTA}}</b>
+      <small>{{CTA_SUB}}</small>
+    </div>
+
+    <div class="rodape">
+      <span>blog <i>neural-update.com.br</i></span>
+      <span class="ponto">•</span>
+      <span>YouTube <i>Neural Update</i></span>
+      <span class="ponto">•</span>
+      <span><i>link na bio</i></span>
+    </div>
+  </div>
+</body>
+</html>

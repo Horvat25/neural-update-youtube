@@ -1,0 +1,3 @@
+@echo off
+cd /d "%~dp0"
+node sync-br-to-en.js --latest >> sync-br-to-en.log 2>&1

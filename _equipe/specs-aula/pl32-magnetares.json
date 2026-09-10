@@ -1,0 +1,48 @@
+[
+  {
+    "slug": "pl32-magnetares",
+    "stream": "aula",
+    "voice": "female",
+    "publishAt": "2026-09-02T17:00:00.000Z",
+    "track": "dark-some-amount-of-evil.mp3",
+    "topic": "magnetar campo magnetico mais forte do universo crosta racha surto de raios gama",
+    "isca": false,
+    "title": "🔭 Magnetar: o ímã que RACHA a própria estrela ⚡ #Shorts",
+    "desc1": "AULA da escola Universo do Zero. Um magnetar é uma estrela de nêutrons com o campo magnético mais intenso que se conhece. Ele é tão forte que deforma átomos e faz a própria crosta da estrela rachar — e cada rachadura solta um surto de raios gama que atravessa a galáxia.",
+    "tags": [
+      "magnetar",
+      "estrela de nêutrons",
+      "campo magnético",
+      "raios gama",
+      "astrofísica",
+      "aula de astronomia"
+    ],
+    "hashtags": [
+      "#magnetar",
+      "#astrofísica",
+      "#neuralupdate"
+    ],
+    "hook": "O ÍMÃ TÃO FORTE\nQUE RACHA\nA ESTRELA",
+    "roteiro": "E se uma estrela de neutrons tiver um campo magnético mil vezes mais forte?\n\nA resposta errada é: nada demais, é só um ímã maior.\n\nUm magnetar carrega o campo magnético mais intenso que a gente conhece.\n\nEle é tão forte que deforma os átomos e faz a própria crosta da estrela rachar.\n\nCada rachadura solta um surto de raios gama que atravessa a galáxia.\n\nE tudo isso cabe numa bola do tamanho de uma cidade.\n\n>> Na próxima aula: de onde vieram os átomos do seu corpo. Quinta, dia três, às duas.",
+    "cues": [
+      "E se uma estrela",
+      "A resposta errada é:",
+      "Um magnetar carrega o",
+      "Ele é tão forte",
+      "Cada rachadura solta um",
+      "E tudo isso cabe",
+      "Na próxima aula: de"
+    ],
+    "prompts": [
+      "A small sphere strangled by violently intense glowing magnetic field lines, subject large and dominant in frame, filling most of the tall vertical frame, cinematic astrophysics visualization, deep black space, no text, no logo, no watermark, one single continuous scene with no frames or borders",
+      "An ordinary horseshoe magnet floating uselessly in space, plainly the wrong answer, subject large and dominant in frame, filling most of the tall vertical frame, cinematic astrophysics visualization, deep black space, no text, no logo, no watermark, one single continuous scene with no frames or borders",
+      "A tiny sphere wrapped in the densest possible cage of twisted glowing magnetic loops, subject large and dominant in frame, filling most of the tall vertical frame, cinematic astrophysics visualization, deep black space, no text, no logo, no watermark, one single continuous scene with no frames or borders",
+      "The crust of a small star visibly cracking open along glowing fracture lines, subject large and dominant in frame, filling most of the tall vertical frame, cinematic astrophysics visualization, deep black space, no text, no logo, no watermark, one single continuous scene with no frames or borders",
+      "A blinding burst of gamma radiation erupting from a crack and sweeping across a galaxy, subject large and dominant in frame, filling most of the tall vertical frame, cinematic astrophysics visualization, deep black space, no text, no logo, no watermark, one single continuous scene with no frames or borders",
+      "A small sphere shown beside a city skyline for scale, the sphere no bigger than the city, subject large and dominant in frame, filling most of the tall vertical frame, cinematic astrophysics visualization, deep black space, no text, no logo, no watermark, one single continuous scene with no frames or borders",
+      "A dying massive star forging glowing heavy elements deep in its core, subject large and dominant in frame, filling most of the tall vertical frame, cinematic astrophysics visualization, deep black space, no text, no logo, no watermark, one single continuous scene with no frames or borders"
+    ],
+    "fonte": "Magnetares — SGR/AXP, campos de 10^14 a 10^15 gauss e starquakes",
+    "extra": "Aula 6. Anuncia nucleossíntese estelar. neutrons SEM acento no roteiro."
+  }
+]

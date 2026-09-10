@@ -1,0 +1,47 @@
+[
+  {
+    "slug": "nw-corrente-estelar-materia-escura",
+    "stream": "news",
+    "track": "dark-some-amount-of-evil.mp3",
+    "topic": "corrente estelar extragalactica materia escura aglomerado globular hubble",
+    "isca": false,
+    "title": "📰 Essa corrente NÃO é só estrelas (ela pesa o invisível) 🌌 #Shorts",
+    "desc1": "Um artigo publicado em 12 de agosto de 2026 na Nature apresenta evidência para a primeira corrente estelar de um aglomerado globular observada fora da Via Láctea. A estrutura foi identificada em imagens profundas do telescópio Hubble da galáxia ultradifusa UGC 9050-Dw1. Ao modelar a forma da corrente, a equipe obteve a primeira restrição de halo baseada em uma corrente para uma galáxia ultradifusa; os modelos sugerem um halo de matéria escura massivo. Trata-se de evidência, não de uma detecção definitiva isolada.",
+    "tags": [
+      "corrente estelar",
+      "materia escura",
+      "aglomerado globular",
+      "hubble",
+      "galaxia ultradifusa",
+      "astronomia",
+      "nature"
+    ],
+    "hashtags": [
+      "#materiaescura",
+      "#astronomia",
+      "#neuralupdate"
+    ],
+    "hook": "ESTRELAS\nPESANDO O\nINVISÍVEL",
+    "roteiro": "Uma fita de estrelas escapando de um aglomerado.\n\nEla é a primeira vista fora da nossa galáxia.\n\nA gravidade puxou estrelas e desenhou uma cauda no escuro.\n\nEssa cauda guarda a marca da matéria escura.\n\nMas a galáxia onde ela vive é tão apagada que quase não dá para pesá-la.\n\nPor isso os astrônomos usaram a curva da corrente como uma balança.\n\nO resultado aponta para um halo escuro muito maior do que a luz mostra.\n\nSerá que fios de estrelas podem revelar o que não emite luz?\n\n\n\nNeural Update. O universo está te esperando.",
+    "cues": [
+      "Uma fita de estrelas",
+      "Ela é a primeira",
+      "A gravidade puxou estrelas",
+      "Essa cauda guarda a",
+      "Mas a galáxia onde",
+      "Por isso os astrônomos",
+      "O resultado aponta para"
+    ],
+    "prompts": [
+      "A thin luminous ribbon of stars escaping from a compact globular cluster in deep space, the stellar stream arcing across the frame like a glowing river, subject large and dominant in frame, filling most of the tall vertical frame, bright and high contrast against black space, astronomical survey image, immediate awe, no text, no logo, no watermark, one single continuous scene with no frames or borders",
+      "A distant ultra-diffuse galaxy seen as a faint enormous cloud of stars with one bright narrow stellar stream cutting through it, subject large and dominant in frame, filling most of the tall vertical frame, cinematic scientific documentary photography, high contrast against black space, no text, no logo, no watermark, one single continuous scene with no frames or borders",
+      "A compact globular cluster being pulled apart by gravity, thousands of stars stretching into a long tidal tail through space, subject large and dominant in frame, filling most of the tall vertical frame, cinematic scientific documentary photography, immediate awe, no text, no logo, no watermark, one single continuous scene with no frames or borders",
+      "A visible stellar stream curving around an unseen dark matter halo, stars following an elegant gravitational arc through black space, subject large and dominant in frame, filling most of the tall vertical frame, cinematic scientific documentary photography, bright and high contrast, no text, no logo, no watermark, one single continuous scene with no frames or borders",
+      "An ultra-diffuse galaxy almost invisible against space, its few faint stars spread across a huge ghostly disk and one bright star stream exposed, subject large and dominant in frame, filling most of the tall vertical frame, astronomical survey image, immediate awe, no text, no logo, no watermark, one single continuous scene with no frames or borders",
+      "A scientific visualization of a curved stellar stream acting like a cosmic scale around a dark halo, glowing stars tracing gravity in a deep galaxy, subject large and dominant in frame, filling most of the tall vertical frame, cinematic scientific documentary photography, high contrast against black space, no readable symbols, no logo, no watermark, one single continuous scene with no frames or borders",
+      "A magnificent deep-space view of a long bright stellar stream wrapping around a faint galaxy, the invisible halo suggested by the stars' graceful path, subject large and dominant in frame, filling most of the tall vertical frame, cinematic scientific documentary photography, immediate awe, no text, no logo, no watermark, one single continuous scene with no frames or borders"
+    ],
+    "fonte": "Nature, 12/08/2026 — https://www.nature.com/articles/s41586-026-10878-w",
+    "extra": "Roteiro sem UGC 9050-Dw1, Oyashio ou Hubble para evitar pronúncia estrangeira no TTS. O artigo fala em evidência para a primeira corrente extragaláctica de aglomerado globular; manter essa cautela nas legendas e descrição."
+  }
+]

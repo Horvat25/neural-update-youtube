@@ -1,0 +1,20 @@
+const { getAuthorizedClient } = require('./youtube-auth');
+const { google } = require('googleapis');
+(async () => {
+  const auth = await getAuthorizedClient();
+  const yt = google.youtube({version:'v3', auth});
+  const r = await yt.videos.list({part:'snippet,status', id:'Ec9cCr3aeRM'});
+  const v = r.data.items[0], d = v.snippet.description;
+  const ok = (b) => b ? 'SIM ✓' : 'NAO ✗';
+  console.log('link do Kindle       :', ok(d.includes('neural-update.com.br/kindle')));
+  console.log('aviso de afiliado    :', ok(d.includes('associado da Amazon')));
+  console.log('capitulos            :', ok(d.includes('0:26')));
+  console.log('credito da musica    :', ok(d.includes('Kevin MacLeod')));
+  console.log('--- conformidade Amazon (nao pode aparecer):');
+  console.log('  preco em R$        :', d.includes('R$') ? 'APARECE — CORRIGIR' : 'nao ✓');
+  console.log('  nota/estrelas      :', /estrela[s]? de|\d[,.]\d de 5|classificação/i.test(d) ? 'APARECE — CORRIGIR' : 'nao ✓');
+  console.log('  nº de avaliacoes   :', /avalia[cç]/i.test(d) ? 'APARECE — CORRIGIR' : 'nao ✓');
+  console.log('--- publicacao:');
+  console.log('  publishAt          :', v.status.publishAt, '(17h BRT)');
+  console.log('  tamanho da desc    :', d.length, 'chars (limite 5000)');
+})().catch(e=>console.error('ERRO', e.message));

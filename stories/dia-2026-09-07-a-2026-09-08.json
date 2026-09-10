@@ -1,0 +1,68 @@
+[
+  {
+    "slug": "story-noticia-2026-09-07",
+    "tipo": "noticia",
+    "dia": "2026-09-07",
+    "quando": "2026-09-07T11:00:00.000Z",
+    "selo": "descoberta",
+    "fato": "A energia escura NÃO é constante (o modelo do universo balançou).",
+    "fonte": "A energia escura pode estar enfraquecendo.",
+    "cta": "O vídeo completo está no perfil",
+    "ctaSub": "E o texto, no blog"
+  },
+  {
+    "slug": "story-blog-2026-09-07",
+    "tipo": "blog",
+    "dia": "2026-09-07",
+    "quando": "2026-09-07T19:00:00.000Z",
+    "selo": "no blog hoje",
+    "fato": "É possível fotografar um exoplaneta diretamente?",
+    "fonte": "Alguns exoplanetas já foram imageados diretamente, sobretudo mundos jovens, quentes, massivos e distantes de suas estrelas. A maioria continua sendo…",
+    "cta": "Leia em neural-update.com.br",
+    "ctaSub": "Link na bio · matéria nova todo dia"
+  },
+  {
+    "slug": "story-kindle-2026-09-07",
+    "tipo": "kindle",
+    "dia": "2026-09-07",
+    "quando": "2026-09-07T23:00:00.000Z",
+    "selo": "leitura",
+    "fato": "Em 40 segundos [[não cabe]] o universo.",
+    "fonte": "O que não coube no vídeo está nos livros. O primeiro mês é grátis; depois vira assinatura, e dá pra cancelar antes disso.",
+    "cta": "Um mês de leitura ilimitada",
+    "ctaSub": "Link na bio"
+  },
+  {
+    "slug": "story-noticia-2026-09-08",
+    "tipo": "noticia",
+    "dia": "2026-09-08",
+    "quando": "2026-09-08T11:00:00.000Z",
+    "selo": "descoberta",
+    "fato": "Esses planetas NÃO deviam existir (são leves demais).",
+    "fonte": "A missão TESS da NASA anunciou em 24 de junho de 2026 dois planetas gigantes de densidade comparável à de algodão-doce.",
+    "cta": "O vídeo completo está no perfil",
+    "ctaSub": "E o texto, no blog"
+  },
+  {
+    "slug": "story-blog-2026-09-08",
+    "tipo": "blog",
+    "dia": "2026-09-08",
+    "quando": "2026-09-08T19:00:00.000Z",
+    "selo": "no blog hoje",
+    "fato": "O que é um quasar e como ele brilha tanto?",
+    "fonte": "Quasar é um núcleo galáctico ativo extremamente luminoso. Gás e poeira formam um disco ao redor de um buraco negro supermassivo, convertem energia…",
+    "cta": "Leia em neural-update.com.br",
+    "ctaSub": "Link na bio · matéria nova todo dia"
+  },
+  {
+    "slug": "story-kindle-2026-09-08",
+    "tipo": "kindle",
+    "dia": "2026-09-08",
+    "quando": "2026-09-08T23:00:00.000Z",
+    "selo": "sem desculpa",
+    "fato": "Você [[não precisa]] ter um Kindle pra usar o Kindle Unlimited.",
+    "fonte": "O aplicativo é grátis e roda no celular que está na sua mão agora. O aparelho é opcional — a assinatura é que é paga, depois do primeiro mês.",
+    "cta": "Começa hoje, do celular mesmo",
+    "ctaSub": "Link na bio"
+  }
+]

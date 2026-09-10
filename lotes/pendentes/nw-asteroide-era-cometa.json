@@ -1,0 +1,45 @@
+{
+  "slug": "nw-asteroide-era-cometa",
+  "stream": "news",
+  "track": "dark-some-amount-of-evil.mp3",
+  "topic": "asteroide 1998 SH2 era cometa cauda fraca orbita irregular NASA JPL 2026",
+  "isca": false,
+  "title": "📰 Esse asteroide NÃO era asteroide (a órbita entregou) ☄️ #Shorts",
+  "desc1": "O objeto próximo da Terra 1998 SH2 parecia um asteroide desde sua descoberta, mas uma análise liderada pelo JPL da NASA revelou perturbações em sua órbita que não combinavam com um corpo seco. A equipe concluiu que gelo aquecido pelo Sol liberava uma pequena quantidade de gás, empurrando o objeto. Observações do Canada-France-Hawaii Telescope, do Very Large Telescope e de outro observatório encontraram uma cauda fraca e confirmaram que ele é um cometa. Em 16 de julho de 2026, a NASA informou que 1998 SH2 passará a usar também a designação P/1998 SH2.",
+  "tags": [
+    "asteroide era cometa",
+    "1998 SH2",
+    "cometa",
+    "NASA JPL",
+    "objetos proximos da Terra",
+    "orbita irregular",
+    "astronomia"
+  ],
+  "hashtags": [
+    "#cometa",
+    "#astronomia",
+    "#neuralupdate"
+  ],
+  "hook": "O ASTEROIDE\nERA UM\nCOMETA",
+  "roteiro": "Um asteroide silencioso parecia comum entre os objetos próximos da Terra.\n\nAstrônomos descobriram que ele era um COMETA quase invisível.\n\nNenhuma cauda chamava atenção nas imagens antigas do pequeno corpo.\n\nMas sua órbita começou a fugir do caminho calculado.\n\nGelo escondido esquenta ao Sol e lança gás como um motor fraco.\n\nTelescópios gigantes encontraram uma cauda tênue depois de seguir esse desvio.\n\nAgora aquele falso asteroide recebe uma marca oficial de cometa.\n\nQuantos outros objetos aparentemente secos escondem jatos de gás?\n\n\n\nNeural Update. O universo está te esperando.",
+  "cues": [
+    "Um asteroide silencioso parecia",
+    "Astrônomos descobriram que ele",
+    "Nenhuma cauda chamava",
+    "Mas sua órbita começou",
+    "Gelo escondido esquenta",
+    "Telescópios gigantes encontraram",
+    "Quantos outros objetos"
+  ],
+  "prompts": [
+    "A small charcoal-black rocky near-Earth object drifting through a dense starfield, rough irregular surface sharply lit by the Sun, subject large and dominant in frame, filling most of the tall vertical frame, cinematic scientific documentary photography, bright and high contrast against black space, one single continuous scene with no frames or borders",
+    "The same dark rocky object suddenly revealing a delicate pale dust tail in sunlight, the tail barely visible but unmistakable, subject large and dominant in frame, edge to edge vertical composition, astronomical survey image realism, immediate awe, one single continuous scene with no frames or borders",
+    "A compact dark asteroid-like nucleus floating without any visible coma, clean black space around it and hard sunlight across its cracked rock, subject large and dominant in a tall vertical frame, cinematic scientific documentary photography, one single continuous scene with no frames or borders",
+    "A dark rocky object racing along a luminous curved orbital arc around the Sun, the path bending subtly away from its expected track, subject large and dominant in frame, high contrast deep-space scientific visualization, one single continuous scene with no frames or borders",
+    "Extreme close view of sunlight heating icy fractures in a rugged rocky nucleus, thin jets of gas and dust escaping into black space, subject large and dominant in a tall vertical frame, cinematic scientific documentary photography, immediate awe, one single continuous scene with no frames or borders",
+    "A powerful observatory view of the small rocky nucleus with a faint blue-white tail spreading behind it, countless sharp stars surrounding the object, subject large and dominant in frame, astronomical survey image, bright and high contrast against black space, one single continuous scene with no frames or borders",
+    "Several ambiguous dark rocky bodies crossing a vast black starfield, one carrying a nearly invisible glowing trail that hints at hidden activity, subjects large and dominant in a tall vertical frame, cinematic scientific documentary photography, sense of scale that feels physically impossible, one single continuous scene with no frames or borders"
+  ],
+  "fonte": "NASA / Jet Propulsion Laboratory, 16/07/2026 — https://www.jpl.nasa.gov/news/nasa-study-finds-near-earth-asteroid-is-actually-comet/",
+  "extra": "Fonte primária confirma que 1998 SH2 exibiu perturbações não gravitacionais, uma cauda fraca e a nova designação P/1998 SH2. O roteiro evita a sigla e a numeração para não exigir teste fonético novo. Corpo: 81 palavras."
+}

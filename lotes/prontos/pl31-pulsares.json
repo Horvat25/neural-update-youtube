@@ -1,0 +1,48 @@
+[
+  {
+    "slug": "pl31-pulsares",
+    "stream": "aula",
+    "voice": "female",
+    "publishAt": "2026-09-01T17:00:00.000Z",
+    "track": "dark-some-amount-of-evil.mp3",
+    "topic": "pulsar estrela de neutrons girando feixes nos polos farol homenzinho verde precisao de relogio",
+    "isca": false,
+    "title": "🔭 Pulsar: o farol que bate mais certo que um relógio atômico 📡 #Shorts",
+    "desc1": "AULA da escola Universo do Zero. Um pulsar é uma estrela de nêutrons girando: ela dispara dois feixes pelos polos e, se um deles varre a Terra, chega um pulso a cada volta. Farol, não mensagem. Alguns giram centenas de vezes por segundo, sempre no mesmo compasso.",
+    "tags": [
+      "pulsar",
+      "estrela de nêutrons",
+      "radioastronomia",
+      "jocelyn bell",
+      "astrofísica",
+      "aula de astronomia"
+    ],
+    "hashtags": [
+      "#pulsar",
+      "#astronomia",
+      "#neuralupdate"
+    ],
+    "hook": "ACHARAM QUE\nERA ALGUÉM\nCHAMANDO",
+    "roteiro": "Por que um pulsar bate mais certo que um relógio atômico?\n\nA resposta errada é: tem alguém mandando sinal.\n\nÉ uma estrela de neutrons girando. Ela dispara dois feixes pelos polos, e se um varre a Terra, chega um pulso a cada volta.\n\nFarol, não mensagem.\n\nPequena e densa desse jeito, quase nada atrapalha o giro: alguns dão centenas de voltas por segundo, sempre no mesmo compasso.\n\nO primeiro era tão certinho que apelidaram de homenzinho verde.\n\n>> Na próxima aula: a versão com o ímã mais forte do universo. Quarta, dia dois, às duas.",
+    "cues": [
+      "Por que um pulsar",
+      "A resposta errada é:",
+      "É uma estrela de",
+      "Farol, não mensagem.",
+      "Pequena e densa desse",
+      "O primeiro era tão",
+      "Na próxima aula: a"
+    ],
+    "prompts": [
+      "A precise pulse of light arriving in perfect rhythm across black space, subject large and dominant in frame, filling most of the tall vertical frame, cinematic astrophysics visualization, deep black space, no text, no logo, no watermark, one single continuous scene with no frames or borders",
+      "An alien radio antenna pointed at the sky, plainly the wrong explanation, subject large and dominant in frame, filling most of the tall vertical frame, cinematic astrophysics visualization, deep black space, no text, no logo, no watermark, one single continuous scene with no frames or borders",
+      "A small smooth sphere spinning rapidly with two narrow beams shooting from its poles, subject large and dominant in frame, filling most of the tall vertical frame, cinematic astrophysics visualization, deep black space, no text, no logo, no watermark, one single continuous scene with no frames or borders",
+      "A lighthouse beam sweeping across the dark and catching a distant planet for an instant, subject large and dominant in frame, filling most of the tall vertical frame, cinematic astrophysics visualization, deep black space, no text, no logo, no watermark, one single continuous scene with no frames or borders",
+      "A tiny dense sphere spinning at enormous speed with motion blur trailing around it, subject large and dominant in frame, filling most of the tall vertical frame, cinematic astrophysics visualization, deep black space, no text, no logo, no watermark, one single continuous scene with no frames or borders",
+      "A chart recorder drawing perfectly evenly spaced spikes of a repeating signal, subject large and dominant in frame, filling most of the tall vertical frame, cinematic astrophysics visualization, deep black space, no text, no logo, no watermark, one single continuous scene with no frames or borders",
+      "A small sphere wrapped in extremely dense glowing magnetic field lines, subject large and dominant in frame, filling most of the tall vertical frame, cinematic astrophysics visualization, deep black space, no text, no logo, no watermark, one single continuous scene with no frames or borders"
+    ],
+    "fonte": "Descoberta dos pulsares (Jocelyn Bell Burnell, 1967) — CP 1919",
+    "extra": "Aula 5. Anuncia magnetares. neutrons SEM acento no roteiro."
+  }
+]

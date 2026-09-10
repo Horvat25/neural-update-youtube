@@ -1,0 +1,45 @@
+{
+  "slug": "nw-sol-girinhos-plasma-calor",
+  "stream": "news",
+  "track": "dark-some-amount-of-evil.mp3",
+  "topic": "sol redemoinhos plasma 20 km transporte energia coroa solar",
+  "isca": false,
+  "title": "📰 O calor do Sol NÃO sobe reto (giros de 20 km) ☀️ #Shorts",
+  "desc1": "Imagens divulgadas em 6 de agosto de 2026 pela American Physical Society mostram a superfície solar em escala de 20 quilômetros, mais de duas vezes menor que a alcançada em observações anteriores. A nova resolução revelou espirais de plasma extensas nas fronteiras entre regiões magnéticas e não magnéticas. Os pesquisadores as interpretam como instabilidades de Kelvin-Helmholtz e avaliam que a mistura contínua pode ajudar a transportar energia pela atmosfera solar e aquecer a coroa. O mecanismo ainda está sob investigação.",
+  "tags": [
+    "redemoinhos no sol",
+    "plasma solar",
+    "coroa solar",
+    "energia solar",
+    "telescopio solar",
+    "astronomia",
+    "fisica"
+  ],
+  "hashtags": [
+    "#sol",
+    "#astronomia",
+    "#neuralupdate"
+  ],
+  "hook": "O CALOR DO SOL\nNÃO SOBE\nEM LINHA RETA",
+  "roteiro": "Redemoinhos de plasma rodam na pele do Sol.\n\nUma câmera solar enxergou redemoinhos de vinte quilômetros.\n\nEles aparecem onde a energia escapa para a atmosfera.\n\nAté agora, esse transporte de calor era uma lacuna.\n\nMas as espirais são pequenas demais para durar muito numa foto comum.\n\nA resolução mostra que elas existem por toda a superfície.\n\nSe elas carregam energia para cima, ajudam a explicar por que a atmosfera solar é tão quente.\n\nSerá que o calor da coroa começa nesses giros minúsculos?\n\n\n\nNeural Update. O universo está te esperando.",
+  "cues": [
+    "Redemoinhos de plasma rodam",
+    "Uma câmera solar enxergou",
+    "Eles aparecem onde a",
+    "Até agora, esse transporte",
+    "Mas as espirais são",
+    "A resolução mostra que",
+    "Se elas carregam energia"
+  ],
+  "prompts": [
+    "Extreme close-up of the Sun's photosphere covered with tiny glowing plasma vortices, golden and orange spirals rotating across the surface, subject large and dominant in frame, filling most of the tall vertical frame, cinematic scientific documentary photography, bright and high contrast, immediate awe, no text, no logo, no watermark, one single continuous scene with no frames or borders",
+    "A solar telescope observing the Sun in close detail, a gigantic blazing solar surface reflected in its instrument, subject large and dominant in frame, filling most of the tall vertical frame, cinematic scientific documentary photography, bright and high contrast against black space, no text, no logo, no watermark, one single continuous scene with no frames or borders",
+    "A close view of bright solar plasma flowing between dark magnetic lanes on the Sun, turbulent energy escaping upward from the surface, subject large and dominant in frame, filling most of the tall vertical frame, cinematic scientific documentary photography, immediate awe, no text, no logo, no watermark, one single continuous scene with no frames or borders",
+    "A dynamic solar surface where hot plasma and magnetic fields collide in a maze of bright and dark boundaries, energy visibly mixing through the atmosphere, subject large and dominant in frame, filling most of the tall vertical frame, scientific documentary photography, high contrast, no text, no logo, no watermark, one single continuous scene with no frames or borders",
+    "Tiny luminous plasma spirals rapidly deforming along a dark magnetic boundary on the Sun, fragile vortices captured in an instant, subject large and dominant in frame, filling most of the tall vertical frame, extreme scientific solar photography, bright and high contrast, no text, no logo, no watermark, one single continuous scene with no frames or borders",
+    "The Sun's surface revealed at unprecedented microscopic scale, countless small plasma vortices covering bright magnetic structures edge to edge, subject large and dominant in frame, filling most of the tall vertical frame, cinematic scientific documentary photography, immediate awe, no text, no logo, no watermark, one single continuous scene with no frames or borders",
+    "A towering view from the Sun's turbulent surface into its glowing corona, streams of hot plasma rising from tiny rotating vortices below, subject large and dominant in frame, filling most of the tall vertical frame, cinematic scientific documentary photography, bright and high contrast, immediate awe, no text, no logo, no watermark, one single continuous scene with no frames or borders"
+  ],
+  "fonte": "American Physical Society / Nature, 06/08/2026 — https://physics.aps.org/articles/v19/112",
+  "extra": "Ângulo propositalmente diferente do Short já publicado sobre redemoinhos do Sol: foco na resolução de 20 km e no transporte de energia. Roteiro sem Kelvin-Helmholtz e sem nomes estrangeiros para o TTS. A ligação com o aquecimento da coroa é possibilidade em estudo, não certeza."
+}

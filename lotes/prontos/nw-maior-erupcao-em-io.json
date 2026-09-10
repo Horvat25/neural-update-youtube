@@ -1,0 +1,47 @@
+[
+  {
+    "slug": "nw-maior-erupcao-em-io",
+    "stream": "news",
+    "track": "dark-some-amount-of-evil.mp3",
+    "topic": "maior erupcao io lua de jupiter vulcanismo aquecimento de mare interior esponja juno",
+    "isca": false,
+    "title": "📰 A maior erupção do sistema solar NÃO foi na Terra 🌋 #Shorts",
+    "desc1": "A maior erupção vulcânica já registrada no sistema solar aconteceu em Io, a lua mais interna das quatro grandes de Júpiter. Io é o corpo com mais vulcanismo ativo conhecido, e o motor não é calor residual de formação: é aquecimento de maré. A gravidade de Júpiter, somada ao puxão das luas Europa e Ganimedes, deforma Io continuamente, e o atrito interno derrete a rocha. Dados recentes da sonda Juno indicam um interior que se comporta menos como um oceano de magma contínuo e mais como uma estrutura porosa, tipo esponja, com bolsões de rocha derretida distribuídos.",
+    "tags": [
+      "io",
+      "vulcao",
+      "jupiter",
+      "aquecimento de mare",
+      "juno",
+      "sistema solar",
+      "astronomia"
+    ],
+    "hashtags": [
+      "#jupiter",
+      "#astronomia",
+      "#neuralupdate"
+    ],
+    "hook": "A MAIOR ERUPÇÃO\nNÃO FOI\nNA TERRA",
+    "roteiro": "A maior erupção vulcânica já vista no sistema solar não foi aqui.\n\nFoi numa lua de Júpiter chamada Io.\n\nIo tem mais vulcão ativo do que qualquer outro lugar que a gente conhece.\n\nMas o motivo não é calor sobrando lá de dentro: é Júpiter amassando ela.\n\nA gravidade estica a lua de um lado e do outro, e o atrito derrete a rocha.\n\nE o interior dela parece mais uma esponja de magma do que um oceano.\n\nQuantos mundos estão derretendo por dentro agora sem ninguém olhar?\n\n\n\nNeural Update. O universo está te esperando.",
+    "cues": [
+      "A maior erupção vulcânica",
+      "Foi numa lua de",
+      "Io tem mais vulcão",
+      "Mas o motivo não",
+      "A gravidade estica a",
+      "E o interior dela",
+      "Quantos mundos estão derretendo"
+    ],
+    "prompts": [
+      "A colossal volcanic eruption bursting from the surface of a moon, an enormous umbrella shaped plume of sulphur and dust rising hundreds of kilometres into black space, subject large and dominant in frame, filling most of the tall vertical frame, bright and high contrast, cinematic scientific documentary photography, immediate awe, one single continuous scene with no frames or borders",
+      "A yellow orange sulphurous moon covered in volcanic scars floating in front of the immense banded face of Jupiter, subject large and dominant in frame, filling most of the tall vertical frame, cinematic scientific documentary photography, bright and high contrast against black space, immediate awe, one single continuous scene with no frames or borders",
+      "The mottled surface of a volcanic moon seen from close orbit, hundreds of dark volcanic calderas and bright sulphur deposits covering it edge to edge, subject large and dominant in frame, filling most of the tall vertical frame, scientific space photography, high contrast, one single continuous scene with no frames or borders",
+      "A small moon visibly deformed and stretched into an oval by the gravity of the giant planet looming beside it, tidal bulges exaggerated, subject large and dominant in frame, filling most of the tall vertical frame, cinematic scientific documentary photography, high contrast against black space, one single continuous scene with no frames or borders",
+      "A cutaway view of a moon interior showing rock grinding and glowing with friction heat, molten orange veins spreading through dark stone, subject large and dominant in frame, filling most of the tall vertical frame, cinematic scientific documentary photography, bright and high contrast, one single continuous scene with no frames or borders",
+      "A porous sponge like interior structure filled with glowing pockets of molten rock spread through solid dark material, subject large and dominant in frame, filling most of the tall vertical frame, cinematic scientific documentary photography, high contrast, one single continuous scene with no frames or borders",
+      "Several moons and small worlds of the outer solar system floating together in deep space, each with faint glowing cracks or plumes hinting at heat inside, subject large and dominant in frame, filling most of the tall vertical frame, cinematic scientific documentary photography, immediate awe, one single continuous scene with no frames or borders"
+    ],
+    "fonte": "Missão Juno / NASA — vulcanismo em Io e estrutura interna porosa, registro de erupção recorde em janeiro de 2026",
+    "extra": "ATENCAO: conferir no Whisper como o TTS fala Io. Se sair errado, testar grafia Aio ou i-o."
+  }
+]

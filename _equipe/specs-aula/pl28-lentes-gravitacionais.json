@@ -1,0 +1,48 @@
+[
+  {
+    "slug": "pl28-lentes-gravitacionais",
+    "stream": "aula",
+    "voice": "female",
+    "publishAt": "2026-08-29T17:00:00.000Z",
+    "track": "dark-some-amount-of-evil.mp3",
+    "topic": "lente gravitacional massa entorta a luz arcos e imagens multiplas amplificacao",
+    "isca": false,
+    "title": "🔭 Lentes gravitacionais: a galáxia que aparece QUATRO vezes 🔍 #Shorts",
+    "desc1": "AULA da escola Universo do Zero. Massa entorta o espaço, e a luz que passa perto segue esse desvio. Um aglomerado de galáxias na frente vira uma lente natural: ele espalha em arcos a imagem do que está atrás, às vezes em várias cópias da mesma galáxia — e amplifica objetos fracos demais para qualquer telescópio sozinho.",
+    "tags": [
+      "lente gravitacional",
+      "relatividade geral",
+      "einstein",
+      "galáxias",
+      "cosmologia",
+      "aula de astronomia"
+    ],
+    "hashtags": [
+      "#relatividade",
+      "#astronomia",
+      "#neuralupdate"
+    ],
+    "hook": "A MESMA GALÁXIA\nQUATRO VEZES\nNO MESMO CÉU",
+    "roteiro": "Como um telescópio enxerga uma galáxia que está escondida atrás de outra?\n\nA resposta errada é: aumentando o zoom.\n\nMassa entorta o espaço, e a luz que passa perto acompanha esse desvio.\n\nUm aglomerado na frente vira lente: estica a imagem de trás em arcos, e às vezes repete a mesma galáxia quatro vezes.\n\nE amplifica: aparece coisa fraca demais pra qualquer telescópio sozinho.\n\nA gravidade não só segura. Ela também revela.\n\n>> Na próxima aula: o raio que transforma qualquer coisa num buraco negro. Domingo, dia trinta, às duas.",
+    "cues": [
+      "Como um telescópio enxerga",
+      "A resposta errada é:",
+      "Massa entorta o espaço,",
+      "Um aglomerado na frente",
+      "E amplifica: aparece coisa",
+      "A gravidade não só",
+      "Na próxima aula: o"
+    ],
+    "prompts": [
+      "A distant galaxy hidden directly behind a huge glowing galaxy cluster, subject large and dominant in frame, filling most of the tall vertical frame, cinematic astrophysics visualization, deep black space, no text, no logo, no watermark, one single continuous scene with no frames or borders",
+      "A telescope lens straining uselessly toward a faint smudge of light, subject large and dominant in frame, filling most of the tall vertical frame, cinematic astrophysics visualization, deep black space, no text, no logo, no watermark, one single continuous scene with no frames or borders",
+      "A grid of space visibly curving around a massive glowing cluster with a ray of light following the curve, subject large and dominant in frame, filling most of the tall vertical frame, cinematic astrophysics visualization, deep black space, no text, no logo, no watermark, one single continuous scene with no frames or borders",
+      "A perfect luminous ring and long stretched arcs of a background galaxy wrapped around a bright galaxy cluster, the same galaxy repeated four times around it, subject large and dominant in frame, filling most of the tall vertical frame, cinematic astrophysics visualization, deep black space, no text, no logo, no watermark, one single continuous scene with no frames or borders",
+      "A faint distant galaxy turning bright and detailed as its light is magnified through a curved lens of space, subject large and dominant in frame, filling most of the tall vertical frame, cinematic astrophysics visualization, deep black space, no text, no logo, no watermark, one single continuous scene with no frames or borders",
+      "A vast web of gravity drawn as glowing curved lines revealing hidden galaxies behind it, subject large and dominant in frame, filling most of the tall vertical frame, cinematic astrophysics visualization, deep black space, no text, no logo, no watermark, one single continuous scene with no frames or borders",
+      "A small dark sphere with a glowing circle marking the exact radius where light can no longer escape, subject large and dominant in frame, filling most of the tall vertical frame, cinematic astrophysics visualization, deep black space, no text, no logo, no watermark, one single continuous scene with no frames or borders"
+    ],
+    "fonte": "Relatividade geral — deflexão da luz e lentes gravitacionais (Einstein 1915; Eddington 1919)",
+    "extra": "Aula 2 do arco avançado. Anuncia o raio de Schwarzschild."
+  }
+]

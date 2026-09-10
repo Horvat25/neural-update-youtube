@@ -1,0 +1,48 @@
+[
+  {
+    "slug": "pl35-disco-de-acrecao",
+    "stream": "aula",
+    "voice": "female",
+    "publishAt": "2026-09-05T17:00:00.000Z",
+    "track": "dark-some-amount-of-evil.mp3",
+    "topic": "disco de acrecao momento angular atrito milhoes de graus brilha mais que a galaxia",
+    "isca": false,
+    "title": "🔭 O objeto mais escuro do universo é cercado pelo mais brilhante ⚫ #Shorts",
+    "desc1": "AULA da escola Universo do Zero. Quase nada cai direto num buraco negro: a matéria chega girando e entra em órbita, formando um disco. O atrito entre as camadas aquece o gás a milhões de graus — e ele passa a brilhar mais que a galáxia inteira.",
+    "tags": [
+      "disco de acreção",
+      "buraco negro",
+      "momento angular",
+      "quasar",
+      "astrofísica",
+      "aula de astronomia"
+    ],
+    "hashtags": [
+      "#buraconegro",
+      "#astrofísica",
+      "#neuralupdate"
+    ],
+    "hook": "O MAIS ESCURO\nVIVE CERCADO\nPELO MAIS BRILHANTE",
+    "roteiro": "O objeto mais escuro do universo vive cercado pela coisa mais brilhante que existe.\n\nE o motivo é que quase nada cai direto num buraco negro.\n\nQuase tudo chega girando. E o que gira não cai reto. Ele vira um disco.\n\nNo disco, as camadas de dentro giram mais rápido e se esfregam nas de fora.\n\nEsse atrito esquenta o gás a milhões de graus.\n\nE ele passa a brilhar mais que a galáxia inteira em volta.\n\n>> Na próxima aula: os jatos relativísticos. Domingo, dia seis, às duas.",
+    "cues": [
+      "O objeto mais escuro",
+      "E o motivo é",
+      "Quase tudo chega girando.",
+      "No disco, as camadas",
+      "Esse atrito esquenta o",
+      "E ele passa a",
+      "Na próxima aula: os"
+    ],
+    "prompts": [
+      "A stream of glowing gas curving away instead of falling straight into a small black sphere, subject large and dominant in frame, filling most of the tall vertical frame, cinematic astrophysics visualization, deep black space, no text, no logo, no watermark, one single continuous scene with no frames or borders",
+      "A rock dropping straight down into a black hole in a simple straight line, plainly wrong, subject large and dominant in frame, filling most of the tall vertical frame, cinematic astrophysics visualization, deep black space, no text, no logo, no watermark, one single continuous scene with no frames or borders",
+      "Glowing gas spiralling into a wide flat orbiting disc around a small black sphere, subject large and dominant in frame, filling most of the tall vertical frame, cinematic astrophysics visualization, deep black space, no text, no logo, no watermark, one single continuous scene with no frames or borders",
+      "Concentric rings of a glowing disc shearing against each other at different speeds, subject large and dominant in frame, filling most of the tall vertical frame, cinematic astrophysics visualization, deep black space, no text, no logo, no watermark, one single continuous scene with no frames or borders",
+      "A blazing white hot inner disc of gas glowing fiercely around a dark centre, subject large and dominant in frame, filling most of the tall vertical frame, cinematic astrophysics visualization, deep black space, no text, no logo, no watermark, one single continuous scene with no frames or borders",
+      "A brilliant accretion disc outshining the entire galaxy behind it, subject large and dominant in frame, filling most of the tall vertical frame, cinematic astrophysics visualization, deep black space, no text, no logo, no watermark, one single continuous scene with no frames or borders",
+      "Two narrow brilliant jets shooting from the poles of a glowing disc, subject large and dominant in frame, filling most of the tall vertical frame, cinematic astrophysics visualization, deep black space, no text, no logo, no watermark, one single continuous scene with no frames or borders"
+    ],
+    "fonte": "Física de acreção — momento angular, aquecimento viscoso e luminosidade do disco",
+    "extra": "Aula 9. Anuncia jatos relativísticos."
+  }
+]

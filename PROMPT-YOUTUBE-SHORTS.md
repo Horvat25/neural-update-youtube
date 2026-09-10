@@ -1,5 +1,7 @@
 # PROMPT — Construir o agente "Neural Update — YouTube Shorts"
 
+> ⚠️ **Histórico (prompt original de construção).** O `neural-image-agent` ("banco de imagens", porta 3030) citado abaixo foi **removido em 2026-06-24** — o pipeline de imagem hoje é 100% Higgsfield, local, sem servidor satélite. Ver [CLAUDE.md](CLAUDE.md) pro estado atual; este arquivo fica só como registro do brief original.
+
 ## Papel
 Você é um engenheiro de software senior. Construa, de ponta a ponta, um app Node.js que **gera Shorts verticais automaticamente e publica no YouTube**, espelhando a arquitetura de um projeto irmão de TikTok já existente (`neural-update-tiktok`). Trabalhe de forma coerente, testando cada peça, e **reaproveite módulos provados** em vez de reinventar.
 

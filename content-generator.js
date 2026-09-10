@@ -97,7 +97,8 @@ Linguagem simples. NÃO invente recursos/menus que a ferramenta não tem.`,
 Tema: "${t.title}"
 Crie um Short de ${d}s explicando de forma SIMPLES e DE TIRAR O FÔLEGO.
 Comece com um fato que dá nó na cabeça, explique com analogias do dia a dia.
-100% FACTUAL (ciência consolidada — nada de pseudociência, conspiração ou achismo).`,
+100% FACTUAL (ciência consolidada — nada de pseudociência, conspiração ou achismo).
+REGRA DE HOOK (CRÍTICA): O 1º segundo do vídeo DEVE conter a palavra-chave central do título na voz, criando tensão imediata. Exemplo: se o título menciona "buraco negro engolindo planeta", a primeira frase deve ser sobre isso — nunca uma introdução genérica. A tensão deve ser estabelecida em ≤8 palavras.`,
   },
 };
 
@@ -114,21 +115,75 @@ const TUTORIAL_POOL = [
   'como criar legendas automáticas pros seus vídeos com IA',
   'como usar IA pra organizar seus estudos',
 ];
+// Análise do canal (jun/2026): espaço/quântica performa 5-10x melhor que o resto
+// (Schrödinger 766 views, buraco negro 340+ vs notícias ~30-90). Pool ampliado
+// com temas VIZINHOS dos campeões — mesmo apelo, sem repetir o mesmo título.
 const CONHECIMENTO_POOL = [
+  // quântica / física (família do Schrödinger)
   'o que é mecânica quântica explicada de forma simples',
-  'os maiores mistérios não resolvidos do universo',
-  'como a inteligência artificial realmente aprende',
-  'por que o tempo passa mais devagar perto de um buraco negro',
-  'o paradoxo de Fermi: por que ainda não achamos aliens',
-  'o que existe dentro de um buraco negro',
-  'como funciona a criptografia que protege suas senhas',
   'o gato de Schrödinger explicado de verdade',
-  'por que o universo está acelerando sua expansão',
+  'entrelaçamento quântico: a conexão assustadora que Einstein odiava',
+  'o experimento da dupla fenda que quebra a realidade',
   'como os computadores quânticos vão mudar tudo',
+  'teletransporte quântico já existe e funciona assim',
+  // buraco negro / espaço-tempo (família do buraco negro)
+  'por que o tempo passa mais devagar perto de um buraco negro',
+  'o que existe dentro de um buraco negro',
+  'radiação de Hawking: como um buraco negro evapora',
+  'o que acontece se você cair em um buraco negro',
+  'viagem no tempo é possível? o que a física diz de verdade',
+  'estrelas de nêutrons: uma colher delas pesa bilhões de toneladas',
+  // universo / mistérios
+  'os maiores mistérios não resolvidos do universo',
+  'o paradoxo de Fermi: por que ainda não achamos aliens',
+  'por que o universo está acelerando sua expansão',
+  'matéria escura: 85% do universo é invisível',
+  'o que havia antes do Big Bang segundo a ciência',
+  'como o universo vai acabar segundo a física',
+  'vivemos em uma simulação? o que a ciência responde',
+  // mente / tecnologia
+  'como a inteligência artificial realmente aprende',
+  'como funciona a criptografia que protege suas senhas',
   'o que é o efeito borboleta e por que ele importa',
   'como o cérebro humano se compara a um computador',
+  'por que seu cérebro apaga memórias de propósito',
+  // buraco negro expandido (família 340+ views)
+  'espaguetificação: como um buraco negro te destrói átomo por átomo',
+  'ondas gravitacionais: em 2015 ouvimos dois buracos negros se fundindo',
+  'o paradoxo da informação: o problema que obcecou Hawking por 30 anos',
+  // quântica expandida (família 766 views)
+  'interpretação dos muitos mundos: existe um você que fez a escolha oposta',
+  'o princípio da incerteza de Heisenberg: é impossível saber tudo sobre uma partícula',
+  'o efeito Zeno quântico: observar uma partícula pode congelá-la no tempo',
+  // universo com números absurdos
+  'você é literalmente feito de poeira de estrelas mortas há bilhões de anos',
+  'um grama de antimáteria libera mais energia que qualquer bomba já criada',
+  'o Big Rip: como o universo pode se rasgar até os próprios átomos sumirem',
+  'por que nada pode ser mais rápido que a luz e como isso distorce o tempo',
+  // mente & tempo (relatable, alto compartilhamento fora da bolha tech)
+  'por que o tempo parece passar mais rápido conforme você envelhece',
+  'a seta do tempo: por que você se lembra do passado mas não do futuro',
+  // novos (jun/2026) — famílias campeãs (buraco negro/espaço/quântica), evitando temas já feitos
+  'o que aconteceria se o Sol desaparecesse agora mesmo',
+  'o universo tem um som — e os cientistas já gravaram ele',
+  'por que o vácuo do espaço não é realmente vazio',
+  'quasares: os objetos mais brilhantes do universo e o que eles escondem',
+  'o paradoxo dos gêmeos: por que viajar perto da velocidade da luz te deixa mais jovem',
+  'quantos universos cabem dentro de um buraco negro segundo a física',
+  'por que dois relógios atômicos idênticos nunca mais concordam depois de separados',
+  'o universo pode ser um holograma gigante? o que a física diz sobre isso',
+  'a anatomia de um buraco negro: o que existe em cada camada até o centro',
+  'a estrela mais próxima da Terra de virar um buraco negro',
+  'o experimento que sugere que o passado pode ser influenciado pelo futuro',
+  'por que astronautas voltam do espaço mais altos (e o que isso revela sobre gravidade)',
 ];
-function pickFromPool(arr) { return arr[Math.floor(Math.random() * arr.length)]; }
+// Sorteia evitando temas usados recentemente (anti-repetição).
+function pickFromPool(arr, recentTopics = []) {
+  const recent = new Set(recentTopics.map(t => (t || '').toLowerCase().trim()));
+  const fresh = arr.filter(t => !recent.has(t.toLowerCase().trim()));
+  const pool = fresh.length ? fresh : arr;
+  return pool[Math.floor(Math.random() * pool.length)];
+}
 
 // ─── Geração de roteiro + SEO YouTube (multi-formato) ─────────────────────────
 async function generateScript(topic, format = 'noticia_tech', durationSeconds = 24) {
@@ -144,10 +199,13 @@ ${fmt.task(topic, durationSeconds)}
 Aplique TODAS as suas técnicas de SEO/retenção do YouTube, respeitando as regras invioláveis:
 - VÍDEO CURTO E RÁPIDO (REGRA DURA): o campo "script" deve ter NO MÁXIMO 55 PALAVRAS (~22-25s falados). Conte as palavras; se passar, CORTE sem dó. Short curto retém e cresce mais.
 - GANCHO NO 1º SEGUNDO: a 1ª frase JÁ entrega o choque/curiosidade — nada de introdução ("hoje vou falar", "você sabia"). Vai direto no impacto.
-- RITMO ACELERADO: frases curtas, uma ideia por frase, sem enrolação. Corta tudo que não prende. O CTA do blog no fim entra nas 55 palavras (curtíssimo: "Tem mais no nosso blog").
+- RITMO ACELERADO: frases curtas, uma ideia por frase, sem enrolação. Corta tudo que não prende.
+- CTA É SÓ VISUAL — NUNCA FALADO: o campo "cta_text_overlay" cuida disso na tela. NÃO escreva "Tem mais no blog", "link na descrição" nem qualquer menção ao blog no campo "script". O script termina com a frase de loop — ponto final.
+- LOOP NATURAL (REGRA DE OURO VIRAL): a ÚLTIMA frase do "script" DEVE ecoar a primeira — cria um loop perfeito que faz o viewer assistir de novo sem perceber. Ex: abre com "Você está viajando no tempo AGORA" → fecha com "...então sim, neste segundo, você está viajando no tempo." Sem CTA depois do loop. O loop é o que faz vídeos passarem de 100k pra 1M de views.
+- ESCADA DE CHOQUE: cada frase deve ser MAIS surpreendente que a anterior. Progressão obrigatória: fato curioso → fato chocante → fato impossível de acreditar → CTA. Nunca nivelado.
+- NÚMERO ESPECÍFICO NO MEIO: ao redor da metade do roteiro, use um número exato (NUNCA "bilhões" — sempre "13.800.000.000" ou "93 bilhões de anos-luz" ou "10^80 átomos"). Número absurdo específico para o scroll.
 - NÃO mencione fonte no texto FALADO. ${fmt.needsNews ? 'A fonte vai só na descrição.' : ''}
 - NÃO invente fatos. ${fmt.needsNews ? 'Baseie-se na manchete.' : 'Mantenha 100% factual e correto.'}
-- O roteiro FALADO TERMINA com CTA pro nosso blog "${BLOG_NAME}" (sem ler a URL; "no nosso blog" / "link na descrição").
 
 REGRA CRÍTICA para image_queries (será usada no Pexels — imagens reais):
 - NUNCA genérico: "artificial intelligence", "technology", "business", "innovation", "digital"
@@ -160,7 +218,7 @@ Responda APENAS em JSON válido:
 {
   "title": "título de BUSCA: 60-70 chars, palavra-chave no começo + gancho. SEM #Shorts.",
   "hook": "frase exata do 1º segundo — choque ou curiosidade extrema",
-  "script": "roteiro narrado (só texto falado). NUNCA cita fonte. NÃO inventa fatos. TERMINA convidando pra ler no nosso blog Neural Update (sem ler URL).",
+  "script": "roteiro narrado (só texto falado, SEM nenhum CTA verbal). NUNCA cita fonte. NÃO inventa fatos. ÚLTIMA FRASE = eco da primeira (loop perfeito). SEM 'Tem mais no blog' ou qualquer menção ao Neural Update.",
   "description": "${descRule}",${sourceField}
   "tags": ["8-15 termos de busca (PT e alguns EN), sem #"],
   "hashtags": ["#Shorts","#tag2","#tag3","#tag4"],

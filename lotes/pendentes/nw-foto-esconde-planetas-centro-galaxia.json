@@ -1,0 +1,45 @@
+{
+  "slug": "nw-foto-esconde-planetas-centro-galaxia",
+  "stream": "news",
+  "track": "dark-some-amount-of-evil.mp3",
+  "topic": "foto centro galaxia sessenta milhoes estrelas planetas microlente gravidade Euclid ESA 2026",
+  "isca": false,
+  "title": "📰 Esta foto NÃO mostra só estrelas (ela revela planetas) 🌌 #Shorts",
+  "desc1": "A missão Euclid da Agência Espacial Europeia divulgou em 24 de junho de 2026 a maior foto em luz visível já feita do centro da Via Láctea, com mais de 60 milhões de estrelas. A imagem foi obtida em cerca de 26 horas e poderá ajudar a confirmar exoplanetas e medir suas massas por microlente gravitacional. Quando duas estrelas se alinham por acaso, a mais próxima amplia a luz da outra; um planeta orbitando a estrela da frente provoca uma alteração adicional e pequena no brilho. Euclid registrou as estrelas antes desses alinhamentos, criando uma referência para missões futuras compararem o movimento delas.",
+  "tags": [
+    "foto esconde planetas",
+    "centro da Via Lactea",
+    "microlente gravitacional",
+    "Euclid ESA",
+    "exoplanetas escondidos",
+    "massa de planeta",
+    "astronomia"
+  ],
+  "hashtags": [
+    "#exoplanetas",
+    "#astronomia",
+    "#neuralupdate"
+  ],
+  "hook": "PLANETAS\nESCONDIDOS\nNA FOTO",
+  "roteiro": "Um retrato do centro da nossa galáxia guarda milhões de estrelas.\n\nEle também esconde PLANETAS que ninguém vê ainda.\n\nQuando uma estrela passa diante de outra, a gravidade aumenta seu brilho.\n\nUm planeta pode deixar uma pequena marca extra nessa luz.\n\nMas esse alinhamento dura pouco e quase sempre se perde.\n\nUma imagem nítida antiga ajuda a separar as estrelas antes do encontro.\n\nAssim astrônomos podem confirmar o planeta e pesar o mundo escondido.\n\nQuantos planetas já estão esperando um lampejo para aparecer?\n\n\n\nNeural Update. O universo está te esperando.",
+  "cues": [
+    "Um retrato do centro",
+    "Ele também esconde",
+    "Quando uma estrela passa",
+    "Um planeta pode deixar",
+    "Mas esse alinhamento dura",
+    "Uma imagem nítida antiga",
+    "Quantos planetas já estão"
+  ],
+  "prompts": [
+    "An immense ultra-detailed view of the crowded centre of a spiral galaxy, millions of warm golden stars packed tightly across the frame with dark dust lanes, subjects large and dominant in a tall vertical frame, astronomical survey image realism, immediate awe, one single continuous scene with no frames or borders",
+    "A dense glowing field of countless stars in the heart of a galaxy with several tiny hidden planets silhouetted near their host stars, stars filling most of the tall vertical frame, cinematic scientific documentary photography, one single continuous scene with no frames or borders",
+    "Two stars aligning along the viewer's line of sight in deep space, the nearer star acting like a luminous gravitational magnifying glass that brightens the star behind it, subjects large and dominant in frame, high contrast scientific visualization, one single continuous scene with no frames or borders",
+    "A small dark exoplanet orbiting a foreground star as its gravity creates a delicate extra ripple in the bright lensed light of a distant background star, subject large and dominant in a tall vertical frame, cinematic scientific documentary photography, one single continuous scene with no frames or borders",
+    "A fleeting stellar alignment in a vast crowded galactic starfield, one brief brilliant flash rising and fading between two stars, subjects large and dominant in frame, astronomical survey image realism, one single continuous scene with no frames or borders",
+    "A sharp starfield showing individual stars separated before a future lensing alignment, subtle glowing paths indicating their slow motion through the crowded galactic centre, subjects large and dominant in a tall vertical frame, cinematic scientific visualization, one single continuous scene with no frames or borders",
+    "A hidden exoplanet revealed by a dramatic burst of magnified starlight in a sea of countless stars, the planet emerging from darkness as a small luminous world, subject large and dominant in frame, sense of scale that feels physically impossible, one single continuous scene with no frames or borders"
+  ],
+  "fonte": "Agência Espacial Europeia / Euclid, 24/06/2026 — https://www.esa.int/Science_Exploration/Space_Science/Euclid/ESA_s_Euclid_captures_the_Milky_Way_s_crowded_heart",
+  "extra": "Fonte primária confirma mais de 60 milhões de estrelas, imagem em cerca de 26 h e uso como referência prévia para confirmar exoplanetas e medir massas por microlente. Roteiro evita Euclid e 'A Via Láctea' no início. Corpo: 83 palavras."
+}

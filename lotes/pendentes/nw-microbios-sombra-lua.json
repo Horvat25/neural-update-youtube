@@ -1,0 +1,45 @@
+{
+  "slug": "nw-microbios-sombra-lua",
+  "stream": "news",
+  "track": "dark-some-amount-of-evil.mp3",
+  "topic": "microbios lua polo sul sombra astronautas contaminacao NASA agosto 2026",
+  "isca": false,
+  "title": "📰 A Lua NÃO fica estéril com humanos (nossos micróbios chegam juntos) 🦠 #Shorts",
+  "desc1": "Estudo da NASA publicado em 19 de agosto de 2026 indica que alguns micróbios da Terra levados por exploradores humanos podem sobreviver em nichos sombreados do polo sul lunar. A análise combinou dados de relevo e temperatura do Lunar Reconnaissance Orbiter com modelos de radiação e encontrou áreas sobrevivíveis que variam de uma pegada de astronauta até o piso de uma cratera. Sobreviver no estudo significa permanecer vivo por pelo menos um dia terrestre, não crescer nem se reproduzir. A descoberta reforça a necessidade de medir a contaminação antes de procurar química antiga ou possíveis sinais biológicos na Lua e em Marte.",
+  "tags": [
+    "micróbios na Lua",
+    "polo sul lunar",
+    "contaminação espacial",
+    "astrobiologia",
+    "astronautas na Lua",
+    "NASA",
+    "astronomia"
+  ],
+  "hashtags": [
+    "#lua",
+    "#astrobiologia",
+    "#neuralupdate"
+  ],
+  "hook": "MICRÓBIOS\nPODEM VIVER\nNA SOMBRA DA LUA",
+  "roteiro": "Um micróbio escondido na sombra da Lua.\n\nEle pode sobreviver trazido pelo traje de um astronauta.\n\nA simulação mostrou abrigos frios no polo sul que quase nunca veem o Sol direto.\n\nNeles, a radiação não alcança com tanta força.\n\nMas sobreviver não quer dizer crescer ou se multiplicar.\n\nEsses abrigos podem ter o tamanho de uma pegada ou de uma cratera.\n\nIsso confunde a busca por química antiga da Lua.\n\nSerá que a próxima missão vai deixar vida da Terra sem perceber?\n\n\n\nNeural Update. O universo está te esperando.",
+  "cues": [
+    "Um micróbio escondido",
+    "Ele pode sobreviver",
+    "A simulação mostrou",
+    "Neles, a radiação",
+    "Mas sobreviver não",
+    "Esses abrigos podem",
+    "Isso confunde a"
+  ],
+  "prompts": [
+    "A single microscopic cell resting in a dark sheltered crevice of the Moon's dusty surface, the lunar shadow and tiny organism concept large and dominant in a tall vertical frame, cinematic scientific documentary realism, one single continuous scene with no frames or borders",
+    "A lunar astronaut in a white spacesuit walking across gray dust while invisible microscopic particles drift from the suit into a nearby shadowed crack, astronaut and lunar ground large and dominant in a tall vertical frame, realistic space documentary image, one single continuous scene with no frames or borders",
+    "The Moon's south polar terrain with towering crater rims casting long deep blue-black shadows over icy cold pockets, shadowed ridges large and dominant in a tall vertical frame, realistic lunar orbital photography, one single continuous scene with no frames or borders",
+    "A low Sun skimming across the lunar south pole while a deep crater crevice remains completely shielded from harsh radiation, crater edge and shadow large and dominant in a tall vertical frame, high contrast scientific realism, one single continuous scene with no frames or borders",
+    "A dormant microbe protected inside a lunar shadowed niche, alive but completely still with no growth, frozen dust crystals and dark rock large and dominant in a tall vertical frame, cinematic astrobiology visualization, one single continuous scene with no frames or borders",
+    "A dramatic scale view of an astronaut boot print beside a vast shadowed lunar crater floor, both types of sheltered niche suggested in one continuous lunar landscape, terrain large and dominant in a tall vertical frame, realistic documentary photography, one single continuous scene with no frames or borders",
+    "A lunar scientist in a spacesuit carefully sampling pristine gray regolith at the edge of a dark polar shadow, delicate instruments and untouched lunar soil large and dominant in a tall vertical frame, cinematic scientific realism, one single continuous scene with no frames or borders"
+  ],
+  "fonte": "NASA / Astrobiologia, 19/08/2026 — https://science.nasa.gov/humans-in-space/human-related-microbes-may-survive-moons-south-pole-nasa-finds/",
+  "extra": "Spec da semana seguinte, fora dos temas recentes de Sol e Marte. A fonte limita sobrevivência a pelo menos um dia terrestre e afirma que não há evidência de crescimento ou reprodução; essas duas cautelas estão no roteiro. Sem nome estrangeiro na locução."
+}

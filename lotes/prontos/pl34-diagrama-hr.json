@@ -1,0 +1,50 @@
+[
+  {
+    "slug": "pl34-diagrama-hr",
+    "stream": "aula",
+    "voice": "female",
+    "publishAt": "2026-09-04T17:00:00.000Z",
+    "track": "dark-some-amount-of-evil.mp3",
+    "topic": "diagrama hertzsprung russell sequencia principal gigantes anas brancas vida da estrela",
+    "isca": false,
+    "title": "🔭 Um gráfico só mostra a vida inteira de qualquer estrela 📊 #Shorts",
+    "desc1": "AULA da escola Universo do Zero. Colocando temperatura num eixo e brilho no outro, as estrelas não se espalham ao acaso: elas se alinham numa faixa diagonal, a sequência principal. Sair dessa faixa é o que acontece quando o combustível acaba.",
+    "tags": [
+      "diagrama hr",
+      "hertzsprung-russell",
+      "sequência principal",
+      "anã branca",
+      "evolução estelar",
+      "aula de astronomia"
+    ],
+    "hashtags": [
+      "#astronomia",
+      "#estrelas",
+      "#neuralupdate"
+    ],
+    "hook": "AS ESTRELAS\nNÃO ESTÃO\nESPALHADAS",
+    "roteiro": "Bota bilhões de estrelas num gráfico e elas não se espalham.\n\nElas se alinham numa faixa diagonal, como se obedecessem uma regra.\n\nE os eixos são só dois: temperatura e brilho.\n\nEssa faixa é a sequência principal. É onde a estrela passa quase toda a vida queimando hidrogênio.\n\nQuando o combustível acaba, ela sai da faixa: incha e vira gigante, depois desaba pro canto das anãs brancas.\n\nOu seja: o lugar da estrela no gráfico é a idade dela.\n\nÉ por isso que, medindo só temperatura e brilho, dá pra saber em que ponto da vida uma estrela está e como ela vai morrer.\n\n>> Na próxima aula: o disco de acreção. Sábado, dia cinco, às duas.",
+    "cues": [
+      "Bota bilhões de estrelas",
+      "Elas se alinham numa",
+      "E os eixos são",
+      "Essa faixa é a",
+      "Quando o combustível acaba,",
+      "Ou seja: o lugar",
+      "É por isso que,",
+      "Na próxima aula: o"
+    ],
+    "prompts": [
+      "Thousands of stars of many colours and sizes scattered in apparent disorder, subject large and dominant in frame, filling most of the tall vertical frame, cinematic astrophysics visualization, deep black space, no text, no logo, no watermark, one single continuous scene with no frames or borders",
+      "Stars lined up in a simple row by size alone, plainly the wrong ordering, subject large and dominant in frame, filling most of the tall vertical frame, cinematic astrophysics visualization, deep black space, no text, no logo, no watermark, one single continuous scene with no frames or borders",
+      "Stars snapping into a clean glowing diagonal band across a dark graph field, subject large and dominant in frame, filling most of the tall vertical frame, cinematic astrophysics visualization, deep black space, no text, no logo, no watermark, one single continuous scene with no frames or borders",
+      "A steady yellow star sitting firmly on a glowing diagonal band of light, subject large and dominant in frame, filling most of the tall vertical frame, cinematic astrophysics visualization, deep black space, no text, no logo, no watermark, one single continuous scene with no frames or borders",
+      "A star swelling into an enormous red giant and drifting up off a glowing band, subject large and dominant in frame, filling most of the tall vertical frame, cinematic astrophysics visualization, deep black space, no text, no logo, no watermark, one single continuous scene with no frames or borders",
+      "A tiny brilliant white dwarf glowing alone in the lower corner of a dark field, subject large and dominant in frame, filling most of the tall vertical frame, cinematic astrophysics visualization, deep black space, no text, no logo, no watermark, one single continuous scene with no frames or borders",
+      "A bright swirling disc of hot gas orbiting a small black sphere, subject large and dominant in frame, filling most of the tall vertical frame, cinematic astrophysics visualization, deep black space, no text, no logo, no watermark, one single continuous scene with no frames or borders",
+      "A bright swirling disc of hot gas orbiting a small black sphere, subject large and dominant in frame, filling most of the tall vertical frame, cinematic astrophysics visualization, deep black space, no text, no logo, no watermark, one single continuous scene with no frames or borders"
+    ],
+    "fonte": "Diagrama Hertzsprung-Russell (1911-1913) — temperatura versus luminosidade",
+    "extra": "Aula 8. Anuncia disco de acreção."
+  }
+]

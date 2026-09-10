@@ -1,0 +1,47 @@
+[
+  {
+    "slug": "nw-terra-sumiu-ceu-de-marte",
+    "stream": "news",
+    "track": "dark-some-amount-of-evil.mp3",
+    "topic": "perseverance terra sumindo atras de fobos ocultacao marte mastcam-z",
+    "isca": false,
+    "title": "📰 A Terra SUMIU do céu de Marte (e um robô filmou) 🔴 #Shorts",
+    "desc1": "A Terra vista do céu de Marte: em 2 de julho de 2026, no sol 1.907 da missão, o rover Perseverance apontou a câmera Mastcam-Z para o céu do entardecer marciano e registrou a Terra desaparecendo atrás de Fobos, a maior das duas luas de Marte. Astrônomos chamam isso de ocultação. A imagem final é a composição de sete fotos, e nosso planeta aparece como um único pixel brilhante a 314 milhões de quilômetros de distância. É a primeira vez na história que uma câmera na superfície de outro planeta registra a Terra sumindo atrás de outro corpo.",
+    "tags": [
+      "terra vista de marte",
+      "perseverance",
+      "fobos",
+      "ocultacao",
+      "marte",
+      "nasa",
+      "astronomia"
+    ],
+    "hashtags": [
+      "#marte",
+      "#astronomia",
+      "#neuralupdate"
+    ],
+    "hook": "A TERRA\nSUMIU DO\nCÉU DE MARTE",
+    "roteiro": "Um ponto de luz no céu de Marte.\n\nEsse ponto é a Terra. Com você dentro.\n\nO Persevírans filmou ela sumindo atrás de Fóbos, a lua maior de Marte.\n\nMas o que impressiona é o tamanho: daqui, o planeta inteiro cabe num píxel.\n\nTrezentos e catorze milhões de quilômetros de distância.\n\nÉ a primeira vez que uma câmera em outro planeta vê o nosso sumir atrás de alguma coisa.\n\nO que mais some do céu de alguém sem a gente nunca saber?\n\n\n\nNeural Update. O universo está te esperando.",
+    "cues": [
+      "Um ponto de luz",
+      "Esse ponto é a",
+      "O Persevírans filmou ela",
+      "Mas o que impressiona",
+      "Trezentos e catorze milhões",
+      "É a primeira vez",
+      "O que mais some"
+    ],
+    "prompts": [
+      "The Martian evening sky seen from the ground: a dusty pale orange and blue gradient filling the tall vertical frame, one single tiny brilliant point of light high in the sky, low rocky horizon at the very bottom, cinematic scientific documentary photography, immediate awe, bright and high contrast",
+      "A single pale blue dot of light isolated in absolute black space, tiny and fragile, faint lens diffraction spikes around it, the emptiness around it enormous, cinematic astronomical photograph, high contrast",
+      "The Martian moon Phobos: a lumpy irregular potato shaped grey moon covered in craters and long parallel grooves, one huge crater on its edge, filling most of the tall vertical frame, hard raking sunlight, cinematic scientific documentary photography, immediate awe",
+      "A crescent of the lumpy Martian moon Phobos in the dark sky with a tiny brilliant point of light almost touching its dark edge, about to disappear behind it, dramatic and quiet, cinematic astronomical photograph, high contrast against black space, subject large and dominant in frame",
+      "Mars as a small red sphere on one side of a vast black frame and a minuscule blue point of light impossibly far on the other side, immense empty distance between them, cinematic space photography, sense of scale that feels physically impossible, immediate awe",
+      "A lone six wheeled robotic rover standing small on a wide rust coloured rocky Martian plain at dusk, its camera mast raised and pointed up at the sky, long shadows, pale orange horizon, cinematic scientific documentary photography, bright and high contrast",
+      "The Martian night sky filling the tall vertical frame, thick with stars, one point of light brighter than all the others returning into view above a dark rocky horizon, cinematic astronomical photograph, immediate awe, high contrast"
+    ],
+    "fonte": "NASA/JPL — Perseverance Mastcam-Z, 02/07/2026 (sol 1907). jpl.nasa.gov/news/nasas-perseverance-rover-watches-earth-vanish-behind-martian-moon/",
+    "extra": "Grafia fonetica no roteiro: Persevírans = Perseverance, Fóbos = Fobos. Trocar na legenda."
+  }
+]

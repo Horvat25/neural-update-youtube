@@ -1,0 +1,47 @@
+[
+  {
+    "slug": "nw-andromeda-pode-nao-bater",
+    "stream": "news",
+    "track": "dark-some-amount-of-evil.mp3",
+    "topic": "colisao via lactea andromeda incerta gaia hubble cinquenta por cento",
+    "isca": false,
+    "title": "📰 A colisão com Andrômeda pode NÃO acontecer (é cara ou coroa) 🌌 #Shorts",
+    "desc1": "A colisão entre a Via Láctea e Andrômeda deixou de ser certeza. Um estudo publicado na Nature Astronomy, usando dados combinados dos telescópios Hubble e Gaia, refez as contas incluindo a influência gravitacional das galáxias vizinhas do Grupo Local, como a Grande Nuvem de Magalhães. O resultado: em cerca de metade das simulações as duas galáxias passam uma pela outra sem se fundir nos próximos 10 bilhões de anos. Ao mesmo tempo, o mapeamento do halo de Andrômeda feito com o Hubble mostra que a auréola de gás dela já se estende até cerca de metade do caminho até nós e encosta na nossa.",
+    "tags": [
+      "colisao andromeda via lactea",
+      "andromeda",
+      "gaia",
+      "hubble",
+      "grupo local",
+      "galaxias",
+      "astronomia"
+    ],
+    "hashtags": [
+      "#andromeda",
+      "#astronomia",
+      "#neuralupdate"
+    ],
+    "hook": "A COLISÃO\nPODE NÃO\nACONTECER",
+    "roteiro": "Andrômeda vem vindo na nossa direção há bilhões de anos.\n\nTodo mundo aprendeu que ela vai bater na nossa galáxia.\n\nMas os dados novos do Gaia dizem outra coisa.\n\nA chance de as duas se fundirem caiu para mais ou menos cinquenta por cento.\n\nO que mudou foi o empurrão das galáxias vizinhas, que ninguém tinha somado na conta.\n\nE mesmo assim, os halos de gás das duas já estão se encostando agora.\n\nComo é que duas galáxias podem se tocar e ainda errar uma da outra?\n\n\n\nNeural Update. O universo está te esperando.",
+    "cues": [
+      "Andrômeda vem vindo",
+      "Todo mundo aprendeu",
+      "Mas os dados novos",
+      "A chance de as",
+      "O que mudou foi",
+      "E mesmo assim",
+      "Como é que duas"
+    ],
+    "prompts": [
+      "The Andromeda galaxy seen large and tilted in deep space, its bright core and dust lanes clearly visible, slowly approaching the viewer, subject large and dominant in frame, filling most of the tall vertical frame, bright and high contrast against black space, cinematic scientific documentary photography, immediate awe, one single continuous scene with no frames or borders",
+      "Two enormous spiral galaxies facing each other across black space on a collision course, both large and bright, their discs tilted toward one another, subject large and dominant in frame, filling most of the tall vertical frame, cinematic scientific documentary photography, immediate awe, one single continuous scene with no frames or borders",
+      "A space telescope charting a dense field of stars with fine measurement arcs of light, precise and cold, subject large and dominant in frame, filling most of the tall vertical frame, bright and high contrast against black space, cinematic scientific documentary photography, smooth light with no readable symbols, one single continuous scene with no frames or borders",
+      "Two great spiral galaxies passing beside each other without touching, their discs sliding past in opposite directions through deep space, subject large and dominant in frame, filling most of the tall vertical frame, cinematic scientific documentary photography, high contrast against black space, one single continuous scene with no frames or borders",
+      "A large irregular satellite galaxy glowing close beside a giant spiral galaxy and visibly tugging its outer arm, gravity distorting the shape, subject large and dominant in frame, filling most of the tall vertical frame, cinematic scientific documentary photography, immediate awe, one single continuous scene with no frames or borders",
+      "Two vast faint spheres of glowing gas around two distant galaxies, the outer edges of the two haloes overlapping and touching in the middle of the frame, subject large and dominant in frame, filling most of the tall vertical frame, cinematic scientific documentary photography, high contrast against black space, one single continuous scene with no frames or borders",
+      "A breathtaking deep space view of two giant galaxies close together against the black, their glowing outer haloes merging into one soft luminous cloud between them, subject large and dominant in frame, filling most of the tall vertical frame, cinematic scientific documentary photography, immediate awe, one single continuous scene with no frames or borders"
+    ],
+    "fonte": "Nature Astronomy (dados Hubble + Gaia) e mapeamento do halo de Andrômeda com o Hubble. nature.com/articles/s41550-025-02563-1",
+    "extra": "Evitar a construcao A Via Lactea no inicio de frase: o TTS junta e fala Havia Lactea. Usar nossa galaxia."
+  }
+]

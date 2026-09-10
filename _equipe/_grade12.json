@@ -1,0 +1,148 @@
+{
+  "G": {
+    "2026-08-28": {
+      "18": "nw-tres-buracos-negros",
+      "08": "nw-tempestade-solar-g2"
+    },
+    "2026-08-29": {
+      "18": "nw-terra-sumiu-ceu-de-marte",
+      "08": "nw-flow-roman-lancamento"
+    },
+    "2026-08-30": {
+      "18": "nw-andromeda-pode-nao-bater",
+      "08": "nw-flow-cratera-falcon9"
+    },
+    "2026-08-31": {
+      "18": "nw-flow-sagitario-a-jejum",
+      "08": "nw-nascimento-de-um-magnetar"
+    },
+    "2026-09-01": {
+      "18": "nw-flow-portal-minhoca",
+      "08": "nw-asteroide-de-metal"
+    },
+    "2026-09-02": {
+      "18": "nw-flow-jupiter-sem-chao",
+      "08": "nw-robo-subiu-marte"
+    },
+    "2026-09-03": {
+      "18": "nw-planeta-chove-rubi",
+      "08": "nw-maior-erupcao-em-io"
+    },
+    "2026-09-04": {
+      "18": "nw-vacuo-quantico-estrela-morta",
+      "08": "nw-deimos-impacto-unico"
+    },
+    "2026-09-05": {
+      "18": "nw-fusao-proibida-buracos-negros",
+      "08": "nw-quinteto-jwst"
+    },
+    "2026-09-06": {
+      "18": "nw-sol-girinhos-plasma-calor",
+      "08": "nw-estrela-explodiu-sem-jato"
+    },
+    "2026-09-07": {
+      "18": "nw-galaxias-escondiam-massa",
+      "08": "nw-energia-escura-enfraquecendo"
+    },
+    "2026-09-08": {
+      "18": "nw-corrente-estelar-materia-escura",
+      "08": "nw-planetas-algodao-doce"
+    }
+  },
+  "mover": [
+    {
+      "slug": "nw-andromeda-pode-nao-bater",
+      "de": "2026-08-31T21:00:00.000Z",
+      "para": "2026-08-30T21:00:00.000Z",
+      "brt": "2026-08-30 18h",
+      "id": "dQjH9qAUgjE"
+    },
+    {
+      "slug": "nw-flow-sagitario-a-jejum",
+      "de": "2026-08-30T21:00:00.000Z",
+      "para": "2026-08-31T21:00:00.000Z",
+      "brt": "2026-08-31 18h",
+      "id": "Cyr6WuUVffg"
+    },
+    {
+      "slug": "nw-flow-jupiter-sem-chao",
+      "de": "2026-09-03T21:00:00.000Z",
+      "para": "2026-09-02T21:00:00.000Z",
+      "brt": "2026-09-02 18h",
+      "id": "pOa_w2hPli8"
+    },
+    {
+      "slug": "nw-planeta-chove-rubi",
+      "de": "2026-09-02T21:00:00.000Z",
+      "para": "2026-09-03T21:00:00.000Z",
+      "brt": "2026-09-03 18h",
+      "id": "MpLc7YSWOmA"
+    },
+    {
+      "slug": "nw-vacuo-quantico-estrela-morta",
+      "de": "2026-08-30T17:00:00.000Z",
+      "para": "2026-09-04T21:00:00.000Z",
+      "brt": "2026-09-04 18h",
+      "id": "IYnaU8n8eWE"
+    },
+    {
+      "slug": "nw-fusao-proibida-buracos-negros",
+      "de": "2026-08-31T17:00:00.000Z",
+      "para": "2026-09-05T21:00:00.000Z",
+      "brt": "2026-09-05 18h",
+      "id": "-Ff2qxDyYFI"
+    },
+    {
+      "slug": "nw-sol-girinhos-plasma-calor",
+      "de": "2026-09-01T17:00:00.000Z",
+      "para": "2026-09-06T21:00:00.000Z",
+      "brt": "2026-09-06 18h",
+      "id": "eI4N_v_q42w"
+    },
+    {
+      "slug": "nw-galaxias-escondiam-massa",
+      "de": "2026-09-02T17:00:00.000Z",
+      "para": "2026-09-07T21:00:00.000Z",
+      "brt": "2026-09-07 18h",
+      "id": "JxDOryK8fI4"
+    },
+    {
+      "slug": "nw-energia-escura-enfraquecendo",
+      "de": "2026-08-28T17:00:00.000Z",
+      "para": "2026-09-07T11:00:00.000Z",
+      "brt": "2026-09-07 08h",
+      "id": "7Rb615vEmGY"
+    },
+    {
+      "slug": "nw-corrente-estelar-materia-escura",
+      "de": "2026-09-03T17:00:00.000Z",
+      "para": "2026-09-08T21:00:00.000Z",
+      "brt": "2026-09-08 18h",
+      "id": "x4oyACzKZnA"
+    },
+    {
+      "slug": "nw-planetas-algodao-doce",
+      "de": "2026-08-29T17:00:00.000Z",
+      "para": "2026-09-08T11:00:00.000Z",
+      "brt": "2026-09-08 08h",
+      "id": "-VcPgn8KaG4"
+    }
+  ],
+  "subir": [
+    {
+      "slug": "nw-deimos-impacto-unico",
+      "alvo": "2026-09-04T11:00:00.000Z",
+      "brt": "2026-09-04 08h"
+    },
+    {
+      "slug": "nw-quinteto-jwst",
+      "alvo": "2026-09-05T11:00:00.000Z",
+      "brt": "2026-09-05 08h"
+    },
+    {
+      "slug": "nw-estrela-explodiu-sem-jato",
+      "alvo": "2026-09-06T11:00:00.000Z",
+      "brt": "2026-09-06 08h"
+    }
+  ]
+}

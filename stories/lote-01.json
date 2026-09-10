@@ -1,0 +1,50 @@
+[
+  {
+    "slug": "s01-kindle-nao-precisa",
+    "selo": "VOCÊ NÃO SABIA",
+    "fato": "Você [[não precisa]] ter um Kindle pra usar o Kindle Unlimited.",
+    "fonte": "O aplicativo é gratuito e roda no celular que você tem agora — Android ou iPhone. O aparelho é opcional.",
+    "cta": "O primeiro mês é grátis",
+    "ctaSub": "Link na bio · e eu ensino a cancelar"
+  },
+  {
+    "slug": "s02-buraco-negro-nao-suga",
+    "selo": "MITO",
+    "fato": "Buraco negro [[não suga]] tudo em volta.",
+    "fonte": "Se o Sol virasse um buraco negro agora, a Terra continuaria na mesma órbita. O que muda é a luz, não a gravidade.",
+    "cta": "Mais um fenômeno por dia",
+    "ctaSub": "Me segue e me conta o que te espantou"
+  },
+  {
+    "slug": "s03-nunca-tocou-em-nada",
+    "selo": "FÍSICA",
+    "fato": "Você [[nunca encostou]] em nada na sua vida.",
+    "fonte": "Os elétrons da sua mão repelem os da mesa antes de haver contato. O que você chama de tocar é campo elétrico empurrando campo elétrico.",
+    "cta": "Manda pro amigo",
+    "ctaSub": "Aquele que acha que sabe tudo do universo"
+  },
+  {
+    "slug": "s04-luas-de-jupiter",
+    "selo": "HOJE À NOITE",
+    "fato": "As luas de Júpiter dão pra ver [[da sua janela]].",
+    "fonte": "São as mesmas quatro que Galileu viu em 1610 e que provaram que nem tudo gira em volta da Terra. Um binóculo comum já mostra.",
+    "cta": "Link na bio",
+    "ctaSub": "O que eu indicaria pra um amigo"
+  },
+  {
+    "slug": "s05-omega-centauri",
+    "selo": "SÓ NO SUL",
+    "fato": "O Brasil vê um aglomerado que o hemisfério norte [[nunca]] vê.",
+    "fonte": "Ômega Centauri: milhões de estrelas numa bola só. É visível a olho nu em noite escura — e é a maior do céu.",
+    "cta": "Me conta se você já viu",
+    "ctaSub": "Responde aqui no direct"
+  },
+  {
+    "slug": "s06-tempo-passa-diferente",
+    "selo": "RELATIVIDADE",
+    "fato": "O tempo passa [[mais devagar]] no seu pé do que na sua cabeça.",
+    "fonte": "Quanto mais perto da massa da Terra, mais lento o tempo corre. A diferença é minúscula, mas foi medida com relógios atômicos.",
+    "cta": "Um mês de leitura ilimitada",
+    "ctaSub": "Link na bio · sem precisar ter um Kindle"
+  }
+]

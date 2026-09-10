@@ -11,8 +11,11 @@ const { URL } = require('url');
 const { exec } = require('child_process');
 const { getOAuthClient, saveTokens, SCOPES, TOKENS_PATH } = require('./youtube-auth');
 
-const PORT = process.env.YT_OAUTH_PORT ? Number(process.env.YT_OAUTH_PORT) : 5757;
-const redirectUri = `http://localhost:${PORT}`;
+const redirectUri = process.env.YT_REDIRECT_URI
+  || `http://localhost:${process.env.YT_OAUTH_PORT ? Number(process.env.YT_OAUTH_PORT) : 5757}`;
+const redirectUrl = new URL(redirectUri);
+const PORT = Number(redirectUrl.port || (redirectUrl.protocol === 'https:' ? 443 : 80));
+const CALLBACK_PATH = redirectUrl.pathname === '/' ? '/' : redirectUrl.pathname;
 
 (function main() {
   let oauth2;
@@ -26,7 +29,8 @@ const redirectUri = `http://localhost:${PORT}`;
   });
 
   const server = http.createServer(async (req, res) => {
-    if (!req.url.startsWith('/?') && req.url !== '/') return res.end('ok');
+    const reqPath = new URL(req.url, redirectUri).pathname;
+    if (reqPath !== CALLBACK_PATH && !(CALLBACK_PATH === '/' && reqPath === '/')) return res.end('ok');
     try {
       const u = new URL(req.url, redirectUri);
       const err = u.searchParams.get('error');

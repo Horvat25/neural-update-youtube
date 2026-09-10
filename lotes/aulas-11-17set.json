@@ -1,0 +1,324 @@
+[
+  {
+    "slug": "pl41-procurar-vida",
+    "stream": "aula",
+    "voice": "female",
+    "publishAt": "2026-09-11T17:00:00.000Z",
+    "track": "cosmic-ice-flow.mp3",
+    "topic": "como se procura vida em exoplaneta luz que atravessa a atmosfera mistura de gases",
+    "isca": false,
+    "title": "🔭 Nenhum gás sozinho prova que existe vida 🔬 #Shorts",
+    "desc1": "AULA da escola Universo do Zero. Ninguém vai visitar um exoplaneta: a busca por vida é feita lendo a luz da estrela que atravessa a atmosfera do planeta. Cada gás absorve cores específicas — e o que denuncia vida não é um gás sozinho, é uma mistura que não se sustentaria sem algo repondo.",
+    "tags": [
+      "astrobiologia",
+      "exoplanetas",
+      "espectroscopia",
+      "biosinatura",
+      "atmosfera planetária",
+      "aula de astronomia"
+    ],
+    "hashtags": [
+      "#astrobiologia",
+      "#astronomia",
+      "#neuralupdate"
+    ],
+    "hook": "NENHUM GÁS\nSOZINHO PROVA\nQUE HÁ VIDA",
+    "roteiro": "A luz é tudo o que temos para saber se um planeta distante tem vida.\n\nNinguém vai até lá para conferir de perto.\n\nQuando o planeta passa na frente da estrela, parte da luz atravessa o ar dele.\n\nCada gás rouba uma cor específica dessa luz.\n\nMas nenhum gás sozinho prova vida: quase todos existem sem ninguém vivo.\n\nO que denuncia é a mistura impossível, que só se mantém se algo repõe.\n\n>> Na próxima aula: o gás que entrega a vida. Sábado, dia doze, às duas.",
+    "cues": [
+      "A luz é tudo",
+      "Ninguém vai até",
+      "Quando o planeta passa",
+      "Cada gás rouba",
+      "Mas nenhum gás",
+      "O que denuncia é",
+      "Na próxima aula: o"
+    ],
+    "prompts": [
+      "A distant exoplanet silhouetted against the blinding disc of its star, its thin atmosphere glowing along the rim, subject large and dominant, filling most of the tall vertical frame, bright and high contrast against black space",
+      "An immense gulf of empty starlit space stretching between two distant solar systems, sense of scale that feels physically impossible, filling most of the tall vertical frame",
+      "Starlight streaming through the thin curved atmosphere of a planet and bending as it passes, subject large and dominant, filling most of the tall vertical frame, high contrast",
+      "A spectrum of starlight split into a wide band of colours with sharp dark absorption lines cut into it, edge to edge, filling most of the tall vertical frame",
+      "A barren lifeless rocky planet under a thick hazy orange atmosphere, subject large and dominant, filling most of the tall vertical frame, bright against black space",
+      "Two different gases glowing in strongly contrasting colours swirling together in a planetary atmosphere, edge to edge, filling most of the tall vertical frame",
+      "A single luminous gas signature blazing sharply above the clouds of an alien world, subject large and dominant, filling most of the tall vertical frame, immediate awe"
+    ],
+    "fonte": "Astrobiologia — espectroscopia de transmissão e desequilíbrio químico atmosférico",
+    "extra": "Aula 15. Abre o arco de astrobiologia prometido pela pl40. Anuncia biosinatura."
+  },
+  {
+    "slug": "pl42-biosinatura",
+    "stream": "aula",
+    "voice": "female",
+    "publishAt": "2026-09-12T17:00:00.000Z",
+    "track": "cosmic-ambient-espacial.mp3",
+    "topic": "biosinatura oxigenio gas reativo desequilibrio quimico falso positivo",
+    "isca": false,
+    "title": "🔭 O oxigênio que você respira não deveria estar aí 🌬️ #Shorts",
+    "desc1": "AULA da escola Universo do Zero. O oxigênio é reativo demais para durar sozinho numa atmosfera: se ele está lá em quantidade, algo o repõe o tempo todo. Isso faz dele uma biosinatura — mas ele também aparece sem vida, quando a luz da estrela quebra moléculas de água.",
+    "tags": [
+      "biosinatura",
+      "oxigênio",
+      "astrobiologia",
+      "atmosfera planetária",
+      "falso positivo",
+      "aula de astronomia"
+    ],
+    "hashtags": [
+      "#astrobiologia",
+      "#astronomia",
+      "#neuralupdate"
+    ],
+    "hook": "O OXIGÊNIO\nNÃO DEVERIA\nESTAR AÍ",
+    "roteiro": "O oxigênio do ar que você respira não estaria aqui sem vida.\n\nEle é reativo demais: reage com tudo e some.\n\nSe está no ar em quantidade, algo repõe sem parar.\n\nIsso faz dele uma biosinatura: um gás que denuncia quem o produz.\n\nMas oxigênio também aparece sem vida: a estrela quebra a água.\n\nPor isso ninguém aceita um gás só: procuram o conjunto.\n\n>> Na próxima aula: os oceanos escondidos sob o gelo. Domingo, dia treze, às duas.",
+    "cues": [
+      "O oxigênio do ar",
+      "Ele é reativo",
+      "Se está no ar",
+      "Isso faz dele",
+      "Mas oxigênio também",
+      "Por isso ninguém aceita",
+      "Na próxima aula: os"
+    ],
+    "prompts": [
+      "A blue planet with a brilliant band of atmosphere glowing along its curved edge, subject large and dominant, filling most of the tall vertical frame, bright and high contrast against black space",
+      "Glowing oxygen molecules reacting and being consumed, dissolving into deep rust coloured minerals, edge to edge, filling most of the tall vertical frame",
+      "A steady bright column of fresh gas rising continuously from a planet surface into its atmosphere, subject large and dominant, filling most of the tall vertical frame",
+      "One blazing spectral line standing out sharply among fainter lines across a spectrum, edge to edge, filling most of the tall vertical frame, high contrast",
+      "Harsh ultraviolet starlight striking water molecules high in an atmosphere and tearing them apart, subject large and dominant, filling most of the tall vertical frame",
+      "Several distinct gas signatures glowing side by side as one combined pattern, edge to edge, filling most of the tall vertical frame",
+      "A cracked icy moon with a vast dark ocean glowing faintly beneath its shell, subject large and dominant, filling most of the tall vertical frame, immediate awe"
+    ],
+    "fonte": "Biosinaturas — oxigênio como desequilíbrio químico e seus falsos positivos abióticos",
+    "extra": "Aula 16. Anuncia oceanos sob o gelo."
+  },
+  {
+    "slug": "pl43-oceanos-sob-o-gelo",
+    "stream": "aula",
+    "voice": "female",
+    "publishAt": "2026-09-13T17:00:00.000Z",
+    "track": "cosmic-ice-flow.mp3",
+    "topic": "europa encelado oceano subsuperficial aquecimento de mare fontes hidrotermais",
+    "isca": false,
+    "title": "🔭 Uma lua de Júpiter tem mais água que a Terra 🧊 #Shorts",
+    "desc1": "AULA da escola Universo do Zero. Europa é uma bola de gelo, mas o gelo é só a tampa: embaixo existe um oceano salgado mantido líquido pelo aperto da gravidade de Júpiter. Encélado faz o mesmo e ainda lança esse oceano para o espaço.",
+    "tags": [
+      "Europa",
+      "Encélado",
+      "oceano subsuperficial",
+      "aquecimento de maré",
+      "astrobiologia",
+      "aula de astronomia"
+    ],
+    "hashtags": [
+      "#astrobiologia",
+      "#astronomia",
+      "#neuralupdate"
+    ],
+    "hook": "MAIS ÁGUA QUE\nTODOS OS OCEANOS\nDA TERRA",
+    "roteiro": "Uma lua de Júpiter tem mais água líquida que a Terra inteira.\n\nEuropa parece uma bola de gelo, só que o gelo é a tampa.\n\nEmbaixo há um oceano salgado, mantido líquido pela gravidade de Júpiter.\n\nEncélado, em Saturno, faz o mesmo e cospe esse oceano no espaço.\n\nMas lá no fundo não chega nenhuma luz do Sol.\n\nA aposta é química no fundo, como nas fontes hidrotermais.\n\n>> Na próxima aula: a vida que vive onde não deveria. Segunda, dia catorze, às duas.",
+    "cues": [
+      "Uma lua de Júpiter",
+      "Europa parece uma",
+      "Embaixo há um oceano",
+      "Encélado, em Saturno,",
+      "Mas lá no fundo",
+      "A aposta é química",
+      "Na próxima aula: a"
+    ],
+    "prompts": [
+      "An icy moon with a cracked rust streaked surface hanging in front of the enormous banded disc of Jupiter, subject large and dominant, filling most of the tall vertical frame, high contrast",
+      "The fractured white ice crust of a frozen moon seen from very close, deep blue cracks running across it, edge to edge, filling most of the tall vertical frame",
+      "A vast dark salty ocean sealed beneath a thick ceiling of ice, faint blue light in the water, subject large and dominant, filling most of the tall vertical frame",
+      "Towering plumes of water vapour erupting from cracks at the pole of a small icy moon out into space, subject large and dominant, filling most of the tall vertical frame",
+      "Total blackness under a thick ice ceiling with no light reaching the water below, edge to edge, filling most of the tall vertical frame",
+      "Glowing hydrothermal vents on a dark ocean floor releasing hot mineral rich plumes, subject large and dominant, filling most of the tall vertical frame, high contrast",
+      "Dense colonies of microorganisms glowing faintly in scalding water beside a deep sea vent, subject large and dominant, filling most of the tall vertical frame"
+    ],
+    "fonte": "Oceanos subsuperficiais — Europa e Encélado, aquecimento de maré e fontes hidrotermais",
+    "extra": "Aula 17. Anuncia extremófilos."
+  },
+  {
+    "slug": "pl44-extremofilos",
+    "stream": "aula",
+    "voice": "female",
+    "publishAt": "2026-09-14T17:00:00.000Z",
+    "track": "cosmic-ambient-espacial.mp3",
+    "topic": "extremofilos bacteria em rocha profunda limite da vida agua liquida",
+    "isca": false,
+    "title": "🔭 Tem bactéria viva dentro da rocha a 3 km de fundo 🦠 #Shorts",
+    "desc1": "AULA da escola Universo do Zero. Extremófilos vivem sem luz, sem oxigênio, em água fervendo, ácido e radiação letal. Isso muda a pergunta da astrobiologia: não é onde a vida seria confortável, é onde ela seria possível — e todos eles ainda dependem de água líquida.",
+    "tags": [
+      "extremófilos",
+      "limites da vida",
+      "astrobiologia",
+      "água líquida",
+      "biologia extrema",
+      "aula de astronomia"
+    ],
+    "hashtags": [
+      "#astrobiologia",
+      "#astronomia",
+      "#neuralupdate"
+    ],
+    "hook": "VIVA DENTRO\nDA ROCHA A\n3 KM DE FUNDO",
+    "roteiro": "Existe bactéria viva dentro da rocha, a três quilômetros.\n\nSem luz, sem oxigênio, se alimentando de elétrons das rochas.\n\nOutras aguentam água fervendo, ácido e radiação letal.\n\nIsso muda a pergunta: não é onde a vida é confortável, é onde cabe.\n\nMas todo extremófilo ainda precisa de água líquida.\n\nPor isso a busca por vida segue sempre a água.\n\n>> Na próxima aula: as estrelas mais comuns do universo. Terça, dia quinze, às duas.",
+    "cues": [
+      "Existe bactéria viva",
+      "Sem luz, sem oxigênio,",
+      "Outras aguentam água",
+      "Isso muda a pergunta:",
+      "Mas todo extremófilo",
+      "Por isso a busca",
+      "Na próxima aula: as"
+    ],
+    "prompts": [
+      "A cross section of solid dark rock kilometres underground with tiny glowing colonies alive inside its pores, subject large and dominant, filling most of the tall vertical frame, high contrast",
+      "Absolute blackness deep inside stone with faint microbial glow feeding on mineral surfaces, edge to edge, filling most of the tall vertical frame",
+      "Boiling acidic pools in vivid orange and green with life thriving at the scalding edges, subject large and dominant, filling most of the tall vertical frame",
+      "A harsh barren alien landscape under a brutal white sun where something still survives, edge to edge, filling most of the tall vertical frame, immediate awe",
+      "A single glowing drop of liquid water at the centre of a vast frozen dead landscape, subject large and dominant, filling most of the tall vertical frame, high contrast",
+      "Liquid water traced as one bright glowing thread linking many different worlds, edge to edge, filling most of the tall vertical frame",
+      "A small dim red star burning deep red against a crowded starfield, subject large and dominant, filling most of the tall vertical frame"
+    ],
+    "fonte": "Extremófilos — limites conhecidos da vida e a água líquida como requisito comum",
+    "extra": "Aula 18. Anuncia anãs vermelhas."
+  },
+  {
+    "slug": "pl45-anas-vermelhas",
+    "stream": "aula",
+    "voice": "female",
+    "publishAt": "2026-09-15T17:00:00.000Z",
+    "track": "cosmic-ice-flow.mp3",
+    "topic": "anas vermelhas maioria das estrelas travamento de mare explosoes estelares",
+    "isca": false,
+    "title": "🔭 A estrela mais comum do universo é um problema 🔴 #Shorts",
+    "desc1": "AULA da escola Universo do Zero. As anãs vermelhas são a maioria esmagadora das estrelas da galáxia e vivem trilhões de anos. Mas o planeta precisa orbitar tão perto para ter água líquida que trava a rotação — e a estrela solta explosões capazes de arrancar a atmosfera.",
+    "tags": [
+      "anãs vermelhas",
+      "travamento de maré",
+      "explosões estelares",
+      "habitabilidade",
+      "exoplanetas",
+      "aula de astronomia"
+    ],
+    "hashtags": [
+      "#astrobiologia",
+      "#astronomia",
+      "#neuralupdate"
+    ],
+    "hook": "A ESTRELA MAIS\nCOMUM É A\nMAIS HOSTIL",
+    "roteiro": "A estrela mais comum da galáxia é pequena, fria e vermelha.\n\nSão as anãs vermelhas, e vivem trilhões de anos.\n\nComo brilham pouco, o planeta orbita colado para ter água.\n\nPerto demais, ele trava: um lado sempre dia, o outro noite.\n\nMas o pior é a estrela: explosões dela arrancam o ar.\n\nA maioria dos endereços do universo é essa.\n\n>> Na próxima aula: procurar máquina em vez de micróbio. Quarta, dia dezesseis, às duas.",
+    "cues": [
+      "A estrela mais comum",
+      "São as anãs",
+      "Como brilham pouco,",
+      "Perto demais, ele trava:",
+      "Mas o pior é",
+      "A maioria dos endereços",
+      "Na próxima aula: procurar"
+    ],
+    "prompts": [
+      "A crowded starfield where the overwhelming majority of stars burn deep red and only a few shine white and blue, edge to edge, filling most of the tall vertical frame, high contrast",
+      "A small deep red star burning steadily and calmly in dark space, subject large and dominant, filling most of the tall vertical frame",
+      "A rocky planet orbiting extremely close to a small red star, its whole surface lit dim red, subject large and dominant, filling most of the tall vertical frame",
+      "A tidally locked planet with one hemisphere in permanent blazing daylight and the other in permanent black night, subject large and dominant, filling most of the tall vertical frame, high contrast",
+      "A violent stellar flare erupting from a small red star and washing over a nearby planet, subject large and dominant, filling most of the tall vertical frame, immediate awe",
+      "An enormous field of red dwarf stars stretching across an entire galaxy, edge to edge, filling most of the tall vertical frame",
+      "The glow of vast artificial city lights spread across the dark side of a distant planet, subject large and dominant, filling most of the tall vertical frame"
+    ],
+    "fonte": "Anãs vermelhas — abundância estelar, travamento de maré e atividade de flares",
+    "extra": "Aula 19. Anuncia tecnoassinaturas."
+  },
+  {
+    "slug": "pl46-tecnoassinaturas",
+    "stream": "aula",
+    "voice": "female",
+    "publishAt": "2026-09-16T17:00:00.000Z",
+    "track": "cosmic-ambient-espacial.mp3",
+    "topic": "tecnoassinaturas poluicao industrial luz de cidade calor de megaestrutura",
+    "isca": false,
+    "title": "🔭 É mais fácil achar uma fábrica que uma bactéria 🏭 #Shorts",
+    "desc1": "AULA da escola Universo do Zero. Tecnoassinaturas são rastros de tecnologia, não de biologia: gás industrial na atmosfera, luz de cidade no lado escuro do planeta, calor de estrutura gigante. São mais fáceis de detectar que micróbios — mas só encontram quem construiu.",
+    "tags": [
+      "tecnoassinatura",
+      "SETI",
+      "megaestrutura",
+      "astrobiologia",
+      "civilizações",
+      "aula de astronomia"
+    ],
+    "hashtags": [
+      "#astrobiologia",
+      "#astronomia",
+      "#neuralupdate"
+    ],
+    "hook": "MICRÓBIO NÃO\nMANDA SINAL.\nMÁQUINA MANDA.",
+    "roteiro": "Um gás de fábrica em outro planeta é fácil de achar.\n\nMicróbio não manda sinal, máquina manda.\n\nPoluição, luz de cidade e calor de estrutura gigante apareceriam.\n\nSão as tecnoassinaturas: buscar indústria, não biologia.\n\nMas ela só encontra quem construiu, e isso é raro.\n\nProcurar máquina é olhar menos mundos, com mais certeza.\n\n>> Na próxima aula: a conta de quantas civilizações caberiam. Quinta, dia dezessete, às duas.",
+    "cues": [
+      "Um gás de fábrica",
+      "Micróbio não manda",
+      "Poluição, luz de cidade",
+      "São as tecnoassinaturas:",
+      "Mas ela só encontra",
+      "Procurar máquina é",
+      "Na próxima aula: a"
+    ],
+    "prompts": [
+      "A thick industrial haze layer glowing sickly yellow across the atmosphere of a distant planet, subject large and dominant, filling most of the tall vertical frame, high contrast",
+      "A single silent microscopic organism glowing alone with nothing radiating away from it, subject large and dominant, filling most of the tall vertical frame",
+      "A planet at night covered in glittering webs of artificial light across its dark hemisphere, subject large and dominant, filling most of the tall vertical frame, immediate awe",
+      "An enormous artificial structure encircling a star and radiating waste heat, subject large and dominant, filling most of the tall vertical frame, high contrast",
+      "A vast empty galaxy full of barren worlds with no structures anywhere in it, edge to edge, filling most of the tall vertical frame",
+      "One bright artificial glow standing out sharply among thousands of dark natural worlds, subject large and dominant, filling most of the tall vertical frame",
+      "A long chain of glowing symbols stretching across a deep starfield, edge to edge, filling most of the tall vertical frame"
+    ],
+    "fonte": "Tecnoassinaturas — poluentes industriais, iluminação noturna e calor residual de megaestruturas",
+    "extra": "Aula 20. Anuncia a equação de Drake."
+  },
+  {
+    "slug": "pl47-equacao-de-drake",
+    "stream": "aula",
+    "voice": "female",
+    "publishAt": "2026-09-17T17:00:00.000Z",
+    "track": "cosmic-ice-flow.mp3",
+    "topic": "equacao de drake sete fatores tres medidos quatro palpite organiza a ignorancia",
+    "isca": false,
+    "title": "🔭 A conta que mede civilizações tem 4 chutes 🧮 #Shorts",
+    "desc1": "AULA da escola Universo do Zero. A equação de Drake multiplica sete fatores para estimar quantas civilizações comunicantes existiriam na galáxia. Os três primeiros hoje são medidos de verdade; os quatro últimos ninguém mede. Ela nunca serviu para dar resposta — serve para mostrar onde falta dado.",
+    "tags": [
+      "equação de Drake",
+      "SETI",
+      "astrobiologia",
+      "civilizações extraterrestres",
+      "método científico",
+      "aula de astronomia"
+    ],
+    "hashtags": [
+      "#astrobiologia",
+      "#astronomia",
+      "#neuralupdate"
+    ],
+    "hook": "SETE NÚMEROS.\nQUATRO DELES\nSÃO CHUTE.",
+    "roteiro": "Uma equação de sete números calcula quantas civilizações a galáxia teria.\n\nEla multiplica estrelas, planetas, chance de vida e de tecnologia.\n\nOs três primeiros a gente já mede de verdade.\n\nOs quatro últimos ninguém mede: são palpite honesto.\n\nMas a conta nunca serviu para responder, e sim para organizar a ignorância.\n\nEla mostra onde falta dado. É isso que vale.\n\n>> Na próxima aula: os planetas que viajam sem estrela. Sexta, dia dezoito, às duas.",
+    "cues": [
+      "Uma equação de sete",
+      "Ela multiplica estrelas,",
+      "Os três primeiros",
+      "Os quatro últimos",
+      "Mas a conta nunca",
+      "Ela mostra onde falta",
+      "Na próxima aula: os"
+    ],
+    "prompts": [
+      "Seven glowing symbols arranged in a row blazing across a deep starfield, edge to edge, filling most of the tall vertical frame, high contrast",
+      "A cascade of stars becoming planets becoming glowing living worlds in one continuous chain, edge to edge, filling most of the tall vertical frame",
+      "Three bright solid glowing symbols standing out clearly against total darkness, subject large and dominant, filling most of the tall vertical frame",
+      "Four faint flickering uncertain symbols fading in and out against darkness, subject large and dominant, filling most of the tall vertical frame",
+      "A vast galaxy seen from far above with most of it shrouded in unknown blackness, edge to edge, filling most of the tall vertical frame, immediate awe",
+      "One bright gap of missing light interrupting an otherwise continuous glowing chain, subject large and dominant, filling most of the tall vertical frame",
+      "A dark rogue planet drifting utterly alone through empty space with no star anywhere near it, subject large and dominant, filling most of the tall vertical frame"
+    ],
+    "fonte": "Equação de Drake (1961) — sete fatores e o estado atual de conhecimento de cada um",
+    "extra": "Aula 21. Fecha o arco de astrobiologia. Anuncia planetas errantes."
+  }
+]

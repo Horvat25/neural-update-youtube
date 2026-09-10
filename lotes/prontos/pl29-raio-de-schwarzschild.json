@@ -1,0 +1,48 @@
+[
+  {
+    "slug": "pl29-raio-de-schwarzschild",
+    "stream": "aula",
+    "voice": "female",
+    "publishAt": "2026-08-30T17:00:00.000Z",
+    "track": "dark-some-amount-of-evil.mp3",
+    "topic": "raio de schwarzschild qualquer massa vira buraco negro se couber dentro do raio terra nove milimetros",
+    "isca": false,
+    "title": "🔭 Você viraria um buraco negro (se coubesse aqui) ⚫ #Shorts",
+    "desc1": "AULA da escola Universo do Zero. Buraco negro não é uma coisa pesada, é uma coisa apertada. Para cada massa existe um raio crítico: se ela couber dentro dele, nada mais escapa. O da Terra tem cerca de nove milímetros; o do Sol, cerca de três quilômetros.",
+    "tags": [
+      "raio de schwarzschild",
+      "buraco negro",
+      "horizonte de eventos",
+      "relatividade geral",
+      "cosmologia",
+      "aula de astronomia"
+    ],
+    "hashtags": [
+      "#buraconegro",
+      "#física",
+      "#neuralupdate"
+    ],
+    "hook": "A TERRA CABE\nEM NOVE\nMILÍMETROS",
+    "roteiro": "Qualquer coisa pode virar um buraco negro. Inclusive você.\n\nA resposta errada é: precisa ser gigante.\n\nNão é tamanho, é aperto. Pra cada massa existe um raio: se ela couber dentro dele, nada mais escapa.\n\nO da Terra tem nove milímetros. O do Sol, três quilômetros.\n\nO seu daria menos que um átomo — e não existe força que aperte tanto.\n\nBuraco negro não é uma coisa pesada. É uma coisa apertada.\n\n>> Na próxima aula: a estrela que parou bem na beira disso. Segunda, dia trinta e um, às duas.",
+    "cues": [
+      "Qualquer coisa pode virar",
+      "A resposta errada é:",
+      "Não é tamanho, é",
+      "O da Terra tem",
+      "O seu daria menos",
+      "Buraco negro não é",
+      "Na próxima aula: a"
+    ],
+    "prompts": [
+      "A single ordinary rock floating in space with a tiny dark sphere forming at its centre, subject large and dominant in frame, filling most of the tall vertical frame, cinematic astrophysics visualization, deep black space, no text, no logo, no watermark, one single continuous scene with no frames or borders",
+      "An enormous heavy mountain of rock sitting inert and unchanged in space, subject large and dominant in frame, filling most of the tall vertical frame, cinematic astrophysics visualization, deep black space, no text, no logo, no watermark, one single continuous scene with no frames or borders",
+      "A glowing sphere crushed inward by converging arrows of force until a dark point appears, subject large and dominant in frame, filling most of the tall vertical frame, cinematic astrophysics visualization, deep black space, no text, no logo, no watermark, one single continuous scene with no frames or borders",
+      "The whole planet Earth compressed into a tiny black marble held beside its original size for scale, subject large and dominant in frame, filling most of the tall vertical frame, cinematic astrophysics visualization, deep black space, no text, no logo, no watermark, one single continuous scene with no frames or borders",
+      "A single atom beside an unimaginably smaller dark point, extreme difference of scale, subject large and dominant in frame, filling most of the tall vertical frame, cinematic astrophysics visualization, deep black space, no text, no logo, no watermark, one single continuous scene with no frames or borders",
+      "A small perfectly black sphere with a sharp glowing edge and empty space around it, subject large and dominant in frame, filling most of the tall vertical frame, cinematic astrophysics visualization, deep black space, no text, no logo, no watermark, one single continuous scene with no frames or borders",
+      "A small brilliant white sphere glowing at the very edge of collapse, straining but holding together, subject large and dominant in frame, filling most of the tall vertical frame, cinematic astrophysics visualization, deep black space, no text, no logo, no watermark, one single continuous scene with no frames or borders"
+    ],
+    "fonte": "Solução de Schwarzschild (1916) — raio do horizonte de eventos",
+    "extra": "Aula 3. Anuncia estrelas de nêutrons."
+  }
+]

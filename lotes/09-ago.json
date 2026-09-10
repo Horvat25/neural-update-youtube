@@ -1,0 +1,113 @@
+[
+  {
+    "slug": "nw-quasares-antigos",
+    "stream": "news",
+    "publishAt": "2026-08-09T11:00:00.000Z",
+    "track": "dark-some-amount-of-evil.mp3",
+    "topic": "quasares mais antigos universo bebe buraco negro",
+    "isca": false,
+    "title": "📰 Acharam os FARÓIS mais antigos do universo 🔭 #Shorts",
+    "desc1": "São quasares: buracos negros gigantes devorando matéria com tanta violência que brilham mais que galáxias inteiras. Astrônomos localizaram 31 de uma vez, e dois deles são os mais antigos já vistos — a luz saiu quando o universo tinha apenas 670 milhões de anos. O que ninguém explica é o tamanho: buracos negros levam bilhões de anos para engordar assim.",
+    "tags": ["quasar", "buraco negro", "universo primordial", "james webb", "descoberta espacial", "astronomia", "ciência"],
+    "hashtags": ["#quasar", "#buraconegro", "#astronomia", "#ciência", "#neuralupdate"],
+    "hook": "OS FARÓIS MAIS\nANTIGOS DO\nUNIVERSO",
+    "roteiro": "Os faróis mais antigos do universo acabaram de aparecer. São quasares: buracos negros gigantes devorando matéria com tanta violência que brilham mais que galáxias inteiras. Os astrônomos acharam trinta e um deles de uma vez, e dois são os mais antigos já vistos. A luz saiu quando o universo tinha só seiscentos e setenta milhões de anos. Mas o que ninguém explica é o tamanho: eles levam bilhões de anos pra engordar assim, e já eram monstros quando tudo era recém-nascido. Neural Update. O universo está te esperando.",
+    "cues": [
+      "Os faróis mais antigos",
+      "São quasares",
+      "brilham mais que galáxias inteiras",
+      "acharam trinta e um",
+      "A luz saiu quando o universo",
+      "Mas o que ninguém explica",
+      "já eram monstros",
+      "Neural Update"
+    ],
+    "bank": [
+      { "from": "viral7-quasar/img1.png", "to": "img2.png" },
+      { "from": "viral7-quasar/img3.png", "to": "img7.png" }
+    ],
+    "prompts": [
+      "Cinematic 9:16 vertical shot of several brilliant pinpoint beacons burning through a dense veil of primordial cosmic gas, the deepest field of view imaginable, only 2 focal points, shot on ARRI Alexa with 35mm anamorphic lens, subtle chromatic aberration, high contrast against void black, photorealistic with floating dust and grain, no text, no words, no letters, no watermark",
+      "[BANCO viral7-quasar/img1] quasar alimentado por buraco negro",
+      "Cinematic 9:16 vertical shot of a single quasar outshining an entire spiral galaxy behind it, the galaxy reduced to a faint smudge beside the blinding core, brutal scale contrast, deep space photography, photorealistic with lens flare and grain, no text, no words, no letters, no watermark",
+      "Cinematic 9:16 vertical wide field of deep space scattered with dozens of tiny bright quasar points across a dark dusty sky, survey-style astrophotography, cold blue-white highlights against black, fine grain, no text, no words, no letters, no watermark",
+      "Cinematic 9:16 vertical abstract shot of an ancient beam of light travelling across an immense dark void toward the viewer, the beam stretched and reddened by distance, sense of unimaginable time, deep reds and blacks, photorealistic with grain, no text, no words, no letters, no watermark",
+      "Cinematic 9:16 vertical shot of an impossibly massive black hole silhouette already fully grown inside a young chaotic newborn galaxy of blue infant stars, wrongness and scale, dramatic contrast, photorealistic, no text, no words, no letters, no watermark",
+      "[BANCO viral7-quasar/img3] buraco negro devorando materia",
+      "Cinematic 9:16 vertical wide shot of a vast quiet star field with one distant ancient light near the centre, contemplative cosmic depth, deep blues and blacks with faint nebula haze, photorealistic astrophotography with fine grain, no text, no words, no letters, no watermark"
+    ]
+  },
+  {
+    "slug": "pl14-buracos-negros",
+    "stream": "aula",
+    "publishAt": "2026-08-09T17:00:00.000Z",
+    "track": "cosmic-ambient-espacial.mp3",
+    "topic": "aula buraco negro horizonte de eventos dilatacao do tempo",
+    "isca": false,
+    "title": "🔭 Ninguém sabe o que tem DENTRO de um buraco negro #Shorts",
+    "desc1": "Aula da escola Universo do Zero: um buraco negro nasce quando uma estrela gigante desaba sobre si mesma. Na borda — o horizonte de eventos — o tempo se comporta de forma tão estranha que duas descrições opostas estão simultaneamente certas: de fora você vê alguém congelar para sempre; de dentro, a travessia dura segundos.",
+    "tags": ["buraco negro", "horizonte de eventos", "dilatacao do tempo", "relatividade", "curso de astronomia", "astronomia", "ciência"],
+    "hashtags": ["#buraconegro", "#astronomia", "#ciência", "#universo", "#neuralupdate"],
+    "hook": "NINGUÉM SABE\nO QUE TEM DENTRO\nDE UM BURACO NEGRO",
+    "roteiro": "Ninguém sabe o que tem dentro de um buraco negro. Não é figura de linguagem: a física que a gente tem para de funcionar lá. Ele nasce quando uma estrela gigante morre e desaba sobre si mesma, e a gravidade fica tão forte que nem a luz escapa. A borda tem nome: horizonte de eventos, o ponto sem volta. E aqui está o que quebra a cabeça: de fora, você vê alguém caindo congelar pra sempre na borda. De dentro, a pessoa atravessa em segundos. As duas versões estão certas. Neural Update. O universo está te esperando.",
+    "cues": [
+      "Ninguém sabe o que tem dentro",
+      "a física que a gente tem para de funcionar",
+      "Ele nasce quando uma estrela gigante morre",
+      "nem a luz escapa",
+      "horizonte de eventos",
+      "de fora você vê alguém caindo",
+      "De dentro a pessoa atravessa",
+      "Neural Update"
+    ],
+    "bank": [
+      { "from": "news3-buraco-antigo/img1.png", "to": "img1.png" },
+      { "from": "news3-buraco-antigo/img3.png", "to": "img4.png" }
+    ],
+    "prompts": [
+      "[BANCO news3-buraco-antigo/img1] buraco negro colossal com disco de acrescao",
+      "Cinematic 9:16 vertical shot of a blackboard covered in physics equations that dissolve into static and nothingness at the centre, the chalk simply stopping mid-formula, unsettling, dim study lighting, photorealistic texture with chalk dust, no text, no words, no letters, no watermark",
+      "Cinematic 9:16 vertical shot of a colossal dying supergiant star collapsing inward on itself, outer layers rushing down toward a darkening core, violent implosion frozen mid-motion, orange and deep red against black, photorealistic with grain, no text, no words, no letters, no watermark",
+      "[BANCO news3-buraco-antigo/img3] buraco negro supermassivo devorando gas",
+      "Cinematic 9:16 vertical shot of the perfectly circular black edge of an event horizon, light bending into a bright thin ring around absolute darkness, geometric and terrifying, extreme contrast, photorealistic astrophysical visualisation with fine grain, no text, no words, no letters, no watermark",
+      "Cinematic 9:16 vertical shot of a tiny human figure frozen motionless against the glowing rim of a black hole, their silhouette stretched and reddened, stopped in time forever, awe and dread, deep contrast, photorealistic, no text, no words, no letters, no watermark",
+      "Cinematic 9:16 vertical point-of-view shot falling through a ring of distorted starlight into total darkness, the universe smeared into streaks behind, motion and vertigo, cold blue-white streaks against black, photorealistic with grain, no text, no words, no letters, no watermark",
+      "Cinematic 9:16 vertical wide shot of a calm star field with a single dark circular absence at its centre, quiet and final, deep blues and blacks, photorealistic astrophotography with fine grain, no text, no words, no letters, no watermark"
+    ]
+  },
+  {
+    "slug": "v35-tempo-cabeca-pes",
+    "stream": "viral",
+    "publishAt": "2026-08-09T21:00:00.000Z",
+    "track": "dark-tension-pixabay.mp3",
+    "topic": "dilatacao gravitacional do tempo relogio atomico",
+    "isca": true,
+    "title": "Sua CABEÇA envelhece mais rápido que os seus pés ⏳ #Shorts",
+    "desc1": "A gravidade atrasa o tempo, e quanto mais perto do chão mais forte ela é. Relógios atômicos separados por apenas 30 centímetros já mediram a diferença. São bilionésimos de segundo ao longo de uma vida inteira — mas existem. Você não vive um tempo só.",
+    "tags": ["dilatacao do tempo", "relatividade geral", "relogio atomico", "gravidade", "curiosidade cientifica", "física", "ciência"],
+    "hashtags": ["#relatividade", "#tempo", "#física", "#ciência", "#neuralupdate"],
+    "hook": "SUA CABEÇA\nENVELHECE MAIS\nRÁPIDO QUE OS PÉS",
+    "roteiro": "A sua cabeça envelhece mais rápido que os seus pés. Não é piada: a gravidade atrasa o tempo, e quanto mais perto do chão, mais forte ela é. Já mediram isso com relógios atômicos separados por trinta centímetros. A diferença é ridícula, uns bilionésimos de segundo numa vida inteira. Mas ela existe. Você não vive um tempo só. Juntei os cinco fenômenos mais assustadores do universo num PDF grátis. Link na bio. Neural Update. O universo está te esperando.",
+    "cues": [
+      "A sua cabeça envelhece",
+      "a gravidade atrasa o tempo",
+      "Já mediram isso com relógios atômicos",
+      "A diferença é ridícula",
+      "Você não vive um tempo só",
+      "cinco fenômenos",
+      "Neural Update"
+    ],
+    "bank": [
+      { "from": "pl13-relatividade-geral/img2.png", "to": "img2.png" }
+    ],
+    "prompts": [
+      "Cinematic 9:16 vertical full-body shot of a person standing on a dark floor, faint clock-like rings of light rippling around their head and a second slower set around their feet, the two rhythms visibly out of sync, moody rim lighting, deep shadows, photorealistic with fine grain, no text, no words, no letters, no watermark",
+      "[BANCO pl13-relatividade-geral/img2] espaco-tempo curvado pela gravidade",
+      "Cinematic 9:16 vertical macro shot of two precision atomic clocks on a laboratory bench, one raised slightly above the other on a metal stand, cold blue instrument glow, cables and polished steel, shallow depth of field, documentary science photography, photorealistic, no text, no words, no letters, no watermark",
+      "Cinematic 9:16 vertical extreme macro of a single droplet of light suspended mid-fall, impossibly small and precise against velvet black, the idea of an almost immeasurable quantity, high contrast, photorealistic with grain, no text, no words, no letters, no watermark",
+      "Cinematic 9:16 vertical shot of a human silhouette composed of many overlapping translucent layers, each layer shifted slightly in time like a long exposure, ghosting upward from feet to head, dark background with cool highlights, photorealistic, no text, no words, no letters, no watermark",
+      "Cinematic 9:16 vertical still life of a dark hardcover book closed on black stone, faint cosmic light leaking from between the pages, five small points of light hovering above it, mysterious and inviting, deep blues and violets, photorealistic with fine grain, no text, no words, no letters, no watermark",
+      "Cinematic 9:16 vertical wide shot of a person standing small beneath an enormous star-filled night sky, calm and reverent, deep blues with soft warm horizon glow, photorealistic astrophotography with fine grain, no text, no words, no letters, no watermark"
+    ]
+  }
+]

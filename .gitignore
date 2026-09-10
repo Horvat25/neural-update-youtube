@@ -15,3 +15,33 @@ assets/music/
 *.jpeg
 neural-update-logo.png
 neural-update-banner.png
+.tiktok-tokens.json
+venus/.chave-rtmp
+venus/_montagem.log
+venus/live-*/
+
+# --- 10/09/2026: cofre no GitHub guarda so o "cerebro" (codigo, roteiros, regras) ---
+# pesado demais e ja publicado / fica so no HD
+venus/
+reels-insta/
+tiktok-lote/
+stories/saida/
+marca/
+_PUBLICAR-AGORA/
+assets/
+*.png
+*.webp
+*.mp3
+*.wav
+*.m4a
+# ambiente de Python instalado (se baixa de novo)
+.venv*/
+__pycache__/
+# senhas e chaves: NUNCA sobem
+.env.*
+!.env.example
+*secret*.json
+# perfis de navegador guardam COOKIES = sessao logada da conta. Nunca sobem.
+.chrome-*/
+*-profile/
+.browser-*/

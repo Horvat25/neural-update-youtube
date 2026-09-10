@@ -1,0 +1,210 @@
+[
+  {
+    "slug": "nw-onda-choque-estrela-morta",
+    "stream": "news",
+    "publishAt": "2026-08-12T11:00:00.000Z",
+    "track": "dark-tension-pixabay.mp3",
+    "topic": "onda de choque estrela morta VLT anel misterioso",
+    "isca": true,
+    "title": "📰 Fotografaram uma onda de choque que ninguém sabe explicar 💥 #Shorts",
+    "desc1": "O Very Large Telescope registrou uma onda de choque em volta de uma estrela morta — e a imagem deixou os astrônomos intrigados. O formato não bate com o que os modelos previam para o material expelido por uma estrela no fim da vida.",
+    "tags": ["onda de choque", "estrela morta", "very large telescope", "nebulosa", "descoberta espacial", "astronomia", "ciência"],
+    "hashtags": ["#estrela", "#astronomia", "#ciência", "#espaço", "#neuralupdate"],
+    "hook": "UMA ONDA DE CHOQUE\nQUE NINGUÉM SABE\nEXPLICAR",
+    "roteiro": "Fotografaram uma onda de choque que ninguém sabe explicar. Ela está em volta de uma estrela morta, e apareceu numa imagem do Very Large Telescope com um formato que os modelos não previam. Quando uma estrela chega ao fim, ela expulsa as camadas de fora e esse material bate no gás que já estava ali, formando uma bolha. Só que essa bolha aqui saiu torta, do jeito errado. Os astrônomos olharam, conferiram, e continuaram sem resposta. Ainda tem coisa básica sobre a morte das estrelas que a gente não entende. Juntei os cinco fenômenos mais assustadores do universo num PDF grátis. Link na bio. Neural Update. O universo está te esperando.",
+    "cues": [
+      "Fotografaram uma onda de choque",
+      "Ela está em volta de uma estrela morta",
+      "Quando uma estrela chega ao fim",
+      "esse material bate no gás",
+      "essa bolha aqui saiu torta",
+      "continuaram sem resposta",
+      "cinco fenômenos",
+      "Neural Update"
+    ],
+    "bank": [],
+    "prompts": [
+      "Cinematic 9:16 vertical shot of a strange asymmetric shock wave of glowing gas expanding around a small dead star, the shape visibly lopsided and wrong, eerie beauty, shot on ARRI Alexa with 35mm anamorphic lens, subtle chromatic aberration, deep contrast against void black, photorealistic with fine grain, no text, no words, no letters, no watermark",
+      "Cinematic 9:16 vertical shot of a tiny brilliant white dwarf star alone at the centre of a vast dim halo of expelled gas, cold and skeletal, blue-white core against deep red haze, photorealistic astrophotography with grain, no text, no words, no letters, no watermark",
+      "Cinematic 9:16 vertical shot of a dying giant star shedding its outer layers in slow expanding shells, layered rings of glowing gas drifting outward, orange and violet against black, photorealistic with grain, no text, no words, no letters, no watermark",
+      "Cinematic 9:16 vertical shot of a fast shell of stellar material slamming into a slower cloud of interstellar gas, a bright compression front igniting along the collision edge, violent and luminous, high contrast, photorealistic with grain, no text, no words, no letters, no watermark",
+      "Cinematic 9:16 vertical shot of a distorted lopsided bubble of glowing gas in deep space, one side stretched far more than the other, clearly asymmetric and unexplained, unsettling geometry, photorealistic with fine grain, no text, no words, no letters, no watermark",
+      "Cinematic 9:16 vertical shot of astronomers in a dim control room staring at a screen in silence, no answer on their faces, cold monitor light and deep shadow, documentary photography, photorealistic, no text, no words, no letters, no watermark",
+      "Cinematic 9:16 vertical still life of a dark hardcover book closed on black stone, faint cosmic light leaking from between the pages, five small points of light hovering above it, mysterious and inviting, deep blues and violets, photorealistic with fine grain, no text, no words, no letters, no watermark",
+      "Cinematic 9:16 vertical wide shot of a quiet field of dying stars in deep space, contemplative and still, deep blues and blacks, photorealistic astrophotography with fine grain, no text, no words, no letters, no watermark"
+    ]
+  },
+  {
+    "slug": "vsl16-espaguetificacao",
+    "stream": "vsl-ebook",
+    "publishAt": "2026-08-12T17:00:00.000Z",
+    "track": "cosmic-ambient-espacial.mp3",
+    "topic": "espaguetificacao buraco negro mare gravitacional corpo",
+    "isca": false,
+    "title": "📕 O buraco negro não te esmaga: ele te PUXA como chiclete 🕳️ #Shorts",
+    "desc1": "A gravidade de um buraco negro cai muito rápido com a distância. Nos seus pés ela é bem mais forte do que na sua cabeça, e essa diferença estica o corpo enquanto o comprime lateralmente. Os físicos chamam o processo de espaguetificação — e num buraco negro pequeno ele começa antes mesmo do horizonte de eventos.",
+    "tags": ["espaguetificacao", "buraco negro", "forca de mare", "gravidade", "fisica", "ciência", "universo"],
+    "hashtags": ["#buraconegro", "#física", "#ciência", "#universo", "#neuralupdate"],
+    "hook": "ELE NÃO TE ESMAGA\nELE TE PUXA\nCOMO CHICLETE",
+    "roteiro": "Um buraco negro não te esmaga. Ele te estica. A gravidade dele cai muito rápido com a distância, então se você cair de pé, os seus pés são puxados bem mais forte do que a sua cabeça. Essa diferença estica o corpo pra baixo e aperta ele pelos lados ao mesmo tempo. Os físicos chamam isso de espaguetificação, e o nome é literal. Num buraco negro pequeno, isso começa antes mesmo de você cruzar o horizonte. Num gigante, você atravessa inteiro e só percebe depois. Eu abro isso no ebook O Lado Sombrio do Universo. Link na bio.",
+    "cues": [
+      "Um buraco negro não te esmaga",
+      "A gravidade dele cai muito rápido",
+      "os seus pés são puxados",
+      "Essa diferença estica o corpo",
+      "chamam isso de espaguetificação",
+      "Num buraco negro pequeno",
+      "Num gigante você atravessa inteiro",
+      "Eu abro isso no ebook"
+    ],
+    "bank": [
+      { "from": "vsl2-gato/img2.png", "to": "img8.png" }
+    ],
+    "prompts": [
+      "Cinematic 9:16 vertical shot of a human silhouette falling feet-first toward a black sphere, the body already visibly stretching into an impossibly long thin shape, horror and awe, shot on ARRI Alexa with 35mm anamorphic lens, deep contrast against void black, photorealistic with fine grain, no text, no words, no letters, no watermark",
+      "Cinematic 9:16 vertical abstract shot of gravitational field lines crowding together with violent density near a dark sphere and thinning rapidly with distance, steep gradient made visible, cold blue lines against black, photorealistic render with grain, no text, no words, no letters, no watermark",
+      "Cinematic 9:16 vertical shot of two glowing arrows of wildly different length pulling on the feet and the head of a falling human silhouette, the lower one far stronger, clear and visceral, deep shadows with hot highlights, photorealistic, no text, no words, no letters, no watermark",
+      "Cinematic 9:16 vertical macro shot of a soft material being stretched vertically into a long thread while being squeezed inward at the sides, tension and deformation, clinical studio lighting against black, photorealistic texture, no text, no words, no letters, no watermark",
+      "Cinematic 9:16 vertical shot of a human form drawn out into an impossibly long luminous strand spiralling down toward a black event horizon, elegant and terrible, deep reds and blacks, photorealistic with grain, no text, no words, no letters, no watermark",
+      "Cinematic 9:16 vertical shot of a small compact black hole with a violently tight bright ring around it, the danger zone reaching far outside the dark centre, sharp and menacing, high contrast, photorealistic with grain, no text, no words, no letters, no watermark",
+      "Cinematic 9:16 vertical shot of an enormous calm black hole with a vast smooth horizon and a small intact human silhouette drifting peacefully across it, deceptive gentleness, cold blue and black, photorealistic with fine grain, no text, no words, no letters, no watermark",
+      "[BANCO vsl2-gato/img2] capa sombria do ebook com brilho cosmico"
+    ]
+  },
+  {
+    "slug": "v38-tom-do-universo",
+    "stream": "viral",
+    "publishAt": "2026-08-12T21:00:00.000Z",
+    "track": "dark-some-amount-of-evil.mp3",
+    "topic": "buraco negro perseus nota si bemol som do universo",
+    "isca": false,
+    "title": "Existe uma NOTA musical tocando no universo há 2 bilhões de anos 🎵 #Shorts",
+    "desc1": "No aglomerado de Perseu, um buraco negro supermassivo empurra o gás quente ao redor e cria ondas de pressão — som de verdade, propagando num meio. A nota corresponde a um si bemol cerca de 57 oitavas abaixo do dó central do piano: um trilhão de vezes mais grave do que o ouvido humano alcança.",
+    "tags": ["som do universo", "buraco negro", "aglomerado de perseu", "si bemol", "ondas sonoras", "astronomia", "ciência"],
+    "hashtags": ["#som", "#buraconegro", "#astronomia", "#ciência", "#neuralupdate"],
+    "hook": "UMA NOTA TOCA NO\nUNIVERSO HÁ 2\nBILHÕES DE ANOS",
+    "roteiro": "Tem uma nota musical tocando no universo há dois bilhões de anos. No aglomerado de Perseu, um buraco negro gigante empurra o gás quente em volta dele e cria ondas de pressão. Isso é som de verdade, porque ali existe um meio pra ele viajar. E a nota tem nome: um si bemol. Só que ela está cinquenta e sete oitavas abaixo do dó central do piano, ou seja, um trilhão de vezes mais grave do que o seu ouvido alcança. O universo está tocando. Você é que não tem o ouvido pra ouvir. Neural Update. O universo está te esperando.",
+    "cues": [
+      "Tem uma nota musical tocando",
+      "No aglomerado de Perseu",
+      "cria ondas de pressão",
+      "a nota tem nome",
+      "cinquenta e sete oitavas",
+      "O universo está tocando",
+      "Neural Update"
+    ],
+    "bank": [],
+    "prompts": [
+      "Cinematic 9:16 vertical abstract shot of enormous slow concentric pressure ripples spreading through glowing hot gas in deep space, sound made visible, majestic and ancient, shot on ARRI Alexa with 35mm anamorphic lens, deep violet and amber against black, photorealistic with fine grain, no text, no words, no letters, no watermark",
+      "Cinematic 9:16 vertical wide shot of a colossal galaxy cluster wrapped in a vast glowing halo of superheated gas, immense structure, deep purples and blues against black, photorealistic astrophotography with grain, no text, no words, no letters, no watermark",
+      "Cinematic 9:16 vertical shot of a black hole pushing enormous bubbles into surrounding hot gas, wide ripple fronts rolling outward like waves on a lake, physical and cinematic, high contrast, photorealistic with grain, no text, no words, no letters, no watermark",
+      "Cinematic 9:16 vertical macro shot of a single deep piano string vibrating slowly in a dark room, dust drifting in a shaft of warm light, intimate and musical, shallow depth of field, photorealistic texture, no text, no words, no letters, no watermark",
+      "Cinematic 9:16 vertical abstract shot of a sound wave stretched to an absurdly long wavelength, one single vast trough filling the entire frame, almost too slow to perceive, cold blue on black, photorealistic render with grain, no text, no words, no letters, no watermark",
+      "Cinematic 9:16 vertical shot of a lone human silhouette floating in deep space surrounded by immense invisible waves suggested only by faint distortion of the starlight, listening to nothing, poetic and still, deep blues, photorealistic with fine grain, no text, no words, no letters, no watermark",
+      "Cinematic 9:16 vertical wide shot of a quiet star field with soft violet nebula haze, calm and reverent, deep blues and blacks, photorealistic astrophotography with fine grain, no text, no words, no letters, no watermark"
+    ]
+  },
+  {
+    "slug": "nw-nebulosa-borboleta",
+    "stream": "news",
+    "publishAt": "2026-08-13T11:00:00.000Z",
+    "track": "cosmic-ambient-espacial.mp3",
+    "topic": "nebulosa da borboleta NGC 6302 webb hubble estrela morrendo",
+    "isca": false,
+    "title": "📰 A BORBOLETA do céu é uma estrela morrendo 🦋 #Shorts",
+    "desc1": "A Nebulosa da Borboleta, NGC 6302, ganhou novas imagens de Hubble e James Webb em luz visível e infravermelha. As duas asas são o gás expelido por uma estrela em agonia, e no centro há uma das estrelas mais quentes conhecidas — escondida atrás de um anel de poeira.",
+    "tags": ["nebulosa da borboleta", "NGC 6302", "james webb", "hubble", "nebulosa planetaria", "astronomia", "ciência"],
+    "hashtags": ["#nebulosa", "#jameswebb", "#astronomia", "#ciência", "#neuralupdate"],
+    "hook": "A BORBOLETA DO CÉU\nÉ UMA ESTRELA\nMORRENDO",
+    "roteiro": "A borboleta mais bonita do céu é uma estrela morrendo. O Hubble e o James Webb acabaram de olhar de novo pra Nebulosa da Borboleta, em luz visível e em infravermelho. As duas asas são gás que uma estrela em agonia expulsou de si mesma, viajando a centenas de quilômetros por segundo. E no meio delas mora uma das estrelas mais quentes que a gente conhece, escondida atrás de um anel de poeira que ela mesma fez. É uma morte tão violenta que ficou parecendo delicada. Neural Update. O universo está te esperando.",
+    "cues": [
+      "A borboleta mais bonita do céu",
+      "O Hubble e o James Webb",
+      "As duas asas são gás",
+      "viajando a centenas de quilômetros",
+      "mora uma das estrelas mais quentes",
+      "É uma morte tão violenta",
+      "Neural Update"
+    ],
+    "bank": [],
+    "prompts": [
+      "Cinematic 9:16 vertical shot of a vast butterfly-shaped nebula with two enormous symmetric wings of glowing gas spreading across deep space, delicate and violent at once, shot on ARRI Alexa with 35mm anamorphic lens, subtle chromatic aberration, vivid magenta and cyan against void black, photorealistic with fine grain, no text, no words, no letters, no watermark",
+      "Cinematic 9:16 vertical shot of two great space telescopes silhouetted against a bright nebula, one bathed in visible light and one in deep infrared red, dual perspective, cold and warm split palette, photorealistic with grain, no text, no words, no letters, no watermark",
+      "Cinematic 9:16 vertical close shot of enormous billowing wings of luminous gas layered in translucent sheets, structure and texture visible in the folds, magenta violet and pale gold against black, photorealistic astrophotography with grain, no text, no words, no letters, no watermark",
+      "Cinematic 9:16 vertical shot of streams of gas blasting outward at tremendous speed in long straight jets, motion streaks and shock fronts, kinetic violence, hot white and orange against black, photorealistic with grain, no text, no words, no letters, no watermark",
+      "Cinematic 9:16 vertical shot of an intensely hot blue-white star half hidden behind a thick dark torus of dust at the heart of a nebula, blinding light leaking around the edges of the ring, extreme contrast, photorealistic with fine grain, no text, no words, no letters, no watermark",
+      "Cinematic 9:16 vertical shot of a beautiful symmetric nebula seen whole from a great distance, serene and delicate despite its violence, soft glowing colours against deep black, photorealistic astrophotography with fine grain, no text, no words, no letters, no watermark",
+      "Cinematic 9:16 vertical wide shot of a quiet star field with a faint distant nebula glow, contemplative, deep blues and blacks, photorealistic astrophotography with fine grain, no text, no words, no letters, no watermark"
+    ]
+  },
+  {
+    "slug": "pl16-buraco-negro-central",
+    "stream": "aula",
+    "publishAt": "2026-08-13T17:00:00.000Z",
+    "track": "dark-tension-pixabay.mp3",
+    "topic": "aula buraco negro supermassivo centro das galaxias coevolucao",
+    "isca": false,
+    "title": "🔭 Por que TODA galáxia tem um buraco negro no centro #Shorts",
+    "desc1": "Aula da escola Universo do Zero: praticamente toda galáxia grande abriga um buraco negro supermassivo no centro, e a massa dele acompanha a massa do bojo estelar em volta. Galáxia e buraco negro parecem crescer juntos — mas quem começou a relação ainda é assunto em aberto.",
+    "tags": ["buraco negro supermassivo", "centro da galaxia", "sagitario A", "coevolucao", "curso de astronomia", "astronomia", "ciência"],
+    "hashtags": ["#buraconegro", "#galáxia", "#astronomia", "#ciência", "#neuralupdate"],
+    "hook": "TODA GALÁXIA TEM\nUM BURACO NEGRO\nNO CENTRO",
+    "roteiro": "Praticamente toda galáxia grande tem um buraco negro gigante no centro. Isso não é coincidência, e é uma das perguntas mais incômodas da astronomia. A nossa tem um, o Sagitário A estrela, com quatro milhões de vezes a massa do Sol. E aqui está o detalhe que ninguém esperava: quanto mais massa tem a região central de uma galáxia, mais pesado é o buraco negro dela. A proporção se repete em galáxia atrás de galáxia. Ou seja, os dois crescem juntos. O que ninguém sabe é quem puxou quem primeiro. Neural Update. O universo está te esperando.",
+    "cues": [
+      "Praticamente toda galáxia grande",
+      "uma das perguntas mais incômodas",
+      "A nossa tem um",
+      "o detalhe que ninguém esperava",
+      "A proporção se repete",
+      "os dois crescem juntos",
+      "quem puxou quem primeiro",
+      "Neural Update"
+    ],
+    "bank": [],
+    "prompts": [
+      "Cinematic 9:16 vertical top-down shot of a majestic spiral galaxy with an intensely bright compact core, the very centre a small absolute darkness, structure spiralling outward, shot on ARRI Alexa with 35mm anamorphic lens, deep contrast against void black, photorealistic with fine grain, no text, no words, no letters, no watermark",
+      "Cinematic 9:16 vertical shot of many different galaxies arranged across a dark field, each one with the same bright dense core, an uncomfortable pattern repeating, scientific survey aesthetic, photorealistic with grain, no text, no words, no letters, no watermark",
+      "Cinematic 9:16 vertical shot of the crowded chaotic centre of the Milky Way, dense star clouds and glowing dust lanes swirling around a small dark point, warm gold and deep brown against black, photorealistic astrophotography with grain, no text, no words, no letters, no watermark",
+      "Cinematic 9:16 vertical shot of stars whipping around an invisible central mass on tight fast elliptical orbits, their motion trails drawn as bright curving arcs, dynamic and revealing, cold blue-white on black, photorealistic with grain, no text, no words, no letters, no watermark",
+      "Cinematic 9:16 vertical composition of several galaxy cores side by side, each paired with a dark sphere scaled proportionally to its brightness, a visual rhythm of matching sizes, clean and striking, deep black background, photorealistic, no text, no words, no letters, no watermark",
+      "Cinematic 9:16 vertical shot of a galaxy and its central dark core growing together in a single continuous swirl of infalling gas, intertwined evolution, warm and cold light mixing against black, photorealistic with grain, no text, no words, no letters, no watermark",
+      "Cinematic 9:16 vertical abstract shot of two intertwined luminous spirals feeding into each other with no visible beginning, a causal loop made visual, deep violet and blue on black, photorealistic render with fine grain, no text, no words, no letters, no watermark",
+      "Cinematic 9:16 vertical wide shot of a distant galaxy alone in deep quiet space, contemplative, deep blues and blacks, photorealistic astrophotography with fine grain, no text, no words, no letters, no watermark"
+    ]
+  },
+  {
+    "slug": "v39-lua-se-afastando",
+    "stream": "viral",
+    "publishAt": "2026-08-13T21:00:00.000Z",
+    "track": "dark-some-amount-of-evil.mp3",
+    "topic": "lua se afastando eclipse total fim mares",
+    "isca": true,
+    "title": "Um dia não vai mais existir eclipse TOTAL 🌑 #Shorts",
+    "desc1": "A Lua se afasta da Terra cerca de 3,8 centímetros por ano. Hoje o disco lunar cobre o Sol quase com exatidão — uma coincidência de tamanho e distância que não é permanente. Daqui a algumas centenas de milhões de anos ela ficará pequena demais no céu e os eclipses totais acabarão para sempre.",
+    "tags": ["eclipse total", "lua se afastando", "mares", "coincidencia cosmica", "astronomia", "ciência", "curiosidades"],
+    "hashtags": ["#eclipse", "#lua", "#astronomia", "#ciência", "#neuralupdate"],
+    "hook": "UM DIA NÃO VAI\nMAIS EXISTIR\nECLIPSE TOTAL",
+    "roteiro": "Um dia não vai mais existir eclipse total, e a culpa é da Lua. Ela está se afastando da Terra quase quatro centímetros por ano, empurrada pelo atrito das marés. Hoje acontece uma coincidência absurda: a Lua é quatrocentas vezes menor que o Sol e está quatrocentas vezes mais perto, então os dois têm exatamente o mesmo tamanho no céu. É por isso que o encaixe é perfeito. Mas essa coincidência tem prazo de validade. Você vive na única época da história do planeta em que dá pra ver isso. Juntei os cinco fenômenos mais assustadores do universo num PDF grátis. Link na bio. Neural Update. O universo está te esperando.",
+    "cues": [
+      "Um dia não vai mais existir eclipse",
+      "Ela está se afastando da Terra",
+      "acontece uma coincidência absurda",
+      "está quatrocentas vezes mais perto",
+      "é por isso que o encaixe é perfeito",
+      "tem prazo de validade",
+      "cinco fenômenos",
+      "Neural Update"
+    ],
+    "bank": [],
+    "prompts": [
+      "Cinematic 9:16 vertical shot of a total solar eclipse with the corona blazing around a perfect black disc, the sky dark in daytime, awe and finality, shot on ARRI Alexa with 35mm anamorphic lens, subtle chromatic aberration, extreme contrast, photorealistic with fine grain, no text, no words, no letters, no watermark",
+      "Cinematic 9:16 vertical shot of the Moon drifting slowly away from Earth along a faint spiral path, the growing gap between them emphasised, cold blue and grey against black, photorealistic space photography with grain, no text, no words, no letters, no watermark",
+      "Cinematic 9:16 vertical shot of Earth's oceans bulging visibly toward the Moon, huge slow tidal swells rendered in dramatic relief, physical and powerful, deep blues with moonlit highlights, photorealistic with grain, no text, no words, no letters, no watermark",
+      "Cinematic 9:16 vertical composition of the small Moon in the foreground and the vastly larger Sun far behind it, the perspective making them appear identical in size, elegant geometric coincidence, high contrast against black, photorealistic, no text, no words, no letters, no watermark",
+      "Cinematic 9:16 vertical extreme close shot of the Moon's edge fitting exactly over the Sun's edge, a thin ring of fire escaping around the rim, precision and beauty, blinding gold against deep black, photorealistic with fine grain, no text, no words, no letters, no watermark",
+      "Cinematic 9:16 vertical shot of a future eclipse where the Moon is too small to cover the Sun, a bright ring left uncovered, the magic gone, cold and diminished, photorealistic with grain, no text, no words, no letters, no watermark",
+      "Cinematic 9:16 vertical still life of a dark hardcover book closed on black stone, faint cosmic light leaking from between the pages, five small points of light hovering above it, mysterious and inviting, deep blues and violets, photorealistic with fine grain, no text, no words, no letters, no watermark",
+      "Cinematic 9:16 vertical wide shot of a crowd of small silhouettes on a dark hillside watching a darkened sky, shared human wonder, deep blues with soft rim light, photorealistic with fine grain, no text, no words, no letters, no watermark"
+    ]
+  }
+]

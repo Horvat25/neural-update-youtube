@@ -1,0 +1,45 @@
+{
+  "slug": "nw-escudo-nao-e-ar",
+  "stream": "news",
+  "track": "dark-some-amount-of-evil.mp3",
+  "topic": "escudo magnetico Terra vento solar raios X auroras nave Smile ESA maio 2026",
+  "isca": false,
+  "title": "📰 Este escudo NÃO é ar (ele segura o vento solar) 🛡️ #Shorts",
+  "desc1": "A missão Smile, parceria entre a Agência Espacial Europeia e a Academia Chinesa de Ciências, foi lançada em 19 de maio de 2026 para observar como a Terra responde ao vento solar. Pela primeira vez, uma câmera de raios X fará imagens do escudo magnético terrestre e mostrará onde ele é atingido por partículas solares. Outra câmera acompanhará as auroras por até 45 horas seguidas em ultravioleta, permitindo comparar a reação do escudo no espaço com a luz que aparece perto dos polos. A missão estuda tempestades solares e geomagnéticas e pode melhorar modelos que protegem astronautas e tecnologias espaciais.",
+  "tags": [
+    "escudo magnético Terra",
+    "vento solar",
+    "aurora boreal espaço",
+    "raios X da Terra",
+    "missão Smile ESA",
+    "tempestade solar",
+    "astronomia"
+  ],
+  "hashtags": [
+    "#terra",
+    "#espaco",
+    "#neuralupdate"
+  ],
+  "hook": "O ESCUDO DA\nTERRA NÃO É AR\nELE SEGURA O SOL",
+  "roteiro": "Uma bolha invisível leva golpes do Sol agora.\n\nEla não é ar: nasce do campo magnético terrestre.\n\nEsse escudo desvia partículas que chegam do Sol.\n\nEm tempestades, ele se comprime e se agita.\n\nDepois a perturbação corre pelos polos.\n\nE acende auroras nos dois lados do planeta.\n\nMas ninguém viu o escudo inteiro reagir.\n\nUma nave usará raios X para mostrar onde ele leva golpes.\n\nEla acompanhará auroras por quarenta e cinco horas seguidas.\n\nQuanto do céu perto de nós ainda está escondido?\n\n\n\nNeural Update. O universo está te esperando.",
+  "cues": [
+    "Uma bolha invisível",
+    "Ela não é",
+    "Esse escudo desvia",
+    "Em tempestades, ele",
+    "Depois a perturbação",
+    "E acende auroras",
+    "Mas ninguém viu"
+  ],
+  "prompts": [
+    "Earth in space surrounded by a vast transparent glowing magnetic bubble being struck by streams of solar particles, Earth and protective bubble large and dominant in a tall vertical frame, cinematic scientific documentary realism, one single continuous scene with no frames or borders",
+    "Earth's magnetic shield definitely not made of air, shown as luminous curved magnetic field lines forming a giant protective bubble around the blue planet, Earth and field lines large and dominant in a tall vertical frame, high contrast scientific visualization, one single continuous scene with no frames or borders",
+    "A stream of bright charged particles from the Sun diverted around Earth's glowing magnetic bubble, solar wind and curved shield large and dominant in a tall vertical frame, realistic space science image, one single continuous scene with no frames or borders",
+    "A violent solar storm compressing Earth's magnetic bubble on the Sun-facing side, bright pressure waves and Earth large and dominant in a tall vertical frame, cinematic astrophysics visualization, one single continuous scene with no frames or borders",
+    "Energy from a magnetic storm racing along glowing field lines toward Earth's north and south poles, planet and flowing energy paths large and dominant in a tall vertical frame, scientific documentary realism, one single continuous scene with no frames or borders",
+    "Two enormous green and violet auroral ovals igniting above both polar regions of Earth at night, Earth and auroras large and dominant in a tall vertical frame, breathtaking orbital photography, one single continuous scene with no frames or borders",
+    "A small scientific spacecraft using X-ray vision to image Earth's entire glowing magnetic shield and the solar wind impact boundary, spacecraft Earth and shield large and dominant in a tall vertical frame, cinematic science visualization, one single continuous scene with no frames or borders"
+  ],
+  "fonte": "Agência Espacial Europeia / Smile, 19/05/2026 — https://www.esa.int/Science_Exploration/Space_Science/Smile/Smile_lifts_off_on_quest_to_reveal_Earth_s_invisible_shield_against_the_solar_wind",
+  "extra": "Fonte primária confirma a primeira visão por raios X do escudo magnético terrestre, observação ultravioleta de auroras por 45 horas e a função de estudar a resposta ao vento solar. Roteiro com 83 palavras e sem o nome estrangeiro da missão na locução. Tema conferido contra usados e pendentes: foca na magnetosfera terrestre observada como sistema inteiro, não em aurora genérica ou atividade solar."
+}

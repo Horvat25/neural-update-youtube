@@ -1,0 +1,109 @@
+[
+  {
+    "slug": "nw-omega-centauri",
+    "stream": "news",
+    "publishAt": "2026-08-10T11:00:00.000Z",
+    "track": "dark-some-amount-of-evil.mp3",
+    "topic": "omega centauri buraco negro aglomerado globular hubble",
+    "isca": true,
+    "title": "📰 O aglomerado mais famoso do céu ESCONDIA um buraco negro 🕳️ #Shorts",
+    "desc1": "Ômega Centauri tem cerca de 10 milhões de estrelas amontoadas e a teoria dizia que ali dentro deveria existir um monte de buracos negros — mas ninguém achava nenhum. Agora o primeiro foi localizado, garimpando dados de arquivo do Hubble com apoio do James Webb. Ele se entregou pelo jeito como empurra uma estrela vizinha.",
+    "tags": ["omega centauri", "buraco negro", "aglomerado globular", "hubble", "james webb", "astronomia", "ciência"],
+    "hashtags": ["#buraconegro", "#hubble", "#astronomia", "#ciência", "#neuralupdate"],
+    "hook": "O AGLOMERADO\nESCONDIA UM\nBURACO NEGRO",
+    "roteiro": "Um buraco negro estava escondido no aglomerado mais famoso do céu. Ômega Centauri tem dez milhões de estrelas amontoadas, e a teoria dizia que ali dentro deveria existir um monte de buracos negros. Só que ninguém achava nenhum. Agora acharam o primeiro, garimpando arquivos antigos do Hubble e confirmando com o James Webb. Ele se entregou pelo jeito como empurra uma estrela vizinha. Um lugar que a gente observa há duzentos anos ainda escondia isso. Juntei os cinco fenômenos mais assustadores do universo num PDF grátis. Link na bio. Neural Update. O universo está te esperando.",
+    "cues": [
+      "Um buraco negro estava escondido",
+      "Ômega Centauri tem dez milhões",
+      "deveria existir um monte",
+      "Agora acharam o primeiro",
+      "Ele se entregou pelo jeito",
+      "há duzentos anos ainda escondia",
+      "cinco fenômenos",
+      "Neural Update"
+    ],
+    "bank": [
+      { "from": "news3-buraco-antigo/img5.png", "to": "img4.png" }
+    ],
+    "prompts": [
+      "Cinematic 9:16 vertical shot of a dense swarm of hundreds of thousands of stars packed into a glowing sphere, one small patch of absolute darkness hidden among them, extreme depth, shot on ARRI Alexa with 35mm anamorphic lens, subtle chromatic aberration, high contrast against void black, photorealistic with fine grain, no text, no words, no letters, no watermark",
+      "Cinematic 9:16 vertical wide shot of a colossal globular star cluster filling the frame, millions of golden and blue stars crowded toward a blazing core, majestic and overwhelming, deep space astrophotography, photorealistic with fine grain, no text, no words, no letters, no watermark",
+      "Cinematic 9:16 vertical shot of many small dark voids scattered invisibly through a crowded star field, their presence suggested only by faint gravitational distortion of the light around them, eerie absence, high contrast, photorealistic, no text, no words, no letters, no watermark",
+      "[BANCO news3-buraco-antigo/img5] cientistas diante de uma descoberta impossivel",
+      "Cinematic 9:16 vertical shot of a single bright star being visibly tugged sideways off its path by an unseen mass, its motion trail curving sharply against the static background stars, scientific clarity, deep contrast, photorealistic with grain, no text, no words, no letters, no watermark",
+      "Cinematic 9:16 vertical shot of an antique brass telescope in a dim nineteenth century observatory pointed at a bright cluster through an open dome slit, dust and candle-warm light, historical documentary photography, photorealistic texture, no text, no words, no letters, no watermark",
+      "Cinematic 9:16 vertical still life of a dark hardcover book closed on black stone, faint cosmic light leaking from between the pages, five small points of light hovering above it, mysterious and inviting, deep blues and violets, photorealistic with fine grain, no text, no words, no letters, no watermark",
+      "Cinematic 9:16 vertical wide shot of a vast star cluster receding into quiet darkness, contemplative and still, deep blues and blacks, photorealistic astrophotography with fine grain, no text, no words, no letters, no watermark"
+    ]
+  },
+  {
+    "slug": "vsl15-horizonte-perdido",
+    "stream": "vsl-ebook",
+    "publishAt": "2026-08-10T17:00:00.000Z",
+    "track": "cosmic-ambient-espacial.mp3",
+    "topic": "expansao acelerada universo observavel galaxias sumindo",
+    "isca": false,
+    "title": "📕 Todo dia galáxias SOMEM do universo pra sempre 🌌 #Shorts",
+    "desc1": "A expansão do universo está acelerando. Existe uma distância a partir da qual o espaço entre nós e uma galáxia cresce mais rápido do que a luz consegue atravessar — quando ela cruza essa linha, nada que emitir chegará aqui novamente. Daqui a bilhões de anos, um astrônomo verá apenas a própria galáxia, sem prova alguma de que houve um Big Bang.",
+    "tags": ["universo observavel", "expansao do universo", "energia escura", "horizonte cosmologico", "big bang", "astronomia", "ciência"],
+    "hashtags": ["#universo", "#expansão", "#astronomia", "#ciência", "#neuralupdate"],
+    "hook": "TODO DIA GALÁXIAS\nSOMEM DO UNIVERSO\nPRA SEMPRE",
+    "roteiro": "Todo dia, algumas galáxias somem do universo pra sempre. A expansão está acelerando, e existe uma distância a partir da qual o espaço entre nós e elas cresce mais rápido do que a luz consegue atravessar. Quando uma galáxia cruza essa linha, nada que ela emitir vai chegar aqui. Nunca mais. Ela não explodiu, não morreu: simplesmente saiu do nosso universo observável. Daqui a bilhões de anos, um astrônomo vai olhar pro céu e ver só a própria galáxia, sem prova nenhuma de que existiu um Big Bang. Eu abro isso no ebook O Lado Sombrio do Universo. Link na bio.",
+    "cues": [
+      "Todo dia algumas galáxias somem",
+      "A expansão está acelerando",
+      "cresce mais rápido do que a luz",
+      "Quando uma galáxia cruza essa linha",
+      "Ela não explodiu",
+      "Daqui a bilhões de anos",
+      "sem prova nenhuma",
+      "Eu abro isso no ebook"
+    ],
+    "bank": [
+      { "from": "vsl2-gato/img2.png", "to": "img8.png" }
+    ],
+    "prompts": [
+      "Cinematic 9:16 vertical shot of distant galaxies visibly fading out one by one at the edge of a dark sky, their light thinning into nothing, a sense of loss and finality, shot on ARRI Alexa with 35mm anamorphic lens, subtle chromatic aberration, deep blacks with dying warm highlights, photorealistic with fine grain, no text, no words, no letters, no watermark",
+      "Cinematic 9:16 vertical abstract shot of space itself stretching, a grid of faint light lines pulling apart faster and faster toward the frame edges, galaxies riding the stretch outward, motion and acceleration, cool blues against black, photorealistic with grain, no text, no words, no letters, no watermark",
+      "Cinematic 9:16 vertical shot of a beam of starlight straining forward but falling behind an expanding gulf of darkness, the light losing a race it cannot win, red-shifted and stretched thin, dramatic and melancholic, photorealistic with grain, no text, no words, no letters, no watermark",
+      "Cinematic 9:16 vertical shot of a single galaxy crossing an invisible boundary line in deep space, half of it still luminous and half already swallowed into absolute black, sharp division, high contrast, photorealistic, no text, no words, no letters, no watermark",
+      "Cinematic 9:16 vertical shot of a perfectly intact spiral galaxy glowing alone, untouched and whole, but surrounded on all sides by total featureless darkness, isolation rather than destruction, photorealistic astrophotography with fine grain, no text, no words, no letters, no watermark",
+      "Cinematic 9:16 vertical shot of an immense empty black sky with one lone faint galaxy at the centre, unimaginable future emptiness, almost nothing to see, deep blacks with a single dim glow, photorealistic with fine grain, no text, no words, no letters, no watermark",
+      "Cinematic 9:16 vertical shot of a lone figure at a telescope under a completely starless black sky, nothing above to observe, quiet cosmic loneliness, cold blue rim light on the silhouette, photorealistic with grain, no text, no words, no letters, no watermark",
+      "[BANCO vsl2-gato/img2] capa sombria do ebook com brilho cosmico"
+    ]
+  },
+  {
+    "slug": "v36-atomos-outra-galaxia",
+    "stream": "viral",
+    "publishAt": "2026-08-10T21:00:00.000Z",
+    "track": "dark-tension-pixabay.mp3",
+    "topic": "atomos de outra galaxia transferencia intergalactica via lactea",
+    "isca": false,
+    "title": "Metade dos seus átomos veio de OUTRA galáxia 🌌 #Shorts",
+    "desc1": "Simulações de formação galáctica indicam que boa parte da matéria da Via Láctea chegou de fora: explosões de supernova expulsam gás das galáxias, e esse material viaja milhões de anos-luz até ser capturado por outra. Parte dele virou o Sol, parte virou a Terra, parte virou você.",
+    "tags": ["atomos", "via lactea", "transferencia intergalactica", "supernova", "origem da materia", "astronomia", "ciência"],
+    "hashtags": ["#átomos", "#galáxia", "#astronomia", "#ciência", "#neuralupdate"],
+    "hook": "METADE DOS SEUS\nÁTOMOS VEIO DE\nOUTRA GALÁXIA",
+    "roteiro": "Metade dos átomos do seu corpo pode ter vindo de fora da Via Láctea. Simulações mostram que galáxias trocam matéria entre si: explosões de supernova chutam gás pra fora, e esse gás viaja milhões de anos-luz até cair numa outra galáxia. Parte dele virou o Sol. Parte virou a Terra. Parte virou você. Você não é só de outro planeta, você é de outra galáxia. Neural Update. O universo está te esperando.",
+    "cues": [
+      "Metade dos átomos do seu corpo",
+      "Simulações mostram que galáxias trocam",
+      "esse gás viaja milhões de anos-luz",
+      "Parte dele virou o Sol",
+      "Você não é só de outro planeta",
+      "Neural Update"
+    ],
+    "bank": [
+      { "from": "viral5-pale-blue-dot/img3.png", "to": "img4.png" }
+    ],
+    "prompts": [
+      "Cinematic 9:16 vertical portrait of a human silhouette from behind against a night sky, their body rendered as a constellation of faint drifting atoms, half of the particles tinted a different colour from the rest, subtle and beautiful, shot on ARRI Alexa with 85mm lens, deep blacks with cool and warm accents, photorealistic with fine grain, no text, no words, no letters, no watermark",
+      "Cinematic 9:16 vertical wide shot of two distant spiral galaxies connected by a long faint bridge of glowing gas streaming from one to the other, cosmic exchange, deep space astrophotography, cool blues and golds against black, photorealistic with grain, no text, no words, no letters, no watermark",
+      "Cinematic 9:16 vertical shot of a violent supernova explosion hurling shells of glowing gas outward into intergalactic darkness, brutal energy frozen mid-blast, orange white and violet against black, high contrast, photorealistic with grain, no text, no words, no letters, no watermark",
+      "[BANCO viral5-pale-blue-dot/img3] a Terra como um ponto azul solitario",
+      "Cinematic 9:16 vertical shot of a lone person standing on a hilltop at night looking up at a distant neighbouring galaxy low on the horizon, intimate scale against cosmic distance, soft warm foreground light against deep blue sky, photorealistic with fine grain, no text, no words, no letters, no watermark",
+      "Cinematic 9:16 vertical wide shot of the Milky Way arching over a quiet dark landscape, immense and calm, deep blues with soft star glow, photorealistic astrophotography with fine grain, no text, no words, no letters, no watermark"
+    ]
+  }
+]

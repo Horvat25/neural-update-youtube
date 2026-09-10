@@ -1,0 +1,45 @@
+{
+  "slug": "nw-colmeias-chao-marte",
+  "stream": "news",
+  "track": "dark-some-amount-of-evil.mp3",
+  "topic": "marte campo colmeias poligonos rachaduras rover NASA julho 2026",
+  "isca": false,
+  "title": "📰 Esse chão de Marte NÃO parece natural (virou uma colmeia) 🐝 #Shorts",
+  "desc1": "O rover Curiosity fotografou em Marte uma área coberta por fraturas poligonais parecidas com colmeias, cada uma com 4 a 8 centímetros de largura. A NASA afirma que a missão nunca tinha visto tantas estruturas de muitos lados num só local: elas se espalham até o horizonte e sobem por uma elevação próxima. Polígonos menores podem nascer de rachaduras de lama, ciclos de temperatura ou compressão que expulsa água do sedimento soterrado, mas os cientistas ainda não sabem a origem deste campo gigante e estão medindo sua forma e química.",
+  "tags": [
+    "colmeias em Marte",
+    "Curiosity",
+    "fraturas poligonais",
+    "geologia de Marte",
+    "rover marciano",
+    "NASA",
+    "astronomia"
+  ],
+  "hashtags": [
+    "#marte",
+    "#astronomia",
+    "#neuralupdate"
+  ],
+  "hook": "O CHÃO DE\nMARTE VIROU\nUMA COLMEIA",
+  "roteiro": "Um campo de colmeias gravado no chão de Marte.\n\nUm robô encontrou milhares delas até o horizonte.\n\nCada desenho mede de quatro a oito centímetros e tem muitos lados.\n\nOutros iguais já apareceram, mas só em pequenas manchas.\n\nMas ninguém viu tantos juntos em um único lugar.\n\nEles podem ser rachaduras de lama antiga, calor, frio ou compressão.\n\nA equipe mediu as formas e a química para buscar pistas.\n\nSerá que esses favos são uma lembrança de quando Marte tinha água?\n\n\n\nNeural Update. O universo está te esperando.",
+  "cues": [
+    "Um campo de",
+    "Um robô encontrou",
+    "Cada desenho mede",
+    "Outros iguais já",
+    "Mas ninguém viu",
+    "Eles podem ser",
+    "A equipe mediu"
+  ],
+  "prompts": [
+    "A vast Martian plain covered edge to edge in natural honeycomb-like polygon cracks, the red ground texture large and dominant in a tall vertical frame, cinematic planetary documentary realism, one single continuous scene with no frames or borders",
+    "A realistic six-wheeled Mars rover at the edge of an immense field of tiny polygon patterns stretching all the way to the horizon, rover and ground large and dominant in a tall vertical frame, scientific documentary photography, one single continuous scene with no frames or borders",
+    "Extreme close view of four-to-eight-centimeter polygonal fractures in rusty Martian soil, many-sided honeycomb cells sharp and large across the tall vertical frame, high contrast realistic rover photography, one single continuous scene with no frames or borders",
+    "A small isolated patch of honeycomb-like polygon cracks on otherwise smooth Martian ground, detailed fractured patch large and dominant in a tall vertical frame, realistic planetary survey image, one single continuous scene with no frames or borders",
+    "A breathtaking uninterrupted sea of thousands of polygon fractures spreading in every direction across Mars, terrain filling most of the tall vertical frame, immediate sense of scale, cinematic scientific realism, one single continuous scene with no frames or borders",
+    "A dramatic scientific cutaway of Martian sediment splitting into polygon cracks through ancient mud drying, temperature changes and compression, fractured layers large and dominant in a tall vertical frame, realistic planetary geology illustration, one single continuous scene with no frames or borders",
+    "A Mars rover arm examining a dense honeycomb field with scientific instruments while the strange polygon terrain rises around a nearby red butte, subjects large and dominant in a tall vertical frame, cinematic documentary realism, one single continuous scene with no frames or borders"
+  ],
+  "fonte": "NASA / JPL / Curiosity, 29/07/2026 — https://www.jpl.nasa.gov/news/nasas-curiosity-mars-rover-discovers-field-of-honeycomb-textures/",
+  "extra": "Spec da semana seguinte, diferente do vídeo recente sobre o rover subindo uma montanha: aqui o assunto é o campo inédito de fraturas. A fonte não fecha a origem; o roteiro conserva as três possibilidades. Sem nome estrangeiro no roteiro."
+}

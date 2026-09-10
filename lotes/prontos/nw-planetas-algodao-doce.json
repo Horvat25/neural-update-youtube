@@ -1,0 +1,47 @@
+[
+  {
+    "slug": "nw-planetas-algodao-doce",
+    "stream": "news",
+    "track": "dark-some-amount-of-evil.mp3",
+    "topic": "dois exoplanetas superpuff gigantes densidade algodao doce descoberta TESS 2026",
+    "isca": false,
+    "title": "📰 Esses planetas NÃO deviam existir (são leves demais) 🪐 #Shorts",
+    "desc1": "A missão TESS da NASA anunciou em 24 de junho de 2026 dois planetas gigantes de densidade comparável à de algodão-doce. Os dois orbitam uma estrela parecida com o Sol a cerca de 1.113 anos-luz. Um tem quase o tamanho de Júpiter, mas 3% da sua massa; o outro é maior e tem 5,9%. Sete anos de dados permitiram medir como eles alteram o tempo das passagens diante da estrela e, assim, confirmar suas massas extremamente baixas.",
+    "tags": [
+      "planeta algodão doce",
+      "exoplaneta",
+      "TESS NASA",
+      "planeta gigante",
+      "densidade baixa",
+      "Júpiter",
+      "astronomia"
+    ],
+    "hashtags": [
+      "#exoplanetas",
+      "#astronomia",
+      "#neuralupdate"
+    ],
+    "hook": "PLANETAS\nLEVE DEMAIS\nPRA EXISTIR",
+    "roteiro": "Dois planetas gigantes leves como algodão-doce.\n\nEles pesam apenas uma fração minúscula de Júpiter inteiro.\n\nUm deles carrega só três por cento da massa de Júpiter.\n\nO outro é ainda maior e chega a menos de seis por cento.\n\nMas os dois ficaram presos numa dança gravitacional que revela o peso deles.\n\nAstrônomos mediram um atraso minúsculo nas passagens repetidas diante da estrela.\n\nEsse sistema ficou sete anos inteiros sendo acompanhado.\n\nComo um planeta gigante consegue não desabar sobre si mesmo?\n\n\n\nNeural Update. O universo está te esperando.",
+    "cues": [
+      "Dois planetas gigantes",
+      "Eles pesam apenas",
+      "Um deles carrega",
+      "O outro é",
+      "Mas os dois",
+      "Astrônomos mediram",
+      "Como um planeta"
+    ],
+    "prompts": [
+      "Two enormous pale lavender gas planets floating close together in deep space, their soft cloudy atmospheres looking impossibly light, subjects large and dominant in a tall vertical frame, cinematic scientific realism, one single continuous scene with no frames or borders",
+      "A single giant gas planet with a huge translucent cloud atmosphere swelling far beyond its tiny glowing core, filling most of tall vertical frame, black starfield behind it, cinematic scientific realism, one single continuous scene with no frames or borders",
+      "A Jupiter-sized pale gas planet next to a small glowing scale marker made of swirling particles, the planet visibly vast yet airy, subject large and dominant in frame, deep space realism, one single continuous scene with no frames or borders",
+      "A second oversized gas planet with an even broader cotton-candy-like atmosphere orbiting a golden sunlike star, filling most of tall vertical frame, cinematic scientific realism, one single continuous scene with no frames or borders",
+      "Two giant low-density gas planets orbiting the same bright star, their paths shown as subtle luminous arcs pulling toward each other, subjects large and dominant in frame, deep black space, one single continuous scene with no frames or borders",
+      "A giant gas planet crossing directly in front of a bright star, a crisp dark circular shadow moving across the stellar glow, filling most of tall vertical frame, cinematic observatory realism, one single continuous scene with no frames or borders",
+      "One enormous fragile-looking gas planet hanging above a black cosmic abyss, its atmosphere glowing at the edge as if it might dissolve, subject large and dominant in frame, one single continuous scene with no frames or borders"
+    ],
+    "fonte": "NASA / TESS, 24/06/2026 — https://science.nasa.gov/missions/tess/nasas-tess-mission-reveals-the-puffiest-planets-ever-found/",
+    "extra": "Fonte primária confirma os tamanhos, massas de 3,0% e 5,9% de Júpiter, os sete anos de dados e a densidade comparável a algodão-doce. O roteiro evita os nomes TOI-791, TESS e super-puff para não exigir grafia fonética nova. Corpo: 80 palavras. | TTS: mediram atrasos minusculos sai como mediram atras os minusculos."
+  }
+]

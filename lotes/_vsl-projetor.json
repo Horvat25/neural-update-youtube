@@ -1,0 +1,48 @@
+[
+  {
+    "slug": "vsl-projetor-astronauta-v1",
+    "stream": "vsl-shopee",
+    "voice": "female",
+    "publishAt": "2099-01-01T00:00:00.000Z",
+    "track": "cosmic-ambient-espacial.mp3",
+    "topic": "projetor astronauta galaxia no teto poluicao luminosa via lactea",
+    "isca": false,
+    "title": "A galáxia NÃO sumiu de vez (ela cabe no seu quarto) 🌌 #Shorts",
+    "desc1": "A poluição luminosa escondeu a nossa galáxia de mais de um terço da humanidade (Falchi et al., Science Advances, 2016). O projetor astronauta leva estrelas e nebulosas para o teto do seu quarto — o modelo grande tem ângulo ajustável, 8 modos de nebulosa e controle remoto. Link na bio. #publi",
+    "tags": [
+      "projetor astronauta",
+      "projetor de estrelas",
+      "decoração de quarto",
+      "poluição luminosa",
+      "via láctea",
+      "presente criativo"
+    ],
+    "hashtags": [
+      "#projetorastronauta",
+      "#decoracaodequarto",
+      "#neuralupdate"
+    ],
+    "hook": "A NOSSA GALÁXIA\nSUMIU DO\nSEU CÉU",
+    "roteiro": "A nossa própria galáxia sumiu do céu de mais de um terço da humanidade.\n\nA luz das cidades apagou as estrelas da janela.\n\nHoje, o jeito mais fácil de ver uma nebulosa é olhar pro teto.\n\nEsse astronauta projeta estrelas e nebulosas no quarto inteiro.\n\nMas no modelo grande você ajusta o ângulo e aponta o céu pra onde quiser.\n\nSão oito modos de nebulosa, estrelas verdes piscando e controle remoto.\n\nQuer esse céu hoje à noite? O projetor astronauta tá no link da bio.",
+    "cues": [
+      "A nossa própria galáxia",
+      "A luz das cidades",
+      "Hoje, o jeito mais",
+      "Esse astronauta projeta",
+      "Mas no modelo grande",
+      "São oito modos",
+      "Quer esse céu hoje"
+    ],
+    "prompts": [
+      "The Milky Way arching bright across a pitch dark countryside sky crowded with stars above the silhouette of distant hills, subject large and dominant, filling most of the tall vertical frame",
+      "A sprawling city at night glowing orange, its light washing the whole sky into a starless haze, filling most of the tall vertical frame",
+      "A dark empty bedroom whose ceiling glows with a vivid purple and blue nebula projection full of tiny stars, filling most of the tall vertical frame",
+      "PRODUTO REAL — recorte da arte 03-atmosfera-noturna.png (GPT), nao gerar",
+      "PRODUTO REAL — recorte da arte 01-transformacao-quarto.png (GPT), nao gerar",
+      "Close view of a bedroom ceiling covered in swirling violet and teal nebula light scattered with green twinkling points of light, filling most of the tall vertical frame",
+      "PRODUTO REAL — recorte da arte 02-presente-universo.png (GPT), nao gerar"
+    ],
+    "fonte": "Falchi et al., The new world atlas of artificial night sky brightness, Science Advances, 2016 · anúncio Shopee Luatek (recursos do modelo grande)",
+    "extra": "VSL do projetor, variação 1 de 3 (as outras 2 sao do GPT). NAO agendar por sobe-lote: publishAt 2099 e placeholder. Voz Venus de proposito: o registro e noite, quarto, calma."
+  }
+]

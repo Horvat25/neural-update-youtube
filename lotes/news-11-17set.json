@@ -1,0 +1,324 @@
+[
+  {
+    "slug": "nw-ia-ouve-mancha-solar",
+    "stream": "news",
+    "track": "news-rising-tide.mp3",
+    "topic": "inteligencia artificial prever manchas solares ondas magneticas NASA agosto 2026",
+    "isca": false,
+    "title": "📰 A IA NÃO espera a mancha solar aparecer (ela ouve o Sol antes) ☀️ #Shorts",
+    "desc1": "Uma equipe da NASA desenvolveu um modelo de aprendizado de máquina que consegue prever o surgimento de regiões ativas no Sol até 12 horas antes de elas aparecerem na superfície. Essas regiões produzem manchas solares e impulsionam eventos severos, como erupções solares e ejeções de massa coronal. O modelo procura reduções sutis nas ondas acústicas e no campo magnético enquanto a estrutura ainda sobe pelo interior do Sol. A NASA ressalta que a técnica é promissora, mas ainda não está pronta para previsão operacional em tempo real.",
+    "tags": [
+      "IA prevê manchas solares",
+      "inteligência artificial",
+      "manchas solares",
+      "tempestade solar",
+      "ondas acústicas do Sol",
+      "NASA",
+      "astronomia"
+    ],
+    "hashtags": [
+      "#inteligenciaartificial",
+      "#sol",
+      "#neuralupdate"
+    ],
+    "hook": "A IA OUVE\nA MANCHA ANTES\nDE ELA NASCER",
+    "roteiro": "Uma mancha solar que ainda nem apareceu.\n\nUma inteligência artificial enxerga os sinais antes da região nascer.\n\nEla ouve ondas minúsculas vibrando debaixo da superfície solar.\n\nEssas ondas mudam quando campos magnéticos sobem.\n\nMas ninguém vê o campo enquanto ele está escondido.\n\nO programa aprende o ritmo de um Sol barulhento.\n\nEle pode marcar o lugar da próxima mancha até doze horas antes.\n\nSerá que isso vai avisar uma tempestade antes de ela nascer?\n\n\n\nNeural Update. O universo está te esperando.",
+    "cues": [
+      "Uma mancha solar",
+      "Uma inteligência artificial",
+      "Ela ouve ondas",
+      "Essas ondas mudam",
+      "Mas ninguém vê",
+      "O programa aprende",
+      "Ele pode marcar"
+    ],
+    "prompts": [
+      "A close dramatic view of the Sun with one dark active region still hidden beneath its glowing surface, brilliant solar plasma filling most of a tall vertical frame, cinematic scientific documentary realism, one single continuous scene with no frames or borders",
+      "An elegant artificial intelligence visualization observing the blazing Sun, subtle luminous patterns flowing over a solar surface while no visible sunspot exists yet, subjects large and dominant in a tall vertical frame, realistic science documentary style, one single continuous scene with no frames or borders",
+      "A cutaway of the Sun showing tiny acoustic waves rippling below the glowing orange surface, concentric vibrations large and dominant in a tall vertical frame, high contrast solar science visualization, one single continuous scene with no frames or borders",
+      "Powerful magnetic fields rising upward through the Sun as twisting bright loops disturb subtle wave patterns below the surface, solar structure large and dominant in a tall vertical frame, cinematic scientific realism, one single continuous scene with no frames or borders",
+      "A hidden magnetic structure deep below the Sun's bright turbulent surface, visible only as a dark ghostly shape beneath glowing plasma, subject large and dominant in a tall vertical frame, immediate cosmic awe, one single continuous scene with no frames or borders",
+      "A roaring noisy solar surface with countless chaotic waves and plasma cells while a single faint rhythm emerges among them, the Sun filling most of the tall vertical frame, realistic astronomical imaging, one single continuous scene with no frames or borders",
+      "A newly emerging sunspot beginning to darken the solar surface as a solar flare arcs above it, active region large and dominant in a tall vertical frame, high contrast NASA documentary realism, one single continuous scene with no frames or borders"
+    ],
+    "fonte": "NASA / COFFIES, 14/08/2026 — https://science.nasa.gov/science-research/heliophysics/nasas-coffies-uses-ai-to-predict-storm-causing-active-regions-on-sun/",
+    "extra": "Spec da semana seguinte, com ângulo de previsão por IA e não da tempestade solar G2 já produzida. A fonte confirma até 12 horas de antecedência para regiões ativas, mas informa que o modelo ainda não está pronto para previsão operacional; o roteiro não promete uso atual.",
+    "publishAt": "2026-09-11T11:00:00.000Z"
+  },
+  {
+    "slug": "nw-tornados-escondidos-marte",
+    "stream": "news",
+    "track": "news-rising-tide.mp3",
+    "topic": "mais de trinta demonios de poeira tornados Marte Mamers Valles ESA Mars Express 2026",
+    "isca": false,
+    "title": "📰 Esses tornados NÃO são da Terra (passam de 8 km) 🌪️ #Shorts",
+    "desc1": "A sonda Mars Express da Agência Espacial Europeia registrou mais de 30 redemoinhos de poeira ativos em Mamers Valles, sistema de vales de Marte. Esses redemoinhos nascem quando a superfície se aquece ao Sol e o ar logo acima sobe em espiral, carregando poeira. A ESA informou em 17 de junho de 2026 que alguns podem atingir até oito quilômetros de altura, percorrer quilômetros e chegar a 45 metros por segundo. Eles apareceram porque a câmera de alta resolução da sonda combina imagens feitas por canais diferentes: qualquer coisa que se move entre as tomadas se destaca no terreno.",
+    "tags": [
+      "tornados em Marte",
+      "demonios de poeira",
+      "Mars Express",
+      "Mamers Valles",
+      "redemoinhos de poeira",
+      "Agencia Espacial Europeia",
+      "astronomia"
+    ],
+    "hashtags": [
+      "#marte",
+      "#astronomia",
+      "#neuralupdate"
+    ],
+    "hook": "TRINTA\nTORNADOS\nEM UMA FOTO",
+    "roteiro": "Redemoinhos de poeira cruzam um vale gigante em Marte.\n\nUma só imagem esconde mais de TRINTA deles.\n\nCada um nasce quando o chão aquecido faz o ar subir rodando.\n\nEles arrastam poeira e conseguem viajar por quilômetros.\n\nMas muitos só aparecem porque a câmera olhou de ângulos diferentes.\n\nMovimento entre as fotos denunciou os pequenos tornados.\n\nAlguns passam de oito quilômetros de altura.\n\nQuantos deles passam invisíveis todos os dias pelas planícies vermelhas?\n\n\n\nNeural Update. O universo está te esperando.",
+    "cues": [
+      "Redemoinhos de poeira cruzam",
+      "Uma só imagem esconde",
+      "Cada um nasce quando",
+      "Eles arrastam poeira",
+      "Mas muitos só aparecem",
+      "Movimento entre as fotos",
+      "Quantos deles passam invisíveis"
+    ],
+    "prompts": [
+      "A colossal rust-red Martian valley seen from above with several tall dust devils twisting across the floor, dust columns large and dominant in a tall vertical frame, cinematic scientific documentary photography, bright high contrast sunlight and deep shadows, one single continuous scene with no frames or borders",
+      "A wide overhead Martian landscape crowded with dozens of tiny spinning dust devils, their long moving shadows stretching over the red ground, subjects large and dominant in the vertical frame, astronomical survey image realism, one single continuous scene with no frames or borders",
+      "Close ground-level view of a powerful Martian dust devil forming above sun-heated red soil, dust spiraling upward in a towering column, subject large and dominant in frame, cinematic scientific documentary photography, immediate awe, one single continuous scene with no frames or borders",
+      "A fast-moving dust devil racing across a vast orange Martian plain, its swirling dust trail sweeping behind it through a field of rocks, subject large and dominant in a tall vertical frame, high contrast scientific realism, one single continuous scene with no frames or borders",
+      "An orbital scientific view of the same Martian valley from several subtle viewing angles blended into one continuous landscape, moving dust devils visibly shifted against still terrain, subject large and dominant in frame, cinematic survey image, one single continuous scene with no frames or borders",
+      "A small dust tornado on Mars revealed by its displaced position and pinkish trailing shadow across the red valley floor, the spinning column sharp and large in a vertical frame, astronomical survey image realism, one single continuous scene with no frames or borders",
+      "An immense Martian dust devil towering far above a red canyon, its column reaching into the thin pink sky and dwarfing the terrain below, subject large and dominant in a tall vertical frame, cinematic scientific documentary photography, sense of scale that feels physically impossible, one single continuous scene with no frames or borders"
+    ],
+    "fonte": "Agência Espacial Europeia / Mars Express, 17/06/2026 — https://www.esa.int/Science_Exploration/Space_Science/Mars_Express/Dozens_of_dust_devils_hidden_in_plain_sight",
+    "extra": "Fonte primária confirma mais de 30 redemoinhos, até 8 km de altura, até 45 m/s e o método de detectar movimento por canais de imagem. Não colide com o Short do Sol: aqui são redemoinhos de poeira marcianos. Corpo: 84 palavras.",
+    "publishAt": "2026-09-12T11:00:00.000Z"
+  },
+  {
+    "slug": "nw-cratera-nao-foi-asteroide",
+    "stream": "news",
+    "track": "news-rising-tide.mp3",
+    "topic": "cratera Lua estagio foguete impacto poeira antiga material fresco LRO NASA agosto 2026",
+    "isca": false,
+    "title": "📰 Esta cratera NÃO nasceu de um asteroide (foi um foguete) 🌕 #Shorts",
+    "desc1": "A sonda Lunar Reconnaissance Orbiter da NASA fotografou em 11 e 12 de agosto de 2026 uma cratera nova na Lua, aberta seis dias antes pelo estágio superior de um foguete Falcon 9. A cratera tem cerca de 18 metros de largura e menos de 3 metros de profundidade. As imagens mostram raios escuros de poeira e rochas alteradas por radiação e impactos por muito tempo, e riscos claros de material fresco retirado de camadas mais profundas. Para registrar o local, os engenheiros inclinaram a sonda a cada passagem; dez segundos de diferença tirariam a cratera do centro da imagem.",
+    "tags": [
+      "cratera não foi asteroide",
+      "Lua impacto foguete",
+      "Lunar Reconnaissance Orbiter",
+      "cratera recém-nascida",
+      "poeira lunar",
+      "NASA Lua",
+      "astronomia"
+    ],
+    "hashtags": [
+      "#lua",
+      "#astronomia",
+      "#neuralupdate"
+    ],
+    "hook": "A CRATERA QUE\nNÃO VEIO DO\nESPAÇO",
+    "roteiro": "Uma cápsula de foguete abriu uma nova ferida na Lua.\n\nEla não chegou em missão: caiu depois de vagar.\n\nO impacto lançou poeira velha para longe.\n\nNas imagens, faixas escuras mostram material exposto à radiação.\n\nPerto da borda, riscos claros vieram de camadas profundas.\n\nMas a câmera só viu porque ajustou a mira a cada passagem.\n\nUma diferença de dez segundos mudaria o alvo.\n\nQue outras histórias uma cratera nova ainda esconde?\n\n\n\nNeural Update. O universo está te esperando.",
+    "cues": [
+      "Uma cápsula de foguete",
+      "Ela não chegou",
+      "O impacto lançou",
+      "Nas imagens, faixas",
+      "Perto da borda",
+      "Mas a câmera",
+      "Uma diferença de"
+    ],
+    "prompts": [
+      "A newly formed sharp lunar crater on gray powdery ground, fresh broken rim and a dramatic gouge in the Moon's surface, crater large and dominant in a tall vertical frame, realistic lunar orbital photography, one single continuous scene with no frames or borders",
+      "An unmarked rocket upper stage drifting silently above the Moon before falling toward the gray surface, the small metallic object and lunar horizon large and dominant in a tall vertical frame, cinematic space documentary realism, one single continuous scene with no frames or borders",
+      "A violent impact plume on the Moon throwing a wide fan of old gray lunar dust away from a fresh crater, lunar terrain and plume large and dominant in a tall vertical frame, high speed scientific visualization, one single continuous scene with no frames or borders",
+      "Close orbital view of a lunar crater surrounded by dark weathered rays of dusty rock, dark ejecta streaks spreading across gray regolith, crater and rays large and dominant in a tall vertical frame, realistic scientific photography, one single continuous scene with no frames or borders",
+      "A sharp fresh lunar crater rim with bright pale streaks of newly excavated material rising from deeper layers, brilliant ejecta contrasting with older gray dust, subjects large and dominant in a tall vertical frame, cinematic scientific realism, one single continuous scene with no frames or borders",
+      "A lunar orbiter tilting its camera toward a tiny fresh crater far below, spacecraft and illuminated lunar target large and dominant in a tall vertical frame, realistic NASA-style documentary image, one single continuous scene with no frames or borders",
+      "A precise orbital camera view sweeping rapidly over a small fresh crater on the Moon, the crater centered while the gray surface races beneath, subject large and dominant in a tall vertical frame, cinematic scientific visualization, one single continuous scene with no frames or borders"
+    ],
+    "fonte": "NASA / Lunar Reconnaissance Orbiter, 18/08/2026 — https://science.nasa.gov/solar-system/moon/nasas-lro-images-falcon-9-crater-on-moon-learns-new-details/",
+    "extra": "Fonte primária confirma o impacto em 05/08, imagens em 11–12/08, largura de 60 pés, profundidade inferior a 10 pés e a janela de dez segundos. Roteiro com 85 palavras; evita nomes de missões e marcas na locução para TTS. Tema conferido contra usados e pendentes: o foco é uma cratera causada por foguete e suas camadas de solo, não micróbios nem geologia lunar geral.",
+    "publishAt": "2026-09-13T11:00:00.000Z"
+  },
+  {
+    "slug": "nw-estrela-finge-atmosfera-planeta",
+    "stream": "news",
+    "track": "news-rising-tide.mp3",
+    "topic": "estrela manchas fingem agua atmosfera exoplaneta sinais Pandora NASA 2026",
+    "isca": false,
+    "title": "📰 Essa atmosfera NÃO pode ser do planeta (a estrela finge) 🪐 #Shorts",
+    "desc1": "A missão Pandora da NASA começou a observar exoplanetas e suas estrelas ao mesmo tempo, em luz visível e infravermelha. A meta é separar marcas químicas reais da atmosfera de um planeta de sinais falsos produzidos pela própria estrela. Quando um planeta passa diante dela, parte da luz atravessa a atmosfera e revela moléculas; porém, manchas escuras e regiões brilhantes na superfície estelar também mudam a luz e podem distorcer, inclusive, a busca por água. A missão observará pelo menos 20 exoplanetas durante o primeiro ano e ajuda a interpretar dados de telescópios maiores.",
+    "tags": [
+      "estrela finge atmosfera",
+      "atmosfera de exoplaneta",
+      "sinal de agua",
+      "Pandora NASA",
+      "transito planetario",
+      "manchas estelares",
+      "astronomia"
+    ],
+    "hashtags": [
+      "#exoplanetas",
+      "#astronomia",
+      "#neuralupdate"
+    ],
+    "hook": "A ESTRELA\nFINGE SER\nO PLANETA",
+    "roteiro": "Uma estrela manchada pode imitar a atmosfera de um planeta.\n\nEla consegue forjar até o sinal de ÁGUA.\n\nQuando um planeta passa na frente dela, parte da luz atravessa o ar dele.\n\nEssa luz carrega marcas químicas até nossos telescópios.\n\nMas manchas escuras e regiões brilhantes também mudam essa cor.\n\nElas podem contaminar o retrato que parece ser do planeta.\n\nUma missão nova observa os dois ao mesmo tempo.\n\nSerá que alguma atmosfera famosa nasceu só de uma estrela inquieta?\n\n\n\nNeural Update. O universo está te esperando.",
+    "cues": [
+      "Uma estrela manchada pode",
+      "Ela consegue forjar",
+      "Quando um planeta passa",
+      "Essa luz carrega",
+      "Mas manchas escuras",
+      "Elas podem contaminar",
+      "Será que alguma atmosfera"
+    ],
+    "prompts": [
+      "A close view of a golden sunlike star covered in dramatic dark starspots with a small exoplanet crossing in front of it, subjects large and dominant in a tall vertical frame, cinematic scientific documentary photography, bright high contrast against black space, one single continuous scene with no frames or borders",
+      "A glowing exoplanet transit silhouette crossing a bright star while a luminous blue spectral-like water signature appears deceptively around the starlight, subject large and dominant in frame, cinematic scientific visualization, one single continuous scene with no frames or borders",
+      "An exoplanet with a thin glowing atmosphere passing directly across the face of its host star, a rim of filtered starlight shining around the planet, subject large and dominant in a tall vertical frame, astronomical survey image realism, one single continuous scene with no frames or borders",
+      "Close scientific visualization of starlight passing through a distant planet's transparent blue atmosphere, subtle colored light bands spreading through black space, subject large and dominant in frame, cinematic documentary photography, immediate awe, one single continuous scene with no frames or borders",
+      "A huge active star with dark cool spots and brilliant hot faculae rotating across its glowing surface, turbulent texture filling the vertical frame, subject large and dominant in frame, high contrast scientific realism, one single continuous scene with no frames or borders",
+      "A dark exoplanet transit seen against a restless spotted star, the star's changing bright and dark regions visibly altering the color of the passing light, subject large and dominant in a tall vertical frame, cinematic scientific visualization, one single continuous scene with no frames or borders",
+      "A distant living-looking star and a small transiting planet suspended in a vast starfield, two different streams of visible and infrared light flowing from the system toward the viewer, subjects large and dominant in frame, sense of scale that feels physically impossible, one single continuous scene with no frames or borders"
+    ],
+    "fonte": "NASA / Pandora Mission, 25/08/2026 — https://science.nasa.gov/missions/pandora-missions/nasas-pandora-mission-begins-study-of-exoplanets-host-stars/",
+    "extra": "Fonte primária confirma que Pandora mede planetas e estrelas simultaneamente em luz visível e infravermelha, para separar impressões químicas do planeta dos efeitos de manchas e regiões brilhantes estelares. Roteiro sem nome estrangeiro novo. Corpo: 88 palavras.",
+    "publishAt": "2026-09-14T11:00:00.000Z"
+  },
+  {
+    "slug": "nw-asteroide-era-cometa",
+    "stream": "news",
+    "track": "news-rising-tide.mp3",
+    "topic": "asteroide 1998 SH2 era cometa cauda fraca orbita irregular NASA JPL 2026",
+    "isca": false,
+    "title": "📰 Esse asteroide NÃO era asteroide (a órbita entregou) ☄️ #Shorts",
+    "desc1": "O objeto próximo da Terra 1998 SH2 parecia um asteroide desde sua descoberta, mas uma análise liderada pelo JPL da NASA revelou perturbações em sua órbita que não combinavam com um corpo seco. A equipe concluiu que gelo aquecido pelo Sol liberava uma pequena quantidade de gás, empurrando o objeto. Observações do Canada-France-Hawaii Telescope, do Very Large Telescope e de outro observatório encontraram uma cauda fraca e confirmaram que ele é um cometa. Em 16 de julho de 2026, a NASA informou que 1998 SH2 passará a usar também a designação P/1998 SH2.",
+    "tags": [
+      "asteroide era cometa",
+      "1998 SH2",
+      "cometa",
+      "NASA JPL",
+      "objetos proximos da Terra",
+      "orbita irregular",
+      "astronomia"
+    ],
+    "hashtags": [
+      "#cometa",
+      "#astronomia",
+      "#neuralupdate"
+    ],
+    "hook": "O ASTEROIDE\nERA UM\nCOMETA",
+    "roteiro": "Um asteroide silencioso parecia comum perto da Terra.\n\nAstrônomos descobriram que ele era um COMETA quase invisível.\n\nNenhuma cauda chamava atenção nas imagens antigas.\n\nMas sua órbita começou a fugir do caminho calculado.\n\nGelo escondido esquenta ao Sol e lança gás como um motor fraco.\n\nTelescópios gigantes encontraram uma cauda tênue seguindo esse desvio.\n\nAgora ele é oficialmente um cometa.\n\nQuantos outros objetos aparentemente secos escondem jatos de gás?\n\n\n\nNeural Update. O universo está te esperando.",
+    "cues": [
+      "Um asteroide silencioso parecia",
+      "Astrônomos descobriram que ele",
+      "Nenhuma cauda chamava",
+      "Mas sua órbita começou",
+      "Gelo escondido esquenta",
+      "Telescópios gigantes encontraram",
+      "Quantos outros objetos"
+    ],
+    "prompts": [
+      "A small charcoal-black rocky near-Earth object drifting through a dense starfield, rough irregular surface sharply lit by the Sun, subject large and dominant in frame, filling most of the tall vertical frame, cinematic scientific documentary photography, bright and high contrast against black space, one single continuous scene with no frames or borders",
+      "The same dark rocky object suddenly revealing a delicate pale dust tail in sunlight, the tail barely visible but unmistakable, subject large and dominant in frame, edge to edge vertical composition, astronomical survey image realism, immediate awe, one single continuous scene with no frames or borders",
+      "A compact dark asteroid-like nucleus floating without any visible coma, clean black space around it and hard sunlight across its cracked rock, subject large and dominant in a tall vertical frame, cinematic scientific documentary photography, one single continuous scene with no frames or borders",
+      "A dark rocky object racing along a luminous curved orbital arc around the Sun, the path bending subtly away from its expected track, subject large and dominant in frame, high contrast deep-space scientific visualization, one single continuous scene with no frames or borders",
+      "Extreme close view of sunlight heating icy fractures in a rugged rocky nucleus, thin jets of gas and dust escaping into black space, subject large and dominant in a tall vertical frame, cinematic scientific documentary photography, immediate awe, one single continuous scene with no frames or borders",
+      "A powerful observatory view of the small rocky nucleus with a faint blue-white tail spreading behind it, countless sharp stars surrounding the object, subject large and dominant in frame, astronomical survey image, bright and high contrast against black space, one single continuous scene with no frames or borders",
+      "Several ambiguous dark rocky bodies crossing a vast black starfield, one carrying a nearly invisible glowing trail that hints at hidden activity, subjects large and dominant in a tall vertical frame, cinematic scientific documentary photography, sense of scale that feels physically impossible, one single continuous scene with no frames or borders"
+    ],
+    "fonte": "NASA / Jet Propulsion Laboratory, 16/07/2026 — https://www.jpl.nasa.gov/news/nasa-study-finds-near-earth-asteroid-is-actually-comet/",
+    "extra": "Fonte primária confirma que 1998 SH2 exibiu perturbações não gravitacionais, uma cauda fraca e a nova designação P/1998 SH2. O roteiro evita a sigla e a numeração para não exigir teste fonético novo. Corpo: 81 palavras.",
+    "publishAt": "2026-09-15T11:00:00.000Z"
+  },
+  {
+    "slug": "nw-galaxia-nao-usa-anel-comum",
+    "stream": "news",
+    "track": "news-rising-tide.mp3",
+    "topic": "galaxia anel polar inclinado colisao poeira estrelas buraco negro Chandra NASA agosto 2026",
+    "isca": false,
+    "title": "📰 Esta galáxia NÃO usa um anel comum (ele passa pelos polos) 💫 #Shorts",
+    "desc1": "A NASA apresentou em 25 de agosto de 2026 uma nova imagem da galáxia NGC 660, um caso raro de galáxia com anel polar. Em vez de acompanhar o plano do disco principal, o anel externo de estrelas e poeira está inclinado e gira sobre os polos da galáxia. Os pesquisadores consideram provável que essa estrutura tenha sido causada por uma colisão com outra galáxia há cerca de um bilhão de anos. A combinação de dados mostra também raios X de um possível buraco negro supermassivo em crescimento no centro e sistemas de raios X entre as estrelas do anel.",
+    "tags": [
+      "galáxia anel polar",
+      "anel inclinado galáxia",
+      "colisão de galáxias",
+      "NGC 660",
+      "buraco negro galáxia",
+      "Chandra raios X",
+      "astronomia"
+    ],
+    "hashtags": [
+      "#galaxia",
+      "#espaco",
+      "#neuralupdate"
+    ],
+    "hook": "UM ANEL\nATRAVESSADO\nNA GALÁXIA",
+    "roteiro": "Uma galáxia carrega um anel atravessado na direção errada.\n\nEle não gira no mesmo plano de suas estrelas.\n\nO anel passa por cima dos polos da galáxia.\n\nIsso parece um chapéu rodando atravessado no espaço.\n\nAstrônomos acham que outra galáxia bateu nela há cerca de um bilhão de anos.\n\nA colisão provavelmente jogou estrelas e poeira numa órbita torta.\n\nMas esse anel também esconde uma pista no centro.\n\nQuantas colisões antigas ainda desenham galáxias que parecem impossíveis?\n\n\n\nNeural Update. O universo está te esperando.",
+    "cues": [
+      "Uma galáxia carrega",
+      "Ele não gira",
+      "O anel passa",
+      "Isso parece um",
+      "Astrônomos acham que",
+      "A colisão provavelmente",
+      "Mas esse anel"
+    ],
+    "prompts": [
+      "A rare polar ring galaxy with a bright tilted outer ring of stars and dust cutting above the galaxy's poles, ring and galaxy large and dominant in a tall vertical frame, cinematic astronomical realism, one single continuous scene with no frames or borders",
+      "A spiral galaxy whose outer ring definitely does not rotate in the same flat plane as its stellar disk, a clear tilted hoop crossing the poles, galaxy large and dominant in a tall vertical frame, scientific visualization, one single continuous scene with no frames or borders",
+      "Orbital view of a luminous ring of stars sweeping vertically over the north and south poles of a glowing galaxy, polar ring and core large and dominant in a tall vertical frame, sense of impossible geometry, one single continuous scene with no frames or borders",
+      "A magnificent galaxy wearing a tilted glowing stellar ring like an off-center cosmic hat, the ring sharply crossing over the galactic disk, subject large and dominant in a tall vertical frame, cinematic documentary astronomy, one single continuous scene with no frames or borders",
+      "Two galaxies colliding in deep space one billion years ago, one galaxy pulling stars and dust into a dramatically tilted orbital ring, collision and ring large and dominant in a tall vertical frame, high contrast scientific realism, one single continuous scene with no frames or borders",
+      "Stars and dark dust from a galactic collision stretching into a warped tilted orbit around a glowing galaxy, orbiting ring and galaxy large and dominant in a tall vertical frame, cinematic astrophysics visualization, one single continuous scene with no frames or borders",
+      "A polar ring galaxy with a subtle purple X-ray glow emerging from the central core, possible growing black hole and tilted ring large and dominant in a tall vertical frame, scientific telescope image realism, one single continuous scene with no frames or borders"
+    ],
+    "fonte": "NASA / Chandra X-ray Observatory, 25/08/2026 — https://science.nasa.gov/missions/chandra/galactic-gems-glisten-in-new-gallery-from-nasas-chandra/",
+    "extra": "Fonte primária confirma anel externo inclinado girando sobre os polos, provável colisão há cerca de um bilhão de anos e o possível buraco negro central. Roteiro com 86 palavras; nomes estrangeiros ficam fora da locução. Tema conferido contra usados e pendentes: a pauta é a geometria de anel polar, não fusão da Via Láctea nem perda de gás.",
+    "publishAt": "2026-09-16T11:00:00.000Z"
+  },
+  {
+    "slug": "nw-escudo-nao-e-ar",
+    "stream": "news",
+    "track": "news-rising-tide.mp3",
+    "topic": "escudo magnetico Terra vento solar raios X auroras nave Smile ESA maio 2026",
+    "isca": false,
+    "title": "📰 Este escudo NÃO é ar (ele segura o vento solar) 🛡️ #Shorts",
+    "desc1": "A missão Smile, parceria entre a Agência Espacial Europeia e a Academia Chinesa de Ciências, foi lançada em 19 de maio de 2026 para observar como a Terra responde ao vento solar. Pela primeira vez, uma câmera de raios X fará imagens do escudo magnético terrestre e mostrará onde ele é atingido por partículas solares. Outra câmera acompanhará as auroras por até 45 horas seguidas em ultravioleta, permitindo comparar a reação do escudo no espaço com a luz que aparece perto dos polos. A missão estuda tempestades solares e geomagnéticas e pode melhorar modelos que protegem astronautas e tecnologias espaciais.",
+    "tags": [
+      "escudo magnético Terra",
+      "vento solar",
+      "aurora boreal espaço",
+      "raios X da Terra",
+      "missão Smile ESA",
+      "tempestade solar",
+      "astronomia"
+    ],
+    "hashtags": [
+      "#terra",
+      "#espaco",
+      "#neuralupdate"
+    ],
+    "hook": "O ESCUDO DA\nTERRA NÃO É AR\nELE SEGURA O SOL",
+    "roteiro": "Uma bolha invisível leva golpes do Sol agora.\n\nEla não é ar: nasce do campo magnético terrestre.\n\nEsse escudo desvia partículas que chegam do Sol.\n\nEm tempestades, ele se comprime e se agita.\n\nDepois a perturbação corre pelos polos.\n\nE acende auroras nos dois lados do planeta.\n\nMas ninguém viu o escudo inteiro reagir.\n\nUma nave vai mapear esses golpes com raios X.\n\nQuanto do céu perto de nós ainda está escondido?\n\n\n\nNeural Update. O universo está te esperando.",
+    "cues": [
+      "Uma bolha invisível",
+      "Ela não é",
+      "Esse escudo desvia",
+      "Em tempestades, ele",
+      "Depois a perturbação",
+      "E acende auroras",
+      "Mas ninguém viu"
+    ],
+    "prompts": [
+      "Earth in space surrounded by a vast transparent glowing magnetic bubble being struck by streams of solar particles, Earth and protective bubble large and dominant in a tall vertical frame, cinematic scientific documentary realism, one single continuous scene with no frames or borders",
+      "Earth's magnetic shield definitely not made of air, shown as luminous curved magnetic field lines forming a giant protective bubble around the blue planet, Earth and field lines large and dominant in a tall vertical frame, high contrast scientific visualization, one single continuous scene with no frames or borders",
+      "A stream of bright charged particles from the Sun diverted around Earth's glowing magnetic bubble, solar wind and curved shield large and dominant in a tall vertical frame, realistic space science image, one single continuous scene with no frames or borders",
+      "A violent solar storm compressing Earth's magnetic bubble on the Sun-facing side, bright pressure waves and Earth large and dominant in a tall vertical frame, cinematic astrophysics visualization, one single continuous scene with no frames or borders",
+      "Energy from a magnetic storm racing along glowing field lines toward Earth's north and south poles, planet and flowing energy paths large and dominant in a tall vertical frame, scientific documentary realism, one single continuous scene with no frames or borders",
+      "Two enormous green and violet auroral ovals igniting above both polar regions of Earth at night, Earth and auroras large and dominant in a tall vertical frame, breathtaking orbital photography, one single continuous scene with no frames or borders",
+      "A small scientific spacecraft using X-ray vision to image Earth's entire glowing magnetic shield and the solar wind impact boundary, spacecraft Earth and shield large and dominant in a tall vertical frame, cinematic science visualization, one single continuous scene with no frames or borders"
+    ],
+    "fonte": "Agência Espacial Europeia / Smile, 19/05/2026 — https://www.esa.int/Science_Exploration/Space_Science/Smile/Smile_lifts_off_on_quest_to_reveal_Earth_s_invisible_shield_against_the_solar_wind",
+    "extra": "Fonte primária confirma a primeira visão por raios X do escudo magnético terrestre, observação ultravioleta de auroras por 45 horas e a função de estudar a resposta ao vento solar. Roteiro com 83 palavras e sem o nome estrangeiro da missão na locução. Tema conferido contra usados e pendentes: foca na magnetosfera terrestre observada como sistema inteiro, não em aurora genérica ou atividade solar.",
+    "publishAt": "2026-09-17T11:00:00.000Z"
+  }
+]

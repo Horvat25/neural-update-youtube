@@ -1,0 +1,45 @@
+{
+  "slug": "nw-vacuo-quantico-estrela-morta",
+  "stream": "news",
+  "track": "dark-some-amount-of-evil.mp3",
+  "topic": "medicao de vacuo quantico ao redor de magnetar estrela de neutrons IXPE agosto 2026",
+  "isca": false,
+  "title": "📰 O VAZIO NÃO ficou vazio (uma estrela torceu a luz) ✨ #Shorts",
+  "desc1": "A missão IXPE da NASA observou por mais de 140 horas uma estrela de nêutrons altamente magnetizada e encontrou um padrão de polarização compatível com uma previsão de 90 anos da eletrodinâmica quântica. Em campos magnéticos extremos, o vácuo pode se comportar como um meio que altera a luz. O resultado, publicado em 5 de agosto de 2026, é apresentado pela NASA como a primeira medição desse tipo e ainda será testado por novas observações.",
+  "tags": [
+    "vácuo quântico",
+    "estrela de nêutrons",
+    "luz polarizada",
+    "campo magnético extremo",
+    "IXPE NASA",
+    "astronomia",
+    "física quântica"
+  ],
+  "hashtags": [
+    "#astronomia",
+    "#fisicaquantica",
+    "#neuralupdate"
+  ],
+  "hook": "O VAZIO\nTORCEU A\nLUZ",
+  "roteiro": "Um brilho azul saindo de uma estrela morta.\n\nUma sonda mediu a luz torcida ao redor dela.\n\nA medição indica que o vácuo muda a luz sob magnetismo extremo.\n\nA estrela gira e aponta um feixe como farol espacial.\n\nMas nunca tinham enxergado esse efeito num campo tão forte.\n\nO padrão combina com teoria de noventa anos.\n\nIsso abre uma forma de testar o espaço sem matéria diretamente.\n\nSerá que o vazio do universo é menos vazio do que parece?\n\n\n\nNeural Update. O universo está te esperando.",
+  "cues": [
+    "Um brilho azul saindo",
+    "Uma sonda mediu",
+    "A medição indica",
+    "A estrela gira",
+    "Mas nunca tinham",
+    "O padrão combina",
+    "Será que o vazio"
+  ],
+  "prompts": [
+    "A single blue neutron star large and dominant in frame, filling most of a tall vertical view, glowing alone against black space, a thin halo of charged particles around it, cinematic scientific realism, one single continuous scene with no frames or borders",
+    "A compact space X-ray observatory flying past a distant blue neutron star, its instrument aimed at a narrow beam of light, subject large and dominant in frame, deep black cosmic background, one single continuous scene with no frames or borders",
+    "A bright beam of starlight visibly bending and splitting while crossing an invisible magnetic field near a blue neutron star, subject large and dominant in frame, vivid blue and violet glow, one single continuous scene with no frames or borders",
+    "A spinning blue neutron star seen close up, one narrow luminous beam sweeping through black space like a lighthouse, filling most of tall vertical frame, scientific cinematic realism, one single continuous scene with no frames or borders",
+    "An extreme magnetic field shown as dense glowing blue arcs wrapped tightly around a neutron star, subject large and dominant in frame, black empty space behind it, one single continuous scene with no frames or borders",
+    "A deep-space neutron star surrounded by a clean halo of polarized blue light arranged in a precise geometric pattern, subject large and dominant in frame, cinematic scientific realism, one single continuous scene with no frames or borders",
+    "A lone observer silhouette floating before a vast black cosmic void where a faint blue beam curves through empty space, filling most of tall vertical frame, overwhelming scale, one single continuous scene with no frames or borders"
+  ],
+  "fonte": "NASA / IXPE, 05/08/2026 — https://science.nasa.gov/missions/ixpe/nasas-ixpe-may-have-proven-90-year-old-theory/",
+  "extra": "Pauta distinta do Short já usado sobre perigo de magnetar: foca na medição recente do vácuo quântico. O roteiro evita os nomes IXPE e 1E 1547-5408 para não introduzir grafia fonética nova no TTS. Corpo: 80 palavras."
+}

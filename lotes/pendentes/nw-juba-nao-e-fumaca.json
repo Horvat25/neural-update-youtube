@@ -1,0 +1,45 @@
+{
+  "slug": "nw-juba-nao-e-fumaca",
+  "stream": "news",
+  "track": "dark-some-amount-of-evil.mp3",
+  "topic": "nebulosa juba leao estrela morrendo poeira cascas gas anã branca Webb NASA agosto 2026",
+  "isca": false,
+  "title": "📰 Esta juba NÃO é fumaça (é uma estrela se desfazendo) 🦁 #Shorts",
+  "desc1": "O telescópio James Webb divulgou em 10 de agosto de 2026 novas imagens da Nebulosa do Leão, formada pelas camadas que uma estrela semelhante ao Sol expulsou ao fim de sua vida. Quando a estrela deixou de sustentar reações nucleares no núcleo, ela pulsou e perdeu suas camadas externas, criando conchas de gás e poeira. O núcleo restante é uma anã branca muito quente, cuja radiação transforma o gás numa bolha ionizada em expansão. Parte da poeira é destruída, mas grumos compactos sobrevivem e protegem o material atrás deles. A nebulosa deve se dispersar em aproximadamente 10 mil anos.",
+  "tags": [
+    "nebulosa do leão",
+    "estrela se desfazendo",
+    "anã branca",
+    "poeira espacial",
+    "James Webb nebulosa",
+    "morte de estrela",
+    "astronomia"
+  ],
+  "hashtags": [
+    "#nebulosa",
+    "#astronomia",
+    "#neuralupdate"
+  ],
+  "hook": "ESSA JUBA\nNÃO É FUMAÇA\nÉ POEIRA ESTELAR",
+  "roteiro": "Uma estrela morta cozinha uma nuvem que parece um leão.\n\nEla não nasceu assim: expulsou suas próprias camadas para o espaço.\n\nQuando não conseguiu mais manter reações no núcleo, ela pulsou.\n\nA matéria expulsa virou cascas de gás e poeira.\n\nNo centro sobrou uma estrela pequena e muito quente.\n\nSua radiação transforma o gás numa bolha brilhante que cresce.\n\nMas nem toda poeira foi destruída pelo brilho.\n\nGrumos escuros sobrevivem e protegem o material que fica atrás.\n\nDaqui a dez mil anos, essa juba vai desaparecer no espaço.\n\n\n\nNeural Update. O universo está te esperando.",
+  "cues": [
+    "Uma estrela morta",
+    "Ela não nasceu",
+    "Quando não conseguiu",
+    "A matéria expulsa",
+    "No centro sobrou",
+    "Sua radiação transforma",
+    "Mas nem toda"
+  ],
+  "prompts": [
+    "A spectacular lion-shaped planetary nebula in deep space, glowing oval face of ionized gas and a thick blue-purple mane of dust, nebula large and dominant in a tall vertical frame, cinematic scientific telescope imagery, one single continuous scene with no frames or borders",
+    "A Sun-like dying star shedding its outer layers into space, luminous shells of gas streaming outward around a fading golden star, star and expanding shells large and dominant in a tall vertical frame, astrophysics documentary realism, one single continuous scene with no frames or borders",
+    "A bloated unstable old star visibly pulsing and releasing waves of glowing gas from its surface, star large and dominant in a tall vertical frame, cinematic scientific visualization, one single continuous scene with no frames or borders",
+    "Multiple translucent shells of colorful gas and dark dust expanding away from a dying star, layered spherical nebula structure large and dominant in a tall vertical frame, realistic space documentary image, one single continuous scene with no frames or borders",
+    "A tiny brilliant white dwarf at the center of an immense dusty planetary nebula, small hot stellar core and surrounding colorful shell large and dominant in a tall vertical frame, high contrast astronomy realism, one single continuous scene with no frames or borders",
+    "Intense radiation from a white dwarf inflating a luminous ionized bubble through surrounding gas, glowing bubble and central star large and dominant in a tall vertical frame, cinematic scientific visualization, one single continuous scene with no frames or borders",
+    "Dark compact dust clumps with comet-like tails surviving inside a glowing planetary nebula, clumps shielding material behind them from harsh stellar radiation, subjects large and dominant in a tall vertical frame, scientific telescope image realism, one single continuous scene with no frames or borders"
+  ],
+  "fonte": "NASA / James Webb Space Telescope, 10/08/2026 — https://science.nasa.gov/missions/webb/lion-nebula-roars-to-life-with-nasas-webb/",
+  "extra": "Fonte primária confirma a estrela de baixa massa perdendo camadas, a anã branca central, poeira destruída e grumos sobreviventes, e dispersão estimada em cerca de 10 mil anos. Roteiro com 88 palavras; roteiro evita NGC 2392 e Webb para proteger o TTS. Tema conferido contra usados e pendentes: foco na poeira que sobrevive à radiação dentro de uma nebulosa planetária, não em supernova ou glóbulo cometário."
+}

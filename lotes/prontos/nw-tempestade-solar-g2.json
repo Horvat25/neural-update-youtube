@@ -1,0 +1,47 @@
+[
+  {
+    "slug": "nw-tempestade-solar-g2",
+    "stream": "news",
+    "track": "dark-some-amount-of-evil.mp3",
+    "topic": "tempestade geomagnetica g2 cme flare m6.9 regiao 4513 aurora satelites",
+    "isca": false,
+    "title": "📰 O Sol jogou uma nuvem de plasma na NOSSA direção (chega agora) ☀️ #Shorts",
+    "desc1": "Tempestade geomagnética a caminho: em 25 de agosto de 2026, às 10h02 UTC, a região ativa 4513 do Sol liberou uma explosão classe M6.9, que causou um apagão de rádio R2 no lado iluminado da Terra. A explosão lançou uma ejeção de massa coronal com componente direcionada ao nosso planeta, seguida por uma segunda nuvem ligada a um filamento. A NOAA emitiu alerta de tempestade geomagnética G2 para 28 de agosto, com condições G1 a G2 entre 27 e 28 e índice Kp previsto em até 5,67. Efeitos esperados: auroras visíveis em latitudes mais baixas que o normal, alarmes de voltagem em redes elétricas de alta latitude e satélites precisando corrigir órbita por causa do arrasto atmosférico.",
+    "tags": [
+      "tempestade geomagnetica",
+      "aurora boreal",
+      "ejecao de massa coronal",
+      "sol",
+      "noaa",
+      "clima espacial",
+      "astronomia"
+    ],
+    "hashtags": [
+      "#sol",
+      "#aurora",
+      "#neuralupdate"
+    ],
+    "hook": "O SOL MANDOU\nUMA NUVEM\nPRA CÁ",
+    "roteiro": "Uma nuvem de plasma saiu do Sol e vem na direção da Terra.\n\nEla chega em questão de horas.\n\nA explosão que soltou essa nuvem já derrubou sinal de rádio de um lado do planeta.\n\nMas o efeito principal não é esse: é o campo magnético da Terra sendo sacudido.\n\nIsso acende aurora bem mais longe dos polos do que o normal.\n\nE obriga satélite a corrigir rota, porque a atmosfera incha e freia eles.\n\nQuanta coisa que a gente usa depende de uma estrela estar de bom humor?\n\n\n\nNeural Update. O universo está te esperando.",
+    "cues": [
+      "Uma nuvem de plasma",
+      "Ela chega em questão",
+      "A explosão que soltou",
+      "Mas o efeito principal",
+      "Isso acende aurora",
+      "E obriga satélite",
+      "Quanta coisa que a"
+    ],
+    "prompts": [
+      "A huge glowing cloud of plasma erupting off the edge of the Sun and expanding outward into space, the solar limb blazing at the bottom of the frame, subject large and dominant in frame, filling most of the tall vertical frame, bright and high contrast against black space, cinematic scientific documentary photography, immediate awe, one single continuous scene with no frames or borders",
+      "A vast luminous plasma cloud travelling through space toward a small blue Earth ahead of it, the wave front bright and enormous, subject large and dominant in frame, filling most of the tall vertical frame, cinematic scientific documentary photography, high contrast, one single continuous scene with no frames or borders",
+      "A violent solar flare erupting in brilliant white light from a dark sunspot group on the Sun surface, magnetic loops twisting above it, subject large and dominant in frame, filling most of the tall vertical frame, extreme scientific solar photography, bright and high contrast, one single continuous scene with no frames or borders",
+      "Earth seen from space wrapped in glowing magnetic field lines being pushed and compressed on the sunlit side by an incoming stream of particles, subject large and dominant in frame, filling most of the tall vertical frame, cinematic scientific documentary photography, high contrast against black space, one single continuous scene with no frames or borders",
+      "Brilliant green and violet auroras rippling across a night sky far above a dark landscape, curtains of light filling the tall vertical frame, cinematic night photography, bright and high contrast, immediate awe, one single continuous scene with no frames or borders",
+      "A satellite in low orbit tilting to correct its path as the glowing upper atmosphere of Earth swells beneath it, the blue airglow bright along the horizon, subject large and dominant in frame, filling most of the tall vertical frame, cinematic scientific documentary photography, high contrast, one single continuous scene with no frames or borders",
+      "The Sun seen enormous and turbulent filling the tall vertical frame with a small distant Earth in front of it for scale, overwhelming difference in size, cinematic scientific documentary photography, bright and high contrast against black space, immediate awe, one single continuous scene with no frames or borders"
+    ],
+    "fonte": "NOAA SWPC / região ativa 4513 — flare M6.9 em 25/08/2026 10:02 UTC, alerta G2 para 28/08/2026",
+    "extra": "URGENTE: este video so faz sentido publicado em 27 ou 28/08/2026. Depois disso a tempestade ja passou e o roteiro fica errado."
+  }
+]
