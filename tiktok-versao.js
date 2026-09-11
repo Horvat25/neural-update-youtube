@@ -8,12 +8,16 @@
  * E o CTA "o projetor tá na bio" não serve lá: perfil pequeno não tem link clicável e mandar
  * pra fora do app derruba o alcance. Aula NÃO vai pro TikTok (decisão do Marcelo, 11/09).
  *
- *   node tiktok-versao.js <slug> [slug ...]      # remonta esses
+ *   node tiktok-versao.js <slug> [slug ...]      # remonta esses (vale slug antigo, fora dos lotes)
  *   node tiktok-versao.js --proximos 10          # os próximos N da grade (notícia + viral)
  *
  * Remonta a partir de exports/<slug> (imagens + roteiro) numa cópia em tiktok-lote/_montagem,
  * sem tocar no vídeo do YouTube. Saída: tiktok-lote/<slug>-tt.mp4 e <slug>-tt.legenda.txt.
  * Já existe? Pula (use --refazer).
+ *
+ * Vídeo antigo (campeões de ago/set) tem 5 ou 6 imagens, não 7 — o montador aceita qualquer
+ * quantidade; o mínimo aqui é 5. Se o slug não está em nenhum lote atual, título, descrição e
+ * hashtags saem do exports/<slug>/meta.json.
  */
 const fs = require('fs');
 const path = require('path');
@@ -24,6 +28,9 @@ const ROOT = __dirname;
 const SAIDA = path.join(ROOT, 'tiktok-lote');
 const TRILHA_TT = { news: 'cosmic-ambient-espacial.mp3', viral: 'cosmic-ice-flow.mp3' };
 const BORDAO = 'Neural Update. O universo está te esperando.';
+const MIN_IMGS = 5;
+// fim de roteiro que manda pra fora do app ou vende: vira o bordão
+const CTA_FINAL = /projetor|na bio|link|comenta|cosmos|kindle|ebook|e-book|amazon|pdf gr[aá]tis/i;
 const refazer = process.argv.includes('--refazer');
 
 function grade() {
@@ -37,17 +44,33 @@ function grade() {
 const vaiProTikTok = it => it.stream !== 'aula' && !/^pl\d/.test(it.slug) && it.voice !== 'female'
   && !/^2099/.test(it.publishAt);
 
+// item montado a partir do meta.json, para vídeo antigo que não está em nenhum lote atual
+function itemDoExport(slug) {
+  const dir = path.join(ROOT, 'exports', slug);
+  let meta = {};
+  try { meta = JSON.parse(fs.readFileSync(path.join(dir, 'meta.json'), 'utf8')); } catch { return null; }
+  if (!meta.title) return null;
+  const desc = String(meta.description || '');
+  const tags = (desc.match(/#[\p{L}\d_]+/gu) || []).filter(t => !/^#shorts$/i.test(t)).slice(0, 3);
+  return {
+    slug, stream: /📰/.test(meta.title) ? 'news' : 'viral', title: meta.title, desc1: desc,
+    hashtags: tags.length ? tags : ['#astronomia', '#neuralupdate'], topic: (meta.tags || []).slice(0, 4).join(' ') || 'space',
+    publishAt: meta.publishAt || null, doExport: true,
+  };
+}
+
 function roteiroTikTok(txt) {
   const linhas = txt.trim().split(/\n/);
   let i = linhas.length - 1;
   while (i >= 0 && !linhas[i].trim()) i--;
-  if (i >= 0 && /projetor|na bio|link/i.test(linhas[i])) linhas[i] = BORDAO;
+  if (i >= 0 && CTA_FINAL.test(linhas[i])) linhas[i] = BORDAO;
   return linhas.join('\n').replace(/\n{3,}/g, '\n\n') + '\n';
 }
 
 function legenda(it) {
   const titulo = it.title.replace(/#Shorts/gi, '').replace(/^📰\s*/, '').replace(/\s+/g, ' ').trim();
-  const paragrafo = (it.desc1 || '').split(/\n+/).find(l => l.trim() && !/projetor|#publi|na bio/i.test(l)) || '';
+  const paragrafo = (it.desc1 || '').split(/\n+/)
+    .find(l => l.trim() && !/projetor|#publi|na bio|https?:|kindle|amazon|ebook|music:|cc by/i.test(l) && !/^#/.test(l.trim())) || '';
   const frases = paragrafo.match(/[^.!?]+[.!?]+/g) || [paragrafo];
   const resumo = frases.slice(0, 2).join('').trim();
   const tags = [...new Set([...(it.hashtags || []), '#ciencia', '#espaco'])].join(' ');
@@ -59,7 +82,8 @@ function monta(it) {
   const out = path.join(SAIDA, `${it.slug}-tt.mp4`);
   if (fs.existsSync(out) && !refazer) { console.log(`· ${it.slug} — versão do TikTok já existe`); return out; }
   const imgs = fs.existsSync(src) ? fs.readdirSync(src).filter(f => /^img\d+\.png$/i.test(f)) : [];
-  if (imgs.length < 7) { console.error(`✗ ${it.slug} — só ${imgs.length}/7 imagens`); return null; }
+  if (imgs.length < MIN_IMGS) { console.error(`✗ ${it.slug} — só ${imgs.length} imagens (mínimo ${MIN_IMGS})`); return null; }
+  if (!fs.existsSync(path.join(src, 'roteiro.txt'))) { console.error(`✗ ${it.slug} — sem roteiro.txt`); return null; }
 
   const tmp = path.join(SAIDA, '_montagem', it.slug);
   fs.rmSync(tmp, { recursive: true, force: true });
@@ -85,7 +109,7 @@ function monta(it) {
   if (f.status !== 0) { console.error(`✗ ${it.slug}: ffmpeg ${(f.stderr || '').slice(-200)}`); return null; }
   fs.writeFileSync(out.replace(/\.mp4$/, '.legenda.txt'), legenda(it));
   fs.rmSync(tmp, { recursive: true, force: true });
-  console.log(`✓ ${it.slug.padEnd(42)} ${dur}s  ${trilha}`);
+  console.log(`✓ ${it.slug.padEnd(42)} ${dur}s  ${trilha}  (${imgs.length} imagens)`);
   return out;
 }
 
@@ -99,7 +123,7 @@ if (require.main === module) {
     alvo = todos.filter(it => it.publishAt > agora && vaiProTikTok(it)).slice(0, +process.argv[iP + 1] || 10);
   } else {
     const slugs = process.argv.slice(2).filter(a => !a.startsWith('--'));
-    alvo = slugs.map(s => todos.find(it => it.slug === s) || console.error(`✗ ${s} — não está em nenhum lote`)).filter(Boolean);
+    alvo = slugs.map(s => todos.find(it => it.slug === s) || itemDoExport(s) || console.error(`✗ ${s} — não está em lote nem tem meta.json`)).filter(Boolean);
   }
   if (!alvo.length) { console.error('uso: node tiktok-versao.js <slug...> | --proximos N [--refazer]'); process.exit(1); }
   let ok = 0;
@@ -107,4 +131,4 @@ if (require.main === module) {
   console.log(`\n${ok}/${alvo.length} versões do TikTok prontas em tiktok-lote/`);
 }
 
-module.exports = { grade, vaiProTikTok, legenda, roteiroTikTok, monta, TRILHA_TT };
+module.exports = { grade, vaiProTikTok, legenda, roteiroTikTok, monta, itemDoExport, TRILHA_TT };
