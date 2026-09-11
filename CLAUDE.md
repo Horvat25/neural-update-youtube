@@ -114,6 +114,7 @@ ela entra). Sem isso a imagem troca no relógio e não no assunto. Piso de 3,5s/
 | `confere-repetido.js` | ⚠️ rodar SEMPRE antes de lote novo — tema repetido já aconteceu |
 | `reschedule.js <id> <ISO>` | muda publishAt |
 | `_ponte-longo.js <id_longo>` | lista os Shorts que devem apontar pro longo |
+| `tiktok-plano.js` | ⚠️ rodar A CADA LOTE NOVO (+ push do `tiktok-plano.json`): estende o TikTok (12:17 notícia · 17:07 campeão antigo · 20:23 viral) até a última data do lote. O GitHub (`tiktok-fila`, a cada 6h) repõe o Buffer sozinho |
 
 Removidos na poda de 10-11/09/2026 (histórico no cofre `Horvat25/neural-update-youtube`):
 os montadores de lote de julho/agosto (`build-lote*`, `lote-*ago.js`, `gen-*.ps1`), o CTA
