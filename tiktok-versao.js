@@ -31,8 +31,11 @@ const SAIDA = path.join(ROOT, 'tiktok-lote');
 const TRILHA_TT = { news: 'cosmic-ambient-espacial.mp3', viral: 'cosmic-ice-flow.mp3' };
 const BORDAO = 'Neural Update. O universo está te esperando.';
 const MIN_IMGS = 5;
-// fim de roteiro que manda pra fora do app ou vende: vira o bordão
-const CTA_FINAL = /projetor|na bio|link|comenta|cosmos|kindle|ebook|e-book|amazon|pdf gr[aá]tis/i;
+// FRASE que manda pra fora do app ou vende: sai do roteiro (e o bordão fecha o vídeo).
+// 11/09/2026: "cosmos" solto derrubou 3 roteiros ("o motor mais monstruoso do cosmos") — o CTA
+// antigo era "COMENTA cosmos", e `comenta` já cobre. Palavra inteira (\b) para "comentam" e
+// "na biologia" não virarem CTA.
+const CTA_FRASE = /projetor|\bna bio\b|\blink\b|\bcomenta\b|\bcomente\b|kindle|e-?book|\bamazon\b|pdf gr[aá]tis|shopee|quer esse c[eé]u|no seu teto/i;
 const refazer = process.argv.includes('--refazer');
 
 function grade() {
@@ -61,12 +64,19 @@ function itemDoExport(slug) {
   };
 }
 
+// Tira só a FRASE de CTA, em qualquer ponto do roteiro. Antes trocava a última LINHA inteira
+// pelo bordão — em roteiro de um parágrafo só (vídeos de agosto) isso apagava a narração toda
+// e o vídeo saía com 6,5s. Se tirou alguma coisa e o texto não fecha no bordão, o bordão entra.
 function roteiroTikTok(txt) {
-  const linhas = txt.trim().split(/\n/);
-  let i = linhas.length - 1;
-  while (i >= 0 && !linhas[i].trim()) i--;
-  if (i >= 0 && CTA_FINAL.test(linhas[i])) linhas[i] = BORDAO;
-  return linhas.join('\n').replace(/\n{3,}/g, '\n\n') + '\n';
+  let removeu = false;
+  const paragrafos = txt.trim().split(/\n/).map(p => {
+    if (!p.trim()) return '';
+    const frases = p.match(/[^.!?]+[.!?]+["'”»)]*\s*|[^.!?]+$/g) || [p];
+    return frases.filter(f => { if (CTA_FRASE.test(f)) { removeu = true; return false; } return true; }).join('').trim();
+  });
+  let texto = paragrafos.join('\n').replace(/\n{3,}/g, '\n\n').trim();
+  if (removeu && !/o universo est[aá] te esperando\.?\s*$/i.test(texto)) texto += '\n\n' + BORDAO;
+  return texto + '\n';
 }
 
 function legenda(it) {
