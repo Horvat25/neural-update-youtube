@@ -61,6 +61,11 @@ async function uploadToYouTube({ videoPath, title, description, tags, hashtags, 
       containsSyntheticMedia: true,
       ...(publishAt ? { publishAt } : {}), // agendamento
     },
+    // 11/09/2026: vídeo com CTA de afiliado (#publi na descrição — projetor Shopee, Kindle)
+    // declara "Promoção paga: Sim". Ganhamos comissão; o YouTube trata como promoção e mostra
+    // um aviso discreto. Quem quiser forçar passa `pago: true/false`.
+    ...((arguments[0].pago ?? /#publi/i.test(description || ''))
+      ? { paidProductPlacementDetails: { hasPaidProductPlacement: true } } : {}),
   };
 
   // ⚠️ NOTIFICAÇÃO — 19/08/2026. O YouTube manda no máximo **3 notificações por canal a
@@ -83,7 +88,8 @@ async function uploadToYouTube({ videoPath, title, description, tags, hashtags, 
 
   try {
     const res = await youtube.videos.insert(
-      { part: ['snippet', 'status'], notifySubscribers: notificar, requestBody, media: { body: fs.createReadStream(videoPath) } },
+      { part: ['snippet', 'status', ...(requestBody.paidProductPlacementDetails ? ['paidProductPlacementDetails'] : [])],
+        notifySubscribers: notificar, requestBody, media: { body: fs.createReadStream(videoPath) } },
       { maxContentLength: Infinity, maxBodyLength: Infinity } // upload resumável de arquivo grande
     );
     const id = res.data.id;
