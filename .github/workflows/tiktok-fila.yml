@@ -1,0 +1,30 @@
+# Repõe a fila do TikTok no Buffer (10 próximos posts do tiktok-plano.json).
+# Roda a cada 6h. O relógio do GitHub atrasa às vezes — não importa aqui: quem segura o
+# horário exato do post é o Buffer; este job só recarrega a fila. (11/09/2026)
+name: tiktok-fila
+
+on:
+  schedule:
+    - cron: '17 */6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: tiktok-fila
+  cancel-in-progress: false
+
+jobs:
+  repor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Repor fila do Buffer
+        env:
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+        run: node tiktok-fila-nuvem.js
