@@ -58,6 +58,11 @@ Marte e Saturno foram batizados em 28/08.
 Só as 5 com histórico no canal e fora da quarentena: 08h `news-rising-tide` · 14h
 `cosmic-ice-flow` / `cosmic-ambient-espacial` · 18h `dark-some-amount-of-evil` / `dark-tension-pixabay`.
 A trilha vai no campo `track` do lote e `_monta-grade.js` lê de lá (e recusa as banidas).
+
+⚠️ **TikTok tem lista própria (medido 11/09/2026):** lá o `dark-some-amount-of-evil` e o
+`news-rising-tide` são SILENCIADOS (3 de 3 vídeos com 0 view e ícone de mudo), enquanto
+`quantum-investigations`, `cosmic-ice-flow` e `cosmic-ambient-espacial` passaram (126–274 views).
+Versão para TikTok: só `cosmic-ice-flow` / `cosmic-ambient-espacial`, que passaram nas duas redes.
 ⚠️ Nunca passar trilha na mão sem checar as últimas usadas — foi assim que a quantum
 saiu em 5 vídeos seguidos.
 
