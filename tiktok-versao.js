@@ -104,11 +104,21 @@ function monta(it) {
 
   const trilha = TRILHA_TT[it.stream] || TRILHA_TT.viral;
   const bruto = path.join(tmp, 'bruto.mp4');
-  const r = spawnSync(process.execPath, ['make-short-img-flex.js', tmp, bruto, it.topic || 'space', trilha],
-    { cwd: ROOT, encoding: 'utf8', env: { ...process.env, SHORTS_VOICE: 'male' }, timeout: 900000 });
-  const log = (r.stdout || '') + (r.stderr || '');
-  const dur = (log.match(/\[flex\] final ([\d.]+)s/) || [])[1];
-  if (!dur || !fs.existsSync(bruto)) { console.error(`✗ ${it.slug}: ${log.trim().slice(-300)}`); return null; }
+  // 11/09/2026: em lote de 46, 6 vídeos saíram com 6,51s e o montador disse "final" normal — a voz
+  // (Edge TTS) falha de vez em quando depois de muitos pedidos seguidos. Menos de 20s = sem
+  // narração: espera e tenta de novo, e nunca entrega vídeo mudo como pronto.
+  let dur = null, log = '';
+  for (let tentativa = 1; tentativa <= 3; tentativa++) {
+    const r = spawnSync(process.execPath, ['make-short-img-flex.js', tmp, bruto, it.topic || 'space', trilha],
+      { cwd: ROOT, encoding: 'utf8', env: { ...process.env, SHORTS_VOICE: 'male' }, timeout: 900000 });
+    log = (r.stdout || '') + (r.stderr || '');
+    dur = (log.match(/\[flex\] final ([\d.]+)s/) || [])[1];
+    if (dur && +dur >= 20 && fs.existsSync(bruto)) break;
+    console.error(`  ${it.slug}: tentativa ${tentativa} saiu com ${dur || '?'}s — narração falhou, tentando de novo`);
+    dur = null;
+    spawnSync(process.execPath, ['-e', 'setTimeout(() => {}, 20000)']); // 20s de folga pro serviço de voz
+  }
+  if (!dur) { console.error(`✗ ${it.slug}: ${log.trim().slice(-300)}`); return null; }
 
   // áudio em 48 kHz (o montador sai em 96 kHz) e sem metadados; vídeo copiado como está
   const f = spawnSync(ffmpeg, ['-y', '-hide_banner', '-loglevel', 'error', '-i', bruto, '-map_metadata', '-1',
