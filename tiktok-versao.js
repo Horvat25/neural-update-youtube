@@ -13,11 +13,13 @@
  *
  * Remonta a partir de exports/<slug> (imagens + roteiro) numa cópia em tiktok-lote/_montagem,
  * sem tocar no vídeo do YouTube. Saída: tiktok-lote/<slug>-tt.mp4 e <slug>-tt.legenda.txt.
- * Já existe? Pula (use --refazer).
+ * Já existe? Pula (use --refazer); se só faltar a legenda, escreve a legenda.
  *
  * Vídeo antigo (campeões de ago/set) tem 5 ou 6 imagens, não 7 — o montador aceita qualquer
  * quantidade; o mínimo aqui é 5. Se o slug não está em nenhum lote atual, título, descrição e
  * hashtags saem do exports/<slug>/meta.json.
+ * ⚠️ 11/09: há lote que guarda SÓ {slug, publishAt} (índice de agendamento). Item sem título
+ * não entra na grade — antes ele quebrava a legenda e derrubava o lote inteiro de campeões.
  */
 const fs = require('fs');
 const path = require('path');
@@ -37,7 +39,7 @@ function grade() {
   const itens = [];
   for (const f of fs.readdirSync(path.join(ROOT, 'lotes')).filter(f => f.endsWith('.json'))) {
     let j; try { j = JSON.parse(fs.readFileSync(path.join(ROOT, 'lotes', f), 'utf8')); } catch { continue; }
-    for (const it of (Array.isArray(j) ? j : [])) if (it && it.slug && it.publishAt) itens.push(it);
+    for (const it of (Array.isArray(j) ? j : [])) if (it && it.slug && it.publishAt && it.title) itens.push(it);
   }
   return itens.sort((a, b) => a.publishAt < b.publishAt ? -1 : 1);
 }
@@ -80,7 +82,12 @@ function legenda(it) {
 function monta(it) {
   const src = path.join(ROOT, 'exports', it.slug);
   const out = path.join(SAIDA, `${it.slug}-tt.mp4`);
-  if (fs.existsSync(out) && !refazer) { console.log(`· ${it.slug} — versão do TikTok já existe`); return out; }
+  const leg = out.replace(/\.mp4$/, '.legenda.txt');
+  if (fs.existsSync(out) && !refazer) {
+    if (!fs.existsSync(leg)) { fs.writeFileSync(leg, legenda(it)); console.log(`· ${it.slug} — vídeo já existia, legenda escrita agora`); }
+    else console.log(`· ${it.slug} — versão do TikTok já existe`);
+    return out;
+  }
   const imgs = fs.existsSync(src) ? fs.readdirSync(src).filter(f => /^img\d+\.png$/i.test(f)) : [];
   if (imgs.length < MIN_IMGS) { console.error(`✗ ${it.slug} — só ${imgs.length} imagens (mínimo ${MIN_IMGS})`); return null; }
   if (!fs.existsSync(path.join(src, 'roteiro.txt'))) { console.error(`✗ ${it.slug} — sem roteiro.txt`); return null; }
@@ -107,7 +114,7 @@ function monta(it) {
   const f = spawnSync(ffmpeg, ['-y', '-hide_banner', '-loglevel', 'error', '-i', bruto, '-map_metadata', '-1',
     '-c:v', 'copy', '-c:a', 'aac', '-ar', '48000', '-b:a', '160k', '-movflags', '+faststart', out], { encoding: 'utf8' });
   if (f.status !== 0) { console.error(`✗ ${it.slug}: ffmpeg ${(f.stderr || '').slice(-200)}`); return null; }
-  fs.writeFileSync(out.replace(/\.mp4$/, '.legenda.txt'), legenda(it));
+  fs.writeFileSync(leg, legenda(it));
   fs.rmSync(tmp, { recursive: true, force: true });
   console.log(`✓ ${it.slug.padEnd(42)} ${dur}s  ${trilha}  (${imgs.length} imagens)`);
   return out;
@@ -127,7 +134,10 @@ if (require.main === module) {
   }
   if (!alvo.length) { console.error('uso: node tiktok-versao.js <slug...> | --proximos N [--refazer]'); process.exit(1); }
   let ok = 0;
-  for (const it of alvo) if (monta(it)) ok++;
+  for (const it of alvo) {
+    try { if (monta(it)) ok++; }
+    catch (e) { console.error(`✗ ${it.slug}: ${e.message}`); } // um vídeo com problema não derruba o lote
+  }
   console.log(`\n${ok}/${alvo.length} versões do TikTok prontas em tiktok-lote/`);
 }
 
