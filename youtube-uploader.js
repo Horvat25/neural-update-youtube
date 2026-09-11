@@ -54,6 +54,11 @@ async function uploadToYouTube({ videoPath, title, description, tags, hashtags, 
     status: {
       privacyStatus: privacy,        // 'public' | 'unlisted' | 'private'
       selfDeclaredMadeForKids: false,
+      // 11/09/2026: declaração "conteúdo alterado ou sintético". Nossas imagens são cenas
+      // realistas geradas por IA e a narração é sintética; a regra de conteúdo inautêntico do
+      // YouTube (esclarecida em jul/2026) pune quem NÃO declara (advertência → 90 dias sem
+      // monetização → saída do YPP). A API nunca tinha recebido esse campo.
+      containsSyntheticMedia: true,
       ...(publishAt ? { publishAt } : {}), // agendamento
     },
   };

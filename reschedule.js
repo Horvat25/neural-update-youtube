@@ -16,7 +16,9 @@ if (!videoId || !publishAt) { console.error('uso: node reschedule.js <videoId> <
   const yt = google.youtube({ version: 'v3', auth });
   const res = await yt.videos.update({
     part: ['status'],
-    requestBody: { id: videoId, status: { privacyStatus: 'private', publishAt, selfDeclaredMadeForKids: false } },
+    // containsSyntheticMedia vai junto: videos.update(status) ZERA o que não for enviado, e
+    // reagendar apagaria a declaração de conteúdo sintético (ver youtube-uploader.js, 11/09/2026)
+    requestBody: { id: videoId, status: { privacyStatus: 'private', publishAt, selfDeclaredMadeForKids: false, containsSyntheticMedia: true } },
   });
   console.log(`✓ Reagendado: ${videoId} → publica em ${res.data.status.publishAt}`);
 })().catch(e => { console.error('ERRO:', e?.errors?.[0]?.message || e.message); process.exit(1); });

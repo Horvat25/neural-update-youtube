@@ -40,6 +40,7 @@ const BLOG_URL = process.env.BLOG_URL || 'https://neural-update.com.br';
       status: {
         privacyStatus: privacy,
         selfDeclaredMadeForKids: false,
+        containsSyntheticMedia: true, // declaração de conteúdo sintético — ver youtube-uploader.js
         ...(publishAt ? { publishAt } : {}),
       },
     },
