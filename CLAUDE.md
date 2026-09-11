@@ -109,7 +109,10 @@ ela entra). Sem isso a imagem troca no relógio e não no assunto. Piso de 3,5s/
 | `confere-repetido.js` | ⚠️ rodar SEMPRE antes de lote novo — tema repetido já aconteceu |
 | `reschedule.js <id> <ISO>` | muda publishAt |
 | `_ponte-longo.js <id_longo>` | lista os Shorts que devem apontar pro longo |
-| `cta-kindle-lote.js` | cola cena de CTA (cena montada 1x e reusada) |
+
+Removidos na poda de 10-11/09/2026 (histórico no cofre `Horvat25/neural-update-youtube`):
+os montadores de lote de julho/agosto (`build-lote*`, `lote-*ago.js`, `gen-*.ps1`), o CTA
+colado no fim (`cta.js`, `append-*-cta.js`, `cta-kindle-lote.js`) e os VSL antigos.
 
 ⚠️ **`data/sobe-lote.json` guarda IDs que ficam VELHOS** quando um vídeo é re-subido.
 Antes de mandar algo pro limbo, listar os agendados no canal. Ver `ids-do-youtube-mentem`.

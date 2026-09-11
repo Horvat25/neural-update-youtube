@@ -193,13 +193,16 @@ nunca os três competindo/poluindo. Se o frame tem texto demais, corta.
 
 ## Montagem e agendamento
 
+Fluxo vigente (atualizado 11/09/2026 — o `gen-imgs.ps1` foi removido na poda):
 ```powershell
-# imagens (pula existentes, ~0,12cr cada via Soul V2)
-.\gen-imgs.ps1 -dir "exports\<slug>"
-# vídeo (OUT SEMPRE caminho absoluto; trilha por mood — ver abaixo)
-node make-short-img-flex.js "exports\<slug>" "<ABS>\<slug>.mp4" "<topico>" "<trilha>.mp3"
-# agendar (BRT→UTC: 09h=12:00Z, 18h=21:00Z)
-node post-video.js "exports/<slug>/<slug>.mp4" "exports/<slug>/meta.json" 2026-MM-DDTHH:00:00.000Z
+# imagens: Soul V2 pelo MCP do Higgsfield, 7 URLs por slug; o _produz baixa, normaliza e monta
+node _produz.js <slug> url1 url2 url3 url4 url5 url6 url7
+# refazer UMA imagem ruim de um slug
+node _regen-img.js <slug> <n> "<prompt sem observador>"
+# (re)montar o lote lendo voz + trilha do spec (recusa trilha banida)
+node _monta-grade.js lotes/<lote>.json [--so slug1,slug2]
+# agendar pelo publishAt do spec
+node sobe-lote.js lotes/<lote>.json
 ```
 
 ### 🎵 TRILHA — prioridade por DESEMPENHO MEDIDO (atualizado 25/07/2026)
@@ -304,8 +307,8 @@ criar relação apresenta o ebook. NUNCA link seco. Ver [[venda-e-relacionamento
 A cada 2 vídeos, o **3º** leva CTA da **isca GRÁTIS** ("PDF grátis: 5 fenômenos do universo"). Formato
 preferido = palavra-chave no comentário (acima). Fallback antigo (bio): https://neural-update.com.br/ebook#isca-gratis.
 Falar que é **de graça** — nunca ler URL na voz.
-- Mecânica: `append-isca-cta.js <base.mp4> <bg.jpg> <out.mp4> [track]` cola cena-fim (~5s) estática.
-  Texto sem contador = evergreen (seguro pra agendado; ≠ CTA de inscritos que envelhece).
+- ⚠️ HISTÓRICO: a cena-fim de CTA morreu em 19/08 (ver memória `sem-cta-nos-videos`) e o
+  `append-isca-cta.js` foi removido na poda de 11/09/2026 (histórico no cofre do GitHub).
 - Nesses vídeos, a DESCRIÇÃO leva a linha da isca + link. Ver CLAUDE.md e memória `funil-vendas-isca-gratis`.
 
 ## Depois do YouTube
