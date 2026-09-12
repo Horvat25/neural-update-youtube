@@ -85,32 +85,6 @@ async function updateDescription(youtube, videoId, currentSnippet, longUrl) {
   return true;
 }
 
-async function postComment(youtube, videoId, longUrl) {
-  const log = loadLog();
-  const alreadyCommented = log.some(e =>
-    e.videoId === videoId && e.action === 'comment' &&
-    Date.now() - new Date(e.timestamp).getTime() < 24 * 3600 * 1000
-  );
-  if (alreadyCommented) { console.log('  [comment] ja comentado recentemente - pulando ' + videoId); return false; }
-  if (DRY_RUN) { console.log('  [dry-run] postaria comentario em ' + videoId); return true; }
-  try {
-    await youtube.commentThreads.insert({
-      part: ['snippet'],
-      requestBody: {
-        snippet: {
-          videoId,
-          topLevelComment: { snippet: { textOriginal: 'Video completo: ' + longUrl } },
-        },
-      },
-    });
-    console.log('  [comment] comentario postado - ' + videoId);
-    return true;
-  } catch (e) {
-    console.warn('  [comment] ' + videoId + ': ' + (e?.errors?.[0]?.reason || e.message));
-    return false;
-  }
-}
-
 async function snapshotLongVideoMetrics(youtube, longId) {
   try {
     const METRICS_FILE = path.join(DATA_DIR, 'link-metrics.json');
@@ -164,8 +138,8 @@ async function run() {
   const results = [];
   for (const short of shorts) {
     console.log('\n[booster] -> processando ' + short.id);
+    // 11/09/2026: o Marcelo nao quer o robo comentando nos Shorts — so o link na descricao.
     const descUpdated   = await updateDescription(youtube, short.id, short.snippet, longUrl);
-    const commentPosted = await postComment(youtube, short.id, longUrl);
     const entry = {
       timestamp:    new Date().toISOString(),
       action:       descUpdated ? 'description' : 'skip',
@@ -176,11 +150,8 @@ async function run() {
       longVideoUrl: longUrl,
       dryRun:       DRY_RUN,
     };
-    if (!DRY_RUN) {
-      appendLog(entry);
-      if (commentPosted) appendLog({ ...entry, action: 'comment' });
-    }
-    results.push({ id: short.id, descUpdated, commentPosted });
+    if (!DRY_RUN) appendLog(entry);
+    results.push({ id: short.id, descUpdated });
   }
 
   await snapshotLongVideoMetrics(youtube, longId);
@@ -194,7 +165,7 @@ async function run() {
     console.log('[booster] set-related-video.js disparado em background');
   }
 
-  const linked = results.filter(r => r.descUpdated || r.commentPosted).length;
+  const linked = results.filter(r => r.descUpdated).length;
   console.log('\n[booster] === concluido - ' + linked + '/' + results.length + ' Shorts linkados ===\n');
 }
 
