@@ -1,15 +1,16 @@
 {
  "_leiame": "Plano do TikTok (gerado por tiktok-plano.js no PC). O tiktok-fila-nuvem.js mantém no Buffer os 10 próximos. Não editar à mão.",
- "geradoEm": "2026-09-11T19:02:28.285Z",
+ "geradoEm": "2026-09-12T14:47:29.058Z",
  "ate": "2026-09-17",
  "itens": [
   {
-   "slug": "marte-grande-filtro",
+   "slug": "nw-sol-girinhos-plasma-calor",
    "tipo": "campeao",
-   "dueAt": "2026-09-11T20:07:00.000Z",
-   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/d494a054-37bd-4a50-9af4-2d8dad1f2791.mp4",
-   "titulo": "Torça pra a gente NÃO achar vida em Marte 👽",
-   "texto": "Torça pra a gente NÃO achar vida em Marte 👽\n\nO Grande Filtro (Robin Hanson) e o argumento de Nick Bostrom: se acharmos vida em Marte, a barreira que impede civilizacoes de sobreviverem provavelmente esta a nossa frente, nao atras. Quanto mais evoluida a vida la, pior o sinal pra nos.\n\n#astronomia #marte #grandefiltro #ciencia #espaco"
+   "dueAt": "2026-09-12T15:17:00.000Z",
+   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/bf547704-aed6-4116-8f61-a9a15c4dd49e.mp4",
+   "titulo": "O calor do Sol NÃO sobe reto (giros de 20 km) ☀️",
+   "texto": "O calor do Sol NÃO sobe reto (giros de 20 km) ☀️\n\nImagens divulgadas em 6 de agosto de 2026 pela American Physical Society mostram a superfície solar em escala de 20 quilômetros, mais de duas vezes menor que a alcançada em observações anteriores. A nova resolução revelou espirais de plasma extensas nas fronteiras entre regiões magnéticas e não magnéticas.\n\n#sol #astronomia #neuralupdate #ciencia #espaco",
+   "noLugarDe": "news"
   },
   {
    "slug": "v47-voyager-depois-do-sol",

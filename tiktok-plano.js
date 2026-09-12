@@ -74,25 +74,38 @@ function pronto(it, tipo, dueAt) {
   const ate = grade.map(it => diaBRT(it.publishAt)).sort().pop();
 
   const itens = antigo.itens.filter(i => i.dueAt > new Date().toISOString()); // o que já passou sai do plano
-  const vaga = new Set(itens.map(i => `${i.tipo}|${i.dueAt.slice(0, 10)}`));
+  const ocupado = new Set(itens.map(i => i.dueAt));
   const novos = [];
+  // ⚠️ 12/09/2026: o plano esquece o que já passou, então é o BUFFER que diz qual campeão já
+  // saiu — sem isso o Marte (11/09) voltaria na semana seguinte.
+  const proximoCampeao = () => {
+    while (filaCampeoes.length) {
+      const s = filaCampeoes.shift();
+      const it = V.itemDoExport(s) || V.grade().find(g => g.slug === s);
+      if (it && !noTikTok.has(primeiraLinha(V.legenda(it)))) return it;
+    }
+    return null;
+  };
   for (let d = hoje; d <= ate; d = new Date(Date.parse(d) + 864e5).toISOString().slice(0, 10)) {
     for (const tipo of ['news', 'campeao', 'viral']) {
       const dueAt = `${d}T${HORA_UTC[tipo]}:00.000Z`;
-      if (dueAt <= new Date(Date.now() + 30 * 60e3).toISOString() || vaga.has(`${tipo}|${d}`)) continue;
-      let it;
-      if (tipo === 'campeao') {
-        const s = filaCampeoes.shift();
-        if (!s) { console.log(`· ${d} 17:07 — acabaram os campeões antigos`); continue; }
-        it = V.itemDoExport(s) || V.grade().find(g => g.slug === s);
-      } else {
-        it = grade.find(g => g.stream === tipo && diaBRT(g.publishAt) === d);
-        if (!it || jaNoPlano.has(it.slug)) continue;
-        if (noTikTok.has(primeiraLinha(V.legenda(it)))) { console.log(`· ${d} ${tipo} ${it.slug} — já saiu no TikTok, pulando`); continue; }
+      // 15 min = a mesma margem do tiktok-fila-nuvem.js (post mais em cima da hora ele não agenda)
+      if (dueAt <= new Date(Date.now() + 15 * 60e3).toISOString() || ocupado.has(dueAt)) continue;
+      let it = null, noLugarDe = null;
+      if (tipo !== 'campeao') {
+        it = grade.find(g => g.stream === tipo && diaBRT(g.publishAt) === d) || null;
+        if (it && jaNoPlano.has(it.slug)) continue;
+        // ⚠️ 12/09/2026: antes o horário ficava VAZIO quando o vídeo do dia já tinha saído (os
+        // tornados saíram no teste de 11/09 e as 12:17 de 12/09 ficaram sem post). A regra do
+        // Marcelo é 3 por dia: horário sem vídeo novo recebe um campeão antigo.
+        if (it && noTikTok.has(primeiraLinha(V.legenda(it)))) { console.log(`· ${d} ${tipo} ${it.slug} — já saiu no TikTok, vai um campeão no lugar`); it = null; }
+        if (!it) noLugarDe = tipo;
       }
-      if (!it) continue;
-      try { novos.push(pronto(it, tipo, dueAt)); console.log(`✓ ${d} ${tipo.padEnd(7)} ${it.slug}`); }
-      catch (e) { console.error(`✗ ${d} ${tipo} ${it.slug}: ${e.message}`); }
+      if (!it) it = proximoCampeao();
+      if (!it) { console.log(`· ${d} ${HORA_UTC[tipo]}Z — acabaram os campeões antigos`); continue; }
+      const tipoFinal = noLugarDe ? 'campeao' : tipo;
+      try { novos.push({ ...pronto(it, tipoFinal, dueAt), ...(noLugarDe ? { noLugarDe } : {}) }); console.log(`✓ ${d} ${tipoFinal.padEnd(7)} ${it.slug}${noLugarDe ? ` (no lugar da ${noLugarDe})` : ''}`); }
+      catch (e) { console.error(`✗ ${d} ${tipoFinal} ${it.slug}: ${e.message}`); }
     }
   }
   const plano = { _leiame: 'Plano do TikTok (gerado por tiktok-plano.js no PC). O tiktok-fila-nuvem.js mantém no Buffer os 10 próximos. Não editar à mão.',
