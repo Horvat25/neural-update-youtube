@@ -3,13 +3,12 @@ require('dotenv').config({ path: require('path').join(__dirname, '.env') });
 const fs   = require('fs');
 const path = require('path');
 const { google, getAuthorizedClient } = require('./youtube-auth');
+const { acharLongo, topShorts } = require('./ponte-alvos');
 
 const DRY_RUN      = process.argv.includes('--dry-run');
 const DATA_DIR     = path.join(__dirname, 'data');
 const LOG_FILE     = path.join(DATA_DIR, 'link-booster-log.json');
 const CONFIG_FILE  = path.join(DATA_DIR, 'link-booster-config.json');
-const HOURS_WINDOW = 48;
-const TOP_N        = 3;
 
 if (!fs.existsSync(DATA_DIR)) fs.mkdirSync(DATA_DIR, { recursive: true });
 
@@ -31,11 +30,6 @@ function getArgLongId() {
   const arg = process.argv.find(a => a.startsWith('--long-id='));
   return arg ? arg.split('=')[1] : null;
 }
-function parseDuration(iso) {
-  const m = iso.match(/PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?/);
-  if (!m) return 0;
-  return (Number(m[1]||0)*3600)+(Number(m[2]||0)*60)+Number(m[3]||0);
-}
 
 async function detectLongVideo(youtube) {
   const cfg = loadConfig();
@@ -49,42 +43,20 @@ async function detectLongVideo(youtube) {
   // depois de todo lancamento novo. Agora o pin so vale quando foi escolhido a mao.
   if (cfg.longVideoId && cfg.fixado) return cfg.longVideoId;
   console.log('[booster] detectando video longo automaticamente...');
-  const ch = await youtube.channels.list({ part: ['contentDetails'], mine: true });
-  const uploads = ch.data.items?.[0]?.contentDetails?.relatedPlaylists?.uploads;
-  if (!uploads) throw new Error('Sem playlist de uploads.');
-  const pl = await youtube.playlistItems.list({ part: ['contentDetails'], playlistId: uploads, maxResults: 50 });
-  const ids = (pl.data.items||[]).map(i => i.contentDetails.videoId).filter(Boolean);
-  if (!ids.length) throw new Error('Nenhum video encontrado.');
-  const details = await youtube.videos.list({ part: ['snippet','contentDetails'], id: ids });
-  const long = (details.data.items||[]).find(v =>
-    !/\#short/i.test(v.snippet?.title||'') && parseDuration(v.contentDetails?.duration||'') > 60
-  );
-  if (!long) throw new Error('Nenhum video longo encontrado. Use --long-id=VIDEO_ID.');
-  console.log('[booster] video longo: ' + long.id + ' - "' + long.snippet?.title + '"');
-  cfg.longVideoId = long.id;
-  saveConfig(cfg);
-  return long.id;
-}
-
-async function getTopShorts(youtube, longVideoId) {
-  const ch = await youtube.channels.list({ part: ['contentDetails'], mine: true });
-  const uploads = ch.data.items?.[0]?.contentDetails?.relatedPlaylists?.uploads;
-  if (!uploads) throw new Error('Sem playlist de uploads.');
-  const pl = await youtube.playlistItems.list({ part: ['contentDetails','snippet'], playlistId: uploads, maxResults: 50 });
-  const cutoff = new Date(Date.now() - HOURS_WINDOW * 3600 * 1000);
-  let ids = (pl.data.items||[])
-    .filter(i => new Date(i.snippet?.publishedAt||0) > cutoff)
-    .map(i => i.contentDetails.videoId).filter(Boolean);
-  if (ids.length < TOP_N) {
-    ids = (pl.data.items||[]).map(i => i.contentDetails.videoId).filter(Boolean).slice(0, 15);
+  const long = await acharLongo(youtube);
+  if (long) {
+    console.log('[booster] video longo: ' + long.id + ' - "' + long.snippet?.title + '"');
+    cfg.longVideoId = long.id;
+    saveConfig(cfg);
+    return long.id;
   }
-  console.log('[booster] ' + ids.length + ' videos candidatos encontrados');
-  if (!ids.length) throw new Error('Sem videos para processar.');
-  const vids = await youtube.videos.list({ part: ['snippet','statistics','contentDetails'], id: ids });
-  return (vids.data.items||[])
-    .filter(v => v.id !== longVideoId && parseDuration(v.contentDetails?.duration||'') <= 60)
-    .sort((a,b) => Number(b.statistics?.viewCount||0) - Number(a.statistics?.viewCount||0))
-    .slice(0, TOP_N);
+  // ⚠️ 11/09/2026: nao achar o longo parava a ponte inteira ("Nenhum video longo encontrado").
+  // O ultimo longo conhecido continua sendo um destino valido — melhor que ponte nenhuma.
+  if (cfg.longVideoId) {
+    console.log('[booster] nenhum longo publico nos uploads recentes; mantendo o ultimo: ' + cfg.longVideoId);
+    return cfg.longVideoId;
+  }
+  throw new Error('Nenhum video longo encontrado. Use --long-id=VIDEO_ID.');
 }
 
 async function updateDescription(youtube, videoId, currentSnippet, longUrl) {
@@ -182,7 +154,7 @@ async function run() {
   } catch {}
   console.log('[booster] video longo: "' + longTitle + '" - ' + longUrl);
 
-  const shorts = await getTopShorts(youtube, longId);
+  const shorts = await topShorts(youtube, longId);
   if (!shorts.length) { console.log('[booster] nenhum Short encontrado.'); return; }
   console.log('[booster] top ' + shorts.length + ' Shorts para linkar:');
   shorts.forEach((v,i) =>

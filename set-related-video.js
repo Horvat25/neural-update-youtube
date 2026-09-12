@@ -12,13 +12,12 @@ const fs   = require('fs');
 const path = require('path');
 const https = require('https');
 const { google, getAuthorizedClient } = require('./youtube-auth');
+const { acharLongo, topShorts } = require('./ponte-alvos');
 
 const DRY_RUN    = process.argv.includes('--dry-run');
 const DATA_DIR   = path.join(__dirname, 'data');
 const CONFIG_FILE = path.join(DATA_DIR, 'link-booster-config.json');
 const LOG_FILE   = path.join(DATA_DIR, 'link-booster-log.json');
-const HOURS_WINDOW = 48;
-const TOP_N = 3;
 
 if (!fs.existsSync(DATA_DIR)) fs.mkdirSync(DATA_DIR, { recursive: true });
 
@@ -34,47 +33,16 @@ function getArgLongId() {
   const a = process.argv.find(x => x.startsWith('--long-id='));
   return a ? a.split('=')[1] : null;
 }
-function parseDuration(iso) {
-  const m = iso.match(/PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?/);
-  if (!m) return 0;
-  return (Number(m[1]||0)*3600)+(Number(m[2]||0)*60)+Number(m[3]||0);
-}
-
 async function getLongVideoId(youtube) {
   const argId = getArgLongId();
   if (argId) return argId;
   if (process.env.LONG_VIDEO_ID) return process.env.LONG_VIDEO_ID;
   const cfg = loadConfig();
   if (cfg.longVideoId) return cfg.longVideoId;
-
-  const ch = await youtube.channels.list({ part: ['contentDetails'], mine: true });
-  const uploads = ch.data.items?.[0]?.contentDetails?.relatedPlaylists?.uploads;
-  const pl = await youtube.playlistItems.list({ part: ['contentDetails'], playlistId: uploads, maxResults: 50 });
-  const ids = (pl.data.items||[]).map(i => i.contentDetails.videoId).filter(Boolean);
-  const details = await youtube.videos.list({ part: ['snippet','contentDetails'], id: ids });
-  const long = (details.data.items||[]).find(v =>
-    parseDuration(v.contentDetails?.duration||'') > 60 && !/\#short/i.test(v.snippet?.title||'')
-  );
+  // Longo e Shorts saem do ponte-alvos.js, o mesmo critério do link-booster (11/09/2026).
+  const long = await acharLongo(youtube);
   if (!long) throw new Error('Video longo nao encontrado. Use --long-id=VIDEO_ID');
   return long.id;
-}
-
-async function getTopShorts(youtube, longId) {
-  const ch = await youtube.channels.list({ part: ['contentDetails'], mine: true });
-  const uploads = ch.data.items?.[0]?.contentDetails?.relatedPlaylists?.uploads;
-  const pl = await youtube.playlistItems.list({ part: ['contentDetails','snippet'], playlistId: uploads, maxResults: 50 });
-  const cutoff = new Date(Date.now() - HOURS_WINDOW * 3600 * 1000);
-  let ids = (pl.data.items||[])
-    .filter(i => new Date(i.snippet?.publishedAt||0) > cutoff)
-    .map(i => i.contentDetails.videoId).filter(Boolean);
-  if (ids.length < TOP_N) {
-    ids = (pl.data.items||[]).map(i => i.contentDetails.videoId).filter(Boolean).slice(0, 15);
-  }
-  const vids = await youtube.videos.list({ part: ['snippet','statistics','contentDetails'], id: ids });
-  return (vids.data.items||[])
-    .filter(v => v.id !== longId && parseDuration(v.contentDetails?.duration||'') <= 60)
-    .sort((a,b) => Number(b.statistics?.viewCount||0) - Number(a.statistics?.viewCount||0))
-    .slice(0, TOP_N);
 }
 
 // Chamada HTTP simples (sem axios)
@@ -154,7 +122,7 @@ async function run() {
   if (!accessToken) throw new Error('Sem access token. Rode: node youtube-login.js');
 
   const longId = await getLongVideoId(youtube);
-  const shorts = await getTopShorts(youtube, longId);
+  const shorts = await topShorts(youtube, longId);
 
   if (!shorts.length) { console.log('[related] nenhum Short encontrado.'); return; }
 
