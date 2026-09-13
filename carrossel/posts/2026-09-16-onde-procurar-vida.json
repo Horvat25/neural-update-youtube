@@ -1,0 +1,15 @@
+{
+  "slug": "car-onde-procurar-vida-2026-09-16",
+  "quando": "2026-09-16T15:00:00.000Z",
+  "formato": "carrossel · lista de lugares (salvamento + comentário)",
+  "legenda": "Se existe vida perto de nós, a NASA já sabe onde procurar. 🔭\n\nOs quatro candidatos têm uma coisa em comum: água, agora ou no passado. E dois deles são luas de Saturno.\n\n💬 Qual é a sua aposta? Comenta aí.\n🔖 Salva pra acompanhar as missões.\n👉 Segue @neuralupdate: ciência do espaço todo dia.\n\nFonte: NASA\n\n#vidaforadaterra #nasa #astronomia #espaco #neuralupdate",
+  "slides": [
+    { "tipo": "capa", "astros": ["europa", "encelado", "tita", "marte"], "kicker": "Vida fora da Terra", "titulo": "Onde a NASA procura <em>vida</em> perto de nós", "sub": "4 mundos do Sistema Solar com o ingrediente principal: água. Arrasta." },
+    { "tipo": "astro", "astro": "europa", "kicker": "1 · Europa, lua de Júpiter", "titulo": "Um oceano escondido", "texto": "Debaixo do gelo há um oceano salgado que pode ter <strong>o dobro da água de todos os oceanos da Terra</strong>. A sonda Europa Clipper está a caminho." },
+    { "tipo": "astro", "astro": "encelado", "tam": 400, "kicker": "2 · Encélado, lua de Saturno", "titulo": "Jatos de água no espaço", "texto": "Do polo sul saem jatos de gelo e vapor vindos de um <strong>oceano sob a superfície</strong>. A sonda Cassini chegou a voar através deles." },
+    { "tipo": "astro", "astro": "tita", "kicker": "3 · Titã, lua de Saturno", "titulo": "Lagos que não são de água", "texto": "Tem lagos e mares de <strong>metano líquido</strong> e pode ter um oceano de água por baixo. A NASA vai mandar um drone: a Dragonfly, com lançamento previsto pra 2028." },
+    { "tipo": "astro", "astro": "marte", "kicker": "4 · Marte", "titulo": "Rios que secaram", "texto": "Marte já teve rios e lagos. O robô Perseverance procura <strong>sinais de vida antiga</strong> na cratera Jezero, que um dia foi um lago." },
+    { "tipo": "lista", "kicker": "Resumo pra salvar", "titulo": "4 lugares, 4 pistas 🔖", "linhas": [["Europa", "oceano sob o gelo"], ["Encélado", "jatos de água"], ["Titã", "lagos de metano"], ["Marte", "rios que secaram"]], "fonte": "Fonte: NASA" },
+    { "tipo": "fim", "astros": ["europa", "encelado", "tita", "marte"], "titulo": "Qual é a sua <em>aposta?</em> 👇", "texto": "Se um dia acharmos vida perto de nós, onde vai ser: Europa, Encélado, Titã ou Marte? Comenta aí." }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "car-mito-ou-verdade-2026-09-14",
+  "quando": "2026-09-14T15:00:00.000Z",
+  "formato": "carrossel · quiz (gera comentário)",
+  "legenda": "Mito ou verdade? 5 frases sobre o espaço que quase todo mundo já ouviu. 🚀\n\nA da gravidade engana até gente grande: a Estação Espacial está DENTRO da gravidade da Terra. Os astronautas flutuam por outro motivo.\n\n💬 Comenta quantas você acertou.\n🔖 Salva pra usar na próxima discussão.\n👉 Segue @neuralupdate: ciência do espaço todo dia.\n\nFontes: NASA · Scientific American\n\n#curiosidades #espaco #astronomia #ciencia #neuralupdate",
+  "slides": [
+    { "tipo": "capa", "img": "exports/nw-estrela-explodiu-sem-jato/img4.png", "kicker": "Teste rápido", "titulo": "Mito ou <em>verdade?</em>", "sub": "5 frases sobre o espaço que você já ouviu. Chuta antes de arrastar." },
+    { "tipo": "mito", "veredito": "MITO", "img": "exports/v43-mais-rapido-que-astronauta/img2.png", "frase": "“No espaço não tem gravidade.”", "texto": "Na Estação Espacial, a gravidade ainda é <strong>cerca de 90%</strong> da daqui. Os astronautas flutuam porque estão em queda livre, caindo em volta da Terra." },
+    { "tipo": "mito", "veredito": "MITO", "img": "exports/w8-sol-sumisse/img1.png", "frase": "“Dá pra ver a Muralha da China do espaço.”", "texto": "A olho nu, da órbita, não dá: ela é estreita e tem a cor do terreno. Astronautas confirmaram, inclusive o chinês <strong>Yang Liwei</strong>." },
+    { "tipo": "mito", "veredito": "MITO", "astro": "sol-branco", "tam": 380, "frase": "“O Sol é amarelo.”", "texto": "A luz do Sol é <strong>branca</strong>. Ele parece amarelo porque a nossa atmosfera espalha a parte azul da luz. Visto do espaço, ele é branco." },
+    { "tipo": "mito", "veredito": "VERDADE", "img": "exports/nw-estrela-explodiu-sem-jato/img2.png", "frase": "“No espaço não existe som.”", "texto": "Som precisa de ar (ou outro meio) pra viajar. No vácuo não há o que vibrar: uma explosão lá fora seria <strong>silenciosa</strong>." },
+    { "tipo": "mito", "veredito": "MITO", "frase": "“As estrelas piscam.”", "texto": "Quem faz piscar é a <strong>nossa atmosfera</strong>: o ar turbulento desvia a luz no caminho. Vista do espaço, a estrela brilha parada." },
+    { "tipo": "fim", "astro": "terra", "tam": 420, "titulo": "Quantas você <em>acertou?</em> 👇", "texto": "Comenta o número. E manda pro amigo que ainda acha que astronauta flutua porque não tem gravidade.", "fonte": "Fontes: NASA · Scientific American" }
+  ]
+}

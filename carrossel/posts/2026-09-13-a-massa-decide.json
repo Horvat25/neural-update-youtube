@@ -1,0 +1,16 @@
+{
+  "slug": "car-a-massa-decide-2026-09-13",
+  "quando": "2026-09-13T15:00:00.000Z",
+  "formato": "carrossel · aula em slides (salvamento)",
+  "legenda": "Como uma estrela morre depende de UMA coisa: a massa. 🌟\n\nO nosso Sol é leve demais pra explodir: ele vai terminar como anã branca, daqui a uns 5 bilhões de anos. Já as gigantes viram supernova, hipernova, estrela de nêutrons ou buraco negro.\n\n🔖 Salva pra revisar e manda pra quem acha que o Sol vai explodir.\n👉 Segue @neuralupdate: ciência do espaço todo dia.\n\nFonte: NASA\n\n#astronomia #estrelas #buraconegro #supernova #neuralupdate",
+  "slides": [
+    { "tipo": "capa", "img": "exports/pl32-magnetares/img7.png", "kicker": "Astronomia", "titulo": "O Sol <em>não</em> vai explodir", "sub": "A massa decide como cada estrela morre. São 6 destinos: arrasta do mais calmo ao mais extremo." },
+    { "tipo": "texto", "img": "exports/pl30-estrelas-de-neutrons/img4.png", "kicker": "Destino 1 · até 8× a massa do Sol", "titulo": "Anã branca", "texto": "A estrela incha, solta as camadas e sobra só o núcleo: <strong>metade da massa do Sol no tamanho da Terra</strong>. É o fim do nosso Sol, daqui a 5 bilhões de anos." },
+    { "tipo": "texto", "img": "exports/n12-morte-do-sol/img1.png", "kicker": "Destino 2 · acima de 8× a massa do Sol", "titulo": "Supernova", "texto": "O núcleo vira ferro, que não libera energia. Ele colapsa em <strong>menos de 1 segundo</strong> e a estrela explode, mais brilhante que a galáxia inteira." },
+    { "tipo": "texto", "img": "exports/pl36-jatos-relativisticos/img1.png", "kicker": "Destino 3 · dezenas de sóis, girando rápido", "titulo": "Hipernova", "texto": "Uma supernova extrema, com <strong>10 vezes mais energia</strong>. Dois jatos quase na velocidade da luz furam a estrela de dentro pra fora." },
+    { "tipo": "texto", "img": "exports/n12-morte-do-sol/img7.png", "kicker": "O que sobra · até 2× a massa do Sol", "titulo": "Estrela de nêutrons", "texto": "O caroço é esmagado até virar uma bola do tamanho de uma cidade. <strong>Uma colher de chá pesaria 1 bilhão de toneladas.</strong>" },
+    { "tipo": "texto", "img": "exports/pl32-magnetares/img1.png", "kicker": "Nêutrons no extremo", "titulo": "Pulsar e magnetar", "texto": "O pulsar gira <strong>centenas de vezes por segundo</strong> e pisca como um farol. O magnetar tem campo magnético <strong>mil vezes mais forte</strong>: racha a própria crosta." },
+    { "tipo": "texto", "img": "exports/pl14-buracos-negros/img3.png", "kicker": "O que sobra · acima de 3× a massa do Sol", "titulo": "Buraco negro", "texto": "Nada segura o colapso: a massa se espreme num ponto de onde <strong>nem a luz escapa</strong>. Se o Sol virasse um, caberia numa bola de 6 km." },
+    { "tipo": "lista", "kicker": "Salva essa régua 🔖", "titulo": "A massa decide", "linhas": [["Até 8 sóis", "anã branca"], ["Acima de 8", "supernova"], ["Dezenas, girando", "hipernova"], ["Caroço até 2", "estrela de nêutrons"], ["Caroço acima de 3", "buraco negro"]], "cta": true, "fonte": "Fonte: NASA" }
+  ]
+}

@@ -115,6 +115,9 @@ ela entra). Sem isso a imagem troca no relógio e não no assunto. Piso de 3,5s/
 | `reschedule.js <id> <ISO>` | muda publishAt |
 | `_ponte-longo.js <id_longo>` | lista os Shorts que devem apontar pro longo |
 | `tiktok-plano.js` | ⚠️ rodar A CADA LOTE NOVO (+ push do `tiktok-plano.json`): estende o TikTok (12:17 notícia · 17:07 campeão antigo · 20:23 viral) até a última data do lote. O GitHub (`tiktok-fila`, a cada 6h) repõe o Buffer sozinho |
+| `carrossel/render.js <post.json>` | ⚠️ A CADA LOTE NOVO: posts de FEED do Insta (carrossel/post único, 12h BRT, 1 por dia até a última data do lote). Slides 1080x1350 por HTML/CSS no Chrome, zero crédito; conferir a `_tira.jpg` |
+| `carrossel/enfileira.js` + `poe-na-fila.js` | `--copiar <worktree do site>` põe os JPG em `neural-update-forge/public/carrossel/` (push = deploy); sem `--copiar` confere as URLs e gera os itens; `poe-na-fila.js` junta na fila do Insta (worktree limpo do origin) |
+| `troca-cta-projetor.js` | exemplo de troca de vídeo agendado com metadados copiados do vídeo que está no canal (12/09) |
 
 Removidos na poda de 10-11/09/2026 (histórico no cofre `Horvat25/neural-update-youtube`):
 os montadores de lote de julho/agosto (`build-lote*`, `lote-*ago.js`, `gen-*.ps1`), o CTA

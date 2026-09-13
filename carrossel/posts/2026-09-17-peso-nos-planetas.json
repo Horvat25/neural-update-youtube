@@ -1,0 +1,16 @@
+{
+  "slug": "car-peso-nos-planetas-2026-09-17",
+  "quando": "2026-09-17T15:00:00.000Z",
+  "formato": "carrossel · calculadora (compartilhamento)",
+  "legenda": "Quanto você pesaria em cada planeta? 🪐\n\nA conta usa a gravidade de cada mundo (dados da NASA) pra uma pessoa de 70 kg. A maior surpresa é Saturno: 95 vezes a massa da Terra, e mesmo assim você pesaria quase o mesmo que aqui.\n\n📤 Manda pra quem vive dizendo que tá de dieta.\n🔖 Salva pra fazer a conta com o seu peso.\n👉 Segue @neuralupdate: ciência do espaço todo dia.\n\nFonte: NASA Planetary Fact Sheet\n\n#planetas #sistemasolar #astronomia #curiosidades #neuralupdate",
+  "slides": [
+    { "tipo": "capa", "astros": ["saturno"], "tam": 430, "kicker": "Faça a conta", "titulo": "Quanto você pesaria em cada <em>planeta?</em>", "sub": "Num gigante 95 vezes mais pesado que a Terra, você pesaria quase o mesmo que aqui. Arrasta." },
+    { "tipo": "astro", "astro": "terra", "kicker": "A conta", "titulo": "Uma pessoa de 70 kg na Terra…", "texto": "…pesaria diferente em cada mundo, porque a gravidade na superfície muda. Os números abaixo usam os dados da NASA." },
+    { "tipo": "numero", "astro": "lua", "kicker": "Na Lua", "numero": "≈ 12 kg", "texto": "A gravidade lá é <strong>1/6</strong> da daqui. Dá pra pular seis vezes mais alto." },
+    { "tipo": "numero", "astro": "marte", "kicker": "Em Marte", "numero": "≈ 26 kg", "texto": "Pouco mais de <strong>um terço</strong> do seu peso daqui." },
+    { "tipo": "numero", "astro": "venus", "kicker": "Em Vênus", "numero": "≈ 63 kg", "texto": "Quase igual: Vênus tem <strong>quase o mesmo tamanho</strong> da Terra." },
+    { "tipo": "numero", "astro": "jupiter", "kicker": "Em Júpiter", "numero": "≈ 170 kg", "texto": "Mais que o dobro. E ele nem tem chão: é um gigante de gás, a conta vale pro <strong>topo das nuvens</strong>." },
+    { "tipo": "numero", "astro": "saturno", "tam": 360, "kicker": "Em Saturno", "numero": "≈ 70 kg", "texto": "A surpresa: Saturno tem <strong>95 vezes</strong> a massa da Terra, mas é enorme e pouco denso. No topo das nuvens, a gravidade fica parecida com a nossa." },
+    { "tipo": "lista", "kicker": "Resumo pra salvar", "titulo": "Seus 70 kg pelo Sistema Solar 🔖", "linhas": [["Lua", "≈ 12 kg"], ["Marte", "≈ 26 kg"], ["Vênus", "≈ 63 kg"], ["Terra", "70 kg"], ["Saturno", "≈ 70 kg"], ["Júpiter", "≈ 170 kg"]], "cta": true, "fonte": "Fonte: NASA Planetary Fact Sheet" }
+  ]
+}
