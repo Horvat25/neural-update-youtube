@@ -94,6 +94,7 @@ p strong{color:#FFD400;font-weight:800}
 .chip{font-size:31px;font-weight:700;padding:14px 24px;border-radius:99px;background:rgba(255,255,255,.1);border:2px solid rgba(255,255,255,.22)}
 .chip.segue{background:#FFD400;color:#05070d;border-color:#FFD400}
 .fonte{font-size:26px;font-weight:600;color:rgba(255,255,255,.6)}
+.chip-blog{justify-self:start;font-size:32px;font-weight:800;padding:16px 28px;border-radius:99px;background:#FFD400;color:#05070d}
 /* astros em CSS */
 .astro{position:relative;border-radius:50%;flex:none}
 .astro::after{content:'';position:absolute;inset:0;border-radius:50%;box-shadow:inset -70px -50px 120px rgba(0,0,0,.72),inset 16px 12px 40px rgba(255,255,255,.18)}
@@ -153,6 +154,8 @@ function corpo(s, i, total) {
       return `${fundo(s, true)}${palco(s)}<main>${k}<div class="numero">${s.numero}</div>${s.titulo ? `<h2>${s.titulo}</h2>` : ''}${s.texto ? `<p>${s.texto}</p>` : ''}${fonte}</main>`;
     case 'lista':
       return `${fundo(s, true)}<main>${k}<h2>${s.titulo}</h2><div class="linhas">${s.linhas.map(([a, b]) => `<div class="linha"><span>${a}</span><b>${b}</b></div>`).join('')}</div>${s.texto ? `<p>${s.texto}</p>` : ''}${s.cta ? chips() : ''}${fonte}</main>`;
+    case 'blog':
+      return `${fundo(s, true)}<main>${k}<h2>${s.titulo}</h2>${s.texto ? `<p>${s.texto}</p>` : ''}<div class="chip-blog">📖 Leia completo no blog · link na bio</div>${fonte}</main>`;
     case 'fim':
       return `${palco(s)}<main>${k}<h2>${s.titulo}</h2>${s.texto ? `<p>${s.texto}</p>` : ''}${chips()}${fonte}</main>`;
     default:
