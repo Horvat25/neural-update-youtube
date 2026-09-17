@@ -1,0 +1,72 @@
+{
+ "slug": "car-ver-sem-telescopio-2026-09-21",
+ "quando": "2026-09-21T15:00:00.000Z",
+ "formato": "carrossel · lista (salvamento + comentário)",
+ "legenda": "5 coisas do espaço que dá pra ver sem telescópio. 🔭\n\nNão precisa de equipamento: só céu escuro, paciência e saber o que procurar. A Estação Espacial é a mais fácil de confundir com avião.\n\n💬 Qual dessas você já viu? Comenta o número.\n🔖 Salva pra próxima noite de céu limpo.\n👉 Segue @neuralupdate: ciência do espaço todo dia.\n\nFonte: NASA\n\n#astronomia #ceunoturno #estrelas #espaco #neuralupdate",
+ "slides": [
+  {
+   "tipo": "capa",
+   "img": "carrossel/img/pl49-paradoxo-de-fermi_cena1.png",
+   "kicker": "Olho nu",
+   "titulo": "5 coisas do espaço que você vê <em>sem telescópio</em>",
+   "sub": "Só precisa de céu escuro. Arrasta."
+  },
+  {
+   "tipo": "astro",
+   "astro": "lua",
+   "kicker": "1 · A Lua",
+   "titulo": "Crateras e “mares”",
+   "texto": "As manchas escuras são <strong>planícies de lava antiga</strong>. Perto da meia-lua, as sombras deixam o relevo mais visível."
+  },
+  {
+   "tipo": "astro",
+   "astro": "venus",
+   "kicker": "2 · Vênus e Júpiter",
+   "titulo": "As “estrelas” que não piscam",
+   "texto": "Planetas brilham firme, sem cintilar. Vênus é o ponto mais brilhante do céu noturno depois da Lua."
+  },
+  {
+   "tipo": "texto",
+   "img": "carrossel/img/pl49-paradoxo-de-fermi_cena1.png",
+   "kicker": "3 · A nossa galáxia",
+   "titulo": "Uma faixa de leite no céu",
+   "texto": "Longe das luzes da cidade, dá pra ver o disco da <strong>nossa galáxia</strong> atravessando o céu."
+  },
+  {
+   "tipo": "texto",
+   "img": "carrossel/img/viral-poeira-no-telhado_cena2.png",
+   "kicker": "4 · Estrelas cadentes",
+   "titulo": "Poeira pegando fogo",
+   "texto": "Numa noite escura aparecem algumas por hora. Em chuvas de meteoros, bem mais."
+  },
+  {
+   "tipo": "lista",
+   "kicker": "5 · A Estação Espacial",
+   "titulo": "Um ponto que cruza o céu sem piscar 🔖",
+   "linhas": [
+    [
+     "1",
+     "Lua"
+    ],
+    [
+     "2",
+     "Vênus e Júpiter"
+    ],
+    [
+     "3",
+     "Via Láctea"
+    ],
+    [
+     "4",
+     "Estrelas cadentes"
+    ],
+    [
+     "5",
+     "Estação Espacial"
+    ]
+   ],
+   "cta": true,
+   "fonte": "Fonte: NASA (Spot the Station)"
+  }
+ ]
+}

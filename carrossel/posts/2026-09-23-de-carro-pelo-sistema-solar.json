@@ -1,0 +1,83 @@
+{
+ "slug": "car-de-carro-pelo-sistema-solar-2026-09-23",
+ "quando": "2026-09-23T15:00:00.000Z",
+ "formato": "carrossel · calculadora (compartilhamento)",
+ "legenda": "Quanto tempo de carro até cada lugar do espaço? 🚗\n\nA conta é a 100 km/h, sem parar nem pra abastecer. A Lua dá uma viagem longa. O resto passa de gerações.\n\n📤 Manda pra quem reclama de viagem de 6 horas.\n🔖 Salva a tabela.\n👉 Segue @neuralupdate: ciência do espaço todo dia.\n\nFonte: NASA Science\n\n#curiosidades #sistemasolar #astronomia #espaco #neuralupdate",
+ "slides": [
+  {
+   "tipo": "capa",
+   "img": "carrossel/img/serie-carro-p1-lua_cena1.png",
+   "kicker": "Faça a conta",
+   "titulo": "De <em>carro</em> pelo Sistema Solar",
+   "sub": "A 100 km/h, sem parar. Arrasta."
+  },
+  {
+   "tipo": "numero",
+   "astro": "lua",
+   "kicker": "Até a Lua",
+   "numero": "≈ 160 dias",
+   "texto": "<strong>384 mil km</strong>. Cinco meses e pouco de estrada."
+  },
+  {
+   "tipo": "numero",
+   "astro": "venus",
+   "kicker": "Até Vênus (no ponto mais perto)",
+   "numero": "≈ 43 anos",
+   "texto": "Uns <strong>38 milhões de km</strong>, quando ela passa mais perto da Terra."
+  },
+  {
+   "tipo": "numero",
+   "astro": "marte",
+   "kicker": "Até Marte (no ponto mais perto)",
+   "numero": "≈ 62 anos",
+   "texto": "Uns <strong>55 milhões de km</strong>. Uma vida inteira ao volante."
+  },
+  {
+   "tipo": "numero",
+   "img": "carrossel/img/nw-sol-vira-ana-branca_cena1.png",
+   "kicker": "Até o Sol",
+   "numero": "≈ 171 anos",
+   "texto": "<strong>150 milhões de km</strong>. Quem saísse no tempo de Dom Pedro II chegaria agora."
+  },
+  {
+   "tipo": "numero",
+   "astro": "jupiter",
+   "kicker": "Até Júpiter (no ponto mais perto)",
+   "numero": "≈ 670 anos",
+   "texto": "Uns <strong>588 milhões de km</strong>. Quem saísse em 1356, na Idade Média, chegaria só agora."
+  },
+  {
+   "tipo": "lista",
+   "kicker": "Resumo pra salvar",
+   "titulo": "De carro, a 100 km/h 🔖",
+   "linhas": [
+    [
+     "Lua",
+     "≈ 160 dias"
+    ],
+    [
+     "Vênus",
+     "≈ 43 anos"
+    ],
+    [
+     "Marte",
+     "≈ 62 anos"
+    ],
+    [
+     "Sol",
+     "≈ 171 anos"
+    ],
+    [
+     "Júpiter",
+     "≈ 670 anos"
+    ],
+    [
+     "Próxima Centauri",
+     "≈ 46 milhões de anos"
+    ]
+   ],
+   "cta": true,
+   "fonte": "Fonte: NASA Science"
+  }
+ ]
+}

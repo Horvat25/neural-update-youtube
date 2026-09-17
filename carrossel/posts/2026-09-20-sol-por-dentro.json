@@ -1,0 +1,64 @@
+{
+ "slug": "car-sol-por-dentro-2026-09-20",
+ "quando": "2026-09-20T15:00:00.000Z",
+ "formato": "carrossel · aula em slides (salvamento)",
+ "legenda": "O que tem dentro do Sol? ☀️\n\nSão camadas, do núcleo de 15 milhões de graus até a coroa, que é mais quente que a própria superfície. E a energia que te ilumina hoje pode ter começado a sair lá de dentro há milhares de anos.\n\n🔖 Salva pra revisar.\n👉 Segue @neuralupdate: ciência do espaço todo dia.\n\nFonte: NASA Science (Sun)\n\n#sol #astronomia #ciencia #espaco #neuralupdate",
+ "slides": [
+  {
+   "tipo": "capa",
+   "img": "carrossel/img/nw-sol-vira-ana-branca_cena1.png",
+   "kicker": "Aula rápida",
+   "titulo": "O que tem <em>dentro</em> do Sol?",
+   "sub": "Do núcleo até a coroa. Arrasta."
+  },
+  {
+   "tipo": "texto",
+   "img": "carrossel/img/nw-sol-vira-ana-branca_cena1.png",
+   "kicker": "1 · Núcleo",
+   "titulo": "A usina",
+   "texto": "Uns <strong>15 milhões de °C</strong>. É aqui que o hidrogênio vira hélio por fusão nuclear e libera a energia do Sol."
+  },
+  {
+   "tipo": "texto",
+   "img": "carrossel/img/nw-sol-vira-ana-branca_cena1.png",
+   "kicker": "2 · Zona radiativa",
+   "titulo": "O labirinto da luz",
+   "texto": "A energia é absorvida e reemitida tantas vezes que pode levar <strong>milhares de anos</strong> pra atravessar essa camada."
+  },
+  {
+   "tipo": "texto",
+   "img": "carrossel/img/nw-sol-vira-ana-branca_cena1.png",
+   "kicker": "3 · Zona convectiva",
+   "titulo": "Uma panela fervendo",
+   "texto": "O gás quente <strong>sobe</strong>, esfria perto da superfície e <strong>desce</strong> de novo, carregando a energia pra fora."
+  },
+  {
+   "tipo": "astro",
+   "astro": "sol-branco",
+   "kicker": "4 · Fotosfera",
+   "titulo": "A “superfície” que a gente vê",
+   "texto": "Uns <strong>5.500 °C</strong>. É daqui que sai a luz que chega até você em cerca de 8 minutos."
+  },
+  {
+   "tipo": "lista",
+   "kicker": "5 · Coroa · resumo pra salvar",
+   "titulo": "A camada de fora é a mais quente 🔖",
+   "linhas": [
+    [
+     "Núcleo",
+     "≈ 15 milhões °C"
+    ],
+    [
+     "Fotosfera",
+     "≈ 5.500 °C"
+    ],
+    [
+     "Coroa",
+     "> 1 milhão °C"
+    ]
+   ],
+   "cta": true,
+   "fonte": "Fonte: NASA Science (Sun)"
+  }
+ ]
+}

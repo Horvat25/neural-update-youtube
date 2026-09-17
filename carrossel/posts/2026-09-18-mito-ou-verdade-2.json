@@ -1,0 +1,52 @@
+{
+ "slug": "car-mito-ou-verdade-2-2026-09-18",
+ "quando": "2026-09-18T15:00:00.000Z",
+ "formato": "carrossel · quiz (gera comentário)",
+ "legenda": "Mito ou verdade? Mais 5 frases sobre o espaço. 🌠\n\nA da estrela cadente é a que mais engana: ela não é estrela nenhuma.\n\n💬 Comenta quantas você acertou.\n🔖 Salva pra usar na próxima discussão.\n👉 Segue @neuralupdate: ciência do espaço todo dia.\n\nFontes: NASA · ESA\n\n#curiosidades #espaco #astronomia #ciencia #neuralupdate",
+ "slides": [
+  {
+   "tipo": "capa",
+   "img": "carrossel/img/viral-poeira-no-telhado_cena2.png",
+   "kicker": "Teste rápido · parte 2",
+   "titulo": "Mito ou <em>verdade?</em>",
+   "sub": "5 frases sobre o espaço. Chuta antes de arrastar."
+  },
+  {
+   "tipo": "mito",
+   "veredito": "MITO",
+   "img": "carrossel/img/viral-poeira-no-telhado_cena2.png",
+   "frase": "“Estrela cadente é uma estrela caindo.”",
+   "texto": "É um <strong>grão de poeira</strong>, muitas vezes menor que um grão de areia, pegando fogo ao entrar na atmosfera a dezenas de km por segundo."
+  },
+  {
+   "tipo": "mito",
+   "veredito": "MITO",
+   "astro": "lua",
+   "frase": "“A Lua não gira.”",
+   "texto": "Ela gira, sim: <strong>uma volta em torno de si</strong> no mesmo tempo em que dá uma volta na Terra. Por isso a gente sempre vê a mesma face."
+  },
+  {
+   "tipo": "mito",
+   "veredito": "MITO",
+   "img": "carrossel/img/nw-quando-estrela-vira-supernova_cena6.png",
+   "frase": "“Buraco negro suga tudo como um aspirador.”",
+   "texto": "Longe dele, a gravidade é igual à de qualquer objeto com a mesma massa. Se o Sol virasse um buraco negro, <strong>a Terra continuaria na mesma órbita</strong>."
+  },
+  {
+   "tipo": "mito",
+   "veredito": "MITO",
+   "img": "carrossel/img/pl49-paradoxo-de-fermi_cena1.png",
+   "frase": "“Explosão no espaço faz barulho.”",
+   "texto": "Som precisa de ar (ou outro meio) pra viajar. No vácuo <strong>não tem o que vibrar</strong>: a explosão seria silenciosa."
+  },
+  {
+   "tipo": "mito",
+   "veredito": "VERDADE",
+   "astro": "venus",
+   "frase": "“Em Vênus, um dia dura mais que um ano.”",
+   "texto": "Vênus leva <strong>243 dias</strong> terrestres pra girar uma vez em torno de si, e só <strong>225</strong> pra dar a volta no Sol.",
+   "cta": true,
+   "fonte": "Fontes: NASA Science · ESA"
+  }
+ ]
+}

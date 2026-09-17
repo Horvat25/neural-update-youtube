@@ -1,0 +1,57 @@
+{
+ "slug": "car-equinocio-primavera-2026-09-22",
+ "quando": "2026-09-22T15:00:00.000Z",
+ "formato": "carrossel · aula em slides (salvamento)",
+ "legenda": "Hoje à noite começa a primavera no Brasil. 🌱\n\nÉ o equinócio: o Sol fica bem em cima do equador, e o dia e a noite ficam com quase a mesma duração no planeta inteiro.\n\n🔖 Salva pra explicar pra alguém.\n📤 Manda pra quem acha que a estação muda porque a Terra chega mais perto do Sol.\n👉 Segue @neuralupdate: ciência do espaço todo dia.\n\nFonte: NASA Science\n\n#equinocio #primavera #astronomia #ciencia #neuralupdate",
+ "slides": [
+  {
+   "tipo": "capa",
+   "img": "carrossel/img/viral-sol-branco_cena1.png",
+   "kicker": "Hoje · 22 de setembro",
+   "titulo": "O que é o <em>equinócio?</em>",
+   "sub": "A primavera começa hoje à noite no Brasil. Arrasta."
+  },
+  {
+   "tipo": "astro",
+   "astro": "terra",
+   "kicker": "O motivo",
+   "titulo": "A Terra é torta",
+   "texto": "O eixo dela é inclinado uns <strong>23 graus</strong>. Ao longo do ano, cada hemisfério recebe mais ou menos luz do Sol."
+  },
+  {
+   "tipo": "astro",
+   "astro": "terra",
+   "kicker": "No equinócio",
+   "titulo": "Luz igual pros dois lados",
+   "texto": "O Sol fica bem em cima do <strong>equador</strong>. Dia e noite duram quase o mesmo em todo o planeta."
+  },
+  {
+   "tipo": "mito",
+   "veredito": "MITO",
+   "astro": "sol-branco",
+   "frase": "“A estação muda porque a Terra chega mais perto do Sol.”",
+   "texto": "Não. Quando é verão aqui, é inverno no hemisfério norte, com a <strong>mesma distância</strong> do Sol. Quem manda é a inclinação."
+  },
+  {
+   "tipo": "lista",
+   "kicker": "Resumo pra salvar",
+   "titulo": "Setembro no mundo 🔖",
+   "linhas": [
+    [
+     "Hemisfério sul",
+     "começa a primavera"
+    ],
+    [
+     "Hemisfério norte",
+     "começa o outono"
+    ],
+    [
+     "Dia × noite",
+     "quase iguais"
+    ]
+   ],
+   "cta": true,
+   "fonte": "Fonte: NASA Science"
+  }
+ ]
+}

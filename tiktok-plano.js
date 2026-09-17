@@ -70,6 +70,10 @@ function pronto(it, tipo, dueAt) {
 
   const hoje = diaBRT(new Date().toISOString());
   const grade = V.grade().filter(it => V.vaiProTikTok(it) && ['news', 'viral'].includes(it.stream) && diaBRT(it.publishAt) >= hoje);
+  // ⭐ 14/09/2026 (Marcelo): a partir do lote de 18/09 os 3 vídeos do dia vão pras 4 redes — a AULA
+  // (slot 14h, inclusive a série "A morte das estrelas") ocupa as 17:07 no lugar do campeão antigo.
+  // Sem aula no dia (ou já publicada), o campeão continua cobrindo o horário.
+  const aulas = V.grade().filter(it => it.stream === 'aula' && it.publishAt >= '2026-09-18' && !/^2099/.test(it.publishAt) && diaBRT(it.publishAt) >= hoje);
   if (!grade.length) { console.log('nada novo na grade do Insta/YouTube a partir de hoje'); return; }
   const ate = grade.map(it => diaBRT(it.publishAt)).sort().pop();
 
@@ -92,6 +96,15 @@ function pronto(it, tipo, dueAt) {
       // 15 min = a mesma margem do tiktok-fila-nuvem.js (post mais em cima da hora ele não agenda)
       if (dueAt <= new Date(Date.now() + 15 * 60e3).toISOString() || ocupado.has(dueAt)) continue;
       let it = null, noLugarDe = null;
+      if (tipo === 'campeao') {
+        const aula = aulas.find(g => diaBRT(g.publishAt) === d);
+        if (aula && jaNoPlano.has(aula.slug)) continue;
+        if (aula && !noTikTok.has(primeiraLinha(V.legenda(aula)))) {
+          try { novos.push(pronto(aula, 'aula', dueAt)); console.log(`✓ ${d} aula    ${aula.slug}`); }
+          catch (e) { console.error(`✗ ${d} aula ${aula.slug}: ${e.message}`); }
+          continue;
+        }
+      }
       if (tipo !== 'campeao') {
         it = grade.find(g => g.stream === tipo && diaBRT(g.publishAt) === d) || null;
         if (it && jaNoPlano.has(it.slug)) continue;

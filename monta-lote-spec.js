@@ -57,7 +57,10 @@ for (const it of itens) {
     if (t > 1) console.log(`  retry ${t}...`);
     spawnSync(process.execPath, [path.join(__dirname, 'make-short-img-flex.js'), dir, mp4, it.topic || it.slug, trilha],
       { cwd: __dirname, stdio: 'inherit', env: { ...process.env, SHORTS_VOICE: voz } });
-    feito = fs.existsSync(mp4);
+    // 16/09/2026: o ffmpeg falhou (SAR diferente entre as imagens) e deixou um .mp4 de 0 bytes, que
+    // passava aqui como "montado ✓". Arquivo vazio NÃO é vídeo.
+    feito = fs.existsSync(mp4) && fs.statSync(mp4).size > 100000;
+    if (!feito && fs.existsSync(mp4)) fs.unlinkSync(mp4);
   }
   if (feito) { console.log(`  ✓ ${(fs.statSync(mp4).size / 1048576).toFixed(1)} MB\n`); ok.push(it.slug); }
   else { falhas.push(`${it.slug}: montagem falhou 3x`); console.error(`  ✗ falhou 3x\n`); }

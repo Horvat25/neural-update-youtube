@@ -1,0 +1,61 @@
+{
+ "slug": "car-feito-de-estrelas-2026-09-24",
+ "quando": "2026-09-24T15:00:00.000Z",
+ "formato": "carrossel · aula em slides (salvamento + compartilhamento)",
+ "legenda": "Você é feito de pedaços de estrelas. Literalmente. ✨\n\nO hidrogênio do seu corpo veio do começo do universo. O carbono, o oxigênio e o ferro foram fabricados em estrelas que morreram antes do Sol nascer.\n\n📤 Manda pra alguém que precisa ouvir que é poeira de estrela.\n🔖 Salva pra lembrar.\n👉 Segue @neuralupdate: ciência do espaço todo dia.\n\nFonte: NASA Science\n\n#estrelas #supernova #astronomia #ciencia #neuralupdate",
+ "slides": [
+  {
+   "tipo": "capa",
+   "img": "carrossel/img/nw-quando-estrela-vira-supernova_cena6.png",
+   "kicker": "Astronomia",
+   "titulo": "Você é feito de <em>estrelas</em>",
+   "sub": "De onde veio cada pedaço do seu corpo. Arrasta."
+  },
+  {
+   "tipo": "texto",
+   "img": "carrossel/img/pl49-paradoxo-de-fermi_cena1.png",
+   "kicker": "Hidrogênio",
+   "titulo": "Do começo do universo",
+   "texto": "Quase todo o hidrogênio surgiu logo depois do <strong>Big Bang</strong>. Ele está na água do seu corpo."
+  },
+  {
+   "tipo": "texto",
+   "img": "carrossel/img/nw-sol-vira-ana-branca_cena1.png",
+   "kicker": "Carbono e oxigênio",
+   "titulo": "Fabricados dentro de estrelas",
+   "texto": "A fusão no núcleo das estrelas transforma elementos leves em mais pesados, como o <strong>carbono</strong> e o <strong>oxigênio</strong>."
+  },
+  {
+   "tipo": "texto",
+   "img": "carrossel/img/nw-quando-estrela-vira-supernova_cena6.png",
+   "kicker": "Ferro e mais pesados",
+   "titulo": "Espalhados por explosões",
+   "texto": "Quando estrelas explodem, esses elementos são jogados no espaço e viram parte de <strong>novas estrelas, planetas e gente</strong>."
+  },
+  {
+   "tipo": "lista",
+   "kicker": "Resumo pra salvar",
+   "titulo": "De onde vem você 🔖",
+   "linhas": [
+    [
+     "Hidrogênio",
+     "Big Bang"
+    ],
+    [
+     "Carbono",
+     "estrelas"
+    ],
+    [
+     "Oxigênio",
+     "estrelas"
+    ],
+    [
+     "Ferro",
+     "estrelas que morreram"
+    ]
+   ],
+   "cta": true,
+   "fonte": "Fonte: NASA Science"
+  }
+ ]
+}

@@ -31,7 +31,14 @@ const dir = path.join('exports', slug);
 const narr = path.join(dir, 'narr.mp3');
 const ass = path.join(dir, 'captions.ass');
 const ptAss = ass;
-const trilha = path.join('assets', 'music-real', 'dark-some-amount-of-evil.mp3');
+// 16/09/2026: a trilha vem do meta.json (_prod.track) — a regra é trilha por slot (aula 14h =
+// cosmic-ice-flow/ambient). Sem campo, fica a de antes.
+let trilhaNome = 'dark-some-amount-of-evil.mp3';
+try { trilhaNome = JSON.parse(fs.readFileSync(path.join(dir, 'meta.json'), 'utf8'))._prod?.track || trilhaNome; } catch {}
+// 17/09/2026: versão do TikTok — lá some-amount/rising-tide saem MUDOS. TRILHA troca só a música e
+// SAIDA grava em outro arquivo, sem tocar no .mp4 que já foi pro YouTube/Insta.
+if (process.env.TRILHA) trilhaNome = process.env.TRILHA;
+const trilha = path.join('assets', 'music-real', trilhaNome);
 const logo = path.join('assets', 'brand', 'nu-logo.png');
 for (const f of [narr, ass, trilha, logo]) {
   if (!fs.existsSync(f)) { console.error(`✗ falta ${f}`); process.exit(1); }
@@ -175,7 +182,7 @@ const durBruto = dur(bruto);
 console.log(`  ✓ concatenado: ${durBruto.toFixed(2)}s`);
 
 // 3. legenda + HOOK + logo + mix de áudio (mesma receita do make-short-img-flex)
-const mp4 = path.join(dir, `${slug}.mp4`);
+const mp4 = process.env.SAIDA || path.join(dir, `${slug}.mp4`);
 
 // HOOK na tela — lei do canal: 85% assiste sem som, o texto grande é o scroll-stopper.
 // Mesmos parâmetros do make-short-img-flex: Arial Bold 56, amarelo, caixa preta 60%, 0-3,2s.
