@@ -41,6 +41,10 @@ function sobeCloudFront(mp4) {
   return m ? m[0] : null;
 }
 
+// 17/09/2026: o Facebook não distribui bem um Reel que é bytes IDÊNTICOS ao que acabou de sair
+// no Insta. Cada item ganha uma 2ª URL (midia_facebook) com zoom/crop sutil, 0 crédito
+// (_variante-facebook.js). O publicar.mjs (repo instagram) usa midia_facebook quando existir.
+
 const fila = JSON.parse(fs.readFileSync(FILA, 'utf8'));
 const jaTem = new Set(fila.map(i => i.slug).filter(Boolean));
 const itens = arquivos.flatMap(f => JSON.parse(fs.readFileSync(f, 'utf8')));
@@ -62,7 +66,15 @@ for (const it of itens) {
   process.stdout.write(`▲ ${it.slug} … `);
   const url = sobeCloudFront(mp4);
   if (!url) { console.error('falhou o upload'); continue; }
-  fila.push({ quando: it.publishAt, tipo: 'reels', midia: url, legenda, slug: it.slug, status: 'agendado' });
+
+  const fbMp4 = path.join(__dirname, 'exports', it.slug, `${it.slug}-fb.mp4`);
+  if (!fs.existsSync(fbMp4)) {
+    spawnSync(process.execPath, [path.join(__dirname, '_variante-facebook.js'), it.slug], { cwd: __dirname, stdio: 'inherit' });
+  }
+  const urlFb = fs.existsSync(fbMp4) ? sobeCloudFront(fbMp4) : null;
+  if (!urlFb) console.error(`   ⚠ sem variante pro Facebook (${it.slug}) — vai usar o mesmo arquivo do Insta`);
+
+  fila.push({ quando: it.publishAt, tipo: 'reels', midia: url, ...(urlFb ? { midia_facebook: urlFb } : {}), legenda, slug: it.slug, status: 'agendado' });
   novos++;
   console.log('ok');
 }
