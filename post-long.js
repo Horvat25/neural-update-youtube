@@ -7,6 +7,7 @@ const path = require('path');
 require('dotenv').config({ path: path.join(__dirname, '.env') });
 const fs = require('fs');
 const { google, getAuthorizedClient } = require('./youtube-auth');
+const { recordVideoIdInMeta } = require('./youtube-uploader');
 
 const videoPath = process.argv[2];
 const metaPath = process.argv[3];
@@ -48,6 +49,13 @@ const BLOG_URL = process.env.BLOG_URL || 'https://neural-update.com.br';
   }, { maxContentLength: Infinity, maxBodyLength: Infinity });
 
   const id = res.data.id;
+  try {
+    recordVideoIdInMeta({ videoPath, metaPath, videoId: id, url: `https://youtube.com/watch?v=${id}`, publishAt });
+    console.log(`[long] ✓ videoId gravado no meta.json`);
+  } catch (e) {
+    // O video ja foi enviado: nao falhar e provocar upload duplicado por causa do sidecar.
+    console.warn(`[long] ⚠ video no ar, mas meta.json nao atualizado: ${e.message}`);
+  }
   console.log(`[long] ✓ vídeo no ar: https://youtube.com/watch?v=${id}`);
 
   if (thumbPath && fs.existsSync(thumbPath)) {

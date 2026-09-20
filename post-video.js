@@ -19,7 +19,7 @@ const publishAt = process.argv[4] || meta.publishAt || null; // ISO 8601 p/ AGEN
 (async () => {
   const quando = publishAt ? `AGENDADO p/ ${publishAt}` : (meta.privacyStatus || 'unlisted');
   console.log(`[post] enviando "${meta.title}" (${quando})...`);
-  const r = await uploadToYouTube({ videoPath, ...meta, publishAt });
+  const r = await uploadToYouTube({ videoPath, metaPath, ...meta, publishAt });
   console.log(`\n[post] ✓ ${publishAt ? 'AGENDADO' : 'PUBLICADO'}: ${r.url}`);
   console.log(`[post]   ${publishAt ? 'publica em ' + publishAt : 'privacidade: ' + r.privacyStatus}`);
 })().catch(e => { console.error('[post] ERRO:', e.message); process.exit(1); });

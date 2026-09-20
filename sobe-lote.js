@@ -41,7 +41,7 @@ const itens = arquivos.flatMap(f => JSON.parse(fs.readFileSync(f, 'utf8')))
     try {
       // ⚠️ o uploadToYouTube recebe UM objeto só (videoPath junto), não (caminho, meta).
       const r = await uploadToYouTube({
-        videoPath: mp4,
+        videoPath: mp4, metaPath,
         title: meta.title, description: meta.description, tags: meta.tags,
         hashtags: meta.hashtags, privacyStatus: 'private', publishAt: it.publishAt,
       });

@@ -5,6 +5,7 @@
  */
 require('dotenv').config();
 const fs = require('fs');
+const path = require('path');
 const { google, getAuthorizedClient, isConnected } = require('./youtube-auth');
 
 const BLOG_URL = process.env.BLOG_URL || 'https://neural-update.com.br';
@@ -28,7 +29,23 @@ function buildTitle(title, hashtags) {
   return t.slice(0, 100);
 }
 
-async function uploadToYouTube({ videoPath, title, description, tags, hashtags, privacyStatus, publishAt, notifySubscribers } = {}) {
+function recordVideoIdInMeta({ videoPath, metaPath, videoId, url, publishAt } = {}) {
+  const alvo = metaPath || (videoPath ? path.join(path.dirname(videoPath), 'meta.json') : null);
+  if (!alvo || !fs.existsSync(alvo)) return { persisted: false, metaPath: alvo, reason: 'meta_not_found' };
+  const meta = JSON.parse(fs.readFileSync(alvo, 'utf8'));
+  meta._youtube = {
+    ...(meta._youtube || {}),
+    videoId,
+    url: url || `https://youtube.com/watch?v=${videoId}`,
+    publishAt: publishAt || meta.publishAt || null,
+    agente: 'codex',
+    gerado_em: new Date().toISOString(),
+  };
+  fs.writeFileSync(alvo, JSON.stringify(meta, null, 2) + '\n', 'utf8');
+  return { persisted: true, metaPath: alvo };
+}
+
+async function uploadToYouTube({ videoPath, metaPath, title, description, tags, hashtags, privacyStatus, publishAt, notifySubscribers } = {}) {
   if (!videoPath || !fs.existsSync(videoPath)) throw new Error('Vídeo não encontrado: ' + videoPath);
 
   const auth = await getAuthorizedClient();
@@ -94,8 +111,18 @@ async function uploadToYouTube({ videoPath, title, description, tags, hashtags, 
     );
     const id = res.data.id;
     const url = `https://youtube.com/shorts/${id}`;
+    let metaRegistro;
+    try {
+      // Falha ao gravar o sidecar nunca pode fazer o chamador repetir um upload que ja ocorreu.
+      metaRegistro = recordVideoIdInMeta({ videoPath, metaPath, videoId: id, url, publishAt });
+      if (metaRegistro.persisted) console.log(`[youtube]   ↳ videoId gravado em ${metaRegistro.metaPath}`);
+      else console.warn(`[youtube]   ↳ meta.json nao encontrado; videoId ficou somente no estado do chamador`);
+    } catch (e) {
+      metaRegistro = { persisted: false, metaPath, reason: e.message };
+      console.warn(`[youtube]   ↳ upload concluido, mas o meta.json nao foi atualizado: ${e.message}`);
+    }
     console.log(`[youtube] ✓ publicado (${privacy}${notificar ? ', COM notificação' : ', sem notificação'}): ${url}`);
-    return { id, url, privacyStatus: privacy, notifySubscribers: notificar };
+    return { id, videoId: id, url, privacyStatus: privacy, notifySubscribers: notificar, metaRegistro };
   } catch (e) {
     const reason =
       e?.errors?.[0]?.reason ||
@@ -111,4 +138,4 @@ async function uploadToYouTube({ videoPath, title, description, tags, hashtags, 
   }
 }
 
-module.exports = { uploadToYouTube, isConnected, buildDescription, buildTitle };
+module.exports = { uploadToYouTube, isConnected, buildDescription, buildTitle, recordVideoIdInMeta };

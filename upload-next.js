@@ -35,8 +35,9 @@ const candidates = fs.readdirSync(BASE).filter(d => {
   let m; try { m = JSON.parse(fs.readFileSync(metaP, 'utf8')); } catch { return false; }
   return m.publishAt && new Date(m.publishAt).getTime() > now; // só futuros
 }).map(d => {
-  const m = JSON.parse(fs.readFileSync(path.join(BASE, d, 'meta.json'), 'utf8'));
-  return { slug: d, meta: m, when: new Date(m.publishAt).getTime() };
+  const metaPath = path.join(BASE, d, 'meta.json');
+  const m = JSON.parse(fs.readFileSync(metaPath, 'utf8'));
+  return { slug: d, meta: m, metaPath, when: new Date(m.publishAt).getTime() };
 }).sort((a, b) => a.when - b.when);
 
 if (LIST_ONLY) {
@@ -65,7 +66,7 @@ if (LIST_ONLY) {
     const dia = c.meta.publishAt.slice(0, 10);
     try {
       console.log(`\n[${done + 1}/${N}] ${c.slug} → ${dia}  "${c.meta.title.slice(0, 45)}"`);
-      const r = await uploadToYouTube({ videoPath, ...c.meta, publishAt: c.meta.publishAt });
+      const r = await uploadToYouTube({ videoPath, metaPath: c.metaPath, ...c.meta, publishAt: c.meta.publishAt });
       state[c.slug] = { id: r.id, url: r.url, publishAt: c.meta.publishAt };
       saveState();
       done++;
