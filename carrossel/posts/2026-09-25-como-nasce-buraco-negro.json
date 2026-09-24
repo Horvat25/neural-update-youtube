@@ -1,0 +1,52 @@
+{
+  "slug": "car-como-nasce-buraco-negro-2026-09-25",
+  "quando": "2026-09-25T15:00:00.000Z",
+  "formato": "carrossel · aula em slides (salvamento)",
+  "legenda": "Como uma estrela vira um buraco negro? 🕳️\n\nNão basta ser uma estrela grande. Depois que o combustível acaba, o núcleo precisa continuar massivo o bastante para que nenhuma pressão consiga segurar o colapso. O resultado é uma região cercada pelo horizonte de eventos.\n\n🔖 Salva esta sequência.\n📤 Manda para quem acha que buraco negro é um buraco vazio.\n👉 Segue @neuralupdate: astronomia todos os dias.\n\n📚 Fonte primária: NASA Science — https://science.nasa.gov/universe/black-holes/\n\n#buraconegro #estrelas #astronomia #ciencia #universo #neuralupdate",
+  "slides": [
+    {
+      "tipo": "capa",
+      "img": "carrossel/img/a1-buraco-negro-frame.png",
+      "kicker": "Em 5 passos",
+      "titulo": "Como nasce um <em>buraco negro</em>",
+      "sub": "A massa decide o final. Arrasta."
+    },
+    {
+      "tipo": "texto",
+      "kicker": "1 · estrela massiva",
+      "titulo": "Tudo começa muito antes",
+      "texto": "Uma estrela muito mais massiva que o Sol passa milhões de anos fundindo elementos no núcleo."
+    },
+    {
+      "tipo": "texto",
+      "kicker": "2 · combustível acaba",
+      "titulo": "A pressão perde a disputa",
+      "texto": "Quando a fusão deixa de sustentar o núcleo, a <strong>gravidade</strong> começa a vencer."
+    },
+    {
+      "tipo": "texto",
+      "img": "carrossel/img/a1-buraco-negro-frame.png",
+      "kicker": "3 · colapso",
+      "titulo": "A estrela explode",
+      "texto": "As camadas externas podem ser lançadas numa supernova, enquanto o núcleo continua desabando."
+    },
+    {
+      "tipo": "texto",
+      "kicker": "4 · massa restante",
+      "titulo": "O núcleo não consegue parar",
+      "texto": "Se o remanescente for massivo demais para virar estrela de nêutrons, o colapso continua. O limite exato depende da física da matéria ultradensa."
+    },
+    {
+      "tipo": "lista",
+      "kicker": "5 · o resultado",
+      "titulo": "Não é um buraco vazio",
+      "linhas": [
+        ["Matéria", "concentrada"],
+        ["Fronteira", "horizonte de eventos"],
+        ["Depois dela", "nem a luz volta"]
+      ],
+      "cta": true,
+      "fonte": "Fonte: NASA Science · Black Holes"
+    }
+  ]
+}

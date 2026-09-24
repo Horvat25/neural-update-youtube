@@ -1,0 +1,46 @@
+{
+  "slug": "car-roman-300-megapixels-2026-09-26",
+  "quando": "2026-09-26T15:00:00.000Z",
+  "formato": "carrossel · números explicados (salvamento + compartilhamento)",
+  "legenda": "O telescópio Roman ligou uma câmera de 300 megapixels no espaço. 🔭\n\nSão 18 detectores capazes de registrar, numa única imagem, uma área do céu maior que a Lua cheia, mantendo nitidez comparável à do Hubble. O objetivo é observar grandes regiões rapidamente para estudar exoplanetas e a expansão do universo.\n\n🔖 Salva os números da missão.\n📤 Manda para quem acompanha telescópios espaciais.\n👉 Segue @neuralupdate para acompanhar as primeiras imagens.\n\n📚 Fonte primária: NASA — https://science.nasa.gov/blogs/roman/2026/09/15/nasa-activates-romans-primary-instrument-checks-out-coronagraph/\n\n#telescopioroman #nasa #astronomia #exoplanetas #universo #neuralupdate",
+  "slides": [
+    {
+      "tipo": "capa",
+      "img": "exports/nw-roman-camera-300mp/img1.png",
+      "kicker": "Telescópio Roman",
+      "titulo": "Uma câmera de <em>300 megapixels</em> no espaço",
+      "sub": "Por que ela é diferente? Arrasta."
+    },
+    {
+      "tipo": "numero",
+      "kicker": "O instrumento",
+      "numero": "18",
+      "titulo": "detectores",
+      "texto": "Juntos, eles formam o Wide Field Instrument do Roman."
+    },
+    {
+      "tipo": "numero",
+      "kicker": "A resolução",
+      "numero": "300 MP",
+      "texto": "Uma câmera desenhada para mapear áreas enormes do céu."
+    },
+    {
+      "tipo": "texto",
+      "kicker": "Campo de visão",
+      "titulo": "Maior que a Lua cheia",
+      "texto": "Uma única exposição cobre uma região aparente do céu maior que a Lua, com nitidez comparável à do Hubble."
+    },
+    {
+      "tipo": "lista",
+      "kicker": "O que ele vai procurar",
+      "titulo": "Um mapa para grandes perguntas",
+      "linhas": [
+        ["Planetas", "microlentes"],
+        ["Galáxias", "bilhões"],
+        ["Universo", "energia escura"]
+      ],
+      "cta": true,
+      "fonte": "Fonte: NASA · Roman Space Telescope"
+    }
+  ]
+}

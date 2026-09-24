@@ -1,0 +1,54 @@
+{
+  "slug": "car-tipos-de-galaxia-2026-09-27",
+  "quando": "2026-09-27T15:00:00.000Z",
+  "formato": "carrossel · guia visual (salvamento)",
+  "legenda": "Espiral, elíptica, lenticular ou irregular: qual é a diferença? 🌌\n\nOs nomes descrevem a estrutura que enxergamos. Espirais têm disco e braços; elípticas parecem bolas ou elipses suaves; lenticulares têm disco e bojo, mas não braços; irregulares não exibem uma forma organizada. A Via Láctea é uma espiral com uma barra de estrelas no centro.\n\n🔖 Salva este guia para reconhecer os formatos.\n📤 Manda para quem sempre confunde galáxia com nebulosa.\n👉 Segue @neuralupdate para aprender astronomia sem enrolação.\n\n📚 Fonte primária: NASA Science — https://science.nasa.gov/universe/galaxies/types/\n\n#galaxias #vialactea #astronomia #ciencia #universo #neuralupdate",
+  "slides": [
+    {
+      "tipo": "capa",
+      "img": "exports/cur-foto-da-galaxia/img1.png",
+      "kicker": "Guia visual",
+      "titulo": "Os <em>4 formatos</em> de galáxia",
+      "sub": "E onde entra a Via Láctea. Arrasta."
+    },
+    {
+      "tipo": "texto",
+      "img": "exports/cur-foto-da-galaxia/img1.png",
+      "kicker": "1 · espiral",
+      "titulo": "Disco, centro e braços",
+      "texto": "As espirais têm gás e poeira nos braços, onde ainda podem nascer <strong>estrelas novas</strong>."
+    },
+    {
+      "tipo": "texto",
+      "kicker": "2 · elíptica",
+      "titulo": "Uma bola de estrelas",
+      "texto": "Podem ser quase redondas ou bem alongadas. Em geral têm pouco gás frio e menos formação de estrelas."
+    },
+    {
+      "tipo": "texto",
+      "kicker": "3 · lenticular",
+      "titulo": "Disco sem braços",
+      "texto": "É uma transição entre espiral e elíptica: tem disco e bojo central, mas não mostra braços espirais."
+    },
+    {
+      "tipo": "texto",
+      "kicker": "4 · irregular",
+      "titulo": "Sem forma organizada",
+      "texto": "Interações e puxões gravitacionais podem deixar a galáxia com uma estrutura bagunçada."
+    },
+    {
+      "tipo": "lista",
+      "kicker": "Resumo pra salvar",
+      "titulo": "Reconheça pelo formato",
+      "linhas": [
+        ["Espiral", "disco + braços"],
+        ["Elíptica", "bola ou elipse"],
+        ["Lenticular", "disco sem braços"],
+        ["Irregular", "sem forma definida"],
+        ["Via Láctea", "espiral barrada"]
+      ],
+      "cta": true,
+      "fonte": "Fonte: NASA Science · Types of Galaxies"
+    }
+  ]
+}
