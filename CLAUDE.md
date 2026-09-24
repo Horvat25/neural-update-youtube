@@ -17,7 +17,7 @@ Ordem do Marcelo em 27/08/2026, depois de eu errar isto **duas vezes no mesmo di
 |---|---|---|---|---|
 | **08h** | notícia 📰 | Antonio (masc.) | sim | pergunta aberta |
 | **14h** | **aula** 🔭 | **Thalita (fem.)** | **NÃO** | **`>>` próxima aula: tema + dia + data + "às duas"** |
-| **18h** | viral existencial | Antonio | sim | pergunta aberta |
+| **18h** | viral existencial | Antonio | **NÃO** (24/09: bordão só 1x/dia, no 08h) | pergunta aberta |
 
 1. Vou mexer em algum **14h**? → **descobrir o que a aula anterior prometeu**:
    `grep -o ">>.*" exports/pl*/roteiro.txt | tail -3`
@@ -41,8 +41,13 @@ Critério do Marcelo: **nomes de planetas**, ordenados pelo peso que o nome tem 
 | nome | voz técnica | onde narra |
 |---|---|---|
 | **Vênus** | `pt-BR-ThalitaMultilingualNeural` | **aula** (14h) e a live |
-| **Marte** | `pt-BR-AntonioNeural` | **notícia** (08h) e **viral** (18h) |
-| **Saturno** | *(a definir)* | reservado para o **3º narrador** — voz de peso, longo/documentário |
+| **Marte** | `pt-BR-AntonioNeural` | **notícia** (08h), **viral** (18h) e **vídeo longo** — o amigo curioso/detetive que conta o caso |
+
+**São só dois narradores** (decisão do Marcelo, 18/09/2026): uma voz de homem e uma de mulher. O
+Saturno foi descartado.
+
+⭐ **Identidade de Marte e Vênus (personalidade, assinatura, banco de expressões, antes→depois):
+[NARRADORES.md](NARRADORES.md).** Ler antes de escrever qualquer roteiro (18/09/2026).
 
 A Vênus já vinha sendo chamada assim na live desde 19/08 (`venus/espelho-2026-08-19.md`);
 Marte e Saturno foram batizados em 28/08.
@@ -207,12 +212,22 @@ a grafia certa é a que volta escrita corretamente.
 
 | escrever assim | o TTS fala | se escrever o "certo", sai |
 |---|---|---|
-| `Rá-bol` | Hubble | "rabo" |
+| `Hâbol` ⭐ | Hubble | "rabo" — *24/09: o Marcelo ouviu `Rá-bol` como "hãblou/râbou"; `Hâbol` foi a única de 7 grafias que o Whisper devolveu como "Hubble". A legenda troca HÂBOL→HUBBLE no `make-short-img-flex.js`* |
+| `Rá-bol` (antiga) | Hubble | "rabo" |
 | `Persevírans` | Perseverance | "perseverante" |
 | `Fóbos` | Fobos | "fogos" |
 | `píxel` | pixel | "píxico" |
 | `neutrons` (sem acento) | nêutrons | "neutros" |
 | `tem nome. Anã branca.` | anã branca | "**não** branca" / "nan branca" |
+| `Espóiler` | Spoiler | "só ir ler" *(18/09, Marte)* |
+| `Sáiens` (revista) | Science | "saem se" *(18/09, Marte)* |
+| `Muito acima do limite` | — | `Bem acima…` depois de "sóis." sai **"denha acima"** *(18/09)* |
+| `Era só um pulsar` | — | `Era um pulsar` cola em **"eram pulsar"** *(18/09)* |
+
+⚠️ No longo das estrelas (18/09) o Marte disse **"não branca" 3 vezes** com `a anã branca` e `como
+anã branca`, mesmo sendo a voz que "acertava" no Short. Resolvido com o **plural** (`as anãs brancas`,
+`virando uma dessas anãs brancas`). **No longo, usar sempre o plural.** A grafia fonética fica só no
+`_roteiro-tts.txt`; a legenda mostra a grafia certa (mapa no `_monta-completo.js`).
 
 ⚠️ **Não é só palavra estrangeira.** `píxel` e `nêutrons` são portuguesas e erram do mesmo
 jeito. E há erros que vêm da **frase**, não da palavra:

@@ -120,6 +120,28 @@ function durOf(file) {
     const r = await generateTTSWithTimings(SCRIPT, narr, voice);
     audioPath = r.audioPath; words = r.words;
   }
+  // Outro (CTA do braço B do T1, 24/09): outro.txt é falado DEPOIS do corpo sem mexer nele — o braço A é igual
+  // até a última palavra. As caudas mudas do Edge (~1,3 s depois de pergunta) são cortadas só no outro;
+  // OUTRO_PAUSA_S é o respiro entre o fim do corpo e o CTA.
+  const outroFile = path.join(IMG_DIR, 'outro.txt');
+  if (fs.existsSync(outroFile)) {
+    const outroTxt = fs.readFileSync(outroFile, 'utf8').trim();
+    const pausa = parseFloat(process.env.OUTRO_PAUSA_S || '0.6');
+    const bodyTrim = path.join(work, '_body_trim.mp3'), outroMp3 = path.join(work, '_outro.mp3'), joined = path.join(work, '_narr_outro.mp3');
+    spawnSync(ffmpeg, ['-hide_banner', '-loglevel', 'error', '-i', audioPath, '-af',
+      `areverse,silenceremove=start_periods=1:start_threshold=-45dB:start_silence=${pausa},areverse`,
+      '-c:a', 'libmp3lame', '-b:a', '96k', '-ar', '24000', '-y', bodyTrim], { timeout: 40000 });
+    const bodyDur = durOf(bodyTrim);
+    const prevCauda = process.env.TTS_CORTA_CAUDA; process.env.TTS_CORTA_CAUDA = '1';
+    const ro = await generateTTSWithTimings(outroTxt, outroMp3, voice);
+    if (prevCauda === undefined) delete process.env.TTS_CORTA_CAUDA; else process.env.TTS_CORTA_CAUDA = prevCauda;
+    spawnSync(ffmpeg, ['-hide_banner', '-loglevel', 'error', '-i', bodyTrim, '-i', outroMp3,
+      '-filter_complex', '[0:a][1:a]concat=n=2:v=0:a=1[a]', '-map', '[a]', '-c:a', 'libmp3lame', '-b:a', '96k', '-ar', '24000', '-y', joined], { timeout: 40000 });
+    fs.copyFileSync(joined, narr); audioPath = narr;
+    words = [...(words || []), ...(ro.words || []).map(w => ({ text: w.text, start: +(w.start + bodyDur).toFixed(3), end: +(w.end + bodyDur).toFixed(3) }))];
+    [bodyTrim, outroMp3, joined].forEach(p => { try { fs.unlinkSync(p); } catch {} });
+    console.log(`[flex] outro depois do corpo (${bodyDur.toFixed(2)}s de corpo + CTA)`);
+  }
   // 1b) "STOP" sensorial (método Stop-Hook-Payoff, revisão 06/08/2026 do PLAYBOOK).
   // Os primeiros ~0,5s têm que ser imagem+som SEM narração: paralisa o polegar da audiência
   // fria antes de ela decidir pular. Aqui só atrasamos a voz; o punch-in da cena 1 e a trilha
@@ -141,6 +163,15 @@ function durOf(file) {
     }
   }
 
+  // TRIM_FIM=1: corta o silêncio que o TTS deixa depois da última palavra (usado quando o fim do vídeo
+  // tem prazo, ex.: CTA do braço B do T1 nos últimos ≤4 s). Padrão desligado: nenhum vídeo muda.
+  if (process.env.TRIM_FIM === '1') {
+    const trimmed = path.join(work, '_narr_trim.mp3');
+    const r = spawnSync(ffmpeg, ['-hide_banner', '-loglevel', 'error', '-i', audioPath, '-af',
+      'areverse,silenceremove=start_periods=1:start_threshold=-45dB:start_silence=0.05,areverse',
+      '-c:a', 'libmp3lame', '-b:a', '96k', '-ar', '24000', '-y', trimmed], { timeout: 40000 });
+    if (r.status === 0 && fs.existsSync(trimmed)) { fs.copyFileSync(trimmed, narr); audioPath = narr; console.log(`[flex] TRIM_FIM: silêncio final cortado`); }
+  }
   const narrDur = durOf(audioPath);
   // Duração por formato (PLAYBOOK-SHORTS.md, revisão 06/08/2026 — a regra antiga de "nunca passar
   // de 35s" foi derrubada pelos dados: os 3 melhores em "continuaram assistindo" têm 47s, 54s e 63s).
@@ -196,7 +227,9 @@ function durOf(file) {
     // mas o ritmo respira; é preferível 8 cenas boas a 11 com três soluços.
     const MIN_SCENE = parseFloat(process.env.MIN_SCENE_S || '3.5');
     let ks = sceneStarts.slice(), ki = imgs.slice();
-    const durs = () => ks.map((s, i) => +(((i === ks.length - 1) ? narrDur + 0.6 : ks[i + 1]) - s).toFixed(2));
+    // TAIL_S: respiro depois da última palavra (padrão 0,6 s). O braço B do T1 pede o CTA nos últimos ≤4 s do vídeo.
+    const TAIL = parseFloat(process.env.TAIL_S || '0.6');
+    const durs = () => ks.map((s, i) => +(((i === ks.length - 1) ? narrDur + TAIL : ks[i + 1]) - s).toFixed(2));
     let d = durs(), removidas = 0;
     while (ks.length > 2) {
       let worst = -1, worstV = Infinity;
@@ -244,7 +277,11 @@ function durOf(file) {
   console.log(`[flex] final ${DUR}s`);
 
   const ass = path.join(work, 'captions.ass');
-  fs.writeFileSync(ass, buildAss(words || [], { width: 720, height: 1280, fontSize: 56, marginV: 225, outline: 5, shadow: 2, group: 2 }), 'utf8');
+  // Grafia fonética só existe pro TTS (tabela do YouTube/CLAUDE.md); na legenda o espectador vê a grafia certa.
+  const FONETICA = [[/RRÁ-BOL/g, 'HUBBLE'], [/Rrá-bol/g, 'Hubble'], [/HÂBOL/g, 'HUBBLE'], [/Hâbol/g, 'Hubble'], [/RÁ-BOL/g, 'HUBBLE'], [/Rá-bol/g, 'Hubble'], [/PERSEVÍRANS/g, 'PERSEVERANCE'], [/Persevírans/g, 'Perseverance'], [/ESPÓILER/g, 'SPOILER'], [/Espóiler/g, 'Spoiler']];
+  let assTxt = buildAss(words || [], { width: 720, height: 1280, fontSize: 56, marginV: 225, outline: 5, shadow: 2, group: 2 });
+  for (const [re, certo] of FONETICA) assTxt = assTxt.replace(re, certo);
+  fs.writeFileSync(ass, assTxt, 'utf8');
 
   const tracks = await ensureMusicCached();
   let track = null;

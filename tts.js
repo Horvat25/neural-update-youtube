@@ -118,7 +118,11 @@ async function generateTTSWithTimings(text, outputPath, voice = 'female') {
     // TTS_RATE_BASE: ritmo de TODOS os segmentos. O longo pede fala mais lenta —
     // pedido do Marcelo em 21/08 ("fala muito rápido e fica difícil entender").
     // Vazio = ritmo natural, então Short nenhum muda.
-    let prosody = process.env.TTS_RATE_BASE ? { rate: process.env.TTS_RATE_BASE } : null;
+    // TTS_PITCH_BASE (ex.: '-2Hz'): tom do segmento. Usado pelo narrador "humano" do longo, que varia
+    // ritmo e tom frase a frase. Vazio = igual a antes.
+    let prosody = process.env.TTS_RATE_BASE || process.env.TTS_PITCH_BASE
+      ? { ...(process.env.TTS_RATE_BASE ? { rate: process.env.TTS_RATE_BASE } : {}), ...(process.env.TTS_PITCH_BASE ? { pitch: process.env.TTS_PITCH_BASE } : {}) }
+      : null;
     if (/^\s*>>/.test(segments[i].text)) {
       segments[i].text = segments[i].text.replace(/^\s*>>\s*/, '');
       prosody = { rate: process.env.TTS_RATE_RAPIDO || '+22%' };
@@ -138,6 +142,14 @@ async function generateTTSWithTimings(text, outputPath, voice = 'female') {
     }
     if (!result || !fs.existsSync(part)) continue;
 
+    // TTS_CORTA_CAUDA=1: o Edge deixa ~1,3 s de silêncio depois de TODA pergunta (medido 24/09). Corta a cauda
+    // muda de cada segmento (fica ~0,1 s) e deixa só o gapAfter decidir a pausa. Padrão desligado.
+    if (process.env.TTS_CORTA_CAUDA === '1') {
+      const cut = part.replace(/\.mp3$/, '_c.mp3');
+      const rc = spawnSync(ffmpegStatic, ['-hide_banner', '-loglevel', 'error', '-i', part, '-af',
+        'areverse,silenceremove=start_periods=1:start_threshold=-45dB:start_silence=0.1,areverse', '-y', cut], { timeout: 20000 });
+      if (rc.status === 0 && fs.existsSync(cut) && fs.statSync(cut).size > 700) fs.renameSync(cut, part);
+    }
     const dur = getAudioDurationSync(part);
     // O Edge TTS não emite a pontuação como token → a pergunta final ficava sem "?".
     // Reanexa ? ! … pegando do roteiro original por índice (só quando o token casa com a palavra).

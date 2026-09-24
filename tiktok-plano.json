@@ -1,200 +1,128 @@
 {
- "_leiame": "Plano do TikTok (gerado por tiktok-plano.js no PC). O tiktok-fila-nuvem.js mantém no Buffer os 10 próximos. Não editar à mão.",
- "geradoEm": "2026-09-17T01:05:51.493Z",
- "ate": "2026-09-24",
- "itens": [
-  {
-   "slug": "nw-escudo-nao-e-ar",
-   "tipo": "news",
-   "dueAt": "2026-09-17T15:17:00.000Z",
-   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/e4a0cd42-a62d-4a6d-9f54-0b3c5229d764.mp4",
-   "titulo": "Este escudo NÃO é ar (ele segura o vento solar) 🛡️",
-   "texto": "Este escudo NÃO é ar (ele segura o vento solar) 🛡️\n\nA missão Smile, parceria entre a Agência Espacial Europeia e a Academia Chinesa de Ciências, foi lançada em 19 de maio de 2026 para observar como a Terra responde ao vento solar. Pela primeira vez, uma câmera de raios X fará imagens do escudo magnético terrestre e mostrará onde ele é atingido por partículas solares.\n\n#terra #espaco #neuralupdate #ciencia"
-  },
-  {
-   "slug": "nw-andromeda-pode-nao-bater",
-   "tipo": "campeao",
-   "dueAt": "2026-09-17T20:07:00.000Z",
-   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/a68a70a0-5a40-44ab-8694-d07f8107b4b4.mp4",
-   "titulo": "A colisão com Andrômeda pode NÃO acontecer 🌌",
-   "texto": "A colisão com Andrômeda pode NÃO acontecer 🌌\n\nA colisão entre a Via Láctea e Andrômeda deixou de ser certeza. Um estudo publicado na Nature Astronomy, usando dados combinados dos telescópios Hubble e Gaia, refez as contas incluindo a influência gravitacional das galáxias vizinhas do Grupo Local, como a Grande Nuvem de Magalhães.\n\n#andromeda #astronomia #neuralupdate #ciencia #espaco"
-  },
-  {
-   "slug": "nw-foto-esconde-planetas-centro-galaxia",
-   "tipo": "viral",
-   "dueAt": "2026-09-17T23:23:00.000Z",
-   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/d1eb2090-4b47-47ff-aa85-6a5e4f3dc7d5.mp4",
-   "titulo": "Esta foto NÃO mostra só estrelas (ela revela planetas) 🌌",
-   "texto": "Esta foto NÃO mostra só estrelas (ela revela planetas) 🌌\n\nA missão Euclid da Agência Espacial Europeia divulgou em 24 de junho de 2026 a maior foto em luz visível já feita do centro da Via Láctea, com mais de 60 milhões de estrelas. A imagem foi obtida em cerca de 26 horas e poderá ajudar a confirmar exoplanetas e medir suas massas por microlente gravitacional.\n\n#exoplanetas #astronomia #neuralupdate #ciencia #espaco"
-  },
-  {
-   "slug": "cur-se-a-lua-sumisse",
-   "tipo": "news",
-   "dueAt": "2026-09-18T15:17:00.000Z",
-   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/eeab4655-31f3-4970-b48e-cc58bc57afe2.mp4",
-   "titulo": "Se a Lua SUMISSE hoje, o mar ia perceber antes de você 🌕",
-   "texto": "Se a Lua SUMISSE hoje, o mar ia perceber antes de você 🌕\n\nSe a Lua sumisse hoje, o primeiro a sentir seria o mar. A Lua é a principal responsável pelas marés: o Sol, apesar de enorme, fica cerca de 390 vezes mais longe e tem um pouco menos da metade da força de maré da Lua.\n\n#lua #astronomia #neuralupdate #ciencia #espaco"
-  },
-  {
-   "slug": "pl48-planetas-sem-estrela",
-   "tipo": "aula",
-   "dueAt": "2026-09-18T20:07:00.000Z",
-   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/b43f10f1-ec03-4197-8e87-7ab0613610e3.mp4",
-   "titulo": "🔭 Tem planeta SEM estrela vagando no escuro 🪐",
-   "texto": "🔭 Tem planeta SEM estrela vagando no escuro 🪐\n\nAULA da escola Universo do Zero. Nem todo planeta tem uma estrela: muitos são arremessados para fora do próprio sistema quando passam perto de um planeta gigante, e passam a vagar sozinhos pela galáxia.\n\n#planetaserrantes #astronomia #neuralupdate #ciencia #espaco"
-  },
-  {
-   "slug": "serie-carro-p1-lua",
-   "tipo": "viral",
-   "dueAt": "2026-09-18T23:23:00.000Z",
-   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/5c22c28d-9e68-4b1c-9830-19503c7fdd09.mp4",
-   "titulo": "De CARRO até a Lua: quanto tempo leva? 🚗🌕 (parte 1)",
-   "texto": "De CARRO até a Lua: quanto tempo leva? 🚗🌕 (parte 1)\n\nSérie De carro pelo espaço, parte 1. A distância média entre a Terra e a Lua é de cerca de 384 mil km.\n\n#espaco #astronomia #neuralupdate #ciencia"
-  },
-  {
-   "slug": "nw-saturno-decagono",
-   "tipo": "news",
-   "dueAt": "2026-09-19T15:17:00.000Z",
-   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/77ee0666-ff8a-408b-9a3f-21b64e9c7e66.mp4",
-   "titulo": "Saturno ganhou uma forma de DEZ lados no polo sul 🪐",
-   "texto": "Saturno ganhou uma forma de DEZ lados no polo sul 🪐\n\nImagens do Telescópio Espacial Hubble revelaram uma onda atmosférica de dez lados em volta do polo sul de Saturno. Os primeiros sinais aparecem em dados de 2023, observadores em solo a identificaram em 2024 e ela ficou mais forte em 2025.\n\n#saturno #astronomia #neuralupdate #ciencia #espaco"
-  },
-  {
-   "slug": "pl49-paradoxo-de-fermi",
-   "tipo": "aula",
-   "dueAt": "2026-09-19T20:07:00.000Z",
-   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/3d5c7f59-01d7-4c08-b7e1-44c48fe3697e.mp4",
-   "titulo": "🔭 Se o universo é tão GRANDE, cadê todo mundo? 👽",
-   "texto": "🔭 Se o universo é tão GRANDE, cadê todo mundo? 👽\n\nAULA da escola Universo do Zero. O paradoxo de Fermi é a contradição entre a chance aparentemente alta de existirem civilizações na Via Láctea, que tem bilhões de anos, e a ausência de qualquer sinal delas.\n\n#paradoxodefermi #astronomia #neuralupdate #ciencia #espaco"
-  },
-  {
-   "slug": "viral-cheiro-do-espaco",
-   "tipo": "viral",
-   "dueAt": "2026-09-19T23:23:00.000Z",
-   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/2c8c79ec-d0bf-4f12-b9ca-06fa48d88b32.mp4",
-   "titulo": "O espaço tem CHEIRO (e a Lua cheira a pólvora) 🚀",
-   "texto": "O espaço tem CHEIRO (e a Lua cheira a pólvora) 🚀\n\nAstronautas relatam que, ao voltar de caminhadas espaciais e tirar o capacete, sentem cheiro de bife selado, metal quente e fumaça de solda. Os 12 astronautas do programa Apollo que pisaram na Lua descreveram a poeira lunar, que grudava nos trajes e se soltava dentro do módulo, com cheiro de pólvora queimada.\n\n#espaco #astronomia #neuralupdate #ciencia"
-  },
-  {
-   "slug": "cur-foto-da-galaxia",
-   "tipo": "news",
-   "dueAt": "2026-09-20T15:17:00.000Z",
-   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/a2aaa4b1-d8fa-4552-853a-f48f23c915af.mp4",
-   "titulo": "Ninguém NUNCA viu uma foto da nossa galáxia 🌌",
-   "texto": "Ninguém NUNCA viu uma foto da nossa galáxia 🌌\n\nNão existe foto da Via Láctea vista de fora: as imagens da espiral são ilustrações feitas com dados de mapeamento (como os do satélite Gaia) ou fotos de outras galáxias parecidas. Nós estamos dentro do disco da galáxia, que tem cerca de 100 mil anos-luz de diâmetro, e o objeto mais distante já lançado, a Voyager 1, está a menos de um dia-luz da Terra.\n\n#viaLactea #astronomia #neuralupdate #ciencia #espaco"
-  },
-  {
-   "slug": "nw-sol-vira-ana-branca",
-   "tipo": "aula",
-   "dueAt": "2026-09-20T20:07:00.000Z",
-   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/db5d6c57-ee9a-4d94-8168-8917fbe6c92a.mp4",
-   "titulo": "O Sol NÃO vai explodir (vai virar anã branca) ☀️",
-   "texto": "O Sol NÃO vai explodir (vai virar anã branca) ☀️\n\nSérie A morte das estrelas · episódio 1 de 6. O que a estrela vira quando morre depende da massa dela.\n\n#astronomia #estrelas #anabranca #ciencia #espaco"
-  },
-  {
-   "slug": "serie-carro-p2-sol",
-   "tipo": "viral",
-   "dueAt": "2026-09-20T23:23:00.000Z",
-   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/f040e970-95bf-4e2f-b37a-f1dd5e06cdb2.mp4",
-   "titulo": "De CARRO até o Sol: nem seus netos chegam 🚗☀️ (parte 2)",
-   "texto": "De CARRO até o Sol: nem seus netos chegam 🚗☀️ (parte 2)\n\nSérie De carro pelo espaço, parte 2. A Terra fica a cerca de 150 milhões de km do Sol.\n\n#espaco #astronomia #neuralupdate #ciencia"
-  },
-  {
-   "slug": "nw-chandra-pontos-sem-nome",
-   "tipo": "news",
-   "dueAt": "2026-09-21T15:17:00.000Z",
-   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/9128b73b-f692-4104-9c40-d80ac403dec1.mp4",
-   "titulo": "Raios X de algo DESCONHECIDO (Chandra achou 84)",
-   "texto": "Raios X de algo DESCONHECIDO (Chandra achou 84)\n\nO Chandra encontrou 84 fontes hipersuaves de raios X espalhadas por seis galáxias. Elas aparecem nas energias mais baixas dos raios X e produzem ultravioleta intenso, uma combinação que ainda não corresponde a nenhuma classe conhecida.\n\n#raiosx #chandra #astronomia #neuralupdate #ciencia #espaco"
-  },
-  {
-   "slug": "nw-quando-estrela-vira-supernova",
-   "tipo": "aula",
-   "dueAt": "2026-09-21T20:07:00.000Z",
-   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/1f0518ac-43b2-4950-a4fa-e7ad1ff07b0c.mp4",
-   "titulo": "Supernova NÃO é qualquer estrela explodindo (a massa decide) 💥",
-   "texto": "Supernova NÃO é qualquer estrela explodindo (a massa decide) 💥\n\nSérie A morte das estrelas · episódio 2 de 6. O que a estrela vira quando morre depende da massa dela.\n\n#astronomia #supernova #estrelas #ciencia #espaco"
-  },
-  {
-   "slug": "viral-sol-branco",
-   "tipo": "viral",
-   "dueAt": "2026-09-21T23:23:00.000Z",
-   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/41b74880-6f6b-45af-9801-d55efa2866dd.mp4",
-   "titulo": "O Sol é BRANCO (o amarelo é culpa do ar) ☀️",
-   "texto": "O Sol é BRANCO (o amarelo é culpa do ar) ☀️\n\nA luz do Sol tem todas as cores do espectro e, vista do espaço, o Sol parece branco. Na atmosfera, as moléculas do ar espalham mais a luz azul (espalhamento de Rayleigh), o que deixa o céu azul e faz a luz que chega direto do Sol puxar para o amarelo.\n\n#sol #astronomia #neuralupdate #ciencia #espaco"
-  },
-  {
-   "slug": "cur-sol-sem-fogo",
-   "tipo": "news",
-   "dueAt": "2026-09-22T15:17:00.000Z",
-   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/9b650983-0915-4e1e-994b-b21a6c37ccd6.mp4",
-   "titulo": "O Sol nunca teve FOGO ☀️",
-   "texto": "O Sol nunca teve FOGO ☀️\n\nO Sol não pega fogo: combustão precisa de oxigênio, e o Sol é formado quase todo por hidrogênio e hélio. A energia vem da fusão nuclear no núcleo, onde a gravidade comprime a matéria a ponto de núcleos de hidrogênio se fundirem em hélio, liberando energia.\n\n#sol #astronomia #neuralupdate #ciencia #espaco"
-  },
-  {
-   "slug": "nw-estrela-vira-hipernova",
-   "tipo": "aula",
-   "dueAt": "2026-09-22T20:07:00.000Z",
-   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/b6a73802-c237-4a3a-aeae-14c77b04a76c.mp4",
-   "titulo": "A hipernova NÃO é só uma supernova maior (ela dispara jatos) ⚡",
-   "texto": "A hipernova NÃO é só uma supernova maior (ela dispara jatos) ⚡\n\nSérie A morte das estrelas · episódio 3 de 6. O que a estrela vira quando morre depende da massa dela.\n\n#astronomia #hipernova #raiosgama #ciencia #espaco"
-  },
-  {
-   "slug": "serie-carro-p3-proxima",
-   "tipo": "viral",
-   "dueAt": "2026-09-22T23:23:00.000Z",
-   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/a23e5904-3ce2-4bc2-a7c6-b716fb07e102.mp4",
-   "titulo": "De CARRO até a estrela mais PERTO do Sol 🚗✨ (parte 3)",
-   "texto": "De CARRO até a estrela mais PERTO do Sol 🚗✨ (parte 3)\n\nSérie De carro pelo espaço, parte 3. Próxima Centauri, a estrela mais próxima do Sol, fica a cerca de 4,25 anos-luz (uns 40 trilhões de km).\n\n#espaco #astronomia #neuralupdate #ciencia"
-  },
-  {
-   "slug": "nw-estrelas-fracassadas-webb",
-   "tipo": "news",
-   "dueAt": "2026-09-23T15:17:00.000Z",
-   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/2da6aa07-78f5-414c-bae3-3452029358ae.mp4",
-   "titulo": "Webb achou estrelas FRACASSADAS com peso de planeta ✨",
-   "texto": "Webb achou estrelas FRACASSADAS com peso de planeta ✨\n\n#jameswebb #astronomia #neuralupdate #ciencia #espaco"
-  },
-  {
-   "slug": "nw-estrela-vira-estrela-de-neutrons",
-   "tipo": "aula",
-   "dueAt": "2026-09-23T20:07:00.000Z",
-   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/7582dec8-69af-4392-85d7-008d7fcf6f66.mp4",
-   "titulo": "Esse caroço de 20 km NÃO é leve (pesa mais que o Sol) ⭐",
-   "texto": "Esse caroço de 20 km NÃO é leve (pesa mais que o Sol) ⭐\n\nSérie A morte das estrelas · episódio 4 de 6. O que a estrela vira quando morre depende da massa dela.\n\n#astronomia #estreladeneutrons #supernova #ciencia #espaco"
-  },
-  {
-   "slug": "marte-grande-filtro",
-   "tipo": "campeao",
-   "dueAt": "2026-09-23T23:23:00.000Z",
-   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/d494a054-37bd-4a50-9af4-2d8dad1f2791.mp4",
-   "titulo": "Torça pra a gente NÃO achar vida em Marte 👽",
-   "texto": "Torça pra a gente NÃO achar vida em Marte 👽\n\nO Grande Filtro (Robin Hanson) e o argumento de Nick Bostrom: se acharmos vida em Marte, a barreira que impede civilizacoes de sobreviverem provavelmente esta a nossa frente, nao atras. Quanto mais evoluida a vida la, pior o sinal pra nos.\n\n#astronomia #marte #grandefiltro #ciencia #espaco",
-   "noLugarDe": "viral"
-  },
-  {
-   "slug": "cur-volta-do-sol-dinossauros",
-   "tipo": "news",
-   "dueAt": "2026-09-24T15:17:00.000Z",
-   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/30d34b8f-cfdf-4d0a-b836-5dc458434dd3.mp4",
-   "titulo": "Você está dando uma VOLTA na galáxia agora mesmo 🎠",
-   "texto": "Você está dando uma VOLTA na galáxia agora mesmo 🎠\n\nO Sistema Solar gira em torno do centro da Via Láctea a cerca de 828 mil km/h e leva algo como 230 milhões de anos para completar uma volta, o chamado ano galáctico (as estimativas variam de 225 a 250 milhões de anos). Uma volta atrás, a Terra estava no fim do período Triássico, quando os primeiros dinossauros surgiam.\n\n#viaLactea #astronomia #neuralupdate #ciencia #espaco"
-  },
-  {
-   "slug": "nw-pulsar-e-magnetar",
-   "tipo": "aula",
-   "dueAt": "2026-09-24T20:07:00.000Z",
-   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/fb191ed7-0f56-43d0-8bdf-9549ace3f894.mp4",
-   "titulo": "Pulsar e magnetar NÃO são a mesma coisa (um é farol, o outro é ímã) 🌀",
-   "texto": "Pulsar e magnetar NÃO são a mesma coisa (um é farol, o outro é ímã) 🌀\n\nSérie A morte das estrelas · episódio 5 de 6. O que a estrela vira quando morre depende da massa dela.\n\n#astronomia #pulsar #magnetar #ciencia #espaco"
-  },
-  {
-   "slug": "viral-poeira-no-telhado",
-   "tipo": "viral",
-   "dueAt": "2026-09-24T23:23:00.000Z",
-   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/a0f2817c-4d45-4273-85e9-8c88aa85aa3c.mp4",
-   "titulo": "Tem poeira do ESPAÇO no telhado da sua casa 🏠",
-   "texto": "Tem poeira do ESPAÇO no telhado da sua casa 🏠\n\nTodos os dias caem na Terra toneladas de micrometeoritos, grãos vindos de cometas e asteroides, a maioria menor que um grão de areia. Por muito tempo eles eram coletados quase só em regiões isoladas como a Antártida, até que um estudo de 2016 (Genge, Larsen e colegas, revista Geology) identificou cerca de 500 micrometeoritos em sedimentos de calhas de telhados em cidades como Oslo, Paris e Berlim.\n\n#micrometeoritos #astronomia #neuralupdate #ciencia #espaco"
-  }
- ]
+  "_leiame": "Plano do TikTok (gerado por tiktok-plano.js no PC). O tiktok-fila-nuvem.js mantém no Buffer os 10 próximos. Não editar à mão.",
+  "geradoEm": "2026-09-24T17:58:11.142Z",
+  "ate": "2026-09-30",
+  "itens": [
+    {
+      "slug": "nw-pulsar-e-magnetar",
+      "tipo": "aula",
+      "dueAt": "2026-09-24T20:07:00.000Z",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/fb191ed7-0f56-43d0-8bdf-9549ace3f894.mp4",
+      "titulo": "Pulsar e magnetar NÃO são a mesma coisa (um é farol, o outro é ímã) 🌀",
+      "texto": "Pulsar e magnetar NÃO são a mesma coisa (um é farol, o outro é ímã) 🌀\n\nSérie A morte das estrelas · episódio 5 de 6. O que a estrela vira quando morre depende da massa dela.\n\n#astronomia #pulsar #magnetar #ciencia #espaco"
+    },
+    {
+      "slug": "viral-poeira-no-telhado",
+      "tipo": "viral",
+      "dueAt": "2026-09-24T23:23:00.000Z",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/a0f2817c-4d45-4273-85e9-8c88aa85aa3c.mp4",
+      "titulo": "Tem poeira do ESPAÇO no telhado da sua casa 🏠",
+      "texto": "Tem poeira do ESPAÇO no telhado da sua casa 🏠\n\nTodos os dias caem na Terra toneladas de micrometeoritos, grãos vindos de cometas e asteroides, a maioria menor que um grão de areia. Por muito tempo eles eram coletados quase só em regiões isoladas como a Antártida, até que um estudo de 2016 (Genge, Larsen e colegas, revista Geology) identificou cerca de 500 micrometeoritos em sedimentos de calhas de telhados em cidades como Oslo, Paris e Berlim.\n\n#micrometeoritos #astronomia #neuralupdate #ciencia #espaco"
+    },
+    {
+      "slug": "nw-cratera-escondida-quebec",
+      "tipo": "news",
+      "dueAt": "2026-09-25T15:17:00.000Z",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/fb1c0793-44c4-41ff-8ee2-d14154f83751.mp4",
+      "titulo": "Uma cratera GIGANTE estava escondida no mapa (um amador achou) 🌍",
+      "texto": "Uma cratera GIGANTE estava escondida no mapa (um amador achou) 🌍\n\n#ciencia #espaco"
+    },
+    {
+      "slug": "nw-estrela-vira-buraco-negro",
+      "tipo": "aula",
+      "dueAt": "2026-09-25T20:07:00.000Z",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/57938599-6c2b-4067-aec5-2dd02dc18a42.mp4",
+      "titulo": "O buraco negro NÃO é um buraco (é massa demais num ponto) 🕳️",
+      "texto": "O buraco negro NÃO é um buraco (é massa demais num ponto) 🕳️\n\nUm buraco negro não é um buraco vazio: é matéria concentrada a ponto de criar uma região da qual nem a luz escapa. Estrelas muito massivas podem terminar assim quando o núcleo que sobra passa do limite que consegue resistir ao colapso.\n\nSalve este último episódio da série sobre a morte das estrelas.\n\nSegue o @neuralupdate para continuar aprendendo astronomia sem enrolação.\n\n📚 Fonte primária: NASA Science — https://science.nasa.gov/universe/black-holes/\n\n#buraconegro #estrelas #astronomia #ciencia #universo #neuralupdate",
+      "versao": "nw-estrela-vira-buraco-negro"
+    },
+    {
+      "slug": "viral-ceu-que-a-cidade-apagou",
+      "tipo": "viral",
+      "dueAt": "2026-09-25T23:23:00.000Z",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/afecf1d2-3f7d-403d-bc61-0311586f6931.mp4",
+      "titulo": "A Via Láctea continua no céu — a luz das cidades é que cobre as estrelas. Salve para lembr",
+      "texto": "A Via Láctea continua no céu — a luz das cidades é que cobre as estrelas. Salve para lembrar de olhar quando estiver longe da cidade.\n\n📚 Falchi et al., Science Advances (2016): https://doi.org/10.1126/sciadv.1600377\n\n#vialactea #astronomia #poluicaoluminosa #universo #neuralupdate",
+      "versao": "viral-ceu-que-a-cidade-apagou-ttb"
+    },
+    {
+      "slug": "nw-roman-camera-300mp",
+      "tipo": "news",
+      "dueAt": "2026-09-26T15:17:00.000Z",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/199cc983-2d7c-43a6-a81c-5ce2b1dcb72d.mp4",
+      "titulo": "O Roman ligou uma câmera de 300 MEGAPIXELS no espaço 🔭",
+      "texto": "O Roman ligou uma câmera de 300 MEGAPIXELS no espaço 🔭\n\n#ciencia #espaco"
+    },
+    {
+      "slug": "pl50-nebulosa-berco-das-estrelas",
+      "tipo": "aula",
+      "dueAt": "2026-09-26T20:07:00.000Z",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/3a325e7b-2d07-493d-b4d4-ddc68f2ab2e1.mp4",
+      "titulo": "🔭 As estrelas NASCEM dentro de nuvens (e demoram milhões de anos) ✨",
+      "texto": "🔭 As estrelas NASCEM dentro de nuvens (e demoram milhões de anos) ✨\n\nUma nebulosa é uma nuvem gigante de gás e poeira. Em regiões mais densas, a gravidade junta o material; quando o centro fica quente o bastante, começa a fusão do hidrogênio e nasce uma estrela. Uma única nebulosa pode formar milhares delas — e o nosso Sol também nasceu assim.\n\nSalve esta aula e acompanhe a próxima: os quatro formatos de galáxia.\n\n📚 Fonte primária: NASA Science — https://science.nasa.gov/universe/stars/\n\n#nebulosa #estrelas #astronomia #ciencia #universo #neuralupdate",
+      "versao": "pl50-nebulosa-berco-das-estrelas"
+    },
+    {
+      "slug": "viral-tempestade-solar-carrington",
+      "tipo": "viral",
+      "dueAt": "2026-09-26T23:23:00.000Z",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/388576ec-b556-4b4a-82d4-b691079bb86c.mp4",
+      "titulo": "Uma tempestade solar de 2012 cruzou a órbita da Terra no ponto onde o planeta estava uma s",
+      "texto": "Uma tempestade solar de 2012 cruzou a órbita da Terra no ponto onde o planeta estava uma semana antes.\n\n📚 NASA Science: https://science.nasa.gov/science-research/planetary-science/23jul_superstorm/\n\n#tempestadesolar #sol #astronomia #espaco #neuralupdate",
+      "versao": "viral-tempestade-solar-carrington-ttb"
+    },
+    {
+      "slug": "nw-juice-raspa-terra-amanha",
+      "tipo": "news",
+      "dueAt": "2026-09-27T15:17:00.000Z",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/f4ae1f01-48ba-4cdc-927e-77e6d29ac665.mp4",
+      "titulo": "AMANHÃ uma nave passa raspando pela Terra (rumo a Júpiter) 🛰️",
+      "texto": "AMANHÃ uma nave passa raspando pela Terra (rumo a Júpiter) 🛰️\n\n#ciencia #espaco"
+    },
+    {
+      "slug": "pl51-tipos-de-galaxia",
+      "tipo": "aula",
+      "dueAt": "2026-09-27T20:07:00.000Z",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/df2d4cea-cca3-4fa0-9e67-5ffbd50d3218.mp4",
+      "titulo": "🔭 Galáxia NÃO é tudo igual (são 4 formatos, e a nossa tem barra) 🌀",
+      "texto": "🔭 Galáxia NÃO é tudo igual (são 4 formatos, e a nossa tem barra) 🌀\n\nAs galáxias aparecem em quatro classes principais: espirais, elípticas, irregulares e lenticulares. A Via Láctea é uma espiral barrada, com uma barra de estrelas atravessando o centro.\n\nSalve esta aula para reconhecer cada formato quando olhar imagens do universo.\n\n📚 Fonte primária: NASA Science — https://science.nasa.gov/universe/galaxies/types/\n\n#galaxias #vialactea #astronomia #ciencia #universo #neuralupdate",
+      "versao": "pl51-tipos-de-galaxia"
+    },
+    {
+      "slug": "viral-lua-fugindo",
+      "tipo": "viral",
+      "dueAt": "2026-09-27T23:23:00.000Z",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/dfecb540-5e56-46cd-ac59-c62830479c73.mp4",
+      "titulo": "A Lua se afasta cerca de 3,8 centímetros por ano, medida com lasers refletidos nos espelho",
+      "texto": "A Lua se afasta cerca de 3,8 centímetros por ano, medida com lasers refletidos nos espelhos das missões Apollo.\n\n📚 NASA/JPL: https://www.jpl.nasa.gov/news/the-apollo-experiment-that-keeps-on-giving/\n\n#lua #apollo #eclipse #astronomia #neuralupdate",
+      "versao": "viral-lua-fugindo-ttb"
+    },
+    {
+      "slug": "viral-ceu-que-a-cidade-apagou-A",
+      "tipo": "viral",
+      "dueAt": "2026-09-28T23:23:00.000Z",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/53af7913-073a-4149-bbaa-22b4b0c79ee4.mp4",
+      "titulo": "A Via Láctea continua no céu — a luz das cidades é que cobre as estrelas. Salve para lembr",
+      "texto": "A Via Láctea continua no céu — a luz das cidades é que cobre as estrelas. Salve para lembrar de olhar quando estiver longe da cidade.\n\n📚 Falchi et al., Science Advances (2016): https://doi.org/10.1126/sciadv.1600377\n\n#vialactea #astronomia #poluicaoluminosa #universo #neuralupdate",
+      "versao": "viral-ceu-que-a-cidade-apagou-tta"
+    },
+    {
+      "slug": "viral-tempestade-solar-carrington-A",
+      "tipo": "viral",
+      "dueAt": "2026-09-29T23:23:00.000Z",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/9517ca61-06da-46de-9e5d-85c83b598dee.mp4",
+      "titulo": "Uma tempestade solar de 2012 cruzou a órbita da Terra no ponto onde o planeta estava uma s",
+      "texto": "Uma tempestade solar de 2012 cruzou a órbita da Terra no ponto onde o planeta estava uma semana antes.\n\n📚 NASA Science: https://science.nasa.gov/science-research/planetary-science/23jul_superstorm/\n\n#tempestadesolar #sol #astronomia #espaco #neuralupdate",
+      "versao": "viral-tempestade-solar-carrington-tta"
+    },
+    {
+      "slug": "viral-lua-fugindo-A",
+      "tipo": "viral",
+      "dueAt": "2026-09-30T23:23:00.000Z",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/bac75e40-9c3d-4674-afe5-b082d10fb966.mp4",
+      "titulo": "A Lua se afasta cerca de 3,8 centímetros por ano, medida com lasers refletidos nos espelho",
+      "texto": "A Lua se afasta cerca de 3,8 centímetros por ano, medida com lasers refletidos nos espelhos das missões Apollo.\n\n📚 NASA/JPL: https://www.jpl.nasa.gov/news/the-apollo-experiment-that-keeps-on-giving/\n\n#lua #apollo #eclipse #astronomia #neuralupdate",
+      "versao": "viral-lua-fugindo-tta"
+    }
+  ]
 }

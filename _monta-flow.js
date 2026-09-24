@@ -56,7 +56,8 @@ function dur(f) {
 }
 
 const durNarr = dur(narr);
-const ALVO = durNarr + 0.9;   // STOP de 500ms antes da fala + respiro no fim
+// RESPIRO_EXTRA_S: segundos a mais de imagem+trilha depois da última palavra (24/09: Marcelo pediu +1 s só na Lua).
+const ALVO = durNarr + 0.9 + parseFloat(process.env.RESPIRO_EXTRA_S || '0');   // STOP de 500ms antes da fala + respiro no fim
 
 // ---- SINCRONIA IMAGEM x FALA (lei do canal) ----
 // Um clipe de 8s não pode trocar no relógio: ele tem que trocar QUANDO a frase troca.
@@ -148,6 +149,17 @@ cenas.forEach((c, i) => {
   console.log(`    ${c}: ${dOrig.toFixed(1)}s → ${dQuero.toFixed(1)}s ${dQuero < dOrig ? '(corte)' : `(${f.toFixed(2)}x lento)`}`);
   const r = spawnSync(ffmpeg, args, { encoding: 'utf8' });
   if (r.status !== 0) { console.error(`✗ normalizar ${c}: ${r.stderr.slice(-300)}`); process.exit(1); }
+  // 24/09 (padrão novo aprovado pelo Marcelo): número/rótulo/círculo por cima do clipe. overlayN.png = PNG
+  // transparente 1080x1920 casado com a cenaN; entra com fade de 0,3 s. Sem o arquivo, nada muda.
+  const ov = path.join(dir, `overlay${i + 1}.png`);
+  if (fs.existsSync(ov)) {
+    const oo = o.replace(/\.mp4$/, '_ov.mp4');
+    const ro = spawnSync(ffmpeg, ['-v', 'error', '-y', '-i', o, '-loop', '1', '-i', ov, '-filter_complex',
+      '[1:v]format=rgba,fade=t=in:st=0.15:d=0.3:alpha=1[ov];[0:v][ov]overlay=0:0:shortest=1,format=yuv420p',
+      '-an', '-c:v', 'libx264', '-preset', 'medium', '-crf', '18', oo], { encoding: 'utf8' });
+    if (ro.status === 0 && fs.existsSync(oo)) { fs.renameSync(oo, o); console.log(`      + overlay${i + 1}.png`); }
+    else console.warn(`      ! overlay${i + 1}.png falhou: ${(ro.stderr || '').slice(-200)}`);
+  }
   tmp.push(o);
 });
 console.log('  ✓ clipes normalizados para 1080x1920 @24fps');

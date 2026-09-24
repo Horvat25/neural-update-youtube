@@ -1,0 +1,110 @@
+[
+  {
+    "slug": "story-noticia-2026-09-25",
+    "tipo": "noticia",
+    "dia": "2026-09-25",
+    "quando": "2026-09-25T11:00:00.000Z",
+    "selo": "curiosidade",
+    "fato": "Uma cratera GIGANTE estava escondida no mapa",
+    "fonte": "Um astrônomo amador viu um círculo de 25 km no celular. Geólogos confirmaram: é uma cratera de 390 milhões de anos.",
+    "cta": "O vídeo completo está no perfil",
+    "ctaSub": "Segue pra não perder o de amanhã",
+    "fundo": "exports/nw-cratera-escondida-quebec/img1.png"
+  },
+  {
+    "slug": "story-feed-2026-09-25",
+    "tipo": "noticia",
+    "dia": "2026-09-25",
+    "quando": "2026-09-25T19:00:00.000Z",
+    "selo": "no feed hoje",
+    "fato": "Como uma estrela vira um buraco negro",
+    "fonte": "Aula em slides no feed: arrasta e salva pra mostrar pra alguém.",
+    "cta": "Tá no perfil agora",
+    "ctaSub": "Salva e manda pra quem curte espaço",
+    "fundo": "exports/nw-estrela-vira-buraco-negro/_story-fundo.png"
+  },
+  {
+    "selo": "sem desculpa",
+    "fato": "Você [[não precisa]] ter um Kindle pra usar o Kindle Unlimited.",
+    "fonte": "O aplicativo é grátis e roda no celular que está na sua mão agora. O aparelho é opcional — a assinatura é que é paga, depois do primeiro mês.",
+    "cta": "Começa hoje, do celular mesmo",
+    "ctaSub": "Link na bio",
+    "slug": "story-kindle-2026-09-25",
+    "tipo": "kindle",
+    "dia": "2026-09-25",
+    "quando": "2026-09-25T23:00:00.000Z",
+    "fundo": "carrossel/img/pl49-paradoxo-de-fermi_cena1.png"
+  },
+  {
+    "slug": "story-noticia-2026-09-26",
+    "tipo": "noticia",
+    "dia": "2026-09-26",
+    "quando": "2026-09-26T11:00:00.000Z",
+    "selo": "notícia",
+    "fato": "O telescópio Roman ligou uma câmera de 300 megapixels",
+    "fonte": "Uma única foto cobre um pedaço de céu maior que a Lua cheia, com a nitidez do Hubble.",
+    "cta": "O vídeo completo está no perfil",
+    "ctaSub": "Segue pra não perder o de amanhã",
+    "fundo": "exports/roman-telescope-lancamento/nasa/roman-9x16.png"
+  },
+  {
+    "slug": "story-feed-2026-09-26",
+    "tipo": "noticia",
+    "dia": "2026-09-26",
+    "quando": "2026-09-26T19:00:00.000Z",
+    "selo": "no feed hoje",
+    "fato": "O Roman explicado em 5 slides",
+    "fonte": "O que muda com a câmera nova: arrasta os slides e guarda.",
+    "cta": "Tá no perfil agora",
+    "ctaSub": "Salva e manda pra quem curte espaço",
+    "fundo": "exports/nw-roman-camera-300mp/img8.png"
+  },
+  {
+    "selo": "leitura",
+    "fato": "Em 40 segundos [[não cabe]] o universo.",
+    "fonte": "O que não coube no vídeo está nos livros. O primeiro mês é grátis; depois vira assinatura, e dá pra cancelar antes disso.",
+    "cta": "Um mês de leitura ilimitada",
+    "ctaSub": "Link na bio",
+    "slug": "story-kindle-2026-09-26",
+    "tipo": "kindle",
+    "dia": "2026-09-26",
+    "quando": "2026-09-26T23:00:00.000Z",
+    "fundo": "carrossel/img/pl49-paradoxo-de-fermi_cena1.png"
+  },
+  {
+    "slug": "story-noticia-2026-09-27",
+    "tipo": "noticia",
+    "dia": "2026-09-27",
+    "quando": "2026-09-27T11:00:00.000Z",
+    "selo": "amanhã",
+    "fato": "Uma nave passa raspando pela Terra amanhã",
+    "fonte": "A Juice, rumo a Júpiter, vai passar a cerca de 8.600 km daqui e usar a gravidade da Terra como estilingue.",
+    "cta": "O vídeo completo está no perfil",
+    "ctaSub": "Segue pra não perder o de amanhã",
+    "fundo": "exports/nw-juice-raspa-terra-amanha/img2.png"
+  },
+  {
+    "slug": "story-feed-2026-09-27",
+    "tipo": "noticia",
+    "dia": "2026-09-27",
+    "quando": "2026-09-27T19:00:00.000Z",
+    "selo": "no feed hoje",
+    "fato": "Os 4 formatos de galáxia",
+    "fonte": "Guia visual pra salvar: espiral, elíptica, lenticular e irregular.",
+    "cta": "Tá no perfil agora",
+    "ctaSub": "Salva e manda pra quem curte espaço",
+    "fundo": "exports/pl51-tipos-de-galaxia/_story-fundo.png"
+  },
+  {
+    "selo": "sem pegadinha",
+    "fato": "O primeiro mês é [[grátis]] — e dá pra cancelar em dois toques.",
+    "fonte": "Se não gostar, cancela antes de acabar o mês e não paga nada. Leva menos tempo que assistir a um Short.",
+    "cta": "Testa e vê se vale",
+    "ctaSub": "Link na bio",
+    "slug": "story-kindle-2026-09-27",
+    "tipo": "kindle",
+    "dia": "2026-09-27",
+    "quando": "2026-09-27T23:00:00.000Z",
+    "fundo": "carrossel/img/pl49-paradoxo-de-fermi_cena1.png"
+  }
+]
