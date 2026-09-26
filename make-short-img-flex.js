@@ -264,7 +264,7 @@ function durOf(file) {
       : `1.04+${(zEnd - 1.04).toFixed(3)}*sqrt(on/${framesI})`;
     const vf = `scale=1600:2844:force_original_aspect_ratio=increase,crop=1600:2844,` +
       `zoompan=z='${zExpr}':x='iw/2-(iw/zoom/2)+sin(on/42)*36':y='ih/2-(ih/zoom/2)+sin(on/68)*24':d=${framesI}:s=720x1280:fps=${FPS},` +
-      `noise=alls=5:allf=t,vignette=angle=PI/4.5,format=yuv420p`;
+      `noise=alls=5:allf=t,vignette=angle=PI/4.5,format=yuv420p,setsar=1`;
     const r = spawnSync(ffmpeg, ['-hide_banner', '-loglevel', 'error', '-loop', '1', '-i', path.join(IMG_DIR, im),
       '-t', segI.toFixed(2), '-vf', vf, '-c:v', 'libx264', '-preset', PRESET, '-crf', '19', '-y', out], { timeout: 120000 });
     if (r.status === 0 && fs.existsSync(out)) { clips.push(out); console.log(`[flex] cena ${i + 1} ok`); }
@@ -278,7 +278,7 @@ function durOf(file) {
 
   const ass = path.join(work, 'captions.ass');
   // Grafia fonética só existe pro TTS (tabela do YouTube/CLAUDE.md); na legenda o espectador vê a grafia certa.
-  const FONETICA = [[/RRÁ-BOL/g, 'HUBBLE'], [/Rrá-bol/g, 'Hubble'], [/HÂBOL/g, 'HUBBLE'], [/Hâbol/g, 'Hubble'], [/RÁ-BOL/g, 'HUBBLE'], [/Rá-bol/g, 'Hubble'], [/PERSEVÍRANS/g, 'PERSEVERANCE'], [/Persevírans/g, 'Perseverance'], [/ESPÓILER/g, 'SPOILER'], [/Espóiler/g, 'Spoiler']];
+  const FONETICA = [[/RRÁ-BOL/g, 'HUBBLE'], [/Rrá-bol/g, 'Hubble'], [/HÂBOL/g, 'HUBBLE'], [/Hâbol/g, 'Hubble'], [/RÁ-BOL/g, 'HUBBLE'], [/Rá-bol/g, 'Hubble'], [/PERSEVÍRANS/g, 'PERSEVERANCE'], [/Persevírans/g, 'Perseverance'], [/ESPÓILER/g, 'SPOILER'], [/Espóiler/g, 'Spoiler'], [/PÍCTORIS/g, 'PICTORIS'], [/Píctoris/g, 'Pictoris']];
   let assTxt = buildAss(words || [], { width: 720, height: 1280, fontSize: 56, marginV: 225, outline: 5, shadow: 2, group: 2 });
   for (const [re, certo] of FONETICA) assTxt = assTxt.replace(re, certo);
   fs.writeFileSync(ass, assTxt, 'utf8');

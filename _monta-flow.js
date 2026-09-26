@@ -59,6 +59,9 @@ function dur(f) {
 
 const durNarr = dur(narr);
 // RESPIRO_EXTRA_S: segundos a mais de imagem+trilha depois da última palavra (24/09: Marcelo pediu +1 s só na Lua).
+// FALA_ATRASO_MS (26/09, receita v2.2 C1): atraso extra da voz sobre o narr.mp3, que JÁ traz o STOP do flex.
+// Legado = 500 (voz começava em ~1,2 s). Com o narr gerado em STOP_MS=100, usar FALA_ATRASO_MS=0.
+const ATRASO = parseInt(process.env.FALA_ATRASO_MS ?? '500', 10) / 1000;
 const ALVO = durNarr + 0.9 + parseFloat(process.env.RESPIRO_EXTRA_S || '0');   // STOP de 500ms antes da fala + respiro no fim
 
 // ---- SINCRONIA IMAGEM x FALA (lei do canal) ----
@@ -101,10 +104,10 @@ if (fs.existsSync(fFatias)) {
     // dividem a janela daquele bloco em partes iguais. Sem isso a segunda ficava com
     // duracao zero e sumia do video.
     durAlvo = inicios.map((b, k) => {
-      const t0base = k === 0 ? 0 : tb[b - 1] + 0.5;
+      const t0base = k === 0 ? 0 : tb[b - 1] + ATRASO;
       let prox = k + 1;
       while (prox < inicios.length && inicios[prox] === b) prox++;
-      const t1base = prox >= inicios.length ? ALVO : tb[inicios[prox] - 1] + 0.5;
+      const t1base = prox >= inicios.length ? ALVO : tb[inicios[prox] - 1] + ATRASO;
       let quantos = 0, ondeEstou = 0;
       for (let q = 0; q < inicios.length; q++) {
         if (inicios[q] === b) { if (q === k) ondeEstou = quantos; quantos++; }
@@ -234,7 +237,7 @@ const vf =
   `[3:v]scale=${LOGO_W}:-1[lg];` +
   `[vb][lg]overlay=W-w-20:20:format=auto:enable='gte(t,${LOGO_DELAY})',format=yuv420p[v];` +
   `[2:a]aformat=sample_rates=44100:channel_layouts=stereo,volume=0.72[mus];` +
-  `[1:a]aformat=sample_rates=44100:channel_layouts=stereo,adelay=500|500,volume=1.35,asplit=2[voice][key];` +
+  `[1:a]aformat=sample_rates=44100:channel_layouts=stereo,adelay=${Math.round(ATRASO * 1000)}|${Math.round(ATRASO * 1000)},volume=1.35,asplit=2[voice][key];` +
   `[mus][key]sidechaincompress=threshold=0.035:ratio=4:attack=8:release=180[duck];` +
   `[duck][voice]amix=inputs=2:duration=first:weights=1 1:normalize=0,` +
   `loudnorm=I=-16:TP=-1.5:LRA=8,afade=t=out:st=${(durBruto - 0.8).toFixed(2)}:d=0.8[a]`;
