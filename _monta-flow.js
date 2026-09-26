@@ -34,7 +34,9 @@ const ptAss = ass;
 // 16/09/2026: a trilha vem do meta.json (_prod.track) — a regra é trilha por slot (aula 14h =
 // cosmic-ice-flow/ambient). Sem campo, fica a de antes.
 let trilhaNome = 'dark-some-amount-of-evil.mp3';
-try { trilhaNome = JSON.parse(fs.readFileSync(path.join(dir, 'meta.json'), 'utf8'))._prod?.track || trilhaNome; } catch {}
+// 26/09/2026: o lote 25–27 gravou a trilha em `track` (raiz), não em `_prod.track` — o buraco negro saiu com a
+// default (some-amount) e o TikTok silenciou. Lê os dois campos.
+try { const m = JSON.parse(fs.readFileSync(path.join(dir, 'meta.json'), 'utf8')); trilhaNome = m._prod?.track || m.track || trilhaNome; } catch {}
 // 17/09/2026: versão do TikTok — lá some-amount/rising-tide saem MUDOS. TRILHA troca só a música e
 // SAIDA grava em outro arquivo, sem tocar no .mp4 que já foi pro YouTube/Insta.
 if (process.env.TRILHA) trilhaNome = process.env.TRILHA;
