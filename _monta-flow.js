@@ -62,7 +62,33 @@ const durNarr = dur(narr);
 // FALA_ATRASO_MS (26/09, receita v2.2 C1): atraso extra da voz sobre o narr.mp3, que JÁ traz o STOP do flex.
 // Legado = 500 (voz começava em ~1,2 s). Com o narr gerado em STOP_MS=100, usar FALA_ATRASO_MS=0.
 const ATRASO = parseInt(process.env.FALA_ATRASO_MS ?? '500', 10) / 1000;
-const ALVO = durNarr + 0.9 + parseFloat(process.env.RESPIRO_EXTRA_S || '0');   // STOP de 500ms antes da fala + respiro no fim
+// O encoder MP3 acrescenta ~80 ms antes da voz. Nas montagens modernas sem atraso extra,
+// removemos esse padding para manter a primeira fala dentro da régua de 0,20 s do JEV.
+const CORTE_INICIO_VOZ = parseInt(process.env.CORTE_INICIO_VOZ_MS ?? (ATRASO === 0 ? '80' : '0'), 10) / 1000;
+const RESPIRO_EXTRA = parseFloat(process.env.RESPIRO_EXTRA_S || '0');
+const CAUDA_FINAL = parseFloat(process.env.CAUDA_FINAL_S || '0.25');
+
+// 27/09/2026: a duração do MP3 não é uma boa régua para o fim. O TTS pode deixar 1–2 s
+// de silêncio depois da última palavra; somar mais 0,9 s fazia o último quadro ficar parado
+// e convidava o público a pular. A legenda vem do timing real das palavras, então o vídeo
+// agora termina CAUDA_FINAL segundos depois da última palavra. Se não houver timing válido,
+// preservamos o cálculo legado para falhar de forma segura.
+function tempoAss(s) {
+  const m = String(s).match(/^(\d+):(\d+):([\d.]+)$/);
+  return m ? (+m[1]) * 3600 + (+m[2]) * 60 + parseFloat(m[3]) : null;
+}
+const finsLegenda = fs.readFileSync(ptAss, 'utf8').split(/\r?\n/)
+  .filter(l => l.startsWith('Dialogue:'))
+  .map(l => tempoAss((l.match(/^Dialogue: \d+,[^,]+,([^,]+),/) || [])[1]))
+  .filter(t => Number.isFinite(t));
+const fimUltimaPalavra = finsLegenda.length ? Math.max(...finsLegenda) + ATRASO - CORTE_INICIO_VOZ : null;
+const ALVO_LEGADO = durNarr + 0.9 + RESPIRO_EXTRA;
+const ALVO = fimUltimaPalavra === null
+  ? ALVO_LEGADO
+  : Math.min(ALVO_LEGADO, fimUltimaPalavra + CAUDA_FINAL + RESPIRO_EXTRA);
+if (fimUltimaPalavra !== null) {
+  console.log(`fim pela fala: ${fimUltimaPalavra.toFixed(2)}s + ${CAUDA_FINAL.toFixed(2)}s de cauda`);
+}
 
 // ---- SINCRONIA IMAGEM x FALA (lei do canal) ----
 // Um clipe de 8s não pode trocar no relógio: ele tem que trocar QUANDO a frase troca.
@@ -232,15 +258,16 @@ const SEM_LEGENDA = process.env.SEM_LEGENDA === '1';
 const legendaVideo = SEM_LEGENDA ? 'null' : `subtitles='${assFF}'`;
 if (SEM_LEGENDA) console.log('  legenda  : faixa externa; texto NÃO queimado no vídeo');
 const LOGO_W = 168, LOGO_DELAY = 0.5;
+const FADE_FIM = Math.min(CAUDA_FINAL, durBruto);
 const vf =
   `[0:v]${legendaVideo}${hookDraw}[vb];` +
   `[3:v]scale=${LOGO_W}:-1[lg];` +
   `[vb][lg]overlay=W-w-20:20:format=auto:enable='gte(t,${LOGO_DELAY})',format=yuv420p[v];` +
   `[2:a]aformat=sample_rates=44100:channel_layouts=stereo,volume=0.72[mus];` +
-  `[1:a]aformat=sample_rates=44100:channel_layouts=stereo,adelay=${Math.round(ATRASO * 1000)}|${Math.round(ATRASO * 1000)},volume=1.35,asplit=2[voice][key];` +
+  `[1:a]atrim=start=${CORTE_INICIO_VOZ.toFixed(3)},asetpts=PTS-STARTPTS,aformat=sample_rates=44100:channel_layouts=stereo,adelay=${Math.round(ATRASO * 1000)}|${Math.round(ATRASO * 1000)},volume=1.35,asplit=2[voice][key];` +
   `[mus][key]sidechaincompress=threshold=0.035:ratio=4:attack=8:release=180[duck];` +
   `[duck][voice]amix=inputs=2:duration=first:weights=1 1:normalize=0,` +
-  `loudnorm=I=-16:TP=-1.5:LRA=8,afade=t=out:st=${(durBruto - 0.8).toFixed(2)}:d=0.8[a]`;
+  `loudnorm=I=-16:TP=-1.5:LRA=8,afade=t=out:st=${(durBruto - FADE_FIM).toFixed(2)}:d=${FADE_FIM.toFixed(2)}[a]`;
 
 r = spawnSync(ffmpeg, ['-v', 'error', '-y',
   '-i', bruto, '-i', narr, '-stream_loop', '-1', '-i', trilha, '-i', logo,
