@@ -55,9 +55,19 @@ function hospeda(mp4) {
 }
 
 function pronto(it, tipo, dueAt) {
-  const mp4 = V.monta(it);
-  if (!mp4) throw new Error(`${it.slug}: não consegui montar a versão do TikTok`);
-  const texto = fs.readFileSync(mp4.replace(/\.mp4$/, '.legenda.txt'), 'utf8').trim();
+  let mp4 = V.monta(it);
+  let texto = '';
+  if (mp4) {
+    texto = fs.readFileSync(mp4.replace(/\.mp4$/, '.legenda.txt'), 'utf8').trim();
+  } else {
+    // Vídeos montados no Flow já chegam como master vertical aprovado, sem img1..imgN.
+    // Neles não há o que remontar: usa o master existente e gera somente a legenda do TikTok.
+    const master = path.join(ROOT, 'exports', it.slug, `${it.slug}.mp4`);
+    if (!fs.existsSync(master)) throw new Error(`${it.slug}: não consegui montar a versão do TikTok nem achei o master`);
+    mp4 = master;
+    texto = V.legenda(it).trim();
+    console.log(`· ${it.slug} — Flow sem imagens soltas; usando master vertical aprovado`);
+  }
   return { slug: it.slug, tipo, dueAt, url: hospeda(mp4), titulo: primeiraLinha(texto).slice(0, 90), texto };
 }
 

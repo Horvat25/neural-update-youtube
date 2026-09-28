@@ -1,137 +1,106 @@
 {
-  "_leiame": "Plano do TikTok (gerado por tiktok-plano.js no PC). O tiktok-fila-nuvem.js mantém no Buffer os 10 próximos. Não editar à mão.",
-  "geradoEm": "2026-09-24T17:58:11.142Z",
-  "ate": "2026-09-30",
-  "itens": [
-    {
-      "slug": "nw-pulsar-e-magnetar",
-      "tipo": "aula",
-      "dueAt": "2026-09-24T20:07:00.000Z",
-      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/fb191ed7-0f56-43d0-8bdf-9549ace3f894.mp4",
-      "titulo": "Pulsar e magnetar NÃO são a mesma coisa (um é farol, o outro é ímã) 🌀",
-      "texto": "Pulsar e magnetar NÃO são a mesma coisa (um é farol, o outro é ímã) 🌀\n\nSérie A morte das estrelas · episódio 5 de 6. O que a estrela vira quando morre depende da massa dela.\n\n#astronomia #pulsar #magnetar #ciencia #espaco"
-    },
-    {
-      "slug": "viral-poeira-no-telhado",
-      "tipo": "viral",
-      "dueAt": "2026-09-24T23:23:00.000Z",
-      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/a0f2817c-4d45-4273-85e9-8c88aa85aa3c.mp4",
-      "titulo": "Tem poeira do ESPAÇO no telhado da sua casa 🏠",
-      "texto": "Tem poeira do ESPAÇO no telhado da sua casa 🏠\n\nTodos os dias caem na Terra toneladas de micrometeoritos, grãos vindos de cometas e asteroides, a maioria menor que um grão de areia. Por muito tempo eles eram coletados quase só em regiões isoladas como a Antártida, até que um estudo de 2016 (Genge, Larsen e colegas, revista Geology) identificou cerca de 500 micrometeoritos em sedimentos de calhas de telhados em cidades como Oslo, Paris e Berlim.\n\n#micrometeoritos #astronomia #neuralupdate #ciencia #espaco"
-    },
-    {
-      "slug": "nw-arquivos-ovni-pentagono",
-      "tipo": "extra",
-      "dueAt": "2026-09-25T00:45:00.000Z",
-      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/e3e40a8d-15ee-45fc-b28f-ddaffbf5b1d6.mp4",
-      "titulo": "O Pentágono LIBEROU arquivos de OVNI (tem até dobra espacial) 🛸",
-      "texto": "O Pentágono LIBEROU arquivos de OVNI (tem até dobra espacial) 🛸\n\nO Departamento de Defesa dos EUA publicou um novo lote de arquivos sobre fenômenos anômalos não identificados. Há documentos, vídeos e estudos sobre ideias como dobra espacial e buracos de minhoca — mas os arquivos não validam esses conceitos nem provam vida extraterrestre. As cenas deste vídeo são ilustrações, não as filmagens originais.\n\n#ovni #uap #pentagono #ciencia #espaco #neuralupdate",
-      "versao": "nw-arquivos-ovni-pentagono-tiktok"
-    },
-    {
-      "slug": "nw-cratera-escondida-quebec",
-      "tipo": "news",
-      "dueAt": "2026-09-25T15:17:00.000Z",
-      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/fb1c0793-44c4-41ff-8ee2-d14154f83751.mp4",
-      "titulo": "Uma cratera GIGANTE estava escondida no mapa (um amador achou) 🌍",
-      "texto": "Uma cratera GIGANTE estava escondida no mapa (um amador achou) 🌍\n\n#ciencia #espaco"
-    },
-    {
-      "slug": "nw-estrela-vira-buraco-negro",
-      "tipo": "aula",
-      "dueAt": "2026-09-25T20:07:00.000Z",
-      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/57938599-6c2b-4067-aec5-2dd02dc18a42.mp4",
-      "titulo": "O buraco negro NÃO é um buraco (é massa demais num ponto) 🕳️",
-      "texto": "O buraco negro NÃO é um buraco (é massa demais num ponto) 🕳️\n\nUm buraco negro não é um buraco vazio: é matéria concentrada a ponto de criar uma região da qual nem a luz escapa. Estrelas muito massivas podem terminar assim quando o núcleo que sobra passa do limite que consegue resistir ao colapso.\n\nSalve este último episódio da série sobre a morte das estrelas.\n\nSegue o @neuralupdate para continuar aprendendo astronomia sem enrolação.\n\n📚 Fonte primária: NASA Science — https://science.nasa.gov/universe/black-holes/\n\n#buraconegro #estrelas #astronomia #ciencia #universo #neuralupdate",
-      "versao": "nw-estrela-vira-buraco-negro"
-    },
-    {
-      "slug": "viral-ceu-que-a-cidade-apagou",
-      "tipo": "viral",
-      "dueAt": "2026-09-25T23:23:00.000Z",
-      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/afecf1d2-3f7d-403d-bc61-0311586f6931.mp4",
-      "titulo": "A Via Láctea continua no céu — a luz das cidades é que cobre as estrelas. Salve para lembr",
-      "texto": "A Via Láctea continua no céu — a luz das cidades é que cobre as estrelas. Salve para lembrar de olhar quando estiver longe da cidade.\n\n📚 Falchi et al., Science Advances (2016): https://doi.org/10.1126/sciadv.1600377\n\n#vialactea #astronomia #poluicaoluminosa #universo #neuralupdate",
-      "versao": "viral-ceu-que-a-cidade-apagou-ttb"
-    },
-    {
-      "slug": "nw-roman-camera-300mp",
-      "tipo": "news",
-      "dueAt": "2026-09-26T15:17:00.000Z",
-      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/199cc983-2d7c-43a6-a81c-5ce2b1dcb72d.mp4",
-      "titulo": "O Roman ligou uma câmera de 300 MEGAPIXELS no espaço 🔭",
-      "texto": "O Roman ligou uma câmera de 300 MEGAPIXELS no espaço 🔭\n\n#ciencia #espaco"
-    },
-    {
-      "slug": "pl50-nebulosa-berco-das-estrelas",
-      "tipo": "aula",
-      "dueAt": "2026-09-26T20:07:00.000Z",
-      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/3a325e7b-2d07-493d-b4d4-ddc68f2ab2e1.mp4",
-      "titulo": "🔭 As estrelas NASCEM dentro de nuvens (e demoram milhões de anos) ✨",
-      "texto": "🔭 As estrelas NASCEM dentro de nuvens (e demoram milhões de anos) ✨\n\nUma nebulosa é uma nuvem gigante de gás e poeira. Em regiões mais densas, a gravidade junta o material; quando o centro fica quente o bastante, começa a fusão do hidrogênio e nasce uma estrela. Uma única nebulosa pode formar milhares delas — e o nosso Sol também nasceu assim.\n\nSalve esta aula e acompanhe a próxima: os quatro formatos de galáxia.\n\n📚 Fonte primária: NASA Science — https://science.nasa.gov/universe/stars/\n\n#nebulosa #estrelas #astronomia #ciencia #universo #neuralupdate",
-      "versao": "pl50-nebulosa-berco-das-estrelas"
-    },
-    {
-      "slug": "viral-tempestade-solar-carrington",
-      "tipo": "viral",
-      "dueAt": "2026-09-26T23:23:00.000Z",
-      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/388576ec-b556-4b4a-82d4-b691079bb86c.mp4",
-      "titulo": "Uma tempestade solar de 2012 cruzou a órbita da Terra no ponto onde o planeta estava uma s",
-      "texto": "Uma tempestade solar de 2012 cruzou a órbita da Terra no ponto onde o planeta estava uma semana antes.\n\n📚 NASA Science: https://science.nasa.gov/science-research/planetary-science/23jul_superstorm/\n\n#tempestadesolar #sol #astronomia #espaco #neuralupdate",
-      "versao": "viral-tempestade-solar-carrington-ttb"
-    },
-    {
-      "slug": "nw-juice-raspa-terra-amanha",
-      "tipo": "news",
-      "dueAt": "2026-09-27T15:17:00.000Z",
-      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/f4ae1f01-48ba-4cdc-927e-77e6d29ac665.mp4",
-      "titulo": "AMANHÃ uma nave passa raspando pela Terra (rumo a Júpiter) 🛰️",
-      "texto": "AMANHÃ uma nave passa raspando pela Terra (rumo a Júpiter) 🛰️\n\n#ciencia #espaco"
-    },
-    {
-      "slug": "pl51-tipos-de-galaxia",
-      "tipo": "aula",
-      "dueAt": "2026-09-27T20:07:00.000Z",
-      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/df2d4cea-cca3-4fa0-9e67-5ffbd50d3218.mp4",
-      "titulo": "🔭 Galáxia NÃO é tudo igual (são 4 formatos, e a nossa tem barra) 🌀",
-      "texto": "🔭 Galáxia NÃO é tudo igual (são 4 formatos, e a nossa tem barra) 🌀\n\nAs galáxias aparecem em quatro classes principais: espirais, elípticas, irregulares e lenticulares. A Via Láctea é uma espiral barrada, com uma barra de estrelas atravessando o centro.\n\nSalve esta aula para reconhecer cada formato quando olhar imagens do universo.\n\n📚 Fonte primária: NASA Science — https://science.nasa.gov/universe/galaxies/types/\n\n#galaxias #vialactea #astronomia #ciencia #universo #neuralupdate",
-      "versao": "pl51-tipos-de-galaxia"
-    },
-    {
-      "slug": "viral-lua-fugindo",
-      "tipo": "viral",
-      "dueAt": "2026-09-27T23:23:00.000Z",
-      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/dfecb540-5e56-46cd-ac59-c62830479c73.mp4",
-      "titulo": "A Lua se afasta cerca de 3,8 centímetros por ano, medida com lasers refletidos nos espelho",
-      "texto": "A Lua se afasta cerca de 3,8 centímetros por ano, medida com lasers refletidos nos espelhos das missões Apollo.\n\n📚 NASA/JPL: https://www.jpl.nasa.gov/news/the-apollo-experiment-that-keeps-on-giving/\n\n#lua #apollo #eclipse #astronomia #neuralupdate",
-      "versao": "viral-lua-fugindo-ttb"
-    },
-    {
-      "slug": "viral-ceu-que-a-cidade-apagou-A",
-      "tipo": "viral",
-      "dueAt": "2026-09-28T23:23:00.000Z",
-      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/53af7913-073a-4149-bbaa-22b4b0c79ee4.mp4",
-      "titulo": "A Via Láctea continua no céu — a luz das cidades é que cobre as estrelas. Salve para lembr",
-      "texto": "A Via Láctea continua no céu — a luz das cidades é que cobre as estrelas. Salve para lembrar de olhar quando estiver longe da cidade.\n\n📚 Falchi et al., Science Advances (2016): https://doi.org/10.1126/sciadv.1600377\n\n#vialactea #astronomia #poluicaoluminosa #universo #neuralupdate",
-      "versao": "viral-ceu-que-a-cidade-apagou-tta"
-    },
-    {
-      "slug": "viral-tempestade-solar-carrington-A",
-      "tipo": "viral",
-      "dueAt": "2026-09-29T23:23:00.000Z",
-      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/9517ca61-06da-46de-9e5d-85c83b598dee.mp4",
-      "titulo": "Uma tempestade solar de 2012 cruzou a órbita da Terra no ponto onde o planeta estava uma s",
-      "texto": "Uma tempestade solar de 2012 cruzou a órbita da Terra no ponto onde o planeta estava uma semana antes.\n\n📚 NASA Science: https://science.nasa.gov/science-research/planetary-science/23jul_superstorm/\n\n#tempestadesolar #sol #astronomia #espaco #neuralupdate",
-      "versao": "viral-tempestade-solar-carrington-tta"
-    },
-    {
-      "slug": "viral-lua-fugindo-A",
-      "tipo": "viral",
-      "dueAt": "2026-09-30T23:23:00.000Z",
-      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/bac75e40-9c3d-4674-afe5-b082d10fb966.mp4",
-      "titulo": "A Lua se afasta cerca de 3,8 centímetros por ano, medida com lasers refletidos nos espelho",
-      "texto": "A Lua se afasta cerca de 3,8 centímetros por ano, medida com lasers refletidos nos espelhos das missões Apollo.\n\n📚 NASA/JPL: https://www.jpl.nasa.gov/news/the-apollo-experiment-that-keeps-on-giving/\n\n#lua #apollo #eclipse #astronomia #neuralupdate",
-      "versao": "viral-lua-fugindo-tta"
-    }
-  ]
+ "_leiame": "Plano do TikTok (gerado por tiktok-plano.js no PC). O tiktok-fila-nuvem.js mantém no Buffer os 10 próximos. Não editar à mão.",
+ "geradoEm": "2026-09-28T12:17:26.145Z",
+ "ate": "2026-10-01",
+ "itens": [
+  {
+   "slug": "nw-sinal-radio-exoplaneta",
+   "tipo": "news",
+   "dueAt": "2026-09-28T15:17:00.000Z",
+   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/2f73c1ea-c928-47e6-9ccf-e214d995782d.mp4",
+   "titulo": "Um planeta de outra estrela mandou SINAL DE RÁDIO (e não é ET) 📡",
+   "texto": "Um planeta de outra estrela mandou SINAL DE RÁDIO (e não é ET) 📡\n\nPela primeira vez, astrônomos ligaram um sinal de rádio diretamente a um planeta fora do Sistema Solar: Beta Pictoris b, um gigante gasoso com cerca de 10 vezes a massa de Júpiter, a 63 anos-luz. O radiotelescópio MeerKAT, na África do Sul, captou pulsos curtos e repetidos.\n\n#exoplaneta #astronomia #neuralupdate #ciencia #espaco"
+  },
+  {
+   "slug": "pl52-planetas-mais-estranhos",
+   "tipo": "aula",
+   "dueAt": "2026-09-28T20:07:00.000Z",
+   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/3f4f5c19-2710-4717-893d-3197079abd88.mp4",
+   "titulo": "🔭 Os planetas mais ESTRANHOS já achados (um é mais escuro que carvão) 🪐",
+   "texto": "🔭 Os planetas mais ESTRANHOS já achados (um é mais escuro que carvão) 🪐\n\nEscola de Astronomia Neural Update · Exoplanetas. HD 189733 b: gigante azul com ventos de cerca de 8.\n\n#exoplanetas #astronomia #neuralupdate #ciencia #espaco"
+  },
+  {
+   "slug": "viral-ceu-que-a-cidade-apagou-A",
+   "tipo": "viral",
+   "dueAt": "2026-09-28T23:23:00.000Z",
+   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/53af7913-073a-4149-bbaa-22b4b0c79ee4.mp4",
+   "titulo": "A Via Láctea continua no céu — a luz das cidades é que cobre as estrelas. Salve para lembr",
+   "texto": "A Via Láctea continua no céu — a luz das cidades é que cobre as estrelas. Salve para lembrar de olhar quando estiver longe da cidade.\n\n📚 Falchi et al., Science Advances (2016): https://doi.org/10.1126/sciadv.1600377\n\n#vialactea #astronomia #poluicaoluminosa #universo #neuralupdate",
+   "versao": "viral-ceu-que-a-cidade-apagou-tta"
+  },
+  {
+   "slug": "nw-cubesat-dois-motores",
+   "tipo": "news",
+   "dueAt": "2026-09-29T15:17:00.000Z",
+   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/20b2e09f-dda8-4651-9b3f-2f055879f56e.mp4",
+   "titulo": "Um satélite vai usar dois MOTORES (com um tanque só)",
+   "texto": "Um satélite vai usar dois MOTORES (com um tanque só)\n\nO CubeSat ASCENT da NASA, do tamanho de uma caixa de sapatos, usará um único tanque de propelente não tóxico para alimentar motores químicos de alto empuxo e propulsores elétricos eficientes. Após testes térmicos, de vazamento e rotação, o lançamento está previsto para não antes de 1º de outubro de 2026.\n\n#CubeSat #NASA #espaco #ciencia"
+  },
+  {
+   "slug": "pl53-o-que-e-planeta",
+   "tipo": "aula",
+   "dueAt": "2026-09-29T20:07:00.000Z",
+   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/b3219b17-5a5d-4431-bd65-9fbb39acd222.mp4",
+   "titulo": "🔭 Plutão NÃO é mais planeta (falhou em 1 de 3 testes) 🪐",
+   "texto": "🔭 Plutão NÃO é mais planeta (falhou em 1 de 3 testes) 🪐\n\nEscola de Astronomia Neural Update · O que é um planeta. Em 2006, a União Astronômica Internacional (IAU) definiu planeta como um corpo que (1) orbita o Sol, (2) tem massa suficiente para ficar praticamente redondo pela própria gravidade e (3) limpou a vizinhança da sua órbita.\n\n#plutao #astronomia #neuralupdate #ciencia #espaco"
+  },
+  {
+   "slug": "viral-tempestade-solar-carrington-A",
+   "tipo": "viral",
+   "dueAt": "2026-09-29T23:23:00.000Z",
+   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/9517ca61-06da-46de-9e5d-85c83b598dee.mp4",
+   "titulo": "Uma tempestade solar de 2012 cruzou a órbita da Terra no ponto onde o planeta estava uma s",
+   "texto": "Uma tempestade solar de 2012 cruzou a órbita da Terra no ponto onde o planeta estava uma semana antes.\n\n📚 NASA Science: https://science.nasa.gov/science-research/planetary-science/23jul_superstorm/\n\n#tempestadesolar #sol #astronomia #espaco #neuralupdate",
+   "versao": "viral-tempestade-solar-carrington-tta"
+  },
+  {
+   "slug": "nw-hubble-200-mil-orbitas",
+   "tipo": "news",
+   "dueAt": "2026-09-30T15:17:00.000Z",
+   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/7e005804-e0a9-407b-bfab-695d9c4fd694.mp4",
+   "titulo": "O Hubble deu 200 mil VOLTAS (e caçou a mesma explosão)",
+   "texto": "O Hubble deu 200 mil VOLTAS (e caçou a mesma explosão)\n\nO Hubble completou sua 200.000ª órbita em 19 de setembro de 2026.\n\n#hubble #supernova #astronomia #ciencia #espaco"
+  },
+  {
+   "slug": "pl54-big-bang",
+   "tipo": "aula",
+   "dueAt": "2026-09-30T20:07:00.000Z",
+   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/bf42035b-cbaa-4b99-ba3a-bd7146980424.mp4",
+   "titulo": "🔭 O Big Bang NÃO foi uma explosão (foi o espaço esticando) 💫",
+   "texto": "🔭 O Big Bang NÃO foi uma explosão (foi o espaço esticando) 💫\n\nEscola de Astronomia Neural Update · Big Bang. Há cerca de 13,8 bilhões de anos, o universo estava num estado extremamente quente e denso e começou a se expandir.\n\n#bigbang #astronomia #neuralupdate #ciencia #espaco"
+  },
+  {
+   "slug": "viral-lua-fugindo-A",
+   "tipo": "viral",
+   "dueAt": "2026-09-30T23:23:00.000Z",
+   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/bac75e40-9c3d-4674-afe5-b082d10fb966.mp4",
+   "titulo": "A Lua se afasta cerca de 3,8 centímetros por ano, medida com lasers refletidos nos espelho",
+   "texto": "A Lua se afasta cerca de 3,8 centímetros por ano, medida com lasers refletidos nos espelhos das missões Apollo.\n\n📚 NASA/JPL: https://www.jpl.nasa.gov/news/the-apollo-experiment-that-keeps-on-giving/\n\n#lua #apollo #eclipse #astronomia #neuralupdate",
+   "versao": "viral-lua-fugindo-tta"
+  },
+  {
+   "slug": "nw-prima-universo-invisivel",
+   "tipo": "news",
+   "dueAt": "2026-10-01T15:17:00.000Z",
+   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/9424f4a4-65d8-46d4-b46d-b1d5212660eb.mp4",
+   "titulo": "A NASA escolheu o PRIMA (o telescópio do INVISÍVEL)",
+   "texto": "A NASA escolheu o PRIMA (o telescópio do INVISÍVEL)\n\nA NASA selecionou o PRIMA para avançar à Fase B. Se confirmado, o telescópio de 1,8 metro será lançado em 2033 para observar o infravermelho distante entre o alcance do Webb e dos radiotelescópios, estudando planetas, estrelas, buracos negros, poeira e água.\n\n#PRIMA #NASA #telescopio #ciencia #espaco"
+  },
+  {
+   "slug": "pl55-eclipses",
+   "tipo": "aula",
+   "dueAt": "2026-10-01T20:07:00.000Z",
+   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/628c2a0d-1320-4b11-a210-f6caaac23cc9.mp4",
+   "titulo": "🔭 Eclipse NÃO acontece todo mês (a órbita da Lua é torta) 🌑",
+   "texto": "🔭 Eclipse NÃO acontece todo mês (a órbita da Lua é torta) 🌑\n\nEscola de Astronomia Neural Update · Eclipses. A Lua passa entre a Terra e o Sol a cada Lua nova, mas sua órbita é inclinada cerca de 5° em relação ao plano da órbita da Terra.\n\n#eclipse #astronomia #neuralupdate #ciencia #espaco"
+  },
+  {
+   "slug": "viral-estrela-cadente",
+   "tipo": "viral",
+   "dueAt": "2026-10-01T23:23:00.000Z",
+   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/4b4ecf05-a34b-453f-b0b1-152b74b37b04.mp4",
+   "titulo": "Estrela cadente NÃO é estrela (é um grão de poeira) ☄️",
+   "texto": "Estrela cadente NÃO é estrela (é um grão de poeira) ☄️\n\nUma 'estrela cadente' é um meteoro: um grão de poeira ou pedrinha, muitas vezes menor que um grão de areia, que entra na atmosfera a dezenas de km/s. O ar comprimido à frente dele aquece e brilha.\n\n#meteoro #astronomia #neuralupdate #ciencia #espaco"
+  }
+ ]
 }

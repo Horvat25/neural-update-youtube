@@ -42,9 +42,17 @@ function grade() {
   const itens = [];
   for (const f of fs.readdirSync(path.join(ROOT, 'lotes')).filter(f => f.endsWith('.json'))) {
     let j; try { j = JSON.parse(fs.readFileSync(path.join(ROOT, 'lotes', f), 'utf8')); } catch { continue; }
-    for (const it of (Array.isArray(j) ? j : [])) if (it && it.slug && it.publishAt && it.title) itens.push(it);
+    for (const it of (Array.isArray(j) ? j : [])) {
+      if (!it || !it.slug || !it.publishAt) continue;
+      // Os lotes de agendamento novos sao indices minimos. Enriquece com o meta do
+      // master para o TikTok nao parar apenas porque title/desc ficam no export.
+      const completo = it.title ? it : { ...(itemDoExport(it.slug) || {}), ...it };
+      if (completo.title) itens.push(completo);
+    }
   }
-  return itens.sort((a, b) => a.publishAt < b.publishAt ? -1 : 1);
+  const unicos = new Map();
+  for (const it of itens) unicos.set(`${it.slug}|${it.publishAt}`, it);
+  return [...unicos.values()].sort((a, b) => a.publishAt < b.publishAt ? -1 : 1);
 }
 const vaiProTikTok = it => it.stream !== 'aula' && !/^pl\d/.test(it.slug) && it.voice !== 'female'
   && !/^2099/.test(it.publishAt);
