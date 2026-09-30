@@ -79,6 +79,12 @@ function instagram() {
       const st = fut.filter(x => x.tipo === 'story').length;
       const msg = `Instagram: ${fut.length} na fila (${st} stories), ate ${brt(ate)} (${dias}d)`;
       (dias <= 2 ? alerta : ok).push(msg + (dias <= 2 ? ' ← renovar fila' : ''));
+      // 30/09/2026: Reels escondiam que os Stories tinham acabado (27/09). Cobertura por tipo.
+      for (const [tipo, nome] of [['reels', 'Reels'], ['story', 'Stories']]) {
+        const f = fut.filter(x => x.tipo === tipo);
+        const d = f.length ? Math.round((new Date(f[f.length - 1].quando) - agora) / 864e5) : 0;
+        if (d <= 1) erro.push(`Instagram: ${nome} acabando (${f.length} na fila, ${d}d) — gerar o proximo lote`);
+      }
     }
   } catch (e) { erro.push('Instagram: ' + e.message); }
 }
