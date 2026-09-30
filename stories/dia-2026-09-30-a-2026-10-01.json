@@ -1,0 +1,62 @@
+[
+  {
+    "slug": "story-feed-2026-09-30",
+    "tipo": "noticia",
+    "dia": "2026-09-30",
+    "quando": "2026-09-30T19:00:00.000Z",
+    "selo": "aula de hoje",
+    "fato": "O Big Bang [[não teve]] centro",
+    "fonte": "Não foi uma explosão no meio do espaço: foi o próprio espaço esticando, em todo lugar ao mesmo tempo.",
+    "cta": "A aula completa está no perfil",
+    "ctaSub": "Segue pra não perder a de amanhã",
+    "fundo": "exports/pl54-big-bang/_story-fundo.png"
+  },
+  {
+    "selo": "sem pegadinha",
+    "fato": "O primeiro mês é [[grátis]] — e dá pra cancelar em dois toques.",
+    "fonte": "Se não gostar, cancela antes de acabar o mês e não paga nada. Leva menos tempo que assistir a um Short.",
+    "cta": "Testa e vê se vale",
+    "ctaSub": "Link na bio",
+    "slug": "story-kindle-2026-09-30",
+    "tipo": "kindle",
+    "dia": "2026-09-30",
+    "quando": "2026-09-30T23:00:00.000Z",
+    "fundo": "carrossel/img/pl49-paradoxo-de-fermi_cena1.png"
+  },
+  {
+    "slug": "story-noticia-2026-10-01",
+    "tipo": "noticia",
+    "dia": "2026-10-01",
+    "quando": "2026-10-01T11:00:00.000Z",
+    "selo": "notícia",
+    "fato": "A NASA escolheu um telescópio pra ver o que o Webb [[não alcança]]",
+    "fonte": "O PRIMA vai enxergar o infravermelho distante, escondido pela poeira cósmica. Lançamento previsto para 2033, se a missão for confirmada.",
+    "cta": "O vídeo completo está no perfil",
+    "ctaSub": "Segue pra não perder o de amanhã",
+    "fundo": "exports/nw-prima-universo-invisivel/img2.png"
+  },
+  {
+    "slug": "story-feed-2026-10-01",
+    "tipo": "noticia",
+    "dia": "2026-10-01",
+    "quando": "2026-10-01T19:00:00.000Z",
+    "selo": "aula de hoje",
+    "fato": "Por que [[não tem]] eclipse todo mês",
+    "fonte": "A órbita da Lua é inclinada uns 5 graus. Na maioria dos meses, a sombra passa acima ou abaixo da Terra.",
+    "cta": "A aula completa está no perfil",
+    "ctaSub": "Segue pra não perder a de amanhã",
+    "fundo": "exports/pl55-eclipses/_story-fundo.png"
+  },
+  {
+    "selo": "leitura",
+    "fato": "Em 40 segundos [[não cabe]] o universo.",
+    "fonte": "O que não coube no vídeo está nos livros. O primeiro mês é grátis; depois vira assinatura, e dá pra cancelar antes disso.",
+    "cta": "Um mês de leitura ilimitada",
+    "ctaSub": "Link na bio",
+    "slug": "story-kindle-2026-10-01",
+    "tipo": "kindle",
+    "dia": "2026-10-01",
+    "quando": "2026-10-01T23:00:00.000Z",
+    "fundo": "carrossel/img/pl49-paradoxo-de-fermi_cena1.png"
+  }
+]
