@@ -1,0 +1,38 @@
+[
+  {
+    "slug": "story-noticia-2026-10-02",
+    "tipo": "noticia",
+    "dia": "2026-10-02",
+    "quando": "2026-10-02T11:00:00.000Z",
+    "selo": "notícia",
+    "fato": "Um planeta foi [[flagrado]] nascendo",
+    "fonte": "A 430 anos-luz, o ALMA viu o gás girando em volta de um planeta ainda em formação. Até hoje, isso só existia em simulação.",
+    "cta": "O vídeo completo está no perfil",
+    "ctaSub": "Segue pra não perder o de amanhã",
+    "fundo": "exports/n8-nasce-o-sol/img2.png"
+  },
+  {
+    "slug": "story-feed-2026-10-02",
+    "tipo": "noticia",
+    "dia": "2026-10-02",
+    "quando": "2026-10-02T19:00:00.000Z",
+    "selo": "aula de hoje",
+    "fato": "Por que os planetas giram no [[mesmo plano]]",
+    "fonte": "A nuvem que formou o Sistema Solar girou, achatou e virou um disco. Os planetas nasceram dentro dele.",
+    "cta": "A aula completa está no perfil",
+    "ctaSub": "Amanhã: por que a Lua não cai",
+    "fundo": "exports/pl56-planetas-mesmo-plano/_story-fundo.png"
+  },
+  {
+    "selo": "sem desculpa",
+    "fato": "Você [[não precisa]] ter um Kindle pra usar o Kindle Unlimited.",
+    "fonte": "O aplicativo é grátis e roda no celular que está na sua mão agora. O aparelho é opcional — a assinatura é que é paga, depois do primeiro mês.",
+    "cta": "Começa hoje, do celular mesmo",
+    "ctaSub": "Link na bio",
+    "slug": "story-kindle-2026-10-02",
+    "tipo": "kindle",
+    "dia": "2026-10-02",
+    "quando": "2026-10-02T23:00:00.000Z",
+    "fundo": "carrossel/img/pl49-paradoxo-de-fermi_cena1.png"
+  }
+]
