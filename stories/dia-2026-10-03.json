@@ -1,0 +1,38 @@
+[
+  {
+    "slug": "story-noticia-2026-10-03",
+    "tipo": "noticia",
+    "dia": "2026-10-03",
+    "quando": "2026-10-03T11:00:00.000Z",
+    "selo": "notícia",
+    "fato": "O gelo de Marte é [[quase puro]]",
+    "fonte": "Menos de 3% de poeira no polo norte, contra os 25% das estimativas antigas. Duas sondas e um robô refizeram a conta.",
+    "cta": "O vídeo completo está no perfil",
+    "ctaSub": "Segue pra não perder o de amanhã",
+    "fundo": "exports/nw-gelo-marte-limpo/_story-fundo.png"
+  },
+  {
+    "slug": "story-feed-2026-10-03",
+    "tipo": "noticia",
+    "dia": "2026-10-03",
+    "quando": "2026-10-03T19:00:00.000Z",
+    "selo": "aula de hoje",
+    "fato": "Por que a Lua [[não cai]] na Terra",
+    "fonte": "Ela cai o tempo todo. Só que anda de lado tão rápido que a Terra curva e foge por baixo dela.",
+    "cta": "A aula completa está no perfil",
+    "ctaSub": "Amanhã: por que Saturno tem anéis",
+    "fundo": "exports/pl57-lua-nao-cai/_story-fundo.png"
+  },
+  {
+    "selo": "sem pegadinha",
+    "fato": "O primeiro mês é [[grátis]] — e dá pra cancelar em dois toques.",
+    "fonte": "Se não gostar, cancela antes de acabar o mês e não paga nada. Leva menos tempo que assistir a um Short.",
+    "cta": "Testa e vê se vale",
+    "ctaSub": "Link na bio",
+    "slug": "story-kindle-2026-10-03",
+    "tipo": "kindle",
+    "dia": "2026-10-03",
+    "quando": "2026-10-03T23:00:00.000Z",
+    "fundo": "carrossel/img/pl49-paradoxo-de-fermi_cena1.png"
+  }
+]
