@@ -1,55 +1,127 @@
 {
  "_leiame": "Plano do TikTok (gerado por tiktok-plano.js no PC). O tiktok-fila-nuvem.js mantém no Buffer os 10 próximos. Não editar à mão.",
- "geradoEm": "2026-10-02T15:07:43.956Z",
- "ate": "2026-10-03",
+ "geradoEm": "2026-10-04T11:32:21.583Z",
+ "ate": "2026-10-08",
  "itens": [
   {
-   "slug": "nw-planeta-nascendo-redemoinho",
+   "slug": "nw-planetas-colidindo-webb",
    "tipo": "news",
-   "dueAt": "2026-10-02T15:17:00.000Z",
-   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/51e426af-e9eb-47bc-aeeb-0350dba180c2.mp4",
-   "titulo": "Um planeta foi FLAGRADO nascendo (e mexendo no gás em volta) 🪐",
-   "texto": "Um planeta foi FLAGRADO nascendo (e mexendo no gás em volta) 🪐\n\nPela primeira vez, astrônomos viram diretamente o gás girando em volta de um planeta em formação: WISPIT 2b, um gigante gasoso com cerca de 5 vezes a massa de Júpiter, a 430 anos-luz, a 57 unidades astronômicas da sua estrela. O ALMA, no Chile, mediu o gás se afastando de um lado e se aproximando do outro — o redemoinho que as simulações previam e ninguém tinha visto.\n\n#planeta #astronomia #neuralupdate #ciencia #espaco"
+   "dueAt": "2026-10-04T15:17:00.000Z",
+   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/016cc909-13ad-4a76-8c23-bc3ed9bde4fe.mp4",
+   "titulo": "Planetas se DESTRUÍRAM (e o Webb viu a poeira) 💥",
+   "texto": "Planetas se DESTRUÍRAM (e o Webb viu a poeira) 💥\n\nO telescópio James Webb observou discos de poeira extremos em sistemas jovens. A composição da poeira indica colisões entre corpos do tamanho de Marte ou raspadas entre mundos do tamanho da Lua — pistas sobre como o nosso próprio sistema se formou.\n\n#webb #planetas #astronomia #ciencia #espaco"
   },
   {
-   "slug": "pl56-planetas-mesmo-plano",
-   "tipo": "aula",
-   "dueAt": "2026-10-02T20:07:00.000Z",
-   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/494e209c-aefe-4679-9a7a-c5f07670711c.mp4",
-   "titulo": "🔭 Por que TODOS os planetas giram no mesmo plano (a culpa é de um disco) 🪐",
-   "texto": "🔭 Por que TODOS os planetas giram no mesmo plano (a culpa é de um disco) 🪐\n\nEscola de Astronomia Neural Update · Sistema Solar. Há cerca de 4,6 bilhões de anos, uma nuvem de gás e poeira começou a colapsar.\n\n#sistemasolar #astronomia #neuralupdate #ciencia #espaco"
+   "slug": "marte-grande-filtro",
+   "tipo": "campeao",
+   "dueAt": "2026-10-04T20:07:00.000Z",
+   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/d494a054-37bd-4a50-9af4-2d8dad1f2791.mp4",
+   "titulo": "Torça pra a gente NÃO achar vida em Marte 👽",
+   "texto": "Torça pra a gente NÃO achar vida em Marte 👽\n\nO Grande Filtro (Robin Hanson) e o argumento de Nick Bostrom: se acharmos vida em Marte, a barreira que impede civilizacoes de sobreviverem provavelmente esta a nossa frente, nao atras. Quanto mais evoluida a vida la, pior o sinal pra nos.\n\n#astronomia #marte #grandefiltro #ciencia #espaco"
   },
   {
-   "slug": "viral-terra-1500-kmh",
+   "slug": "viral-tudo-ja-aconteceu",
    "tipo": "viral",
-   "dueAt": "2026-10-02T23:23:00.000Z",
-   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/29b3c74d-56d0-4f6e-bb42-86af86a76198.mp4",
-   "titulo": "Você está a 1.500 km/h AGORA (e não sente nada) 🌍",
-   "texto": "Você está a 1.500 km/h AGORA (e não sente nada) 🌍\n\nA Terra gira cerca de 1.670 km/h no equador; na latitude de São Paulo, pouco mais de 1.\n\n#terra #astronomia #neuralupdate #ciencia #espaco"
+   "dueAt": "2026-10-04T23:23:00.000Z",
+   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/fe5d6162-ae57-44d3-a942-f7a69c9ad4b6.mp4",
+   "titulo": "Tudo que você vê JÁ aconteceu (até a sua mão) 👀",
+   "texto": "Tudo que você vê JÁ aconteceu (até a sua mão) 👀\n\nA luz precisa de tempo para chegar: da Lua leva cerca de 1,3 segundo e do Sol cerca de 8 minutos e 20 segundos. Por isso, toda imagem é uma pequena janela para o passado.\n\n#luz #tempo #astronomia #ciencia #espaco"
   },
   {
-   "slug": "nw-gelo-marte-limpo",
+   "slug": "nw-crew13-recorde",
    "tipo": "news",
-   "dueAt": "2026-10-03T15:17:00.000Z",
-   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/8a0d32ce-98e2-4029-aaa7-bcbf5ad533d8.mp4",
-   "titulo": "Marte é VERMELHO, mas o gelo do polo é quase limpo (menos de 3% de poeira) 🧊",
-   "texto": "Marte é VERMELHO, mas o gelo do polo é quase limpo (menos de 3% de poeira) 🧊\n\nUm novo estudo mostrou que o gelo exposto no polo norte de Marte tem menos de 3% de poeira — antes, as estimativas chegavam a 25%. A equipe combinou dados da Mars Express (ESA), da Mars Reconnaissance Orbiter (NASA) e da sonda Phoenix.\n\n#marte #astronomia #neuralupdate #ciencia #espaco"
+   "dueAt": "2026-10-05T15:17:00.000Z",
+   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/1546b52b-98a2-451d-935d-0b81f6ebd437.mp4",
+   "titulo": "Recorde: Terra → Estação Espacial em 7h55 🚀",
+   "texto": "Recorde: Terra → Estação Espacial em 7h55 🚀\n\nA missão Crew-13 (NASA/SpaceX) chegou à Estação Espacial Internacional em cerca de 7 horas e 55 minutos depois do lançamento na Flórida, a viagem mais curta de uma tripulação até a Estação.\n\n#crew13 #estacaoespacial #nasa #ciencia #espaco"
   },
   {
-   "slug": "pl57-lua-nao-cai",
-   "tipo": "aula",
-   "dueAt": "2026-10-03T20:07:00.000Z",
-   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/81887527-60f7-4ba1-9e11-c23a22f16e16.mp4",
-   "titulo": "🔭 A Lua está CAINDO na Terra agora (e nunca chega) 🌕",
-   "texto": "🔭 A Lua está CAINDO na Terra agora (e nunca chega) 🌕\n\nEscola de Astronomia Neural Update · Gravidade e órbita. A Lua cai em direção à Terra o tempo todo, puxada pela gravidade.\n\n#lua #astronomia #neuralupdate #ciencia #espaco"
+   "slug": "v47-voyager-depois-do-sol",
+   "tipo": "campeao",
+   "dueAt": "2026-10-05T20:07:00.000Z",
+   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/fecc2c17-c594-4b48-95ca-7993831b7c66.mp4",
+   "titulo": "A Voyager ainda vai estar voando quando o Sol MORRER 🛰️",
+   "texto": "A Voyager ainda vai estar voando quando o Sol MORRER 🛰️\n\nA Voyager vai continuar voando depois que o Sol morrer. As duas sondas já saíram da bolha do Sol e seguem em linha reta pelo vazio, sem combustível e sem freio.\n\n#voyager #espaço #neuralupdate #ciencia #espaco"
   },
   {
-   "slug": "viral-saturno-amanha",
+   "slug": "viral-lua-jupiter-amanha",
    "tipo": "viral",
-   "dueAt": "2026-10-03T23:23:00.000Z",
-   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/61acc7f7-1c6b-4bd2-9d85-ea391c2b5608.mp4",
-   "titulo": "AMANHÃ (domingo, 4/10) Saturno fica no mais perto e brilhante do ano 🪐",
-   "texto": "AMANHÃ (domingo, 4/10) Saturno fica no mais perto e brilhante do ano 🪐\n\nEm 4 de outubro de 2026, Saturno chega à oposição: a Terra passa entre o Sol e Saturno. É quando ele fica mais perto e mais brilhante no ano (magnitude ~0,3).\n\n#saturno #astronomia #neuralupdate #ciencia #espaco"
+   "dueAt": "2026-10-05T23:23:00.000Z",
+   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/ed0618cd-da5d-4319-a065-c0d515323c6e.mp4",
+   "titulo": "Nesta terça, a Lua vai ENCOSTAR em Júpiter (olha antes do sol nascer) 🌙",
+   "texto": "Nesta terça, a Lua vai ENCOSTAR em Júpiter (olha antes do sol nascer) 🌙\n\n#astronomia #neuralupdate #ciencia #espaco"
+  },
+  {
+   "slug": "nw-flash-magnetar",
+   "tipo": "news",
+   "dueAt": "2026-10-06T15:17:00.000Z",
+   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/5088c852-b617-4a21-97d4-19000a047998.mp4",
+   "titulo": "Flash de 10 MINUTOS: um magnetar pode ter NASCIDO 💥",
+   "texto": "Flash de 10 MINUTOS: um magnetar pode ter NASCIDO 💥\n\nO evento EP250704a começou com um raio gama de cerca de 0,4 s e seguiu com emissão de raio X por cerca de 560 s, mais de mil vezes mais longa que o comum após a fusão de duas estrelas de nêutrons. Uma explicação proposta é o nascimento de um magnetar.\n\n#magnetar #estrelasdeneutrons #astronomia #ciencia #espaco"
+  },
+  {
+   "slug": "nw-estrela-de-buraco-negro",
+   "tipo": "campeao",
+   "dueAt": "2026-10-06T20:07:00.000Z",
+   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/0c4bf465-7f5d-43fc-90cd-07ba325cf093.mp4",
+   "titulo": "Buraco negro DISFARÇADO de estrela (o Webb achou) 🕳️",
+   "texto": "Buraco negro DISFARÇADO de estrela (o Webb achou) 🕳️\n\nBuraco negro disfarçado de estrela: publicado na Nature em 12 de agosto de 2026, o objeto MoM-BH*-1 brilha como uma estrela, mas não tem fusão nuclear nenhuma. É um buraco negro de cerca de cem mil massas solares envolvido num casulo de gás do tamanho de um sistema solar, engolindo matéria tão rápido que o casulo inteiro acende.\n\n#buraconegro #astronomia #neuralupdate #ciencia #espaco"
+  },
+  {
+   "slug": "viral-lugar-mais-frio",
+   "tipo": "viral",
+   "dueAt": "2026-10-06T23:23:00.000Z",
+   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/c476f181-9e39-41a0-a173-73cb3d001529.mp4",
+   "titulo": "Existe um lugar MAIS FRIO que o espaço vazio (e é uma nuvem de gás) 🥶",
+   "texto": "Existe um lugar MAIS FRIO que o espaço vazio (e é uma nuvem de gás) 🥶\n\n#astronomia #neuralupdate #ciencia #espaco"
+  },
+  {
+   "slug": "nw-webb-oxigenio-galaxias",
+   "tipo": "news",
+   "dueAt": "2026-10-07T15:17:00.000Z",
+   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/b9ce18b4-8072-4a34-9132-472160a6abfa.mp4",
+   "titulo": "O Webb viu galáxias JOGANDO oxigênio no espaço 🌌",
+   "texto": "O Webb viu galáxias JOGANDO oxigênio no espaço 🌌\n\nObservações do telescópio James Webb mostram galáxias de cerca de 500 milhões de anos após o Big Bang já espalhando oxigênio, carbono e silício no espaço ao redor, os elementos que depois formam planetas.\n\n#webb #galaxias #bigbang #ciencia #espaco"
+  },
+  {
+   "slug": "nw-terra-sumiu-ceu-de-marte",
+   "tipo": "campeao",
+   "dueAt": "2026-10-07T20:07:00.000Z",
+   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/a8521747-a4be-416f-bf2b-9da8405f7501.mp4",
+   "titulo": "A Terra SUMIU do céu de Marte (e um robô filmou) 🔴",
+   "texto": "A Terra SUMIU do céu de Marte (e um robô filmou) 🔴\n\nA Terra vista do céu de Marte: em 2 de julho de 2026, no sol 1.907 da missão, o rover Perseverance apontou a câmera Mastcam-Z para o céu do entardecer marciano e registrou a Terra desaparecendo atrás de Fobos, a maior das duas luas de Marte.\n\n#marte #astronomia #neuralupdate #ciencia #espaco"
+  },
+  {
+   "slug": "viral-astronauta-cresce",
+   "tipo": "viral",
+   "dueAt": "2026-10-07T23:23:00.000Z",
+   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/3c5a38c4-a86a-4937-8571-cfc36439f8f7.mp4",
+   "titulo": "No espaço você CRESCE até 5 cm (e a Terra toma de volta) 📏",
+   "texto": "No espaço você CRESCE até 5 cm (e a Terra toma de volta) 📏\n\n#astronomia #neuralupdate #ciencia #espaco"
+  },
+  {
+   "slug": "nw-roman-coronografo",
+   "tipo": "news",
+   "dueAt": "2026-10-08T15:17:00.000Z",
+   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/e8d4121d-7602-4975-bb8b-4d406f2b9c2a.mp4",
+   "titulo": "O Roman TAPOU uma estrela pela primeira vez 🔭",
+   "texto": "O Roman TAPOU uma estrela pela primeira vez 🔭\n\nO telescópio espacial Roman, da NASA, fez a primeira observação com o coronógrafo, o instrumento que bloqueia a luz da estrela para revelar o que está em volta. O sistema de guiagem mostrou estabilidade suficiente para, na comparação da NASA, acertar uma moeda a 240 km.\n\n#roman #nasa #exoplanetas #ciencia #espaco"
+  },
+  {
+   "slug": "nw-asteroide-de-metal",
+   "tipo": "campeao",
+   "dueAt": "2026-10-08T20:07:00.000Z",
+   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/0a12deaa-2b2a-4173-adad-22edf32103b2.mp4",
+   "titulo": "Tem um asteroide feito de METAL e uma sonda indo até lá 🛰️",
+   "texto": "Tem um asteroide feito de METAL e uma sonda indo até lá 🛰️\n\nA missão Psyche, da NASA, está a caminho do asteroide 16 Psyche, no cinturão principal, um corpo rico em metal que pode ser o núcleo exposto de um planetesimal que nunca chegou a virar planeta. A sonda concluiu recentemente um sobrevoo de Marte para ganho gravitacional, com imagens já divulgadas, e retomou o uso dos motores elétricos rumo ao destino.\n\n#asteroide #astronomia #neuralupdate #ciencia #espaco"
+  },
+  {
+   "slug": "viral-voltar-no-tempo",
+   "tipo": "viral",
+   "dueAt": "2026-10-08T23:23:00.000Z",
+   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/a15a8dd3-ecdd-488a-b589-95e811dc8aa9.mp4",
+   "titulo": "A física NÃO proíbe voltar no tempo (mas ninguém apareceu na festa) ⏳",
+   "texto": "A física NÃO proíbe voltar no tempo (mas ninguém apareceu na festa) ⏳\n\n#astronomia #neuralupdate #ciencia #espaco"
   }
  ]
 }
