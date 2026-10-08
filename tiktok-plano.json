@@ -1,16 +1,8 @@
 {
  "_leiame": "Plano do TikTok (gerado por tiktok-plano.js no PC). O tiktok-fila-nuvem.js mantém no Buffer os 10 próximos. Não editar à mão.",
- "geradoEm": "2026-10-08T18:53:48.616Z",
+ "geradoEm": "2026-10-08T22:01:56.210Z",
  "ate": "2026-10-09",
  "itens": [
-  {
-   "slug": "nw-asteroide-de-metal",
-   "tipo": "campeao",
-   "dueAt": "2026-10-08T20:07:00.000Z",
-   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/0a12deaa-2b2a-4173-adad-22edf32103b2.mp4",
-   "titulo": "Tem um asteroide feito de METAL e uma sonda indo até lá 🛰️",
-   "texto": "Tem um asteroide feito de METAL e uma sonda indo até lá 🛰️\n\nA missão Psyche, da NASA, está a caminho do asteroide 16 Psyche, no cinturão principal, um corpo rico em metal que pode ser o núcleo exposto de um planetesimal que nunca chegou a virar planeta. A sonda concluiu recentemente um sobrevoo de Marte para ganho gravitacional, com imagens já divulgadas, e retomou o uso dos motores elétricos rumo ao destino.\n\n#asteroide #astronomia #neuralupdate #ciencia #espaco"
-  },
   {
    "slug": "viral-voltar-no-tempo",
    "tipo": "viral",
@@ -26,6 +18,14 @@
    "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/8fc9ab20-d7d3-49ec-81f0-a94c47d1edea.mp4",
    "titulo": "O Webb achou AR num planeta de LAVA (e não era pra ter) 🌋",
    "texto": "O Webb achou AR num planeta de LAVA (e não era pra ter) 🌋\n\nLá um ano dura menos de 11 horas. Sem ar, o lado de dia passaria de 2.700 °C. O Webb mediu uns 1.800 °C.\n\n#webb #exoplanetas #astronomia #ciencia #espaco #neuralupdate"
+  },
+  {
+   "slug": "pl63-cinturao-asteroides",
+   "tipo": "aula",
+   "dueAt": "2026-10-09T20:07:00.000Z",
+   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/38c02403-b605-40a0-b745-a8429adbaaa3.mp4",
+   "titulo": "Por que NÃO existe um planeta entre Marte e Júpiter? 🪨",
+   "texto": "Por que NÃO existe um planeta entre Marte e Júpiter? 🪨\n\nA gravidade de Júpiter agitava as pedras: elas batiam e quebravam em vez de grudar. Hoje todos os asteroides juntos pesam menos que a Lua.\n\n#asteroides #jupiter #astronomia #ciencia #espaco #neuralupdate"
   }
  ]
 }
