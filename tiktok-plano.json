@@ -1,112 +1,8 @@
 {
  "_leiame": "Plano do TikTok (gerado por tiktok-plano.js no PC). O tiktok-fila-nuvem.js mantém no Buffer os 10 próximos. Não editar à mão.",
- "geradoEm": "2026-10-04T11:32:21.583Z",
- "ate": "2026-10-08",
+ "geradoEm": "2026-10-08T18:53:48.616Z",
+ "ate": "2026-10-09",
  "itens": [
-  {
-   "slug": "nw-planetas-colidindo-webb",
-   "tipo": "news",
-   "dueAt": "2026-10-04T15:17:00.000Z",
-   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/016cc909-13ad-4a76-8c23-bc3ed9bde4fe.mp4",
-   "titulo": "Planetas se DESTRUÍRAM (e o Webb viu a poeira) 💥",
-   "texto": "Planetas se DESTRUÍRAM (e o Webb viu a poeira) 💥\n\nO telescópio James Webb observou discos de poeira extremos em sistemas jovens. A composição da poeira indica colisões entre corpos do tamanho de Marte ou raspadas entre mundos do tamanho da Lua — pistas sobre como o nosso próprio sistema se formou.\n\n#webb #planetas #astronomia #ciencia #espaco"
-  },
-  {
-   "slug": "marte-grande-filtro",
-   "tipo": "campeao",
-   "dueAt": "2026-10-04T20:07:00.000Z",
-   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/d494a054-37bd-4a50-9af4-2d8dad1f2791.mp4",
-   "titulo": "Torça pra a gente NÃO achar vida em Marte 👽",
-   "texto": "Torça pra a gente NÃO achar vida em Marte 👽\n\nO Grande Filtro (Robin Hanson) e o argumento de Nick Bostrom: se acharmos vida em Marte, a barreira que impede civilizacoes de sobreviverem provavelmente esta a nossa frente, nao atras. Quanto mais evoluida a vida la, pior o sinal pra nos.\n\n#astronomia #marte #grandefiltro #ciencia #espaco"
-  },
-  {
-   "slug": "viral-tudo-ja-aconteceu",
-   "tipo": "viral",
-   "dueAt": "2026-10-04T23:23:00.000Z",
-   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/fe5d6162-ae57-44d3-a942-f7a69c9ad4b6.mp4",
-   "titulo": "Tudo que você vê JÁ aconteceu (até a sua mão) 👀",
-   "texto": "Tudo que você vê JÁ aconteceu (até a sua mão) 👀\n\nA luz precisa de tempo para chegar: da Lua leva cerca de 1,3 segundo e do Sol cerca de 8 minutos e 20 segundos. Por isso, toda imagem é uma pequena janela para o passado.\n\n#luz #tempo #astronomia #ciencia #espaco"
-  },
-  {
-   "slug": "nw-crew13-recorde",
-   "tipo": "news",
-   "dueAt": "2026-10-05T15:17:00.000Z",
-   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/1546b52b-98a2-451d-935d-0b81f6ebd437.mp4",
-   "titulo": "Recorde: Terra → Estação Espacial em 7h55 🚀",
-   "texto": "Recorde: Terra → Estação Espacial em 7h55 🚀\n\nA missão Crew-13 (NASA/SpaceX) chegou à Estação Espacial Internacional em cerca de 7 horas e 55 minutos depois do lançamento na Flórida, a viagem mais curta de uma tripulação até a Estação.\n\n#crew13 #estacaoespacial #nasa #ciencia #espaco"
-  },
-  {
-   "slug": "v47-voyager-depois-do-sol",
-   "tipo": "campeao",
-   "dueAt": "2026-10-05T20:07:00.000Z",
-   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/fecc2c17-c594-4b48-95ca-7993831b7c66.mp4",
-   "titulo": "A Voyager ainda vai estar voando quando o Sol MORRER 🛰️",
-   "texto": "A Voyager ainda vai estar voando quando o Sol MORRER 🛰️\n\nA Voyager vai continuar voando depois que o Sol morrer. As duas sondas já saíram da bolha do Sol e seguem em linha reta pelo vazio, sem combustível e sem freio.\n\n#voyager #espaço #neuralupdate #ciencia #espaco"
-  },
-  {
-   "slug": "viral-lua-jupiter-amanha",
-   "tipo": "viral",
-   "dueAt": "2026-10-05T23:23:00.000Z",
-   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/ed0618cd-da5d-4319-a065-c0d515323c6e.mp4",
-   "titulo": "Nesta terça, a Lua vai ENCOSTAR em Júpiter (olha antes do sol nascer) 🌙",
-   "texto": "Nesta terça, a Lua vai ENCOSTAR em Júpiter (olha antes do sol nascer) 🌙\n\n#astronomia #neuralupdate #ciencia #espaco"
-  },
-  {
-   "slug": "nw-flash-magnetar",
-   "tipo": "news",
-   "dueAt": "2026-10-06T15:17:00.000Z",
-   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/5088c852-b617-4a21-97d4-19000a047998.mp4",
-   "titulo": "Flash de 10 MINUTOS: um magnetar pode ter NASCIDO 💥",
-   "texto": "Flash de 10 MINUTOS: um magnetar pode ter NASCIDO 💥\n\nO evento EP250704a começou com um raio gama de cerca de 0,4 s e seguiu com emissão de raio X por cerca de 560 s, mais de mil vezes mais longa que o comum após a fusão de duas estrelas de nêutrons. Uma explicação proposta é o nascimento de um magnetar.\n\n#magnetar #estrelasdeneutrons #astronomia #ciencia #espaco"
-  },
-  {
-   "slug": "nw-estrela-de-buraco-negro",
-   "tipo": "campeao",
-   "dueAt": "2026-10-06T20:07:00.000Z",
-   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/0c4bf465-7f5d-43fc-90cd-07ba325cf093.mp4",
-   "titulo": "Buraco negro DISFARÇADO de estrela (o Webb achou) 🕳️",
-   "texto": "Buraco negro DISFARÇADO de estrela (o Webb achou) 🕳️\n\nBuraco negro disfarçado de estrela: publicado na Nature em 12 de agosto de 2026, o objeto MoM-BH*-1 brilha como uma estrela, mas não tem fusão nuclear nenhuma. É um buraco negro de cerca de cem mil massas solares envolvido num casulo de gás do tamanho de um sistema solar, engolindo matéria tão rápido que o casulo inteiro acende.\n\n#buraconegro #astronomia #neuralupdate #ciencia #espaco"
-  },
-  {
-   "slug": "viral-lugar-mais-frio",
-   "tipo": "viral",
-   "dueAt": "2026-10-06T23:23:00.000Z",
-   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/c476f181-9e39-41a0-a173-73cb3d001529.mp4",
-   "titulo": "Existe um lugar MAIS FRIO que o espaço vazio (e é uma nuvem de gás) 🥶",
-   "texto": "Existe um lugar MAIS FRIO que o espaço vazio (e é uma nuvem de gás) 🥶\n\n#astronomia #neuralupdate #ciencia #espaco"
-  },
-  {
-   "slug": "nw-webb-oxigenio-galaxias",
-   "tipo": "news",
-   "dueAt": "2026-10-07T15:17:00.000Z",
-   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/b9ce18b4-8072-4a34-9132-472160a6abfa.mp4",
-   "titulo": "O Webb viu galáxias JOGANDO oxigênio no espaço 🌌",
-   "texto": "O Webb viu galáxias JOGANDO oxigênio no espaço 🌌\n\nObservações do telescópio James Webb mostram galáxias de cerca de 500 milhões de anos após o Big Bang já espalhando oxigênio, carbono e silício no espaço ao redor, os elementos que depois formam planetas.\n\n#webb #galaxias #bigbang #ciencia #espaco"
-  },
-  {
-   "slug": "nw-terra-sumiu-ceu-de-marte",
-   "tipo": "campeao",
-   "dueAt": "2026-10-07T20:07:00.000Z",
-   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/a8521747-a4be-416f-bf2b-9da8405f7501.mp4",
-   "titulo": "A Terra SUMIU do céu de Marte (e um robô filmou) 🔴",
-   "texto": "A Terra SUMIU do céu de Marte (e um robô filmou) 🔴\n\nA Terra vista do céu de Marte: em 2 de julho de 2026, no sol 1.907 da missão, o rover Perseverance apontou a câmera Mastcam-Z para o céu do entardecer marciano e registrou a Terra desaparecendo atrás de Fobos, a maior das duas luas de Marte.\n\n#marte #astronomia #neuralupdate #ciencia #espaco"
-  },
-  {
-   "slug": "viral-astronauta-cresce",
-   "tipo": "viral",
-   "dueAt": "2026-10-07T23:23:00.000Z",
-   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/3c5a38c4-a86a-4937-8571-cfc36439f8f7.mp4",
-   "titulo": "No espaço você CRESCE até 5 cm (e a Terra toma de volta) 📏",
-   "texto": "No espaço você CRESCE até 5 cm (e a Terra toma de volta) 📏\n\n#astronomia #neuralupdate #ciencia #espaco"
-  },
-  {
-   "slug": "nw-roman-coronografo",
-   "tipo": "news",
-   "dueAt": "2026-10-08T15:17:00.000Z",
-   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/e8d4121d-7602-4975-bb8b-4d406f2b9c2a.mp4",
-   "titulo": "O Roman TAPOU uma estrela pela primeira vez 🔭",
-   "texto": "O Roman TAPOU uma estrela pela primeira vez 🔭\n\nO telescópio espacial Roman, da NASA, fez a primeira observação com o coronógrafo, o instrumento que bloqueia a luz da estrela para revelar o que está em volta. O sistema de guiagem mostrou estabilidade suficiente para, na comparação da NASA, acertar uma moeda a 240 km.\n\n#roman #nasa #exoplanetas #ciencia #espaco"
-  },
   {
    "slug": "nw-asteroide-de-metal",
    "tipo": "campeao",
@@ -122,6 +18,14 @@
    "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/a15a8dd3-ecdd-488a-b589-95e811dc8aa9.mp4",
    "titulo": "A física NÃO proíbe voltar no tempo (mas ninguém apareceu na festa) ⏳",
    "texto": "A física NÃO proíbe voltar no tempo (mas ninguém apareceu na festa) ⏳\n\n#astronomia #neuralupdate #ciencia #espaco"
+  },
+  {
+   "slug": "nw-webb-lava-planeta",
+   "tipo": "news",
+   "dueAt": "2026-10-09T15:17:00.000Z",
+   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/8fc9ab20-d7d3-49ec-81f0-a94c47d1edea.mp4",
+   "titulo": "O Webb achou AR num planeta de LAVA (e não era pra ter) 🌋",
+   "texto": "O Webb achou AR num planeta de LAVA (e não era pra ter) 🌋\n\nLá um ano dura menos de 11 horas. Sem ar, o lado de dia passaria de 2.700 °C. O Webb mediu uns 1.800 °C.\n\n#webb #exoplanetas #astronomia #ciencia #espaco #neuralupdate"
   }
  ]
 }
