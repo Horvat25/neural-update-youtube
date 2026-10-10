@@ -102,7 +102,7 @@ const cenasDaPasta = () => fs.readdirSync(dir).filter(f => /^cena\d+\.mp4$/i.tes
 
   // 2. bordão
   const bordaoPath = path.join(dir, '_bordao.mp3');
-  const tts = await generateTTSWithTimings(BORDAO, bordaoPath, 'male');
+  const tts = await generateTTSWithTimings(BORDAO, bordaoPath, process.env.BORDAO_VOZ || 'male');
   const pal = tts.words || [];
   if (pal.length !== BORDAO_LEGENDA.length) { console.error(`✗ o TTS devolveu ${pal.length} palavras no bordão (esperava ${BORDAO_LEGENDA.length})`); process.exit(1); }
   // o arquivo do TTS traz ~0,9 s de silêncio no fim — cortar logo depois da última palavra

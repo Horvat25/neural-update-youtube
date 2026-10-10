@@ -278,7 +278,7 @@ function durOf(file) {
 
   const ass = path.join(work, 'captions.ass');
   // Grafia fonética só existe pro TTS (tabela do YouTube/CLAUDE.md); na legenda o espectador vê a grafia certa.
-  const FONETICA = [[/RRÁ-BOL/g, 'HUBBLE'], [/Rrá-bol/g, 'Hubble'], [/HÂBOL/g, 'HUBBLE'], [/Hâbol/g, 'Hubble'], [/RÁ-BOL/g, 'HUBBLE'], [/Rá-bol/g, 'Hubble'], [/PERSEVÍRANS/g, 'PERSEVERANCE'], [/Persevírans/g, 'Perseverance'], [/ESPÓILER/g, 'SPOILER'], [/Espóiler/g, 'Spoiler'], [/PÍCTORIS/g, 'PICTORIS'], [/Píctoris/g, 'Pictoris']];
+  const FONETICA = [[/RRÁ-BOL/g, 'HUBBLE'], [/Rrá-bol/g, 'Hubble'], [/HÂBOL/g, 'HUBBLE'], [/Hâbol/g, 'Hubble'], [/RÁ-BOL/g, 'HUBBLE'], [/Rá-bol/g, 'Hubble'], [/PERSEVÍRANS/g, 'PERSEVERANCE'], [/Persevírans/g, 'Perseverance'], [/ESPÓILER/g, 'SPOILER'], [/Espóiler/g, 'Spoiler'], [/ESFÉREX/g, 'SPHEREX'], [/Esférex/g, 'SPHEREx'], [/FÓBOS/g, 'FOBOS'], [/Fóbos/g, 'Fobos'], [/HÁLEI/g, 'HALLEY'], [/Hálei/g, 'Halley'], [/PINEUMONIA/g, 'PNEUMONIA'], [/Pineumonia/g, 'Pneumonia'], [/pineumonia/g, 'pneumonia'], [/NEUMONIA/g, 'PNEUMONIA'], [/Neumonia/g, 'Pneumonia'], [/neumonia/g, 'pneumonia'], [/NEUTRONS/g, 'NÊUTRONS'], [/neutrons/g, 'nêutrons'], [/PÍCTORIS/g, 'PICTORIS'], [/Píctoris/g, 'Pictoris']];
   let assTxt = buildAss(words || [], { width: 720, height: 1280, fontSize: 56, marginV: 225, outline: 5, shadow: 2, group: 2 });
   for (const [re, certo] of FONETICA) assTxt = assTxt.replace(re, certo);
   fs.writeFileSync(ass, assTxt, 'utf8');

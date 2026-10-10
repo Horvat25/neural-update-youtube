@@ -1,0 +1,38 @@
+[
+ {
+  "slug": "story-noticia-2026-10-10",
+  "tipo": "noticia",
+  "dia": "2026-10-10",
+  "quando": "2026-10-10T11:00:00.000Z",
+  "selo": "notícia",
+  "fato": "[[237 dias]] no espaço",
+  "fonte": "Quatro astronautas voltaram da estação espacial e a cápsula caiu no Pacífico, perto de Los Angeles.",
+  "cta": "O vídeo completo está no perfil",
+  "ctaSub": "Segue pra não perder o de amanhã",
+  "fundo": "exports/nw-crew12-volta-237-dias/_story-fundo.png"
+ },
+ {
+  "slug": "story-feed-2026-10-10",
+  "tipo": "noticia",
+  "dia": "2026-10-10",
+  "quando": "2026-10-10T19:00:00.000Z",
+  "selo": "aula de hoje",
+  "fato": "A Mancha Vermelha cabe [[duas Terras]]",
+  "fonte": "É uma tempestade com mais de 300 anos, e a sonda Juno mediu: ela afunda uns 350 km.",
+  "cta": "A aula completa está no perfil",
+  "ctaSub": "Segue pra não perder a de amanhã",
+  "fundo": "exports/pl64-jupiter-mancha-vermelha/_story-fundo.png"
+ },
+ {
+  "selo": "leitura",
+  "fato": "Em 40 segundos [[não cabe]] o universo.",
+  "fonte": "O que não coube no vídeo está nos livros. O primeiro mês é grátis; depois vira assinatura, e dá pra cancelar antes disso.",
+  "cta": "Um mês de leitura ilimitada",
+  "ctaSub": "Link na bio",
+  "slug": "story-kindle-2026-10-10",
+  "tipo": "kindle",
+  "dia": "2026-10-10",
+  "quando": "2026-10-10T23:00:00.000Z",
+  "fundo": "carrossel/img/pl49-paradoxo-de-fermi_cena1.png"
+ }
+]
