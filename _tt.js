@@ -5,15 +5,46 @@
  * TikTok silencia some-amount / rising-tide (Content ID), então: news → cosmic-ambient-espacial, viral → cosmic-ice-flow;
  * aula já usa trilha segura → copia o master. Volume igualado ao master (sem loudnorm: estoura a memória do PC).
  * Saída: tiktok-lote/<slug>-tt.mp4 + tiktok-lote/<slug>-tt.legenda.txt
+ *
+ * --so-legenda: NÃO gera vídeo nem lê o master; só escreve a legenda em tiktok-lote/_teste-legenda/ (não toca
+ *   nas legendas reais). Serve para conferir o texto antes do lote.
+ * Legenda (14/10/2026): título (1ª linha = CHAVE que o plano e o robô usam, não mexer) → "Fonte: <curta>" (se o spec
+ *   tem `fonte`; desliga com `tt_fonte: false`) → 1ª frase → hashtags → (se `tt_pointer`) "Mais no Instagram: @neuralupdate"
+ *   (`tt_pointer: true` usa o texto padrão; string usa o texto dela).
  */
 const fs = require('fs');
 const path = require('path');
 const { spawnSync } = require('child_process');
 const FF = require('./node_modules/ffmpeg-static');
 const TRILHA = { news: 'cosmic-ambient-espacial.mp3', viral: 'cosmic-ice-flow.mp3' };
+const POINTER_PADRAO = 'Mais no Instagram: @neuralupdate';
+const SO_LEGENDA = process.argv.includes('--so-legenda');
 
-for (const arq of process.argv.slice(2)) {
+// "Fonte: NASA — Título (data): url ; ..." → "Fonte: NASA". Só a 1ª linha do campo; corta no 1º separador.
+function fonteCurta(spec) {
+  if (spec.tt_fonte === false) return '';
+  const l1 = String(spec.fonte || '').split('\n')[0].replace(/^\s*fonte:\s*/i, '').trim();
+  const curta = l1.split(/\s+—\s+|\s+\(|;|:|\.\s/)[0].trim();
+  return curta ? `Fonte: ${curta.slice(0, 60)}` : '';
+}
+
+function legendaTT(spec) {
+  const titulo = spec.title.replace(/#Shorts/g, '').replace(/^📰\s*/, '').replace(/^🔭\s*/, '').trim();
+  const frase = (spec.desc.replace(/^Escola de Astronomia Neural Update · Sistema Solar\.\s*/, '').match(/^[^.]+\./) || [''])[0];
+  const tags = (spec.hashtags || []).filter(h => h !== '#neuralupdate').slice(0, 3).concat(['#astronomia', '#ciencia', '#neuralupdate']).join(' ');
+  const pointer = spec.tt_pointer ? (typeof spec.tt_pointer === 'string' ? spec.tt_pointer : POINTER_PADRAO) : '';
+  return [titulo, fonteCurta(spec), frase, tags, pointer].filter(Boolean).join('\n\n') + '\n';
+}
+
+for (const arq of process.argv.slice(2).filter(a => !a.startsWith('--'))) {
   const spec = JSON.parse(fs.readFileSync(arq, 'utf8'));
+  if (SO_LEGENDA) {
+    fs.mkdirSync(path.join('tiktok-lote', '_teste-legenda'), { recursive: true });
+    const dest = path.join('tiktok-lote', '_teste-legenda', `${spec.slug}-tt.legenda.txt`);
+    fs.writeFileSync(dest, legendaTT(spec));
+    console.log(`✓ ${spec.slug}  legenda de teste → ${dest}`);
+    continue;
+  }
   const S = spec.slug, dir = path.join('exports', S), master = path.join(dir, `${S}.mp4`);
   const out = path.join('tiktok-lote', `${S}-tt.mp4`);
   fs.mkdirSync('tiktok-lote', { recursive: true });
@@ -41,10 +72,6 @@ for (const arq of process.argv.slice(2)) {
   const nv = spawnSync(FF, ['-hide_banner', '-i', out, '-af', 'volumedetect', '-vn', '-f', 'null', '-'], { encoding: 'utf8' }).stderr || '';
   const mv = spawnSync(FF, ['-hide_banner', '-i', master, '-af', 'volumedetect', '-vn', '-f', 'null', '-'], { encoding: 'utf8' }).stderr || '';
   const g = s => (s.match(/mean_volume: (-?[\d.]+)/) || [])[1];
-  // legenda: título limpo + 1ª frase da descrição + hashtags
-  const titulo = spec.title.replace(/#Shorts/g, '').replace(/^📰\s*/, '').replace(/^🔭\s*/, '').trim();
-  const frase = (spec.desc.replace(/^Escola de Astronomia Neural Update · Sistema Solar\.\s*/, '').match(/^[^.]+\./) || [''])[0];
-  const tags = (spec.hashtags || []).filter(h => h !== '#neuralupdate').slice(0, 3).concat(['#astronomia', '#ciencia', '#neuralupdate']).join(' ');
-  fs.writeFileSync(path.join('tiktok-lote', `${S}-tt.legenda.txt`), `${titulo}\n\n${frase}\n\n${tags}\n`);
+  fs.writeFileSync(path.join('tiktok-lote', `${S}-tt.legenda.txt`), legendaTT(spec));
   console.log(`✓ ${S}  tt ${g(nv)} dB (master ${g(mv)} dB)`);
 }
