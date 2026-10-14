@@ -9,7 +9,7 @@
  * --so-legenda: NÃO gera vídeo nem lê o master; só escreve a legenda em tiktok-lote/_teste-legenda/ (não toca
  *   nas legendas reais). Serve para conferir o texto antes do lote.
  * Legenda (14/10/2026): título (1ª linha = CHAVE que o plano e o robô usam, não mexer) → "Fonte: <curta>" (se o spec
- *   tem `fonte`; desliga com `tt_fonte: false`) → 1ª frase → hashtags → (se `tt_pointer`) "Mais no Instagram: @neuralupdate"
+ *   tem `fonte`; `tt_fonte: false` desliga, `tt_fonte: "texto"` substitui o corte automático) → 1ª frase → hashtags → (se `tt_pointer`) "Mais no Instagram: @neuralupdate"
  *   (`tt_pointer: true` usa o texto padrão; string usa o texto dela).
  * `tt_oferta`: "kindle" | "projetor" | texto próprio → linha de oferta entre a frase e as hashtags. Não combina com tt_pointer
  *   (os dois são testes separados: a oferta vai nas aulas, o pointer nos virais). `--sem-oferta` (plano B) troca a oferta por
@@ -33,6 +33,7 @@ const OFERTAS = {
 // "Fonte: NASA — Título (data): url ; ..." → "Fonte: NASA". Só a 1ª linha do campo; corta no 1º separador.
 function fonteCurta(spec) {
   if (spec.tt_fonte === false) return '';
+  if (typeof spec.tt_fonte === 'string' && spec.tt_fonte.trim()) return `Fonte: ${spec.tt_fonte.trim().slice(0, 80)}`; // override quando o corte automático sai ruim (ex.: fonte que começa por um lugar)
   const l1 = String(spec.fonte || '').split('\n')[0].replace(/^\s*fonte:\s*/i, '').trim();
   const curta = l1.split(/\s+—\s+|\s+\(|;|:|\.\s/)[0].trim();
   return curta ? `Fonte: ${curta.slice(0, 60)}` : '';
