@@ -11,6 +11,9 @@
  * Legenda (14/10/2026): título (1ª linha = CHAVE que o plano e o robô usam, não mexer) → "Fonte: <curta>" (se o spec
  *   tem `fonte`; desliga com `tt_fonte: false`) → 1ª frase → hashtags → (se `tt_pointer`) "Mais no Instagram: @neuralupdate"
  *   (`tt_pointer: true` usa o texto padrão; string usa o texto dela).
+ * `tt_oferta`: "kindle" | "projetor" | texto próprio → linha de oferta entre a frase e as hashtags. Não combina com tt_pointer
+ *   (os dois são testes separados: a oferta vai nas aulas, o pointer nos virais). `--sem-oferta` (plano B) troca a oferta por
+ *   "Mais no Instagram: @neuralupdate".
  */
 const fs = require('fs');
 const path = require('path');
@@ -19,6 +22,13 @@ const FF = require('./node_modules/ffmpeg-static');
 const TRILHA = { news: 'cosmic-ambient-espacial.mp3', viral: 'cosmic-ice-flow.mp3' };
 const POINTER_PADRAO = 'Mais no Instagram: @neuralupdate';
 const SO_LEGENDA = process.argv.includes('--so-legenda');
+// Plano B: sem resposta automática por palavra no direct do Insta, a oferta vira só o pointer (nunca prometer DM onde não existe).
+const SEM_OFERTA = process.argv.includes('--sem-oferta');
+// 14/10/2026 (FUNIL-2-PRODUTOS.md): linha de oferta da legenda. Sem preço/estrelas/avaliações; aviso de afiliado na própria linha.
+const OFERTAS = {
+  kindle: '📚 Lê no celular? O Kindle Unlimited tem 1º mês grátis pra novos assinantes (pede cartão; dá pra cancelar). Manda KINDLE no direct do Instagram @neuralupdate. Link de afiliado Amazon.',
+  projetor: '🌌 Projetor de astronauta que enche o teto de estrelas. Manda ASTRONAUTA no direct do Instagram @neuralupdate. Link de afiliado Shopee.',
+};
 
 // "Fonte: NASA — Título (data): url ; ..." → "Fonte: NASA". Só a 1ª linha do campo; corta no 1º separador.
 function fonteCurta(spec) {
@@ -31,9 +41,12 @@ function fonteCurta(spec) {
 function legendaTT(spec) {
   const titulo = spec.title.replace(/#Shorts/g, '').replace(/^📰\s*/, '').replace(/^🔭\s*/, '').trim();
   const frase = (spec.desc.replace(/^Escola de Astronomia Neural Update · Sistema Solar\.\s*/, '').match(/^[^.]+\./) || [''])[0];
-  const tags = (spec.hashtags || []).filter(h => h !== '#neuralupdate').slice(0, 3).concat(['#astronomia', '#ciencia', '#neuralupdate']).join(' ');
-  const pointer = spec.tt_pointer ? (typeof spec.tt_pointer === 'string' ? spec.tt_pointer : POINTER_PADRAO) : '';
-  return [titulo, fonteCurta(spec), frase, tags, pointer].filter(Boolean).join('\n\n') + '\n';
+  const tags = [...new Set((spec.hashtags || []).filter(h => h !== '#neuralupdate').slice(0, 3).concat(['#astronomia', '#ciencia', '#neuralupdate']))].join(' ');
+  let oferta = spec.tt_oferta ? (OFERTAS[spec.tt_oferta] || String(spec.tt_oferta)) : '';
+  let pointer = spec.tt_pointer ? (typeof spec.tt_pointer === 'string' ? spec.tt_pointer : POINTER_PADRAO) : '';
+  if (oferta && SEM_OFERTA) { oferta = ''; pointer = pointer || POINTER_PADRAO; }
+  if (oferta && pointer) { console.warn(`! ${spec.slug}: tt_oferta e tt_pointer juntos misturam os dois testes; mantive só a oferta`); pointer = ''; }
+  return [titulo, fonteCurta(spec), frase, oferta, tags, pointer].filter(Boolean).join('\n\n') + '\n';
 }
 
 for (const arq of process.argv.slice(2).filter(a => !a.startsWith('--'))) {
