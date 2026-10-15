@@ -5,6 +5,8 @@
 
 **Atualizado:** 10/10/2026 (madrugada) · conferido no canal pela API: 18 agendados, 1 por horário, título certo em todos.
 
+**Direção comercial nova (15/10):** ler `RQP-BRIDGE-ROTINA.md` antes do próximo lote. Itens já agendados não mudam.
+
 ## Agendados (lote `lotes/yt-10a15out.json`, specs em `exports/_lote-10a15out/specs/`)
 
 | dia | 08h notícia | 14h aula | 18h viral |
