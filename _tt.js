@@ -14,6 +14,10 @@
  * `tt_oferta`: "kindle" | "projetor" | texto próprio → linha de oferta entre a frase e as hashtags. Não combina com tt_pointer
  *   (os dois são testes separados: a oferta vai nas aulas, o pointer nos virais). `--sem-oferta` (plano B) troca a oferta por
  *   "Mais no Instagram: @neuralupdate".
+ * CTA ROTINA (15/10/2026): o master dos 14 news+virais de 16–22/10 termina com a CTA (voz própria, não está no narr.mp3).
+ *   `--cta-dir=<pasta>`: se existir <pasta>/cta-<slug>.mp3, a versão TikTok usa narr.mp3 até o corte + essa voz da CTA
+ *   (começa em dur(master) − (dur(voz)+0.45), igual ao cta_aplica.js) + trilha SEGURA do TikTok; a legenda termina com
+ *   "Comenta ROTINA 👇" (sem prometer DM/link) e o pointer/oferta não entram (um pedido só por vídeo).
  */
 const fs = require('fs');
 const path = require('path');
@@ -22,6 +26,10 @@ const FF = require('./node_modules/ffmpeg-static');
 const TRILHA = { news: 'cosmic-ambient-espacial.mp3', viral: 'cosmic-ice-flow.mp3' };
 const POINTER_PADRAO = 'Mais no Instagram: @neuralupdate';
 const SO_LEGENDA = process.argv.includes('--so-legenda');
+const CTA_DIR = (process.argv.find(a => a.startsWith('--cta-dir=')) || '').slice('--cta-dir='.length);
+const CTA_LINHA = 'Comenta ROTINA 👇';
+const ctaVoz = spec => (CTA_DIR && spec.tipo !== 'aula' && fs.existsSync(path.join(CTA_DIR, `cta-${spec.slug}.mp3`))) ? path.join(CTA_DIR, `cta-${spec.slug}.mp3`) : null;
+const duracao = f => { const m = (spawnSync(FF, ['-hide_banner', '-i', f], { encoding: 'utf8' }).stderr || '').match(/Duration: (\d+):(\d+):([\d.]+)/); return m ? +m[1] * 3600 + +m[2] * 60 + parseFloat(m[3]) : NaN; };
 // Plano B: sem resposta automática por palavra no direct do Insta, a oferta vira só o pointer (nunca prometer DM onde não existe).
 const SEM_OFERTA = process.argv.includes('--sem-oferta');
 // 14/10/2026 (FUNIL-2-PRODUTOS.md): linha de oferta da legenda. Sem preço/estrelas/avaliações; aviso de afiliado na própria linha.
@@ -47,7 +55,9 @@ function legendaTT(spec) {
   let pointer = spec.tt_pointer ? (typeof spec.tt_pointer === 'string' ? spec.tt_pointer : POINTER_PADRAO) : '';
   if (oferta && SEM_OFERTA) { oferta = ''; pointer = pointer || POINTER_PADRAO; }
   if (oferta && pointer) { console.warn(`! ${spec.slug}: tt_oferta e tt_pointer juntos misturam os dois testes; mantive só a oferta`); pointer = ''; }
-  return [titulo, fonteCurta(spec), frase, oferta, tags, pointer].filter(Boolean).join('\n\n') + '\n';
+  const cta = ctaVoz(spec) ? CTA_LINHA : '';
+  if (cta && (oferta || pointer)) { console.warn(`! ${spec.slug}: vídeo com CTA ROTINA; tirei ${oferta ? 'tt_oferta' : 'tt_pointer'} (um pedido só por vídeo)`); oferta = ''; pointer = ''; }
+  return [titulo, fonteCurta(spec), frase, oferta, tags, pointer, cta].filter(Boolean).join('\n\n') + '\n';
 }
 
 for (const arq of process.argv.slice(2).filter(a => !a.startsWith('--'))) {
@@ -70,13 +80,22 @@ for (const arq of process.argv.slice(2).filter(a => !a.startsWith('--'))) {
   } else {
     const trilha = path.join('assets', 'music-real', TRILHA[spec.tipo]);
     const st = (dur - 0.25).toFixed(2);
-    const fc = `[2:a]aformat=sample_rates=44100:channel_layouts=stereo,volume=0.45[mus];` +
-      `[1:a]atrim=start=0.080,asetpts=PTS-STARTPTS,aformat=sample_rates=44100:channel_layouts=stereo,volume=1.35,asplit=2[voice][key];` +
+    const vozCta = ctaVoz(spec);
+    let entrada = '[1:a]atrim=start=0.080,asetpts=PTS-STARTPTS,aformat=sample_rates=44100:channel_layouts=stereo,volume=1.35,asplit=2[voice][key];';
+    if (vozCta) {
+      const T0 = dur - (duracao(vozCta) + 0.45), ms = Math.round((T0 + 0.2) * 1000);
+      if (!(T0 > 5)) { console.log(`✗ ${S}: início da CTA calculado em ${T0.toFixed(2)}s, não confio`); continue; }
+      entrada = `[1:a]atrim=start=0.080,asetpts=PTS-STARTPTS,atrim=0:${T0.toFixed(3)},afade=t=out:st=${(T0 - 0.3).toFixed(3)}:d=0.3,aformat=sample_rates=44100:channel_layouts=stereo,volume=1.35[v1];` +
+        `[3:a]aformat=sample_rates=44100:channel_layouts=stereo,adelay=${ms}|${ms},volume=1.35[v2];` +
+        `[v1][v2]amix=inputs=2:duration=longest:normalize=0,asplit=2[voice][key];`;
+      console.log(`· ${S}: CTA ROTINA começa em ${T0.toFixed(2)}s (voz ${duracao(vozCta).toFixed(2)}s)`);
+    }
+    const fc = `[2:a]aformat=sample_rates=44100:channel_layouts=stereo,volume=0.45[mus];` + entrada +
       `[mus][key]sidechaincompress=threshold=0.035:ratio=4:attack=8:release=180[duck];` +
       `[duck][voice]amix=inputs=2:duration=first:weights=1 1:normalize=0,volume=${spec.tipo==='news'?1.2:1.0},alimiter=limit=0.84,afade=t=out:st=${st}:d=0.25[a]`;
     let ok = false;
     for (let t = 1; t <= 4 && !ok; t++) {
-      const r = spawnSync(FF, ['-v', 'error', '-y', '-i', master, '-i', path.join(dir, 'narr.mp3'), '-stream_loop', '-1', '-i', trilha,
+      const r = spawnSync(FF, ['-v', 'error', '-y', '-i', master, '-i', path.join(dir, 'narr.mp3'), '-stream_loop', '-1', '-i', trilha, ...(vozCta ? ['-i', vozCta] : []),
         '-filter_complex', fc, '-map', '0:v', '-map', '[a]', '-c:v', 'copy', '-c:a', 'aac', '-b:a', '192k', '-t', dur.toFixed(2), out], { encoding: 'utf8' });
       ok = r.status === 0;
       if (!ok) spawnSync(process.execPath, ['-e', 'setTimeout(()=>{},8000)']);
