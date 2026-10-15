@@ -1,144 +1,8 @@
 {
  "_leiame": "Plano do TikTok (gerado por tiktok-plano.js no PC). O tiktok-fila-nuvem.js mantém no Buffer os 10 próximos. Não editar à mão.",
- "geradoEm": "2026-10-10T03:09:46.260Z",
- "ate": "2026-10-15",
+ "geradoEm": "2026-10-15T20:07:27.320Z",
+ "ate": "2026-10-22",
  "itens": [
-  {
-   "slug": "nw-crew12-volta-237-dias",
-   "tipo": "news",
-   "dueAt": "2026-10-10T15:17:00.000Z",
-   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/93b57e3c-8aa0-4f44-a59c-ee1948834431.mp4",
-   "titulo": "237 DIAS no espaço: a cápsula caiu no mar (e os 4 voltaram bem) 🚀",
-   "texto": "237 DIAS no espaço: a cápsula caiu no mar (e os 4 voltaram bem) 🚀\n\nA missão Crew-12 da NASA e da SpaceX voltou à Terra na quinta-feira (08/10/2026), com a cápsula Dragon pousando no oceano Pacífico, perto de Los Angeles.\n\n#crew12 #nasa #estacaoespacial #astronomia #ciencia #neuralupdate"
-  },
-  {
-   "slug": "pl64-jupiter-mancha-vermelha",
-   "tipo": "aula",
-   "dueAt": "2026-10-10T20:07:00.000Z",
-   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/24471bea-bb9c-4d2e-8131-1ede2a04716b.mp4",
-   "titulo": "Júpiter tem uma TEMPESTADE com mais de 300 anos (cabem 2 Terras nela) 🪐",
-   "texto": "Júpiter tem uma TEMPESTADE com mais de 300 anos (cabem 2 Terras nela) 🪐\n\nA Grande Mancha Vermelha de Júpiter é uma tempestade gigante, com o dobro da largura da Terra, observada há mais de 300 anos.\n\n#jupiter #manchavermelha #astronomia #astronomia #ciencia #neuralupdate"
-  },
-  {
-   "slug": "viral-estacoes-nao-e-distancia",
-   "tipo": "viral",
-   "dueAt": "2026-10-10T23:23:00.000Z",
-   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/2564b702-6662-463d-afdc-222724570265.mp4",
-   "titulo": "As estações NÃO vêm da distância (em janeiro a Terra está MAIS perto do Sol) 🌍",
-   "texto": "As estações NÃO vêm da distância (em janeiro a Terra está MAIS perto do Sol) 🌍\n\nEm janeiro a Terra está mais perto do Sol do que em julho: o periélio de 2026 foi em 3 de janeiro, a cerca de 147,1 milhões de km, e o afélio será em 6 de julho, a cerca de 152,1 milhões de km (cálculo de efemérides).\n\n#estacoes #terra #astronomia #astronomia #ciencia #neuralupdate"
-  },
-  {
-   "slug": "nw-spherex-anas-marrons",
-   "tipo": "news",
-   "dueAt": "2026-10-11T15:17:00.000Z",
-   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/38770f1f-d877-400a-916a-452271a1d0cb.mp4",
-   "titulo": "Tem um astro que NÃO é estrela nem planeta (e a NASA achou milhares) 🟤",
-   "texto": "Tem um astro que NÃO é estrela nem planeta (e a NASA achou milhares) 🟤\n\nO telescópio espacial SPHEREx, da NASA, está encontrando milhares de anãs marrons, astros que se formam como estrelas, mas não têm massa para sustentar a fusão do hidrogênio.\n\n#anamarrom #spherex #nasa #astronomia #ciencia #neuralupdate"
-  },
-  {
-   "slug": "pl65-marte-ja-teve-ar-grosso",
-   "tipo": "aula",
-   "dueAt": "2026-10-11T20:07:00.000Z",
-   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/24fa812c-d348-44ca-a898-4e28ea493f1a.mp4",
-   "titulo": "Marte já teve AR grosso e água (o que aconteceu com o escudo dele?) 🔴",
-   "texto": "Marte já teve AR grosso e água (o que aconteceu com o escudo dele?) 🔴\n\nSegundo a NASA, há muita evidência de que Marte já foi mais úmido e quente, com uma atmosfera mais espessa, há bilhões de anos.\n\n#marte #astronomia #sistemasolar #astronomia #ciencia #neuralupdate"
-  },
-  {
-   "slug": "viral-lua-mercurio-segunda",
-   "tipo": "viral",
-   "dueAt": "2026-10-11T23:23:00.000Z",
-   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/35601cdb-f471-48b9-bb35-2aeb0927794e.mp4",
-   "titulo": "AMANHÃ depois do pôr do sol: a Lua fininha encosta em Mercúrio 🌙",
-   "texto": "AMANHÃ depois do pôr do sol: a Lua fininha encosta em Mercúrio 🌙\n\nNa segunda-feira (12/10/2026), cerca de 40 minutos depois do pôr do sol, uma Lua crescente muito fina (cerca de 5% iluminada) fica a apenas uns 2 graus de Mercúrio, a uns 16 graus de altura no oeste.\n\n#lua #mercurio #venus #astronomia #ciencia #neuralupdate"
-  },
-  {
-   "slug": "nw-webb-sinal-radio-mais-distante",
-   "tipo": "news",
-   "dueAt": "2026-10-12T15:17:00.000Z",
-   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/a45e5589-76dc-4e19-9756-2395d2ae558d.mp4",
-   "titulo": "Sinal de rádio MISTERIOSO veio de uma galáxia anã (e não era o esperado) 📡",
-   "texto": "Sinal de rádio MISTERIOSO veio de uma galáxia anã (e não era o esperado) 📡\n\nAstrônomos usaram o telescópio espacial James Webb para localizar a galáxia que abriga a rajada rápida de rádio mais distante já observada, a FRB 20240304B, detectada em 4 de março de 2024 pelo MeerKAT.\n\n#webb #frb #magnetar #astronomia #ciencia #neuralupdate"
-  },
-  {
-   "slug": "pl66-terra-escudo-magnetico",
-   "tipo": "aula",
-   "dueAt": "2026-10-12T20:07:00.000Z",
-   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/f7e1719e-8e35-476d-8d4a-a0e4e3a62983.mp4",
-   "titulo": "O escudo que protege a Terra NÃO é o ar (e ele já inverteu antes) 🧲",
-   "texto": "O escudo que protege a Terra NÃO é o ar (e ele já inverteu antes) 🧲\n\nSegundo a NASA, a rápida rotação da Terra e o seu núcleo de ferro e níquel derretidos geram um campo magnético, que o vento solar distorce em formato de gota no espaço.\n\n#terra #campomagnetico #astronomia #astronomia #ciencia #neuralupdate"
-  },
-  {
-   "slug": "viral-estrelas-piscam-planetas-nao",
-   "tipo": "viral",
-   "dueAt": "2026-10-12T23:23:00.000Z",
-   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/b34c3377-1429-4b59-89f9-e379c2f48485.mp4",
-   "titulo": "Estrelas PISCAM, planetas NÃO (o truque pra achar um planeta no céu) ✨",
-   "texto": "Estrelas PISCAM, planetas NÃO (o truque pra achar um planeta no céu) ✨\n\nAs estrelas parecem piscar porque a luz delas, que chega como um ponto minúsculo, é desviada pela turbulência da atmosfera da Terra; perto do horizonte há mais ar no caminho e o efeito é maior.\n\n#estrelas #planetas #astronomia #astronomia #ciencia #neuralupdate"
-  },
-  {
-   "slug": "nw-hubble-planeta-segunda-geracao",
-   "tipo": "news",
-   "dueAt": "2026-10-13T15:17:00.000Z",
-   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/2d446c52-2726-405a-ae36-6fdccea999ad.mp4",
-   "titulo": "Achamos um planeta que NASCEU depois que a estrela dele morreu 🪐",
-   "texto": "Achamos um planeta que NASCEU depois que a estrela dele morreu 🪐\n\nAstrônomos reanalisaram dados do telescópio espacial Hubble de 1999 e encontraram um sinal químico raro, o elemento nióbio, na anã branca HS 0209+0832.\n\n#hubble #anabranca #exoplaneta #astronomia #ciencia #neuralupdate"
-  },
-  {
-   "slug": "pl67-cometas-bola-de-neve-suja",
-   "tipo": "aula",
-   "dueAt": "2026-10-13T20:07:00.000Z",
-   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/a9a64792-75bd-4655-b707-3033709b85bd.mp4",
-   "titulo": "A cauda de um cometa NÃO aponta pra onde ele vai (aponta pra longe do Sol) ☄️",
-   "texto": "A cauda de um cometa NÃO aponta pra onde ele vai (aponta pra longe do Sol) ☄️\n\nSegundo a NASA, o núcleo de um cometa, congelado, tem o tamanho de uma cidade pequena.\n\n#cometas #astronomia #sistemasolar #astronomia #ciencia #neuralupdate"
-  },
-  {
-   "slug": "viral-lado-escuro-lua-nao-e-escuro",
-   "tipo": "viral",
-   "dueAt": "2026-10-13T23:23:00.000Z",
-   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/839df9a4-18bb-4007-afb8-8aae81c769bf.mp4",
-   "titulo": "O \"lado escuro\" da Lua NÃO é escuro (e ninguém tinha visto antes de 1959) 🌑",
-   "texto": "O \"lado escuro\" da Lua NÃO é escuro (e ninguém tinha visto antes de 1959) 🌑\n\nA Lua gira no mesmo ritmo em que orbita a Terra (rotação síncrona), então o mesmo hemisfério fica sempre voltado para nós.\n\n#lua #ladooculto #astronomia #astronomia #ciencia #neuralupdate"
-  },
-  {
-   "slug": "nw-curiosity-amanhecer-marte",
-   "tipo": "news",
-   "dueAt": "2026-10-14T15:17:00.000Z",
-   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/7bfc5c0a-ad87-42ba-a475-9f5009597aec.mp4",
-   "titulo": "Amanhecer em MARTE: a foto nova do Curiosity (o chão ficou azul) 🌅",
-   "texto": "Amanhecer em MARTE: a foto nova do Curiosity (o chão ficou azul) 🌅\n\nA NASA divulgou um panorama do rover Curiosity, feito às 8h30 no horário local de Marte, no 4.\n\n#curiosity #marte #nasa #astronomia #ciencia #neuralupdate"
-  },
-  {
-   "slug": "pl68-sol-coroa-mais-quente",
-   "tipo": "aula",
-   "dueAt": "2026-10-14T20:07:00.000Z",
-   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/a9fba261-ad35-4865-bfee-6a33a60820a0.mp4",
-   "titulo": "A atmosfera do Sol é MAIS quente que a superfície (ninguém explicou) ☀️",
-   "texto": "A atmosfera do Sol é MAIS quente que a superfície (ninguém explicou) ☀️\n\nSegundo a NASA, a superfície visível do Sol (fotosfera) tem cerca de 5.\n\n#sol #coroasolar #astronomia #astronomia #ciencia #neuralupdate"
-  },
-  {
-   "slug": "viral-sol-perde-4-milhoes-toneladas",
-   "tipo": "viral",
-   "dueAt": "2026-10-14T23:23:00.000Z",
-   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/9952b34c-e7ef-483b-994f-2a182bcc26cb.mp4",
-   "titulo": "O Sol perde 4 milhões de toneladas POR SEGUNDO (e continua brilhando) ☀️",
-   "texto": "O Sol perde 4 milhões de toneladas POR SEGUNDO (e continua brilhando) ☀️\n\nO Sol brilha porque, no núcleo, a fusão do hidrogênio (a cerca de 15 milhões de °C) transforma uma pequena parte da massa em energia.\n\n#sol #fusao #astronomia #astronomia #ciencia #neuralupdate"
-  },
-  {
-   "slug": "nw-mmx-japao-fobos",
-   "tipo": "news",
-   "dueAt": "2026-10-15T15:17:00.000Z",
-   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/6ec6c99b-8266-41ac-9964-74bbb012faab.mp4",
-   "titulo": "Japão vai trazer um pedaço de FOBOS, lua de Marte, pra Terra 🚀",
-   "texto": "Japão vai trazer um pedaço de FOBOS, lua de Marte, pra Terra 🚀\n\nA missão japonesa MMX (Martian Moons eXploration), da JAXA, está prevista para ser lançada do Centro Espacial de Tanegashima em 19 de outubro (EDT; 20 de outubro no Japão).\n\n#mmx #fobos #marte #astronomia #ciencia #neuralupdate"
-  },
-  {
-   "slug": "pl69-titan-lua-com-chuva",
-   "tipo": "aula",
-   "dueAt": "2026-10-15T20:07:00.000Z",
-   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/1ae9c08e-715e-43a5-ba35-71a9b670026c.mp4",
-   "titulo": "Existe uma lua com CHUVA, rios e lagos (mas não é de água) 🪐",
-   "texto": "Existe uma lua com CHUVA, rios e lagos (mas não é de água) 🪐\n\nSegundo a NASA, Titã, a maior lua de Saturno, é a única lua do Sistema Solar conhecida por ter uma atmosfera substancial, e o único lugar além da Terra com líquidos estáveis na superfície: nuvens, chuva, rios, lagos e mares de hidrocarbonetos líquidos, como metano e etano.\n\n#tita #saturno #astronomia #astronomia #ciencia #neuralupdate"
-  },
   {
    "slug": "viral-orionidas-poeira-halley",
    "tipo": "viral",
@@ -146,6 +10,174 @@
    "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/95e9ef9d-1b95-4ab4-91d8-cafc4c953b54.mp4",
    "titulo": "Semana que vem cai poeira do cometa HALLEY do céu (e dá pra ver) ☄️",
    "texto": "Semana que vem cai poeira do cometa HALLEY do céu (e dá pra ver) ☄️\n\nA chuva de meteoros Orionidas atinge o pico na noite de 21 para 22 de outubro de 2026.\n\n#orionidas #halley #meteoros #astronomia #ciencia #neuralupdate"
+  },
+  {
+   "slug": "nw-perseverance-recorde-45km",
+   "tipo": "news",
+   "dueAt": "2026-10-16T15:17:00.000Z",
+   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/7fa39bd0-ea47-410d-8a63-be1ebe5fe955.mp4",
+   "titulo": "Robô da NASA bate RECORDE: 45 km rodados em Marte (e era pra rodar 20) 🚗",
+   "texto": "Robô da NASA bate RECORDE: 45 km rodados em Marte (e era pra rodar 20) 🚗\n\nFonte: NASA Science\n\nUm robô acabou de bater o recorde de quem mais andou fora da Terra.\n\n#astronomia #espaco #ciencia #neuralupdate\n\nComenta ROTINA 👇"
+  },
+  {
+   "slug": "pl70-fases-da-lua",
+   "tipo": "aula",
+   "dueAt": "2026-10-16T20:07:00.000Z",
+   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/4a72db29-4ac3-4a3c-b5b0-d87b39d49b62.mp4",
+   "titulo": "Fases da Lua: a sombra da Terra NÃO tem nada a ver 🌓",
+   "texto": "Fases da Lua: a sombra da Terra NÃO tem nada a ver 🌓\n\nFonte: NASA Science\n\nPensa comigo: é a sombra da Terra que faz as fases da Lua? Não.\n\n#astronomia #espaco #ciencia #neuralupdate"
+  },
+  {
+   "slug": "viral-araguainha-cidade-na-cratera",
+   "tipo": "viral",
+   "dueAt": "2026-10-16T23:23:00.000Z",
+   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/206ae0f6-e0c1-4d49-b7f0-0499df624e2a.mp4",
+   "titulo": "Tem uma CIDADE dentro de uma cratera de asteroide no Brasil ☄️",
+   "texto": "Tem uma CIDADE dentro de uma cratera de asteroide no Brasil ☄️\n\nFonte: Earth Impact Database e Serviço Geológico do Brasil\n\nTem uma cidade brasileira morando dentro de uma cratera de asteroide.\n\n#astronomia #espaco #ciencia #neuralupdate\n\nComenta ROTINA 👇"
+  },
+  {
+   "slug": "nw-artemis2-claroes-na-lua",
+   "tipo": "news",
+   "dueAt": "2026-10-17T15:17:00.000Z",
+   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/9cd624e4-249b-4e12-99d4-dcb4eacd763c.mp4",
+   "titulo": "Astronautas viram CLARÕES na Lua (e as fotos acabaram de sair) 🌕",
+   "texto": "Astronautas viram CLARÕES na Lua (e as fotos acabaram de sair) 🌕\n\nFonte: NASA\n\nAstronautas viram clarões na Lua, e as fotos acabaram de sair.\n\n#astronomia #espaco #ciencia #neuralupdate\n\nComenta ROTINA 👇"
+  },
+  {
+   "slug": "pl71-lua-nasceu-de-uma-batida",
+   "tipo": "aula",
+   "dueAt": "2026-10-17T20:07:00.000Z",
+   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/44ad5497-03be-4c76-a1bc-40166c3b8393.mp4",
+   "titulo": "Um planeta do tamanho de Marte BATEU na Terra (e virou a Lua) 💥",
+   "texto": "Um planeta do tamanho de Marte BATEU na Terra (e virou a Lua) 💥\n\nFonte: NASA Science\n\nVou te fazer uma pergunta: de onde saiu a Lua? A ideia mais aceita é uma batida.\n\n#astronomia #espaco #ciencia #neuralupdate"
+  },
+  {
+   "slug": "viral-amanha-lua-metade-crateras",
+   "tipo": "viral",
+   "dueAt": "2026-10-17T23:23:00.000Z",
+   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/7a71d233-dfe4-4001-bb9a-ca74d04144c2.mp4",
+   "titulo": "AMANHÃ a Lua fica METADE acesa (e as crateras aparecem em 3D na borda) 🌓",
+   "texto": "AMANHÃ a Lua fica METADE acesa (e as crateras aparecem em 3D na borda) 🌓\n\nFonte: Efemérides\n\nAmanhã a Lua fica metade acesa, e as crateras aparecem em três dê.\n\n#astronomia #espaco #ciencia #neuralupdate\n\nComenta ROTINA 👇"
+  },
+  {
+   "slug": "nw-webb-nebulosa-botao-de-flor",
+   "tipo": "news",
+   "dueAt": "2026-10-18T15:17:00.000Z",
+   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/27046b97-ff06-4f1b-b984-17045c156369.mp4",
+   "titulo": "Isso NÃO é uma flor (é onde estrelas estão nascendo agora) 🌸",
+   "texto": "Isso NÃO é uma flor (é onde estrelas estão nascendo agora) 🌸\n\nFonte: Space.com / NASA Webb\n\nIsso parece um botão de flor, mas é um berçário de estrelas.\n\n#astronomia #espaco #ciencia #neuralupdate\n\nComenta ROTINA 👇"
+  },
+  {
+   "slug": "pl72-io-lua-dos-vulcoes",
+   "tipo": "aula",
+   "dueAt": "2026-10-18T20:07:00.000Z",
+   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/777b4065-d580-48cb-a0fd-dd4232a9b644.mp4",
+   "titulo": "Júpiter ESPREME uma lua até ela cuspir lava 🌋",
+   "texto": "Júpiter ESPREME uma lua até ela cuspir lava 🌋\n\nFonte: NASA Science\n\nParece óbvio, né? O lugar com mais vulcão é a Terra.\n\n#astronomia #espaco #ciencia #neuralupdate"
+  },
+  {
+   "slug": "viral-saturno-hoje-sem-telescopio",
+   "tipo": "viral",
+   "dueAt": "2026-10-18T23:23:00.000Z",
+   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/fe70c6a9-4ca8-4305-89c2-84419e2bd1d8.mp4",
+   "titulo": "Dá pra ver Saturno HOJE sem telescópio (olha pro leste depois das 8) 🪐",
+   "texto": "Dá pra ver Saturno HOJE sem telescópio (olha pro leste depois das 8) 🪐\n\nFonte: Efemérides para São Paulo, 18/10/2026\n\nHoje dá pra ver Saturno sem telescópio.\n\n#astronomia #espaco #ciencia #neuralupdate\n\nComenta ROTINA 👇"
+  },
+  {
+   "slug": "nw-webb-aglomerado-adulto-cedo",
+   "tipo": "news",
+   "dueAt": "2026-10-19T15:17:00.000Z",
+   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/8d2dc280-43e6-4cba-9a86-1a11471767ef.mp4",
+   "titulo": "Esse aglomerado de galáxias NÃO devia estar pronto tão cedo 🌌",
+   "texto": "Esse aglomerado de galáxias NÃO devia estar pronto tão cedo 🌌\n\nFonte: ScienceDaily / Caltech IPAC\n\nO Webb achou um aglomerado de galáxias que cresceu rápido demais.\n\n#astronomia #espaco #ciencia #neuralupdate\n\nComenta ROTINA 👇"
+  },
+  {
+   "slug": "pl73-onde-acaba-o-sistema-solar",
+   "tipo": "aula",
+   "dueAt": "2026-10-19T20:07:00.000Z",
+   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/77dc19ae-cca6-4e52-b02b-2df3c612da1d.mp4",
+   "titulo": "A bolha do Sol tem uma BORDA (e só duas naves passaram dela) 🛰️",
+   "texto": "A bolha do Sol tem uma BORDA (e só duas naves passaram dela) 🛰️\n\nFonte: NASA Science\n\nPensa comigo: onde termina o Sistema Solar? O Sol sopra um vento de partículas o tempo todo, e esse vento forma uma bolha enorme.\n\n#astronomia #espaco #ciencia #neuralupdate"
+  },
+  {
+   "slug": "viral-venus-sol-nasce-do-lado-errado",
+   "tipo": "viral",
+   "dueAt": "2026-10-19T23:23:00.000Z",
+   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/9fa6445f-8ac0-4929-838c-3ef7133f7825.mp4",
+   "titulo": "Em Vênus o Sol nasce do lado ERRADO (e o dia dura mais que o ano) ☀️",
+   "texto": "Em Vênus o Sol nasce do lado ERRADO (e o dia dura mais que o ano) ☀️\n\nFonte: NASA Science\n\nEm Vênus, o Sol nasce do lado errado.\n\n#astronomia #espaco #ciencia #neuralupdate\n\nComenta ROTINA 👇"
+  },
+  {
+   "slug": "nw-caverna-na-lua-gimli",
+   "tipo": "news",
+   "dueAt": "2026-10-20T15:17:00.000Z",
+   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/8650dc80-0bd7-47d9-aa7f-d4fdade02e0a.mp4",
+   "titulo": "Pode ter uma CAVERNA gigante embaixo desse buraco na Lua 🌕",
+   "texto": "Pode ter uma CAVERNA gigante embaixo desse buraco na Lua 🌕\n\nFonte: Planetary Science Institute / NASA PRISM\n\nEsse buraco na Lua pode ser a porta de uma caverna gigante.\n\n#astronomia #espaco #ciencia #neuralupdate\n\nComenta ROTINA 👇"
+  },
+  {
+   "slug": "pl74-nuvem-de-oort",
+   "tipo": "aula",
+   "dueAt": "2026-10-20T20:07:00.000Z",
+   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/9afc51cc-a0ac-49e5-89d5-919a126ac51d.mp4",
+   "titulo": "Existe uma nuvem de gelo em volta do Sol que NINGUÉM nunca viu ☄️",
+   "texto": "Existe uma nuvem de gelo em volta do Sol que NINGUÉM nunca viu ☄️\n\nFonte: NASA Science\n\nVou te fazer uma pergunta: de onde vêm os cometas que demoram milhares de anos pra voltar? De uma nuvem de gelo em volta do Sol, chamada Nuvem de Oort.\n\n#astronomia #espaco #ciencia #neuralupdate"
+  },
+  {
+   "slug": "viral-marte-jupiter-madrugada",
+   "tipo": "viral",
+   "dueAt": "2026-10-20T23:23:00.000Z",
+   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/fc592df7-adc6-42d7-a51e-4d0b9b4645b0.mp4",
+   "titulo": "Tem um planeta VERMELHO e um gigante juntos no céu antes do sol nascer 🔴",
+   "texto": "Tem um planeta VERMELHO e um gigante juntos no céu antes do sol nascer 🔴\n\nFonte: Efemérides para São Paulo, 20/10/2026\n\nAntes do sol nascer, tem um planeta vermelho do lado de um gigante.\n\n#astronomia #espaco #ciencia #neuralupdate\n\nComenta ROTINA 👇"
+  },
+  {
+   "slug": "nw-reator-nuclear-na-lua",
+   "tipo": "news",
+   "dueAt": "2026-10-21T15:17:00.000Z",
+   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/f2414651-4bc0-455f-8016-0a0cd067b058.mp4",
+   "titulo": "A noite na Lua dura 14 DIAS (e a NASA achou a solução: um reator) ⚛️",
+   "texto": "A noite na Lua dura 14 DIAS (e a NASA achou a solução: um reator) ⚛️\n\nFonte: NASA\n\nNa Lua, a noite dura duas semanas, e painel solar não dá conta.\n\n#astronomia #espaco #ciencia #neuralupdate\n\nComenta ROTINA 👇"
+  },
+  {
+   "slug": "pl75-apophis-2029",
+   "tipo": "aula",
+   "dueAt": "2026-10-21T20:07:00.000Z",
+   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/33a58145-5141-435d-b157-f2af1d4acb6f.mp4",
+   "titulo": "Apophis: o asteroide que vai passar MAIS PERTO que os satélites em 2029 ☄️",
+   "texto": "Apophis: o asteroide que vai passar MAIS PERTO que os satélites em 2029 ☄️\n\nFonte: NASA Science\n\nEm abril de dois mil e vinte e nove, um asteroide vai passar raspando na Terra.\n\n#astronomia #espaco #ciencia #neuralupdate"
+  },
+  {
+   "slug": "viral-esta-madrugada-orionideas",
+   "tipo": "viral",
+   "dueAt": "2026-10-21T23:23:00.000Z",
+   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/2f42ff87-b815-40b1-8b1f-3d7d79f8ea67.mp4",
+   "titulo": "ESTA MADRUGADA caem pedaços do cometa HALLEY (perto das Três Marias) ☄️",
+   "texto": "ESTA MADRUGADA caem pedaços do cometa HALLEY (perto das Três Marias) ☄️\n\nFonte: NASA Science\n\nEsta madrugada vão cair pedaços do cometa Hálei.\n\n#astronomia #espaco #ciencia #neuralupdate\n\nComenta ROTINA 👇"
+  },
+  {
+   "slug": "nw-juno-disco-magnetico-ondula",
+   "tipo": "news",
+   "dueAt": "2026-10-22T15:17:00.000Z",
+   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/0b47bf47-9ae3-4a2c-941d-262b7a337034.mp4",
+   "titulo": "Júpiter tem um disco INVISÍVEL que ondula enquanto gira 🪐",
+   "texto": "Júpiter tem um disco INVISÍVEL que ondula enquanto gira 🪐\n\nFonte: NASA Science / Shandong University\n\nJúpiter tem um disco invisível em volta dele, e ele ondula.\n\n#astronomia #espaco #ciencia #neuralupdate\n\nComenta ROTINA 👇"
+  },
+  {
+   "slug": "pl76-plutao-coracao-de-gelo",
+   "tipo": "aula",
+   "dueAt": "2026-10-22T20:07:00.000Z",
+   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/b846141c-791b-4b83-909e-c6f7e61eb881.mp4",
+   "titulo": "O coração de Plutão NÃO é de pedra (é gelo que escorre) 🤍",
+   "texto": "O coração de Plutão NÃO é de pedra (é gelo que escorre) 🤍\n\nFonte: NASA Science\n\nPensa comigo: o que é aquele coração enorme em Plutão? O lado esquerdo dele é uma planície de gelo de nitrogênio.\n\n#astronomia #espaco #ciencia #neuralupdate"
+  },
+  {
+   "slug": "viral-fim-dos-eclipses-totais",
+   "tipo": "viral",
+   "dueAt": "2026-10-22T23:23:00.000Z",
+   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/60c89c45-139f-4dac-92e6-8d1b281550db.mp4",
+   "titulo": "Um dia NÃO vai mais existir eclipse total do Sol 🌑",
+   "texto": "Um dia NÃO vai mais existir eclipse total do Sol 🌑\n\nFonte: NASA Science\n\nUm dia, eclipse total do Sol vai deixar de existir.\n\n#astronomia #espaco #ciencia #neuralupdate\n\nComenta ROTINA 👇"
   }
  ]
 }
