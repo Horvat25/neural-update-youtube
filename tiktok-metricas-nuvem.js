@@ -12,7 +12,9 @@
  * Por que: o TikTok não libera comentário por API oficial para nós; o TOTAL de comentários do Buffer é o
  * termômetro do ROTINA (14 vídeos com CTA × 7 aulas sem CTA). O Buffer atualiza os números ~1x/dia, então a
  * linha de hoje pode ter vídeo de hoje com null.
- * Linha: {"quando","dia","rede":"tt","video","tipo","views","curtidas","comentarios","compartilhamentos","cta","arte","buffer_atualizado"}
+ * Linha: {"quando","dia","rede":"tt","video","tipo","views","curtidas","comentarios","compartilhamentos","cta","arte","buffer_atualizado","comentarios_antes","alerta"}
+ * ALARME (18/10): "alerta":true quando um vídeo COM CTA tem mais comentários do que na linha anterior dele no jsonl (sem linha
+ * anterior, conta a partir de 0). A Direção avisa o Marcelo para abrir aquele vídeo no app (comentário não vem por API).
  * Chave BUFFER_API_KEY: secret do GitHub ou .env local. Sem dependência (fetch do Node 18+).
  */
 const fs = require('fs');
@@ -67,10 +69,10 @@ async function gql(query) {
   const agoraBRT = new Date(Date.now() - 3 * 3600e3);
   const quando = agoraBRT.toISOString().slice(0, 19) + '-03:00';
   const dia = quando.slice(0, 10);
-  const ja = new Set();
+  const ja = new Set(), ultimo = new Map(); // ultimo: slug -> comentários da linha anterior mais recente
   if (fs.existsSync(SAIDA)) {
     for (const l of fs.readFileSync(SAIDA, 'utf8').split('\n').filter(Boolean)) {
-      try { const o = JSON.parse(l); ja.add(`${o.dia}|${o.video}`); } catch { /* linha estranha: ignora */ }
+      try { const o = JSON.parse(l); ja.add(`${o.dia}|${o.video}`); if (o.comentarios != null) ultimo.set(o.video, o.comentarios); } catch { /* linha estranha: ignora */ }
     }
   }
 
@@ -85,7 +87,9 @@ async function gql(query) {
     linhas.push({ quando, dia, rede: 'tt', video: it.slug, tipo: it.tipo,
       views: m['Video Views'] ?? null, curtidas: m['Reactions'] ?? null, comentarios: m['Comments'] ?? null,
       compartilhamentos: m['Shares'] ?? null, cta: it.cta, arte: it.arte, buffer_atualizado: x.metricsUpdatedAt || null,
-      _saiu: x.sentAt || x.dueAt });
+      comentarios_antes: ultimo.get(it.slug) ?? null, alerta: false, _saiu: x.sentAt || x.dueAt });
+    const ult = linhas[linhas.length - 1];
+    ult.alerta = !!(ult.cta && ult.comentarios != null && ult.comentarios > (ult.comentarios_antes ?? 0));
   }
   linhas.sort((a, b) => (a._saiu < b._saiu ? -1 : 1));
 
@@ -101,6 +105,14 @@ async function gql(query) {
   }
   console.log('com CTA   :', JSON.stringify(grupo(true)));
   console.log('sem CTA   :', JSON.stringify(grupo(false)));
+
+  const alertas = linhas.filter(l => l.alerta && (FORCAR || !ja.has(`${l.dia}|${l.video}`)));
+  console.log(alertas.length ? `🔔 ALERTA ROTINA: ${alertas.map(l => `${l.video} (${l.comentarios_antes ?? 0}→${l.comentarios})`).join(' · ')}` : 'sem alerta de comentário novo nos vídeos com CTA');
+  if (process.env.GITHUB_STEP_SUMMARY) {
+    fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY, alertas.length
+      ? `### 🔔 Comentário novo (CTA ROTINA)\n${alertas.map(l => `- ${l.video}: ${l.comentarios_antes ?? 0} → ${l.comentarios}`).join('\n')}\n`
+      : 'Sem comentário novo nos vídeos com CTA.\n');
+  }
 
   const novas = linhas.filter(l => FORCAR || !ja.has(`${l.dia}|${l.video}`)).map(({ _saiu, ...o }) => o);
   if (SECO) { console.log(`[seco] escreveria ${novas.length} linhas em ${path.relative(ROOT, SAIDA)}`); return; }

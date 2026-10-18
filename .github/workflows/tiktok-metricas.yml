@@ -2,13 +2,13 @@
 # Só LEITURA no Buffer; acrescenta linhas em metricas/tiktok-metricas.jsonl e commita APENAS esse arquivo. (18/10/2026)
 # Termômetro do ROTINA no TikTok: comentários dos 14 vídeos com CTA × os 7 sem CTA.
 #
-# ⏸️ AGENDAMENTO DESLIGADO de propósito: só roda por "Run workflow" (workflow_dispatch) até a Direção dar o ok.
-#    Para ligar, descomentar o bloco "schedule" abaixo (01:03 UTC = 22:03 BRT; o relógio do GitHub atrasa às vezes, não importa).
+# ▶️ AGENDAMENTO LIGADO em 18/10/2026 (ok da Direção): todo dia 01:03 UTC = 22:03 BRT (o relógio do GitHub atrasa às vezes, não importa).
+#    "alerta": true no jsonl = vídeo com CTA ganhou comentário desde a linha anterior (também aparece no resumo do job).
 name: tiktok-metricas
 
 on:
-  # schedule:
-  #   - cron: '3 1 * * *'
+  schedule:
+    - cron: '3 1 * * *'
   workflow_dispatch:
 
 permissions:
