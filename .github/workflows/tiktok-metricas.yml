@@ -1,0 +1,45 @@
+# Snapshot diário das métricas dos vídeos do TikTok (views, curtidas, comentários, compartilhamentos) pelo Buffer.
+# Só LEITURA no Buffer; acrescenta linhas em metricas/tiktok-metricas.jsonl e commita APENAS esse arquivo. (18/10/2026)
+# Termômetro do ROTINA no TikTok: comentários dos 14 vídeos com CTA × os 7 sem CTA.
+#
+# ⏸️ AGENDAMENTO DESLIGADO de propósito: só roda por "Run workflow" (workflow_dispatch) até a Direção dar o ok.
+#    Para ligar, descomentar o bloco "schedule" abaixo (01:03 UTC = 22:03 BRT; o relógio do GitHub atrasa às vezes, não importa).
+name: tiktok-metricas
+
+on:
+  # schedule:
+  #   - cron: '3 1 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: tiktok-metricas
+  cancel-in-progress: false
+
+jobs:
+  metricas:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Ler métricas do Buffer
+        env:
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+        run: node tiktok-metricas-nuvem.js
+      - name: Commitar só o jsonl
+        run: |
+          git config user.name "tiktok-metricas"
+          git config user.email "actions@users.noreply.github.com"
+          git add metricas/tiktok-metricas.jsonl
+          if git diff --cached --quiet; then echo "nada novo"; exit 0; fi
+          git commit -m "tiktok-metricas: snapshot $(date -u +%F)"
+          for i in 1 2 3; do
+            git pull --rebase origin "${GITHUB_REF_NAME}" && git push origin "HEAD:${GITHUB_REF_NAME}" && exit 0
+            sleep 5
+          done
+          echo "push falhou 3x"; exit 1

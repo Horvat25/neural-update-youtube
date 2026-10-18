@@ -1,0 +1,173 @@
+{
+ "_leiame": "Mapa dos 21 vídeos do lote TikTok 16–22/10: título (1ª linha da legenda, é a chave no Buffer) → slug, tipo, se leva a CTA ROTINA e qual arte (1–5, de exports/_lote-16a22out/cta/cta-plano.json). Usado por tiktok-metricas-nuvem.js.",
+ "itens": [
+  {
+   "slug": "nw-perseverance-recorde-45km",
+   "dueAt": "2026-10-16T15:17:00.000Z",
+   "titulo": "Robô da NASA bate RECORDE: 45 km rodados em Marte (e era pra rodar 20) 🚗",
+   "tipo": "news",
+   "cta": true,
+   "arte": 1
+  },
+  {
+   "slug": "pl70-fases-da-lua",
+   "dueAt": "2026-10-16T20:07:00.000Z",
+   "titulo": "Fases da Lua: a sombra da Terra NÃO tem nada a ver 🌓",
+   "tipo": "aula",
+   "cta": false,
+   "arte": null
+  },
+  {
+   "slug": "viral-araguainha-cidade-na-cratera",
+   "dueAt": "2026-10-16T23:23:00.000Z",
+   "titulo": "Tem uma CIDADE dentro de uma cratera de asteroide no Brasil ☄️",
+   "tipo": "viral",
+   "cta": true,
+   "arte": 2
+  },
+  {
+   "slug": "nw-artemis2-claroes-na-lua",
+   "dueAt": "2026-10-17T15:17:00.000Z",
+   "titulo": "Astronautas viram CLARÕES na Lua (e as fotos acabaram de sair) 🌕",
+   "tipo": "news",
+   "cta": true,
+   "arte": 3
+  },
+  {
+   "slug": "pl71-lua-nasceu-de-uma-batida",
+   "dueAt": "2026-10-17T20:07:00.000Z",
+   "titulo": "Um planeta do tamanho de Marte BATEU na Terra (e virou a Lua) 💥",
+   "tipo": "aula",
+   "cta": false,
+   "arte": null
+  },
+  {
+   "slug": "viral-amanha-lua-metade-crateras",
+   "dueAt": "2026-10-17T23:23:00.000Z",
+   "titulo": "AMANHÃ a Lua fica METADE acesa (e as crateras aparecem em 3D na borda) 🌓",
+   "tipo": "viral",
+   "cta": true,
+   "arte": 4
+  },
+  {
+   "slug": "nw-webb-nebulosa-botao-de-flor",
+   "dueAt": "2026-10-18T15:17:00.000Z",
+   "titulo": "Isso NÃO é uma flor (é onde estrelas estão nascendo agora) 🌸",
+   "tipo": "news",
+   "cta": true,
+   "arte": 5
+  },
+  {
+   "slug": "pl72-io-lua-dos-vulcoes",
+   "dueAt": "2026-10-18T20:07:00.000Z",
+   "titulo": "Júpiter ESPREME uma lua até ela cuspir lava 🌋",
+   "tipo": "aula",
+   "cta": false,
+   "arte": null
+  },
+  {
+   "slug": "viral-saturno-hoje-sem-telescopio",
+   "dueAt": "2026-10-18T23:23:00.000Z",
+   "titulo": "Dá pra ver Saturno HOJE sem telescópio (olha pro leste depois das 8) 🪐",
+   "tipo": "viral",
+   "cta": true,
+   "arte": 1
+  },
+  {
+   "slug": "nw-webb-aglomerado-adulto-cedo",
+   "dueAt": "2026-10-19T15:17:00.000Z",
+   "titulo": "Esse aglomerado de galáxias NÃO devia estar pronto tão cedo 🌌",
+   "tipo": "news",
+   "cta": true,
+   "arte": 2
+  },
+  {
+   "slug": "pl73-onde-acaba-o-sistema-solar",
+   "dueAt": "2026-10-19T20:07:00.000Z",
+   "titulo": "A bolha do Sol tem uma BORDA (e só duas naves passaram dela) 🛰️",
+   "tipo": "aula",
+   "cta": false,
+   "arte": null
+  },
+  {
+   "slug": "viral-venus-sol-nasce-do-lado-errado",
+   "dueAt": "2026-10-19T23:23:00.000Z",
+   "titulo": "Em Vênus o Sol nasce do lado ERRADO (e o dia dura mais que o ano) ☀️",
+   "tipo": "viral",
+   "cta": true,
+   "arte": 3
+  },
+  {
+   "slug": "nw-caverna-na-lua-gimli",
+   "dueAt": "2026-10-20T15:17:00.000Z",
+   "titulo": "Pode ter uma CAVERNA gigante embaixo desse buraco na Lua 🌕",
+   "tipo": "news",
+   "cta": true,
+   "arte": 4
+  },
+  {
+   "slug": "pl74-nuvem-de-oort",
+   "dueAt": "2026-10-20T20:07:00.000Z",
+   "titulo": "Existe uma nuvem de gelo em volta do Sol que NINGUÉM nunca viu ☄️",
+   "tipo": "aula",
+   "cta": false,
+   "arte": null
+  },
+  {
+   "slug": "viral-marte-jupiter-madrugada",
+   "dueAt": "2026-10-20T23:23:00.000Z",
+   "titulo": "Tem um planeta VERMELHO e um gigante juntos no céu antes do sol nascer 🔴",
+   "tipo": "viral",
+   "cta": true,
+   "arte": 5
+  },
+  {
+   "slug": "nw-reator-nuclear-na-lua",
+   "dueAt": "2026-10-21T15:17:00.000Z",
+   "titulo": "A noite na Lua dura 14 DIAS (e a NASA achou a solução: um reator) ⚛️",
+   "tipo": "news",
+   "cta": true,
+   "arte": 1
+  },
+  {
+   "slug": "pl75-apophis-2029",
+   "dueAt": "2026-10-21T20:07:00.000Z",
+   "titulo": "Apophis: o asteroide que vai passar MAIS PERTO que os satélites em 2029 ☄️",
+   "tipo": "aula",
+   "cta": false,
+   "arte": null
+  },
+  {
+   "slug": "viral-esta-madrugada-orionideas",
+   "dueAt": "2026-10-21T23:23:00.000Z",
+   "titulo": "ESTA MADRUGADA caem pedaços do cometa HALLEY (perto das Três Marias) ☄️",
+   "tipo": "viral",
+   "cta": true,
+   "arte": 2
+  },
+  {
+   "slug": "nw-juno-disco-magnetico-ondula",
+   "dueAt": "2026-10-22T15:17:00.000Z",
+   "titulo": "Júpiter tem um disco INVISÍVEL que ondula enquanto gira 🪐",
+   "tipo": "news",
+   "cta": true,
+   "arte": 3
+  },
+  {
+   "slug": "pl76-plutao-coracao-de-gelo",
+   "dueAt": "2026-10-22T20:07:00.000Z",
+   "titulo": "O coração de Plutão NÃO é de pedra (é gelo que escorre) 🤍",
+   "tipo": "aula",
+   "cta": false,
+   "arte": null
+  },
+  {
+   "slug": "viral-fim-dos-eclipses-totais",
+   "dueAt": "2026-10-22T23:23:00.000Z",
+   "titulo": "Um dia NÃO vai mais existir eclipse total do Sol 🌑",
+   "tipo": "viral",
+   "cta": true,
+   "arte": 4
+  }
+ ]
+}
