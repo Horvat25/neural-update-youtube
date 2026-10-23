@@ -1,0 +1,167 @@
+{
+ "_leiame": "Mapa dos 18 vídeos do lote TikTok 24–29/10 (título = 1ª linha da legenda). variante = teste da faixa Comenta ROTINA na tela: faixa-3s (sáb–seg), faixa-16s (ter–qua), sem-faixa (qui, só a CTA do fim). Arte: notícia 1, viral 2.",
+ "itens": [
+  {
+   "slug": "nw-japao-vai-trazer-pedaco-de-fobos",
+   "dueAt": "2026-10-24T15:17:00.000Z",
+   "titulo": "O Japão vai trazer um PEDAÇO de uma lua de Marte pra Terra 🪨",
+   "tipo": "news",
+   "cta": true,
+   "arte": 1,
+   "variante": "faixa-3s"
+  },
+  {
+   "slug": "pl78-tritao-lua-ao-contrario",
+   "dueAt": "2026-10-24T20:07:00.000Z",
+   "titulo": "A lua de Netuno gira AO CONTRÁRIO (e solta gêiseres) 🧊",
+   "tipo": "aula",
+   "cta": false,
+   "arte": null,
+   "variante": null
+  },
+  {
+   "slug": "viral-bendego-meteorito-5-toneladas",
+   "dueAt": "2026-10-24T23:23:00.000Z",
+   "titulo": "O maior meteorito do Brasil pesa 5 TONELADAS (e sobreviveu a um incêndio) ☄️",
+   "tipo": "viral",
+   "cta": true,
+   "arte": 2,
+   "variante": "faixa-3s"
+  },
+  {
+   "slug": "nw-um-ano-numa-marte-de-mentira",
+   "dueAt": "2026-10-25T15:17:00.000Z",
+   "titulo": "4 pessoas passaram 1 ANO numa \"Marte\" impressa em 3D 🏠",
+   "tipo": "news",
+   "cta": true,
+   "arte": 1,
+   "variante": "faixa-3s"
+  },
+  {
+   "slug": "pl79-ceres-sal-que-brilha",
+   "dueAt": "2026-10-25T20:07:00.000Z",
+   "titulo": "Tem MANCHAS brilhantes num planeta anão (e é sal) ✨",
+   "tipo": "aula",
+   "cta": false,
+   "arte": null,
+   "variante": null
+  },
+  {
+   "slug": "viral-hoje-lua-cheia-do-cacador",
+   "dueAt": "2026-10-25T23:23:00.000Z",
+   "titulo": "HOJE À NOITE tem Lua cheia (a Lua do Caçador) 🌕",
+   "tipo": "viral",
+   "cta": true,
+   "arte": 2,
+   "variante": "faixa-3s"
+  },
+  {
+   "slug": "nw-hubble-galaxia-entorta-luz",
+   "dueAt": "2026-10-26T15:17:00.000Z",
+   "titulo": "Uma galáxia ENTORTOU a luz de outra (e o Hubble flagrou) 🔭",
+   "tipo": "news",
+   "cta": true,
+   "arte": 1,
+   "variante": "faixa-3s"
+  },
+  {
+   "slug": "pl80-mercurio-dia-de-dois-anos",
+   "dueAt": "2026-10-26T20:07:00.000Z",
+   "titulo": "Em Mercúrio, um dia dura DOIS anos ☀️",
+   "tipo": "aula",
+   "cta": false,
+   "arte": null,
+   "variante": null
+  },
+  {
+   "slug": "viral-bandeira-tem-o-ceu-de-verdade",
+   "dueAt": "2026-10-26T23:23:00.000Z",
+   "titulo": "As estrelas da bandeira do Brasil são o CÉU de verdade 🇧🇷",
+   "tipo": "viral",
+   "cta": true,
+   "arte": 2,
+   "variante": "faixa-3s"
+  },
+  {
+   "slug": "nw-buraco-negro-clave-de-sol",
+   "dueAt": "2026-10-27T15:17:00.000Z",
+   "titulo": "Um buraco negro desenhou uma CLAVE DE SOL no espaço 🎼",
+   "tipo": "news",
+   "cta": true,
+   "arte": 1,
+   "variante": "faixa-16s"
+  },
+  {
+   "slug": "pl81-vesta-montanha-gigante",
+   "dueAt": "2026-10-27T20:07:00.000Z",
+   "titulo": "Um asteroide tem uma montanha 2 vezes MAIOR que o Everest ⛰️",
+   "tipo": "aula",
+   "cta": false,
+   "arte": null,
+   "variante": null
+  },
+  {
+   "slug": "viral-do-brasil-voce-ve-o-centro-da-galaxia",
+   "dueAt": "2026-10-27T23:23:00.000Z",
+   "titulo": "Do Brasil você vê o CENTRO da galáxia melhor que dos EUA 🌌",
+   "tipo": "viral",
+   "cta": true,
+   "arte": 2,
+   "variante": "faixa-16s"
+  },
+  {
+   "slug": "nw-tres-fantasmas-novos-no-ceu",
+   "dueAt": "2026-10-28T15:17:00.000Z",
+   "titulo": "Acharam 3 \"FANTASMAS\" novos no céu (depois de 100 horas de foto) 👻",
+   "tipo": "news",
+   "cta": true,
+   "arte": 1,
+   "variante": "faixa-16s"
+  },
+  {
+   "slug": "pl82-arrokoth-boneco-de-neve",
+   "dueAt": "2026-10-28T20:07:00.000Z",
+   "titulo": "A coisa MAIS DISTANTE já visitada parece um boneco de neve ⛄",
+   "tipo": "aula",
+   "cta": false,
+   "arte": null,
+   "variante": null
+  },
+  {
+   "slug": "viral-o-sol-vai-engolir-mercurio-e-venus",
+   "dueAt": "2026-10-28T23:23:00.000Z",
+   "titulo": "Um dia o Sol vai ENGOLIR Mercúrio e Vênus 🔥",
+   "tipo": "viral",
+   "cta": true,
+   "arte": 2,
+   "variante": "faixa-16s"
+  },
+  {
+   "slug": "nw-hubble-galaxia-de-lado",
+   "dueAt": "2026-10-29T15:17:00.000Z",
+   "titulo": "O Hubble flagrou uma galáxia DE LADO (e ela está fazendo estrelas) 🌌",
+   "tipo": "news",
+   "cta": true,
+   "arte": 1,
+   "variante": "sem-faixa"
+  },
+  {
+   "slug": "pl83-europa-mais-agua-que-a-terra",
+   "dueAt": "2026-10-29T20:07:00.000Z",
+   "titulo": "Essa lua tem MAIS água que todos os oceanos da Terra 🌊",
+   "tipo": "aula",
+   "cta": false,
+   "arte": null,
+   "variante": null
+  },
+  {
+   "slug": "viral-saturno-flutuaria-na-agua",
+   "dueAt": "2026-10-29T23:23:00.000Z",
+   "titulo": "Saturno FLUTUARIA numa banheira (se coubesse) 🛁",
+   "tipo": "viral",
+   "cta": true,
+   "arte": 2,
+   "variante": "sem-faixa"
+  }
+ ]
+}

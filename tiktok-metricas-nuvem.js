@@ -12,7 +12,7 @@
  * Por que: o TikTok não libera comentário por API oficial para nós; o TOTAL de comentários do Buffer é o
  * termômetro do ROTINA (14 vídeos com CTA × 7 aulas sem CTA). O Buffer atualiza os números ~1x/dia, então a
  * linha de hoje pode ter vídeo de hoje com null.
- * Linha: {"quando","dia","rede":"tt","video","tipo","views","curtidas","comentarios","compartilhamentos","cta","arte","buffer_atualizado","comentarios_antes","alerta"}
+ * Linha: {"quando","dia","rede":"tt","video","tipo","views","curtidas","comentarios","compartilhamentos","cta","arte","buffer_atualizado","variante","comentarios_antes","alerta"}
  * ALARME (18/10): "alerta":true quando um vídeo COM CTA tem mais comentários do que na linha anterior dele no jsonl (sem linha
  * anterior, conta a partir de 0). A Direção avisa o Marcelo para abrir aquele vídeo no app (comentário não vem por API).
  * Chave BUFFER_API_KEY: secret do GitHub ou .env local. Sem dependência (fetch do Node 18+).
@@ -31,7 +31,7 @@ const CANAL = 'neuralupdate1';
 const SECO = process.argv.includes('--seco');
 const FORCAR = process.argv.includes('--forcar');
 const DESDE = (process.argv.find(a => a.startsWith('--desde=')) || '--desde=2026-10-16').slice(8);
-const MAPA = path.join(ROOT, 'metricas', 'rotina-videos-16a22.json');
+const MAPAS = fs.readdirSync(path.join(ROOT, 'metricas')).filter(f => /^rotina-videos-.*\.json$/.test(f)).map(f => path.join(ROOT, 'metricas', f)); // 1 mapa por lote
 const SAIDA = path.join(ROOT, 'metricas', 'tiktok-metricas.jsonl');
 const q = s => JSON.stringify(String(s));
 const titulo = t => String(t || '').split('\n')[0].trim();
@@ -46,7 +46,7 @@ async function gql(query) {
 
 (async () => {
   if (!KEY) throw new Error('falta BUFFER_API_KEY');
-  const mapa = new Map(JSON.parse(fs.readFileSync(MAPA, 'utf8')).itens.map(i => [i.titulo, i]));
+  const mapa = new Map(MAPAS.flatMap(f => JSON.parse(fs.readFileSync(f, 'utf8')).itens).map(i => [i.titulo, i]));
   const org = (await gql('query { account { organizations { id } } }')).account.organizations[0].id;
   const canal = (await gql(`query { channels(input: { organizationId: ${q(org)} }) { id service name } }`))
     .channels.find(c => c.service === 'tiktok' && c.name === CANAL);
@@ -87,7 +87,7 @@ async function gql(query) {
     linhas.push({ quando, dia, rede: 'tt', video: it.slug, tipo: it.tipo,
       views: m['Video Views'] ?? null, curtidas: m['Reactions'] ?? null, comentarios: m['Comments'] ?? null,
       compartilhamentos: m['Shares'] ?? null, cta: it.cta, arte: it.arte, buffer_atualizado: x.metricsUpdatedAt || null,
-      comentarios_antes: ultimo.get(it.slug) ?? null, alerta: false, _saiu: x.sentAt || x.dueAt });
+      variante: it.variante ?? null, comentarios_antes: ultimo.get(it.slug) ?? null, alerta: false, _saiu: x.sentAt || x.dueAt });
     const ult = linhas[linhas.length - 1];
     ult.alerta = !!(ult.cta && ult.comentarios != null && ult.comentarios > (ult.comentarios_antes ?? 0));
   }
