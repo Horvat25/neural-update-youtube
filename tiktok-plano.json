@@ -1,32 +1,8 @@
 {
  "_leiame": "Plano do TikTok (gerado por tiktok-plano.js no PC). O tiktok-fila-nuvem.js mantém no Buffer os 10 próximos. Não editar à mão.",
- "geradoEm": "2026-10-22T11:14:49.080Z",
- "ate": "2026-10-23",
+ "geradoEm": "2026-10-23T03:32:31.427Z",
+ "ate": "2026-10-29",
  "itens": [
-  {
-   "slug": "nw-juno-disco-magnetico-ondula",
-   "tipo": "news",
-   "dueAt": "2026-10-22T15:17:00.000Z",
-   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/0b47bf47-9ae3-4a2c-941d-262b7a337034.mp4",
-   "titulo": "Júpiter tem um disco INVISÍVEL que ondula enquanto gira 🪐",
-   "texto": "Júpiter tem um disco INVISÍVEL que ondula enquanto gira 🪐\n\nFonte: NASA Science / Shandong University\n\nJúpiter tem um disco invisível em volta dele, e ele ondula.\n\n#astronomia #espaco #ciencia #neuralupdate\n\nComenta ROTINA 👇"
-  },
-  {
-   "slug": "pl76-plutao-coracao-de-gelo",
-   "tipo": "aula",
-   "dueAt": "2026-10-22T20:07:00.000Z",
-   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/b846141c-791b-4b83-909e-c6f7e61eb881.mp4",
-   "titulo": "O coração de Plutão NÃO é de pedra (é gelo que escorre) 🤍",
-   "texto": "O coração de Plutão NÃO é de pedra (é gelo que escorre) 🤍\n\nFonte: NASA Science\n\nPensa comigo: o que é aquele coração enorme em Plutão? O lado esquerdo dele é uma planície de gelo de nitrogênio.\n\n#astronomia #espaco #ciencia #neuralupdate"
-  },
-  {
-   "slug": "viral-fim-dos-eclipses-totais",
-   "tipo": "viral",
-   "dueAt": "2026-10-22T23:23:00.000Z",
-   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/60c89c45-139f-4dac-92e6-8d1b281550db.mp4",
-   "titulo": "Um dia NÃO vai mais existir eclipse total do Sol 🌑",
-   "texto": "Um dia NÃO vai mais existir eclipse total do Sol 🌑\n\nFonte: NASA Science\n\nUm dia, eclipse total do Sol vai deixar de existir.\n\n#astronomia #espaco #ciencia #neuralupdate\n\nComenta ROTINA 👇"
-  },
   {
    "slug": "nw-webb-estrelas-bebes-jatos",
    "tipo": "news",
@@ -50,6 +26,150 @@
    "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/dead5adc-2621-4804-aaec-8d3da18516a1.mp4",
    "titulo": "Existe uma estrela que gira 716 VEZES por segundo (e não se despedaça) 🌀",
    "texto": "Existe uma estrela que gira 716 VEZES por segundo (e não se despedaça) 🌀\n\nFonte: Hessels et al., Science\n\nExiste uma estrela que gira setecentas e dezesseis vezes por segundo.\n\n#astronomia #espaco #ciencia #neuralupdate\n\nComenta ROTINA 👇"
+  },
+  {
+   "slug": "nw-japao-vai-trazer-pedaco-de-fobos",
+   "tipo": "news",
+   "dueAt": "2026-10-24T15:17:00.000Z",
+   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/ddb43f9c-c766-4257-85cd-bbdcd58e7e79.mp4",
+   "titulo": "O Japão vai trazer um PEDAÇO de uma lua de Marte pra Terra 🪨",
+   "texto": "O Japão vai trazer um PEDAÇO de uma lua de Marte pra Terra 🪨\n\nFonte: NASA Science\n\nUma sonda japonesa vai pousar numa lua de Marte e trazer um pedaço dela pra Terra.\n\n#astronomia #espaco #ciencia #neuralupdate\n\nComenta ROTINA 👇"
+  },
+  {
+   "slug": "pl78-tritao-lua-ao-contrario",
+   "tipo": "aula",
+   "dueAt": "2026-10-24T20:07:00.000Z",
+   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/d85149e7-6b5f-4d46-a770-1aa01f3c316b.mp4",
+   "titulo": "A lua de Netuno gira AO CONTRÁRIO (e solta gêiseres) 🧊",
+   "texto": "A lua de Netuno gira AO CONTRÁRIO (e solta gêiseres) 🧊\n\nFonte: NASA Science\n\nPensa comigo: e se uma lua girasse na direção contrária do próprio planeta? É o que faz Tritão, a maior lua de Netuno.\n\n#astronomia #ciencia #aula #neuralupdate"
+  },
+  {
+   "slug": "viral-bendego-meteorito-5-toneladas",
+   "tipo": "viral",
+   "dueAt": "2026-10-24T23:23:00.000Z",
+   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/a4f8b46d-9b50-497f-a92b-9dc0b0fa39b2.mp4",
+   "titulo": "O maior meteorito do Brasil pesa 5 TONELADAS (e sobreviveu a um incêndio) ☄️",
+   "texto": "O maior meteorito do Brasil pesa 5 TONELADAS (e sobreviveu a um incêndio) ☄️\n\nFonte: Museu Nacional/UFRJ\n\nUma pedra que caiu do espaço pesa mais de cinco toneladas e está aqui no Brasil.\n\n#astronomia #espaco #ciencia #neuralupdate\n\nComenta ROTINA 👇"
+  },
+  {
+   "slug": "nw-um-ano-numa-marte-de-mentira",
+   "tipo": "news",
+   "dueAt": "2026-10-25T15:17:00.000Z",
+   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/5a0fc8a9-53de-40fe-baaf-9d7b3ce48629.mp4",
+   "titulo": "4 pessoas passaram 1 ANO numa \"Marte\" impressa em 3D 🏠",
+   "texto": "4 pessoas passaram 1 ANO numa \"Marte\" impressa em 3D 🏠\n\nFonte: NASA\n\nQuatro pessoas acabaram de completar um ano trancadas numa casa que finge ser Marte.\n\n#astronomia #espaco #ciencia #neuralupdate\n\nComenta ROTINA 👇"
+  },
+  {
+   "slug": "pl79-ceres-sal-que-brilha",
+   "tipo": "aula",
+   "dueAt": "2026-10-25T20:07:00.000Z",
+   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/0b85b250-d77f-4ec3-9b50-f9f27fb73771.mp4",
+   "titulo": "Tem MANCHAS brilhantes num planeta anão (e é sal) ✨",
+   "texto": "Tem MANCHAS brilhantes num planeta anão (e é sal) ✨\n\nFonte: NASA Science\n\nPensa comigo: o que seriam luzes brilhando numa cratera escura no meio dos asteroides? Elas ficam em Ceres, o maior objeto do cinturão de asteroides, com uns novecentos quilômetros.\n\n#astronomia #ciencia #aula #neuralupdate"
+  },
+  {
+   "slug": "viral-hoje-lua-cheia-do-cacador",
+   "tipo": "viral",
+   "dueAt": "2026-10-25T23:23:00.000Z",
+   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/6b67b739-da26-4f2d-813b-889195008bbd.mp4",
+   "titulo": "HOJE À NOITE tem Lua cheia (a Lua do Caçador) 🌕",
+   "texto": "HOJE À NOITE tem Lua cheia (a Lua do Caçador) 🌕\n\nFonte: Star Walk (calendário astronômico)\n\nHoje à noite a Lua fica cheia, e ela tem nome: Lua do Caçador.\n\n#astronomia #espaco #ciencia #neuralupdate\n\nComenta ROTINA 👇"
+  },
+  {
+   "slug": "nw-hubble-galaxia-entorta-luz",
+   "tipo": "news",
+   "dueAt": "2026-10-26T15:17:00.000Z",
+   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/5c179645-1b38-4ed3-8896-8dedb58761b8.mp4",
+   "titulo": "Uma galáxia ENTORTOU a luz de outra (e o Hubble flagrou) 🔭",
+   "texto": "Uma galáxia ENTORTOU a luz de outra (e o Hubble flagrou) 🔭\n\nFonte: NASA Science\n\nEsse arco de luz é uma galáxia inteira entortada por outra que está na frente.\n\n#astronomia #espaco #ciencia #neuralupdate\n\nComenta ROTINA 👇"
+  },
+  {
+   "slug": "pl80-mercurio-dia-de-dois-anos",
+   "tipo": "aula",
+   "dueAt": "2026-10-26T20:07:00.000Z",
+   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/4d4e1b57-5d66-47ad-9407-69a60b6a9832.mp4",
+   "titulo": "Em Mercúrio, um dia dura DOIS anos ☀️",
+   "texto": "Em Mercúrio, um dia dura DOIS anos ☀️\n\nFonte: NASA Science\n\nPensa comigo: e se um dia na sua cidade durasse mais que dois anos? Em Mercúrio é assim: de um nascer do Sol ao outro passam cento e setenta e seis dias da Terra.\n\n#astronomia #ciencia #aula #neuralupdate"
+  },
+  {
+   "slug": "viral-bandeira-tem-o-ceu-de-verdade",
+   "tipo": "viral",
+   "dueAt": "2026-10-26T23:23:00.000Z",
+   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/8a58561e-7722-4ccd-a07b-5654babe9316.mp4",
+   "titulo": "As estrelas da bandeira do Brasil são o CÉU de verdade 🇧🇷",
+   "texto": "As estrelas da bandeira do Brasil são o CÉU de verdade 🇧🇷\n\nFonte: Lei nº 5.700/1971\n\nAs estrelas da bandeira do Brasil não foram desenhadas ao acaso: é o céu de verdade.\n\n#astronomia #espaco #ciencia #neuralupdate\n\nComenta ROTINA 👇"
+  },
+  {
+   "slug": "nw-buraco-negro-clave-de-sol",
+   "tipo": "news",
+   "dueAt": "2026-10-27T15:17:00.000Z",
+   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/207868cc-c77e-4796-90d1-03863d7048c7.mp4",
+   "titulo": "Um buraco negro desenhou uma CLAVE DE SOL no espaço 🎼",
+   "texto": "Um buraco negro desenhou uma CLAVE DE SOL no espaço 🎼\n\nFonte: NASA Science\n\nEsse desenho de ondas de rádio parece uma clave de sol, e quem fez foi um buraco negro.\n\n#astronomia #espaco #ciencia #neuralupdate\n\nComenta ROTINA 👇"
+  },
+  {
+   "slug": "pl81-vesta-montanha-gigante",
+   "tipo": "aula",
+   "dueAt": "2026-10-27T20:07:00.000Z",
+   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/7e7d798f-b278-4cec-afb1-0482857e2d1a.mp4",
+   "titulo": "Um asteroide tem uma montanha 2 vezes MAIOR que o Everest ⛰️",
+   "texto": "Um asteroide tem uma montanha 2 vezes MAIOR que o Everest ⛰️\n\nFonte: NASA Science\n\nPensa comigo: onde fica a montanha mais alta que não está num planeta? Num asteroide chamado Vesta, com uns quinhentos quilômetros.\n\n#astronomia #ciencia #aula #neuralupdate"
+  },
+  {
+   "slug": "viral-do-brasil-voce-ve-o-centro-da-galaxia",
+   "tipo": "viral",
+   "dueAt": "2026-10-27T23:23:00.000Z",
+   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/f2d15b4a-f9b6-4440-855a-7f63abdd8e2f.mp4",
+   "titulo": "Do Brasil você vê o CENTRO da galáxia melhor que dos EUA 🌌",
+   "texto": "Do Brasil você vê o CENTRO da galáxia melhor que dos EUA 🌌\n\nFonte: NASA/JPL-Caltech (Spitzer)\n\nDo Brasil você vê o coração da nossa galáxia melhor do que quem mora nos Estados Unidos.\n\n#astronomia #espaco #ciencia #neuralupdate\n\nComenta ROTINA 👇"
+  },
+  {
+   "slug": "nw-tres-fantasmas-novos-no-ceu",
+   "tipo": "news",
+   "dueAt": "2026-10-28T15:17:00.000Z",
+   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/1dcde8c5-ce30-4def-91db-944c9eb7aee9.mp4",
+   "titulo": "Acharam 3 \"FANTASMAS\" novos no céu (depois de 100 horas de foto) 👻",
+   "texto": "Acharam 3 \"FANTASMAS\" novos no céu (depois de 100 horas de foto) 👻\n\nFonte: NASA APOD\n\nTrês fantasmas novos apareceram no céu, perto da constelação de Cassiopeia.\n\n#astronomia #espaco #ciencia #neuralupdate\n\nComenta ROTINA 👇"
+  },
+  {
+   "slug": "pl82-arrokoth-boneco-de-neve",
+   "tipo": "aula",
+   "dueAt": "2026-10-28T20:07:00.000Z",
+   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/2dca308a-f7dd-4b2a-ba96-33621aa01276.mp4",
+   "titulo": "A coisa MAIS DISTANTE já visitada parece um boneco de neve ⛄",
+   "texto": "A coisa MAIS DISTANTE já visitada parece um boneco de neve ⛄\n\nFonte: NASA Science\n\nPensa comigo: como é a coisa mais distante que uma sonda já visitou? Ela se chama Arrokoth, e parece um boneco de neve achatado.\n\n#astronomia #ciencia #aula #neuralupdate"
+  },
+  {
+   "slug": "viral-o-sol-vai-engolir-mercurio-e-venus",
+   "tipo": "viral",
+   "dueAt": "2026-10-28T23:23:00.000Z",
+   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/4e3bcd34-a023-4396-86d6-1b411e870b92.mp4",
+   "titulo": "Um dia o Sol vai ENGOLIR Mercúrio e Vênus 🔥",
+   "texto": "Um dia o Sol vai ENGOLIR Mercúrio e Vênus 🔥\n\nFonte: NASA Science\n\nUm dia o Sol vai crescer tanto que vai engolir Mercúrio e Vênus.\n\n#astronomia #espaco #ciencia #neuralupdate\n\nComenta ROTINA 👇"
+  },
+  {
+   "slug": "nw-hubble-galaxia-de-lado",
+   "tipo": "news",
+   "dueAt": "2026-10-29T15:17:00.000Z",
+   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/bace557e-2e8e-4fc5-8783-72030d174cef.mp4",
+   "titulo": "O Hubble flagrou uma galáxia DE LADO (e ela está fazendo estrelas) 🌌",
+   "texto": "O Hubble flagrou uma galáxia DE LADO (e ela está fazendo estrelas) 🌌\n\nFonte: NASA Science\n\nEssa é uma galáxia vista de lado, como um disco olhado pela borda.\n\n#astronomia #espaco #ciencia #neuralupdate\n\nComenta ROTINA 👇"
+  },
+  {
+   "slug": "pl83-europa-mais-agua-que-a-terra",
+   "tipo": "aula",
+   "dueAt": "2026-10-29T20:07:00.000Z",
+   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/5690c824-ab57-45c6-a9c7-be6f048e7014.mp4",
+   "titulo": "Essa lua tem MAIS água que todos os oceanos da Terra 🌊",
+   "texto": "Essa lua tem MAIS água que todos os oceanos da Terra 🌊\n\nFonte: NASA Science\n\nPensa comigo: onde tem mais água, na Terra ou numa lua de Júpiter? Europa, uma lua menor que a nossa, deve ter o dobro da água de todos os oceanos da Terra.\n\n#astronomia #ciencia #aula #neuralupdate"
+  },
+  {
+   "slug": "viral-saturno-flutuaria-na-agua",
+   "tipo": "viral",
+   "dueAt": "2026-10-29T23:23:00.000Z",
+   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/45434481-5de5-4296-98db-5f0e439cece0.mp4",
+   "titulo": "Saturno FLUTUARIA numa banheira (se coubesse) 🛁",
+   "texto": "Saturno FLUTUARIA numa banheira (se coubesse) 🛁\n\nFonte: NASA Science\n\nSaturno é tão leve pro tamanho dele que flutuaria na água.\n\n#astronomia #espaco #ciencia #neuralupdate\n\nComenta ROTINA 👇"
   }
  ]
 }
