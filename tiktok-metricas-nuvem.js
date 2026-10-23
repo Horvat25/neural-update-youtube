@@ -47,6 +47,12 @@ async function gql(query) {
 (async () => {
   if (!KEY) throw new Error('falta BUFFER_API_KEY');
   const mapa = new Map(MAPAS.flatMap(f => JSON.parse(fs.readFileSync(f, 'utf8')).itens).map(i => [i.titulo, i]));
+  // O Buffer devolve às vezes o texto com as quebras de linha achatadas (visto em 16–18/10): casa pelo INÍCIO, com espaços normalizados.
+  const itensMapa = [...mapa.values()];
+  const achar = texto => {
+    const n = String(texto || '').replace(/\s+/g, ' ').trim();
+    return mapa.get(titulo(texto)) || itensMapa.find(i => n.startsWith(i.titulo.replace(/\s+/g, ' ').trim()));
+  };
   const org = (await gql('query { account { organizations { id } } }')).account.organizations[0].id;
   const canal = (await gql(`query { channels(input: { organizationId: ${q(org)} }) { id service name } }`))
     .channels.find(c => c.service === 'tiktok' && c.name === CANAL);
@@ -79,7 +85,7 @@ async function gql(query) {
   const linhas = []; let semMapa = 0; const vistos = new Set();
   for (const x of posts) {
     if ((x.sentAt || x.dueAt) < inicio) continue;
-    const it = mapa.get(titulo(x.text));
+    const it = achar(x.text);
     if (!it) { semMapa++; continue; }
     if (vistos.has(it.slug)) continue; // post repetido do mesmo vídeo: fica o 1º (mais novo)
     vistos.add(it.slug);
