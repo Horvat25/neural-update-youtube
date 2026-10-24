@@ -1,0 +1,58 @@
+name: RQP Vault Bridge
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - '.github/workflows/rqp-vault-bridge.yml'
+
+permissions:
+  contents: read
+  id-token: write
+
+jobs:
+  bridge:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+
+    steps:
+      - name: Bridge Buffer secret to RQP Vault
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          if [ -z "${BUFFER_API_KEY:-}" ]; then
+            echo "::error::Missing required GitHub secret name: BUFFER_API_KEY"
+            exit 1
+          fi
+
+          payload="$(mktemp)"
+          response="$(mktemp)"
+          trap 'rm -f "$payload" "$response"' EXIT
+
+          python3 - "$payload" <<'PY'
+          import json, os, sys
+          with open(sys.argv[1], "w", encoding="utf-8") as f:
+              json.dump({"secrets": {"BUFFER_API_KEY": os.environ["BUFFER_API_KEY"]}}, f)
+          PY
+
+          oidc="$(
+            curl -fsS               -H "Authorization: bearer $ACTIONS_ID_TOKEN_REQUEST_TOKEN"               "${ACTIONS_ID_TOKEN_REQUEST_URL}&audience=rqp-secret-bridge" |
+            jq -r '.value'
+          )"
+          test -n "$oidc"
+          test "$oidc" != "null"
+
+          http="$(
+            curl -sS               -o "$response"               -w '%{http_code}'               -X POST               'https://ygsfgttlrgvjizeubjws.supabase.co/functions/v1/rqp-github-secret-bridge'               -H "Authorization: Bearer $oidc"               -H 'content-type: application/json'               --data-binary "@$payload"
+          )"
+
+          if [ "$http" != "200" ]; then
+            cat "$response"
+            exit 1
+          fi
+
+          jq -e '.ok == true and .count == 1' "$response" >/dev/null
+          jq '{ok,count,stored_names}' "$response"
