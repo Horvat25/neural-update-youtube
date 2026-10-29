@@ -1,5 +1,5 @@
 {
- "_leiame": "Mapa dos 21 vídeos do lote TikTok 30/10–05/11 (título = 1ª linha da legenda). cta = CTA ROTINA só no final do vídeo (11); os 3 virais de dom 01, seg 02 e qui 05 são o grupo de CONTROLE sem CTA. Sem faixa no meio (teste da faixa acabou). arte não verificada (null).",
+ "_leiame": "Mapa dos 21 vídeos do lote TikTok 30/10–05/11 (título = 1ª linha da legenda). cta = CTA ROTINA só no final do vídeo (11); os 3 virais de dom 01, seg 02 e qui 05 são o grupo de CONTROLE sem CTA. Arte (info da Direção, 29/10): notícias = 1 (\"Empresas de IA estão pagando pessoas\"), virais com CTA = 2 (\"Enquanto você rola o feed…\"). variante = sem-faixa nos 21 (a faixa no meio acabou; a CTA só no fim).",
  "itens": [
   {
    "slug": "nw-telescopio-das-2000-explosoes-se-despede",
@@ -7,8 +7,8 @@
    "titulo": "O telescópio que viu 2.000 EXPLOSÕES no céu acabou de se despedir 🛰️",
    "tipo": "news",
    "cta": true,
-   "arte": null,
-   "variante": null
+   "arte": 1,
+   "variante": "sem-faixa"
   },
   {
    "slug": "pl84-urano-gira-deitado",
@@ -17,7 +17,7 @@
    "tipo": "aula",
    "cta": false,
    "arte": null,
-   "variante": null
+   "variante": "sem-faixa"
   },
   {
    "slug": "viral-alcantara-empurrao-de-graca",
@@ -25,8 +25,8 @@
    "titulo": "A Terra dá um EMPURRÃO de graça em quem lança foguete do Brasil 🚀🇧🇷",
    "tipo": "viral",
    "cta": true,
-   "arte": null,
-   "variante": null
+   "arte": 2,
+   "variante": "sem-faixa"
   },
   {
    "slug": "nw-drone-da-nasa-vai-voar-em-tita",
@@ -34,8 +34,8 @@
    "titulo": "A NASA vai mandar um DRONE voar em Titã (e ele já \"voou\" pela 1ª vez) 🚁",
    "tipo": "news",
    "cta": true,
-   "arte": null,
-   "variante": null
+   "arte": 1,
+   "variante": "sem-faixa"
   },
   {
    "slug": "pl85-calisto-nao-mudou-em-4-bilhoes",
@@ -44,7 +44,7 @@
    "tipo": "aula",
    "cta": false,
    "arte": null,
-   "variante": null
+   "variante": "sem-faixa"
   },
   {
    "slug": "viral-asteroide-caveira-no-halloween",
@@ -52,8 +52,8 @@
    "titulo": "Um asteroide com cara de CAVEIRA passou pela Terra no Halloween 💀",
    "tipo": "viral",
    "cta": true,
-   "arte": null,
-   "variante": null
+   "arte": 2,
+   "variante": "sem-faixa"
   },
   {
    "slug": "nw-poeira-de-marte-pode-entrar-no-sangue",
@@ -61,8 +61,8 @@
    "titulo": "A poeira de Marte é tão fina que pode entrar no SANGUE de um astronauta 😷",
    "tipo": "news",
    "cta": true,
-   "arte": null,
-   "variante": null
+   "arte": 1,
+   "variante": "sem-faixa"
   },
   {
    "slug": "pl86-miranda-penhasco-de-20-km",
@@ -71,7 +71,7 @@
    "tipo": "aula",
    "cta": false,
    "arte": null,
-   "variante": null
+   "variante": "sem-faixa"
   },
   {
    "slug": "viral-so-quem-mora-no-sul-ve-essas-galaxias",
@@ -80,7 +80,7 @@
    "tipo": "viral",
    "cta": false,
    "arte": null,
-   "variante": null
+   "variante": "sem-faixa"
   },
   {
    "slug": "nw-telescopio-cacador-de-asteroides",
@@ -88,8 +88,8 @@
    "titulo": "A NASA montou o guarda-sol do telescópio que vai CAÇAR asteroides perigosos ☀️",
    "tipo": "news",
    "cta": true,
-   "arte": null,
-   "variante": null
+   "arte": 1,
+   "variante": "sem-faixa"
   },
   {
    "slug": "pl87-haumea-planeta-anao-em-forma-de-ovo",
@@ -98,7 +98,7 @@
    "tipo": "aula",
    "cta": false,
    "arte": null,
-   "variante": null
+   "variante": "sem-faixa"
   },
   {
    "slug": "viral-finados-o-ceu-e-uma-foto-antiga",
@@ -107,7 +107,7 @@
    "tipo": "viral",
    "cta": false,
    "arte": null,
-   "variante": null
+   "variante": "sem-faixa"
   },
   {
    "slug": "nw-dois-foguetes-disputam-a-volta-a-lua",
@@ -115,8 +115,8 @@
    "titulo": "A NASA mudou o plano: astronautas na Lua em 2028 com DOIS foguetes disputando 🌕",
    "tipo": "news",
    "cta": true,
-   "arte": null,
-   "variante": null
+   "arte": 1,
+   "variante": "sem-faixa"
   },
   {
    "slug": "pl88-sedna-ano-de-11-mil-anos",
@@ -125,7 +125,7 @@
    "tipo": "aula",
    "cta": false,
    "arte": null,
-   "variante": null
+   "variante": "sem-faixa"
   },
   {
    "slug": "viral-choveu-meteorito-em-pernambuco",
@@ -133,8 +133,8 @@
    "titulo": "Em 2020 CHOVEU meteorito numa cidade do sertão de Pernambuco ☄️🇧🇷",
    "tipo": "viral",
    "cta": true,
-   "arte": null,
-   "variante": null
+   "arte": 2,
+   "variante": "sem-faixa"
   },
   {
    "slug": "nw-sonda-a-caminho-de-asteroide-de-metal",
@@ -142,8 +142,8 @@
    "titulo": "A sonda que vai a um asteroide de METAL acaba de ganhar um empurrão de Marte 🪙",
    "tipo": "news",
    "cta": true,
-   "arte": null,
-   "variante": null
+   "arte": 1,
+   "variante": "sem-faixa"
   },
   {
    "slug": "pl89-ganimedes-tem-aurora",
@@ -152,7 +152,7 @@
    "tipo": "aula",
    "cta": false,
    "arte": null,
-   "variante": null
+   "variante": "sem-faixa"
   },
   {
    "slug": "viral-esta-semana-bolas-de-fogo-tauridas",
@@ -160,8 +160,8 @@
    "titulo": "ESTA SEMANA caem BOLAS DE FOGO no céu (as Táuridas) 🔥☄️",
    "tipo": "viral",
    "cta": true,
-   "arte": null,
-   "variante": null
+   "arte": 2,
+   "variante": "sem-faixa"
   },
   {
    "slug": "nw-andromeda-da-pra-ver-do-brasil",
@@ -169,8 +169,8 @@
    "titulo": "Dá pra ver a galáxia de ANDRÔMEDA daqui do Brasil (e agora é a época) 🌌",
    "tipo": "news",
    "cta": true,
-   "arte": null,
-   "variante": null
+   "arte": 1,
+   "variante": "sem-faixa"
   },
   {
    "slug": "pl90-tita-rios-e-lagos-de-metano",
@@ -179,7 +179,7 @@
    "tipo": "aula",
    "cta": false,
    "arte": null,
-   "variante": null
+   "variante": "sem-faixa"
   },
   {
    "slug": "viral-16-nasceres-do-sol-por-dia",
@@ -188,7 +188,7 @@
    "tipo": "viral",
    "cta": false,
    "arte": null,
-   "variante": null
+   "variante": "sem-faixa"
   }
  ]
 }
