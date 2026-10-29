@@ -1,0 +1,194 @@
+{
+ "_leiame": "Mapa dos 21 vídeos do lote TikTok 30/10–05/11 (título = 1ª linha da legenda). cta = CTA ROTINA só no final do vídeo (11); os 3 virais de dom 01, seg 02 e qui 05 são o grupo de CONTROLE sem CTA. Sem faixa no meio (teste da faixa acabou). arte não verificada (null).",
+ "itens": [
+  {
+   "slug": "nw-telescopio-das-2000-explosoes-se-despede",
+   "dueAt": "2026-10-30T15:17:00.000Z",
+   "titulo": "O telescópio que viu 2.000 EXPLOSÕES no céu acabou de se despedir 🛰️",
+   "tipo": "news",
+   "cta": true,
+   "arte": null,
+   "variante": null
+  },
+  {
+   "slug": "pl84-urano-gira-deitado",
+   "dueAt": "2026-10-30T20:07:00.000Z",
+   "titulo": "Urano gira DEITADO (e tem verão de 42 anos) 🪐",
+   "tipo": "aula",
+   "cta": false,
+   "arte": null,
+   "variante": null
+  },
+  {
+   "slug": "viral-alcantara-empurrao-de-graca",
+   "dueAt": "2026-10-30T23:23:00.000Z",
+   "titulo": "A Terra dá um EMPURRÃO de graça em quem lança foguete do Brasil 🚀🇧🇷",
+   "tipo": "viral",
+   "cta": true,
+   "arte": null,
+   "variante": null
+  },
+  {
+   "slug": "nw-drone-da-nasa-vai-voar-em-tita",
+   "dueAt": "2026-10-31T15:17:00.000Z",
+   "titulo": "A NASA vai mandar um DRONE voar em Titã (e ele já \"voou\" pela 1ª vez) 🚁",
+   "tipo": "news",
+   "cta": true,
+   "arte": null,
+   "variante": null
+  },
+  {
+   "slug": "pl85-calisto-nao-mudou-em-4-bilhoes",
+   "dueAt": "2026-10-31T20:07:00.000Z",
+   "titulo": "Essa lua NÃO mudou nada em 4 BILHÕES de anos 🌑",
+   "tipo": "aula",
+   "cta": false,
+   "arte": null,
+   "variante": null
+  },
+  {
+   "slug": "viral-asteroide-caveira-no-halloween",
+   "dueAt": "2026-10-31T23:23:00.000Z",
+   "titulo": "Um asteroide com cara de CAVEIRA passou pela Terra no Halloween 💀",
+   "tipo": "viral",
+   "cta": true,
+   "arte": null,
+   "variante": null
+  },
+  {
+   "slug": "nw-poeira-de-marte-pode-entrar-no-sangue",
+   "dueAt": "2026-11-01T15:17:00.000Z",
+   "titulo": "A poeira de Marte é tão fina que pode entrar no SANGUE de um astronauta 😷",
+   "tipo": "news",
+   "cta": true,
+   "arte": null,
+   "variante": null
+  },
+  {
+   "slug": "pl86-miranda-penhasco-de-20-km",
+   "dueAt": "2026-11-01T20:07:00.000Z",
+   "titulo": "Essa lua tem um PENHASCO de 20 km (o maior do Sistema Solar) 🧗",
+   "tipo": "aula",
+   "cta": false,
+   "arte": null,
+   "variante": null
+  },
+  {
+   "slug": "viral-so-quem-mora-no-sul-ve-essas-galaxias",
+   "dueAt": "2026-11-01T23:23:00.000Z",
+   "titulo": "Só quem mora no SUL vê essas duas galáxias no céu 🌌🇧🇷",
+   "tipo": "viral",
+   "cta": false,
+   "arte": null,
+   "variante": null
+  },
+  {
+   "slug": "nw-telescopio-cacador-de-asteroides",
+   "dueAt": "2026-11-02T15:17:00.000Z",
+   "titulo": "A NASA montou o guarda-sol do telescópio que vai CAÇAR asteroides perigosos ☀️",
+   "tipo": "news",
+   "cta": true,
+   "arte": null,
+   "variante": null
+  },
+  {
+   "slug": "pl87-haumea-planeta-anao-em-forma-de-ovo",
+   "dueAt": "2026-11-02T20:07:00.000Z",
+   "titulo": "Existe um planeta anão com formato de OVO (e ele tem anel) 🥚",
+   "tipo": "aula",
+   "cta": false,
+   "arte": null,
+   "variante": null
+  },
+  {
+   "slug": "viral-finados-o-ceu-e-uma-foto-antiga",
+   "dueAt": "2026-11-02T23:23:00.000Z",
+   "titulo": "No Dia de Finados, o céu inteiro é uma foto ANTIGA ✨",
+   "tipo": "viral",
+   "cta": false,
+   "arte": null,
+   "variante": null
+  },
+  {
+   "slug": "nw-dois-foguetes-disputam-a-volta-a-lua",
+   "dueAt": "2026-11-03T15:17:00.000Z",
+   "titulo": "A NASA mudou o plano: astronautas na Lua em 2028 com DOIS foguetes disputando 🌕",
+   "tipo": "news",
+   "cta": true,
+   "arte": null,
+   "variante": null
+  },
+  {
+   "slug": "pl88-sedna-ano-de-11-mil-anos",
+   "dueAt": "2026-11-03T20:07:00.000Z",
+   "titulo": "Esse mundo leva 11 MIL anos pra dar uma volta no Sol 🐢",
+   "tipo": "aula",
+   "cta": false,
+   "arte": null,
+   "variante": null
+  },
+  {
+   "slug": "viral-choveu-meteorito-em-pernambuco",
+   "dueAt": "2026-11-03T23:23:00.000Z",
+   "titulo": "Em 2020 CHOVEU meteorito numa cidade do sertão de Pernambuco ☄️🇧🇷",
+   "tipo": "viral",
+   "cta": true,
+   "arte": null,
+   "variante": null
+  },
+  {
+   "slug": "nw-sonda-a-caminho-de-asteroide-de-metal",
+   "dueAt": "2026-11-04T15:17:00.000Z",
+   "titulo": "A sonda que vai a um asteroide de METAL acaba de ganhar um empurrão de Marte 🪙",
+   "tipo": "news",
+   "cta": true,
+   "arte": null,
+   "variante": null
+  },
+  {
+   "slug": "pl89-ganimedes-tem-aurora",
+   "dueAt": "2026-11-04T20:07:00.000Z",
+   "titulo": "A maior lua do Sistema Solar tem AURORA (e um ímã próprio) 🧲",
+   "tipo": "aula",
+   "cta": false,
+   "arte": null,
+   "variante": null
+  },
+  {
+   "slug": "viral-esta-semana-bolas-de-fogo-tauridas",
+   "dueAt": "2026-11-04T23:23:00.000Z",
+   "titulo": "ESTA SEMANA caem BOLAS DE FOGO no céu (as Táuridas) 🔥☄️",
+   "tipo": "viral",
+   "cta": true,
+   "arte": null,
+   "variante": null
+  },
+  {
+   "slug": "nw-andromeda-da-pra-ver-do-brasil",
+   "dueAt": "2026-11-05T15:17:00.000Z",
+   "titulo": "Dá pra ver a galáxia de ANDRÔMEDA daqui do Brasil (e agora é a época) 🌌",
+   "tipo": "news",
+   "cta": true,
+   "arte": null,
+   "variante": null
+  },
+  {
+   "slug": "pl90-tita-rios-e-lagos-de-metano",
+   "dueAt": "2026-11-05T20:07:00.000Z",
+   "titulo": "Existe um lugar com rios e lagos… só que de METANO 🌊",
+   "tipo": "aula",
+   "cta": false,
+   "arte": null,
+   "variante": null
+  },
+  {
+   "slug": "viral-16-nasceres-do-sol-por-dia",
+   "dueAt": "2026-11-05T23:23:00.000Z",
+   "titulo": "Os astronautas veem o Sol nascer 16 VEZES por dia 🌅",
+   "tipo": "viral",
+   "cta": false,
+   "arte": null,
+   "variante": null
+  }
+ ]
+}
