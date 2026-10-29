@@ -1,0 +1,32 @@
+{
+ "_leiame": "Mapa dos 3 vídeos de sexta 23/10 (CTA só no fim nos 2 com CTA; artes 1 e 2 conforme a ordem de 22/10). Lote avulso que ficou fora do mapa até 29/10.",
+ "itens": [
+  {
+   "slug": "nw-webb-estrelas-bebes-jatos",
+   "dueAt": "2026-10-23T15:17:00.000Z",
+   "titulo": "O James Webb viu estrelas BEBÊS cuspindo jatos (e estavam escondidas)",
+   "tipo": "news",
+   "cta": true,
+   "arte": 1,
+   "variante": null
+  },
+  {
+   "slug": "pl77-encelado-oceano-jatos",
+   "dueAt": "2026-10-23T20:07:00.000Z",
+   "titulo": "Essa lua de Saturno ESGUICHA um oceano pro espaço (Encélado) 💧",
+   "tipo": "aula",
+   "cta": false,
+   "arte": null,
+   "variante": null
+  },
+  {
+   "slug": "viral-estrela-gira-716-vezes",
+   "dueAt": "2026-10-23T23:23:00.000Z",
+   "titulo": "Existe uma estrela que gira 716 VEZES por segundo (e não se despedaça) 🌀",
+   "tipo": "viral",
+   "cta": true,
+   "arte": 2,
+   "variante": null
+  }
+ ]
+}
