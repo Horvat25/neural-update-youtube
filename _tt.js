@@ -16,7 +16,7 @@
  *   "Mais no Instagram: @neuralupdate".
  * CTA ROTINA (15/10/2026): o master dos 14 news+virais de 16–22/10 termina com a CTA (voz própria, não está no narr.mp3).
  *   `--cta-dir=<pasta>`: se existir <pasta>/cta-<slug>.mp3, a versão TikTok usa narr.mp3 até o corte + essa voz da CTA
- *   (começa em dur(master) − (dur(voz)+0.45), igual ao cta_aplica.js) + trilha SEGURA do TikTok; a legenda termina com
+ *   (começa em dur(master) − (dur(voz)+0.45), igual ao cta_aplica.js; com `--cta-xfade=0.5` vale a CTA com dissolve de 05/11) + trilha SEGURA do TikTok; a legenda termina com
  *   "Comenta ROTINA 👇" (sem prometer DM/link) e o pointer/oferta não entram (um pedido só por vídeo).
  */
 const fs = require('fs');
@@ -27,6 +27,8 @@ const TRILHA = { news: 'cosmic-ambient-espacial.mp3', viral: 'cosmic-ice-flow.mp
 const POINTER_PADRAO = 'Mais no Instagram: @neuralupdate';
 const SO_LEGENDA = process.argv.includes('--so-legenda');
 const CTA_DIR = (process.argv.find(a => a.startsWith('--cta-dir=')) || '').slice('--cta-dir='.length);
+// 05/11/2026: CTA com dissolve (cta_aplica.js XF=0.5): total = L1 + (voz+0.75) − XF; a voz entra em L1 − XF + 0.55. --cta-xfade=0.5 liga esse modo.
+const CTA_XF = +((process.argv.find(a => a.startsWith('--cta-xfade=')) || '').slice('--cta-xfade='.length)) || 0;
 const CTA_LINHA = 'Comenta ROTINA 👇';
 const ctaVoz = spec => (CTA_DIR && spec.tipo !== 'aula' && fs.existsSync(path.join(CTA_DIR, `cta-${spec.slug}.mp3`))) ? path.join(CTA_DIR, `cta-${spec.slug}.mp3`) : null;
 const duracao = f => { const m = (spawnSync(FF, ['-hide_banner', '-i', f], { encoding: 'utf8' }).stderr || '').match(/Duration: (\d+):(\d+):([\d.]+)/); return m ? +m[1] * 3600 + +m[2] * 60 + parseFloat(m[3]) : NaN; };
@@ -83,9 +85,10 @@ for (const arq of process.argv.slice(2).filter(a => !a.startsWith('--'))) {
     const vozCta = ctaVoz(spec);
     let entrada = '[1:a]atrim=start=0.080,asetpts=PTS-STARTPTS,aformat=sample_rates=44100:channel_layouts=stereo,volume=1.35,asplit=2[voice][key];';
     if (vozCta) {
-      const T0 = dur - (duracao(vozCta) + 0.45), ms = Math.round((T0 + 0.2) * 1000);
+      const xf = CTA_XF, D = duracao(vozCta) + (xf ? 0.75 : 0.45);
+      const T0 = dur - D + xf, ms = Math.round((xf ? T0 - xf + 0.55 : T0 + 0.2) * 1000), fd = xf || 0.3; // T0 = fim do trecho de conteúdo (L1)
       if (!(T0 > 5)) { console.log(`✗ ${S}: início da CTA calculado em ${T0.toFixed(2)}s, não confio`); continue; }
-      entrada = `[1:a]atrim=start=0.080,asetpts=PTS-STARTPTS,atrim=0:${T0.toFixed(3)},afade=t=out:st=${(T0 - 0.3).toFixed(3)}:d=0.3,aformat=sample_rates=44100:channel_layouts=stereo,volume=1.35[v1];` +
+      entrada = `[1:a]atrim=start=0.080,asetpts=PTS-STARTPTS,atrim=0:${T0.toFixed(3)},afade=t=out:st=${(T0 - fd).toFixed(3)}:d=${fd},aformat=sample_rates=44100:channel_layouts=stereo,volume=1.35[v1];` +
         `[3:a]aformat=sample_rates=44100:channel_layouts=stereo,adelay=${ms}|${ms},volume=1.35[v2];` +
         `[v1][v2]amix=inputs=2:duration=longest:normalize=0,asplit=2[voice][key];`;
       console.log(`· ${S}: CTA ROTINA começa em ${T0.toFixed(2)}s (voz ${duracao(vozCta).toFixed(2)}s)`);
