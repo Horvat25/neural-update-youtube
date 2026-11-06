@@ -1,183 +1,31 @@
 {
  "_leiame": "Plano do TikTok (gerado por tiktok-plano.js no PC). O tiktok-fila-nuvem.js mantém no Buffer os 10 próximos. Não editar à mão.",
- "geradoEm": "2026-10-29T22:27:47.360Z",
- "ate": "2026-11-05",
+ "geradoEm": "2026-11-06T10:48:50.629Z",
+ "ate": "2026-11-06",
  "itens": [
   {
-   "slug": "viral-saturno-flutuaria-na-agua",
-   "tipo": "viral",
-   "dueAt": "2026-10-29T23:23:00.000Z",
-   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/45434481-5de5-4296-98db-5f0e439cece0.mp4",
-   "titulo": "Saturno FLUTUARIA numa banheira (se coubesse) 🛁",
-   "texto": "Saturno FLUTUARIA numa banheira (se coubesse) 🛁\n\nFonte: NASA Science\n\nSaturno é tão leve pro tamanho dele que flutuaria na água.\n\n#astronomia #espaco #ciencia #neuralupdate\n\nComenta ROTINA 👇"
-  },
-  {
-   "slug": "nw-telescopio-das-2000-explosoes-se-despede",
+   "slug": "nw-telescopio-swift-caiu-na-indonesia",
    "tipo": "news",
-   "dueAt": "2026-10-30T15:17:00.000Z",
-   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/345cb326-3165-493f-a487-96a7b3fef3c2.mp4",
-   "titulo": "O telescópio que viu 2.000 EXPLOSÕES no céu acabou de se despedir 🛰️",
-   "texto": "O telescópio que viu 2.000 EXPLOSÕES no céu acabou de se despedir 🛰️\n\nFonte: NASA Science\n\nUm telescópio que passou vinte e dois anos caçando as maiores explosões do universo acabou de se despedir.\n\n#astronomia #espaco #ciencia #neuralupdate\n\nComenta ROTINA 👇"
+   "dueAt": "2026-11-06T15:17:00.000Z",
+   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEgp6kMSvGt3fNBef4FRA7wKUO/c9890146-f653-45f4-b8a5-df489387e449.mp4",
+   "titulo": "O telescópio que viu 2.000 explosões CAIU ontem (sobre a Indonésia) 🔥",
+   "texto": "O telescópio que viu 2.000 explosões CAIU ontem (sobre a Indonésia) 🔥\n\nFonte: NASA Science\n\nO telescópio que passou vinte e dois anos caçando explosões no céu caiu ontem.\n\n#astronomia #espaco #ciencia #neuralupdate\n\nComenta ROTINA 👇"
   },
   {
-   "slug": "pl84-urano-gira-deitado",
+   "slug": "pl91-mimas-estrela-da-morte-com-oceano",
    "tipo": "aula",
-   "dueAt": "2026-10-30T20:07:00.000Z",
-   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/71eba6a2-1fc3-43de-bb47-fad0628beb9b.mp4",
-   "titulo": "Urano gira DEITADO (e tem verão de 42 anos) 🪐",
-   "texto": "Urano gira DEITADO (e tem verão de 42 anos) 🪐\n\nFonte: NASA Science\n\nUrano gira deitado, rolando em volta do Sol como uma bola.\n\n#astronomia #ciencia #aula #neuralupdate"
+   "dueAt": "2026-11-06T20:07:00.000Z",
+   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEgp6kMSvGt3fNBef4FRA7wKUO/1036f06b-d6c7-4898-871d-b698e45b4d3d.mp4",
+   "titulo": "Essa lua parece a Estrela da Morte… e tem um OCEANO escondido 🌊",
+   "texto": "Essa lua parece a Estrela da Morte… e tem um OCEANO escondido 🌊\n\nFonte: Lainey et al., Nature\n\nSaturno tem uma lua que parece a Estrela da Morte, a nave do Star Wars.\n\n#astronomia #ciencia #aula #neuralupdate"
   },
   {
-   "slug": "viral-alcantara-empurrao-de-graca",
+   "slug": "viral-amanha-lua-encosta-em-venus",
    "tipo": "viral",
-   "dueAt": "2026-10-30T23:23:00.000Z",
-   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/1dc4587e-db6a-446e-8ac7-9d16307b3d48.mp4",
-   "titulo": "A Terra dá um EMPURRÃO de graça em quem lança foguete do Brasil 🚀🇧🇷",
-   "texto": "A Terra dá um EMPURRÃO de graça em quem lança foguete do Brasil 🚀🇧🇷\n\nFonte: Agência Espacial Brasileira\n\nNo Maranhão, o chão gira a mil e seiscentos quilômetros por hora, e isso ajuda foguete a subir.\n\n#astronomia #espaco #ciencia #neuralupdate\n\nComenta ROTINA 👇"
-  },
-  {
-   "slug": "nw-drone-da-nasa-vai-voar-em-tita",
-   "tipo": "news",
-   "dueAt": "2026-10-31T15:17:00.000Z",
-   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/724269cd-a700-41e9-8e17-bfcc76b599ea.mp4",
-   "titulo": "A NASA vai mandar um DRONE voar em Titã (e ele já \"voou\" pela 1ª vez) 🚁",
-   "texto": "A NASA vai mandar um DRONE voar em Titã (e ele já \"voou\" pela 1ª vez) 🚁\n\nFonte: NASA Science\n\nUm drone vai voar numa lua de Saturno, e ele já fez o primeiro voo, num computador.\n\n#astronomia #espaco #ciencia #neuralupdate\n\nComenta ROTINA 👇"
-  },
-  {
-   "slug": "pl85-calisto-nao-mudou-em-4-bilhoes",
-   "tipo": "aula",
-   "dueAt": "2026-10-31T20:07:00.000Z",
-   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/e4103c5d-7753-4956-a945-20379906ec97.mp4",
-   "titulo": "Essa lua NÃO mudou nada em 4 BILHÕES de anos 🌑",
-   "texto": "Essa lua NÃO mudou nada em 4 BILHÕES de anos 🌑\n\nFonte: NASA Science\n\nEssa lua de Júpiter está quase igual há quatro bilhões de anos.\n\n#astronomia #ciencia #aula #neuralupdate"
-  },
-  {
-   "slug": "viral-asteroide-caveira-no-halloween",
-   "tipo": "viral",
-   "dueAt": "2026-10-31T23:23:00.000Z",
-   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/fb4ad0c4-e42b-487d-bdde-2dc94b4c1c13.mp4",
-   "titulo": "Um asteroide com cara de CAVEIRA passou pela Terra no Halloween 💀",
-   "texto": "Um asteroide com cara de CAVEIRA passou pela Terra no Halloween 💀\n\nFonte: NASA/JPL\n\nNo Halloween de dois mil e quinze, um asteroide com cara de caveira passou perto da Terra.\n\n#astronomia #espaco #ciencia #neuralupdate\n\nComenta ROTINA 👇"
-  },
-  {
-   "slug": "nw-poeira-de-marte-pode-entrar-no-sangue",
-   "tipo": "news",
-   "dueAt": "2026-11-01T15:17:00.000Z",
-   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/74171cab-28d3-4e7f-9289-56453d1c6740.mp4",
-   "titulo": "A poeira de Marte é tão fina que pode entrar no SANGUE de um astronauta 😷",
-   "texto": "A poeira de Marte é tão fina que pode entrar no SANGUE de um astronauta 😷\n\nFonte: NASA\n\nA poeira de Marte é tão fina que pode chegar até o sangue de um astronauta.\n\n#astronomia #espaco #ciencia #neuralupdate\n\nComenta ROTINA 👇"
-  },
-  {
-   "slug": "pl86-miranda-penhasco-de-20-km",
-   "tipo": "aula",
-   "dueAt": "2026-11-01T20:07:00.000Z",
-   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/fe96a38e-ef4e-41b6-add7-e78b58f6ddf2.mp4",
-   "titulo": "Essa lua tem um PENHASCO de 20 km (o maior do Sistema Solar) 🧗",
-   "texto": "Essa lua tem um PENHASCO de 20 km (o maior do Sistema Solar) 🧗\n\nFonte: NASA Science\n\nO maior penhasco do Sistema Solar não fica num planeta.\n\n#astronomia #ciencia #aula #neuralupdate"
-  },
-  {
-   "slug": "viral-so-quem-mora-no-sul-ve-essas-galaxias",
-   "tipo": "viral",
-   "dueAt": "2026-11-01T23:23:00.000Z",
-   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/35d187df-9c9e-4cfa-a357-87174754ec8d.mp4",
-   "titulo": "Só quem mora no SUL vê essas duas galáxias no céu 🌌🇧🇷",
-   "texto": "Só quem mora no SUL vê essas duas galáxias no céu 🌌🇧🇷\n\nFonte: NASA Science\n\nSó quem mora no hemisfério sul consegue ver essas duas galáxias a olho nu.\n\n#astronomia #espaco #ciencia #neuralupdate"
-  },
-  {
-   "slug": "nw-telescopio-cacador-de-asteroides",
-   "tipo": "news",
-   "dueAt": "2026-11-02T15:17:00.000Z",
-   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/82536d63-ee49-4196-8dd6-d05253a39a96.mp4",
-   "titulo": "A NASA montou o guarda-sol do telescópio que vai CAÇAR asteroides perigosos ☀️",
-   "texto": "A NASA montou o guarda-sol do telescópio que vai CAÇAR asteroides perigosos ☀️\n\nFonte: NASA Science\n\nO telescópio que vai procurar asteroides perigosos pra Terra ganhou o guarda-sol.\n\n#astronomia #espaco #ciencia #neuralupdate\n\nComenta ROTINA 👇"
-  },
-  {
-   "slug": "pl87-haumea-planeta-anao-em-forma-de-ovo",
-   "tipo": "aula",
-   "dueAt": "2026-11-02T20:07:00.000Z",
-   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/18f07b5c-0baf-4e28-8738-0b4b8318a62e.mp4",
-   "titulo": "Existe um planeta anão com formato de OVO (e ele tem anel) 🥚",
-   "texto": "Existe um planeta anão com formato de OVO (e ele tem anel) 🥚\n\nFonte: NASA Science\n\nLá depois de Netuno, tem um mundo gelado com formato de ovo.\n\n#astronomia #ciencia #aula #neuralupdate"
-  },
-  {
-   "slug": "viral-finados-o-ceu-e-uma-foto-antiga",
-   "tipo": "viral",
-   "dueAt": "2026-11-02T23:23:00.000Z",
-   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/713797f9-0161-4215-954c-4cdd232bbcfe.mp4",
-   "titulo": "No Dia de Finados, o céu inteiro é uma foto ANTIGA ✨",
-   "texto": "No Dia de Finados, o céu inteiro é uma foto ANTIGA ✨\n\nFonte: ESA Hipparcos/Gaia\n\nToda estrela que você vê hoje à noite é uma foto de muito tempo atrás.\n\n#astronomia #espaco #ciencia #neuralupdate"
-  },
-  {
-   "slug": "nw-dois-foguetes-disputam-a-volta-a-lua",
-   "tipo": "news",
-   "dueAt": "2026-11-03T15:17:00.000Z",
-   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/626f82c3-3031-478c-8d88-83a0ef97ca40.mp4",
-   "titulo": "A NASA mudou o plano: astronautas na Lua em 2028 com DOIS foguetes disputando 🌕",
-   "texto": "A NASA mudou o plano: astronautas na Lua em 2028 com DOIS foguetes disputando 🌕\n\nFonte: NASA\n\nA volta à Lua virou corrida: a NASA mudou o plano, e agora dois módulos disputam quem leva os astronautas.\n\n#astronomia #espaco #ciencia #neuralupdate\n\nComenta ROTINA 👇"
-  },
-  {
-   "slug": "pl88-sedna-ano-de-11-mil-anos",
-   "tipo": "aula",
-   "dueAt": "2026-11-03T20:07:00.000Z",
-   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/21862884-02e1-436c-b924-d957b7ec8b38.mp4",
-   "titulo": "Esse mundo leva 11 MIL anos pra dar uma volta no Sol 🐢",
-   "texto": "Esse mundo leva 11 MIL anos pra dar uma volta no Sol 🐢\n\nFonte: NASA Science\n\nPensa comigo: e se um ano durasse onze mil anos? É o ano de Sedna, um mundo gelado bem depois de Plutão.\n\n#astronomia #ciencia #aula #neuralupdate"
-  },
-  {
-   "slug": "viral-choveu-meteorito-em-pernambuco",
-   "tipo": "viral",
-   "dueAt": "2026-11-03T23:23:00.000Z",
-   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/c59f16cb-e922-4498-b828-d91090e2ca72.mp4",
-   "titulo": "Em 2020 CHOVEU meteorito numa cidade do sertão de Pernambuco ☄️🇧🇷",
-   "texto": "Em 2020 CHOVEU meteorito numa cidade do sertão de Pernambuco ☄️🇧🇷\n\nFonte: Museu Nacional/UFRJ e Observatório Nacional\n\nEm dois mil e vinte, choveu pedra do espaço numa cidade do sertão de Pernambuco.\n\n#astronomia #espaco #ciencia #neuralupdate\n\nComenta ROTINA 👇"
-  },
-  {
-   "slug": "nw-sonda-a-caminho-de-asteroide-de-metal",
-   "tipo": "news",
-   "dueAt": "2026-11-04T15:17:00.000Z",
-   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/927eb7d7-05af-4b07-a23d-73656ecea21d.mp4",
-   "titulo": "A sonda que vai a um asteroide de METAL acaba de ganhar um empurrão de Marte 🪙",
-   "texto": "A sonda que vai a um asteroide de METAL acaba de ganhar um empurrão de Marte 🪙\n\nFonte: NASA Science\n\nUma sonda da NASA passou raspando por Marte pra ganhar velocidade, rumo a um asteroide de metal.\n\n#astronomia #espaco #ciencia #neuralupdate\n\nComenta ROTINA 👇"
-  },
-  {
-   "slug": "pl89-ganimedes-tem-aurora",
-   "tipo": "aula",
-   "dueAt": "2026-11-04T20:07:00.000Z",
-   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/be0a2f2f-7f57-4b91-a51b-8fb5431d6a13.mp4",
-   "titulo": "A maior lua do Sistema Solar tem AURORA (e um ímã próprio) 🧲",
-   "texto": "A maior lua do Sistema Solar tem AURORA (e um ímã próprio) 🧲\n\nFonte: NASA Science\n\nPensa comigo: uma lua pode ter aurora, igual ao céu do polo? Ganimedes pode: é a maior lua do Sistema Solar, maior até que Mercúrio.\n\n#astronomia #ciencia #aula #neuralupdate"
-  },
-  {
-   "slug": "viral-esta-semana-bolas-de-fogo-tauridas",
-   "tipo": "viral",
-   "dueAt": "2026-11-04T23:23:00.000Z",
-   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/a05b0d91-dd7e-4fee-99a1-8312b1516c6f.mp4",
-   "titulo": "ESTA SEMANA caem BOLAS DE FOGO no céu (as Táuridas) 🔥☄️",
-   "texto": "ESTA SEMANA caem BOLAS DE FOGO no céu (as Táuridas) 🔥☄️\n\nFonte: NASA Meteor Watch / IMO\n\nEsta semana o céu solta bolas de fogo, e dá pra ver do Brasil.\n\n#astronomia #espaco #ciencia #neuralupdate\n\nComenta ROTINA 👇"
-  },
-  {
-   "slug": "nw-andromeda-da-pra-ver-do-brasil",
-   "tipo": "news",
-   "dueAt": "2026-11-05T15:17:00.000Z",
-   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/93f0618f-ea87-4b85-a7dc-bc8876e14d35.mp4",
-   "titulo": "Dá pra ver a galáxia de ANDRÔMEDA daqui do Brasil (e agora é a época) 🌌",
-   "texto": "Dá pra ver a galáxia de ANDRÔMEDA daqui do Brasil (e agora é a época) 🌌\n\nFonte: NASA APOD\n\nDá pra ver outra galáxia inteira daqui do Brasil, e agora é a época certa.\n\n#astronomia #espaco #ciencia #neuralupdate\n\nComenta ROTINA 👇"
-  },
-  {
-   "slug": "pl90-tita-rios-e-lagos-de-metano",
-   "tipo": "aula",
-   "dueAt": "2026-11-05T20:07:00.000Z",
-   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/6d88d4b1-6615-4525-af03-d17644318796.mp4",
-   "titulo": "Existe um lugar com rios e lagos… só que de METANO 🌊",
-   "texto": "Existe um lugar com rios e lagos… só que de METANO 🌊\n\nFonte: NASA Science\n\nPensa comigo: além da Terra, onde mais existem rios, lagos e chuva? Em Titã, a maior lua de Saturno.\n\n#astronomia #ciencia #aula #neuralupdate"
-  },
-  {
-   "slug": "viral-16-nasceres-do-sol-por-dia",
-   "tipo": "viral",
-   "dueAt": "2026-11-05T23:23:00.000Z",
-   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEjkk254YNnOyG10ORpjMSWLPO/243185fc-3ebe-4a36-8cfc-7e17554cc28d.mp4",
-   "titulo": "Os astronautas veem o Sol nascer 16 VEZES por dia 🌅",
-   "texto": "Os astronautas veem o Sol nascer 16 VEZES por dia 🌅\n\nFonte: NASA\n\nOs astronautas da Estação Espacial veem o Sol nascer dezesseis vezes por dia.\n\n#astronomia #espaco #ciencia #neuralupdate"
+   "dueAt": "2026-11-06T23:23:00.000Z",
+   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEgp6kMSvGt3fNBef4FRA7wKUO/bb887b84-b1d6-48a6-b30c-0a91b15fcc33.mp4",
+   "titulo": "AMANHÃ de madrugada a Lua vai ENCOSTAR em Vênus 🌙✨",
+   "texto": "AMANHÃ de madrugada a Lua vai ENCOSTAR em Vênus 🌙✨\n\nFonte: Posições calculadas para São Paulo\n\nAmanhã de madrugada a Lua vai encostar em Vênus.\n\n#astronomia #espaco #ciencia #neuralupdate\n\nComenta ROTINA 👇"
   }
  ]
 }
