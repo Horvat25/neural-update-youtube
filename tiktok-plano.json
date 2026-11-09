@@ -1,31 +1,87 @@
 {
  "_leiame": "Plano do TikTok (gerado por tiktok-plano.js no PC). O tiktok-fila-nuvem.js mantém no Buffer os 10 próximos. Não editar à mão.",
- "geradoEm": "2026-11-07T01:38:02.771Z",
- "ate": "2026-11-07",
+ "geradoEm": "2026-11-09T20:42:46.863Z",
+ "ate": "2026-11-12",
  "itens": [
   {
-   "slug": "nw-voyager-1-vai-ficar-a-um-dia-luz",
-   "tipo": "news",
-   "dueAt": "2026-11-07T15:17:00.000Z",
-   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEgp6kMSvGt3fNBef4FRA7wKUO/4ad6a6bb-3a06-427a-aba4-e94b6f25da51.mp4",
-   "titulo": "Em 11 dias, a Voyager 1 vai ficar a um DIA-LUZ da Terra 🛰️",
-   "texto": "Em 11 dias, a Voyager 1 vai ficar a um DIA-LUZ da Terra 🛰️\n\nFonte: NASA/JPL\n\nDaqui a onze dias, uma nave da Terra vai ficar a um dia-luz de distância.\n\n#astronomia #espaco #ciencia #neuralupdate\n\nComenta ROTINA 👇"
-  },
-  {
-   "slug": "pl92-japeto-a-lua-de-duas-cores",
-   "tipo": "aula",
-   "dueAt": "2026-11-07T20:07:00.000Z",
-   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEgp6kMSvGt3fNBef4FRA7wKUO/1660faeb-a589-4b06-b2a9-a312cab3d084.mp4",
-   "titulo": "Essa lua é metade BRANCA e metade PRETA (e tem uma muralha de 20 km) 🌗",
-   "texto": "Essa lua é metade BRANCA e metade PRETA (e tem uma muralha de 20 km) 🌗\n\nFonte: NASA Science\n\nUma lua de Saturno é pintada de dois jeitos: metade branca como neve, metade escura como carvão.\n\n#astronomia #ciencia #aula #neuralupdate"
-  },
-  {
-   "slug": "viral-marte-e-jupiter-vao-se-encontrar",
+   "slug": "viral-hoje-o-ponto-que-nao-pisca-e-saturno",
    "tipo": "viral",
-   "dueAt": "2026-11-07T23:23:00.000Z",
-   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEgp6kMSvGt3fNBef4FRA7wKUO/f6b5ae76-8e63-42e9-8afa-480548a578e7.mp4",
-   "titulo": "Marte e Júpiter vão se ENCONTRAR no céu (e dá pra ver chegando toda madrugada) 🔴🟠",
-   "texto": "Marte e Júpiter vão se ENCONTRAR no céu (e dá pra ver chegando toda madrugada) 🔴🟠\n\nFonte: Posições calculadas para São Paulo\n\nToda madrugada, Marte e Júpiter estão chegando mais perto um do outro no céu.\n\n#astronomia #espaco #ciencia #neuralupdate\n\nComenta ROTINA 👇"
+   "dueAt": "2026-11-09T23:23:00.000Z",
+   "url": "https://ygsfgttlrgvjizeubjws.supabase.co/storage/v1/object/public/rqp-videos/neural-update-recovery/viral-hoje-o-ponto-que-nao-pisca-e-saturno-tt.mp4",
+   "titulo": "HOJE o ponto que NÃO pisca lá no alto é Saturno 🪐",
+   "texto": "HOJE o ponto que NÃO pisca lá no alto é Saturno 🪐\n\nFonte: Posições calculadas para São Paulo\n\nHoje à noite, o ponto amarelado bem lá no alto que não pisca é Saturno.\n\n#astronomia #espaco #ciencia #neuralupdate"
+  },
+  {
+   "slug": "nw-letras-do-dna-num-asteroide",
+   "tipo": "news",
+   "dueAt": "2026-11-10T15:17:00.000Z",
+   "url": "https://ygsfgttlrgvjizeubjws.supabase.co/storage/v1/object/public/rqp-videos/neural-update-recovery/nw-letras-do-dna-num-asteroide-tt.mp4",
+   "titulo": "Acharam as 5 letras do DNA num ASTEROIDE de 4,5 bilhões de anos 🧬",
+   "texto": "Acharam as 5 letras do DNA num ASTEROIDE de 4,5 bilhões de anos 🧬\n\nFonte: Nature Astronomy\n\nNum pedaço de asteroide de quatro bilhões e meio de anos, acharam as cinco letras do DNA.\n\n#astronomia #espaco #ciencia #neuralupdate\n\nComenta ROTINA 👇"
+  },
+  {
+   "slug": "pl95-caronte-e-plutao-se-encarando",
+   "tipo": "aula",
+   "dueAt": "2026-11-10T20:07:00.000Z",
+   "url": "https://ygsfgttlrgvjizeubjws.supabase.co/storage/v1/object/public/rqp-videos/neural-update-recovery/pl95-caronte-e-plutao-se-encarando-tt.mp4",
+   "titulo": "Plutão e sua lua NUNCA viram a cara um pro outro 🌗",
+   "texto": "Plutão e sua lua NUNCA viram a cara um pro outro 🌗\n\nFonte: NASA Science\n\nPlutão e a lua dele vivem se encarando, sem nunca virar a cara.\n\n#astronomia #ciencia #aula #neuralupdate"
+  },
+  {
+   "slug": "viral-o-sete-estrelo-voltou",
+   "tipo": "viral",
+   "dueAt": "2026-11-10T23:23:00.000Z",
+   "url": "https://ygsfgttlrgvjizeubjws.supabase.co/storage/v1/object/public/rqp-videos/neural-update-recovery/viral-o-sete-estrelo-voltou-tt.mp4",
+   "titulo": "Já viu o SETE-ESTRELO? Ele voltou pro céu de novembro ✨",
+   "texto": "Já viu o SETE-ESTRELO? Ele voltou pro céu de novembro ✨\n\nFonte: Posições calculadas para São Paulo\n\nEsse montinho de estrelas que aparece no céu de novembro tem nome: Sete-Estrelo.\n\n#astronomia #espaco #ciencia #neuralupdate\n\nComenta ROTINA 👇"
+  },
+  {
+   "slug": "nw-hera-chegando-na-cena-da-batida",
+   "tipo": "news",
+   "dueAt": "2026-11-11T15:17:00.000Z",
+   "url": "https://ygsfgttlrgvjizeubjws.supabase.co/storage/v1/object/public/rqp-videos/neural-update-recovery/nw-hera-chegando-na-cena-da-batida-tt.mp4",
+   "titulo": "A sonda que vai investigar a BATIDA da NASA num asteroide está chegando ☄️",
+   "texto": "A sonda que vai investigar a BATIDA da NASA num asteroide está chegando ☄️\n\nFonte: ESA\n\nA sonda que vai investigar a cena de um crime espacial já está chegando.\n\n#astronomia #espaco #ciencia #neuralupdate\n\nComenta ROTINA 👇"
+  },
+  {
+   "slug": "pl96-eris-o-mundo-que-derrubou-plutao",
+   "tipo": "aula",
+   "dueAt": "2026-11-11T20:07:00.000Z",
+   "url": "https://ygsfgttlrgvjizeubjws.supabase.co/storage/v1/object/public/rqp-videos/neural-update-recovery/pl96-eris-o-mundo-que-derrubou-plutao-tt.mp4",
+   "titulo": "O mundo que TIROU Plutão da lista dos planetas 🪐",
+   "texto": "O mundo que TIROU Plutão da lista dos planetas 🪐\n\nFonte: NASA Science\n\nUm mundo gelado tirou Plutão da lista dos planetas.\n\n#astronomia #ciencia #aula #neuralupdate"
+  },
+  {
+   "slug": "viral-hoje-a-lua-volta-fininha",
+   "tipo": "viral",
+   "dueAt": "2026-11-11T23:23:00.000Z",
+   "url": "https://ygsfgttlrgvjizeubjws.supabase.co/storage/v1/object/public/rqp-videos/neural-update-recovery/viral-hoje-a-lua-volta-fininha-tt.mp4",
+   "titulo": "HOJE a Lua VOLTA, fininha, logo depois do pôr do sol 🌙",
+   "texto": "HOJE a Lua VOLTA, fininha, logo depois do pôr do sol 🌙\n\nFonte: Cálculo para São Paulo\n\nHoje, logo depois do pôr do sol, a Lua volta pro céu, fininha.\n\n#astronomia #espaco #ciencia #neuralupdate\n\nComenta ROTINA 👇"
+  },
+  {
+   "slug": "nw-buracos-negros-podem-se-partir",
+   "tipo": "news",
+   "dueAt": "2026-11-12T15:17:00.000Z",
+   "url": "https://ygsfgttlrgvjizeubjws.supabase.co/storage/v1/object/public/rqp-videos/neural-update-recovery/nw-buracos-negros-podem-se-partir-tt.mp4",
+   "titulo": "Buracos negros podem se PARTIR em dois (e a física deixa) ⚫",
+   "texto": "Buracos negros podem se PARTIR em dois (e a física deixa) ⚫\n\nFonte: University of Southern Denmark / Physical Review D\n\nBuracos negros podem se partir em dois.\n\n#astronomia #espaco #ciencia #neuralupdate\n\nComenta ROTINA 👇"
+  },
+  {
+   "slug": "pl97-makemake-o-mundo-com-nome-de-deus",
+   "tipo": "aula",
+   "dueAt": "2026-11-12T20:07:00.000Z",
+   "url": "https://ygsfgttlrgvjizeubjws.supabase.co/storage/v1/object/public/rqp-videos/neural-update-recovery/pl97-makemake-o-mundo-com-nome-de-deus-tt.mp4",
+   "titulo": "Esse mundo gelado tem nome de DEUS da Ilha de Páscoa 🗿",
+   "texto": "Esse mundo gelado tem nome de DEUS da Ilha de Páscoa 🗿\n\nFonte: NASA Science\n\nEsse mundo gelado tem nome de deus da Ilha de Páscoa.\n\n#astronomia #ciencia #aula #neuralupdate"
+  },
+  {
+   "slug": "viral-dia-17-chuva-de-meteoros-leonidas",
+   "tipo": "viral",
+   "dueAt": "2026-11-12T23:23:00.000Z",
+   "url": "https://ygsfgttlrgvjizeubjws.supabase.co/storage/v1/object/public/rqp-videos/neural-update-recovery/viral-dia-17-chuva-de-meteoros-leonidas-tt.mp4",
+   "titulo": "Dia 17 tem CHUVA DE METEOROS (as Leônidas): veja o melhor horário ☄️",
+   "texto": "Dia 17 tem CHUVA DE METEOROS (as Leônidas): veja o melhor horário ☄️\n\nFonte: IMO 2026\n\nNa madrugada de terça pra quarta, dia dezessete, tem chuva de meteoros.\n\n#astronomia #espaco #ciencia #neuralupdate"
   }
  ]
 }
