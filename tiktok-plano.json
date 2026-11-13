@@ -1,87 +1,167 @@
 {
  "_leiame": "Plano do TikTok (gerado por tiktok-plano.js no PC). O tiktok-fila-nuvem.js mantém no Buffer os 10 próximos. Não editar à mão.",
- "geradoEm": "2026-11-09T20:42:46.863Z",
- "ate": "2026-11-12",
+ "geradoEm": "2026-11-13T16:56:12.717Z",
+ "ate": "2026-11-19",
  "itens": [
   {
-   "slug": "viral-hoje-o-ponto-que-nao-pisca-e-saturno",
-   "tipo": "viral",
-   "dueAt": "2026-11-09T23:23:00.000Z",
-   "url": "https://ygsfgttlrgvjizeubjws.supabase.co/storage/v1/object/public/rqp-videos/neural-update-recovery/viral-hoje-o-ponto-que-nao-pisca-e-saturno-tt.mp4",
-   "titulo": "HOJE o ponto que NÃO pisca lá no alto é Saturno 🪐",
-   "texto": "HOJE o ponto que NÃO pisca lá no alto é Saturno 🪐\n\nFonte: Posições calculadas para São Paulo\n\nHoje à noite, o ponto amarelado bem lá no alto que não pisca é Saturno.\n\n#astronomia #espaco #ciencia #neuralupdate"
-  },
-  {
-   "slug": "nw-letras-do-dna-num-asteroide",
-   "tipo": "news",
-   "dueAt": "2026-11-10T15:17:00.000Z",
-   "url": "https://ygsfgttlrgvjizeubjws.supabase.co/storage/v1/object/public/rqp-videos/neural-update-recovery/nw-letras-do-dna-num-asteroide-tt.mp4",
-   "titulo": "Acharam as 5 letras do DNA num ASTEROIDE de 4,5 bilhões de anos 🧬",
-   "texto": "Acharam as 5 letras do DNA num ASTEROIDE de 4,5 bilhões de anos 🧬\n\nFonte: Nature Astronomy\n\nNum pedaço de asteroide de quatro bilhões e meio de anos, acharam as cinco letras do DNA.\n\n#astronomia #espaco #ciencia #neuralupdate\n\nComenta ROTINA 👇"
-  },
-  {
-   "slug": "pl95-caronte-e-plutao-se-encarando",
+   "slug": "pl98-pan-a-lua-pastel",
    "tipo": "aula",
-   "dueAt": "2026-11-10T20:07:00.000Z",
-   "url": "https://ygsfgttlrgvjizeubjws.supabase.co/storage/v1/object/public/rqp-videos/neural-update-recovery/pl95-caronte-e-plutao-se-encarando-tt.mp4",
-   "titulo": "Plutão e sua lua NUNCA viram a cara um pro outro 🌗",
-   "texto": "Plutão e sua lua NUNCA viram a cara um pro outro 🌗\n\nFonte: NASA Science\n\nPlutão e a lua dele vivem se encarando, sem nunca virar a cara.\n\n#astronomia #ciencia #aula #neuralupdate"
+   "dueAt": "2026-11-13T20:07:00.000Z",
+   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEgp6kMSvGt3fNBef4FRA7wKUO/dfce4aab-aa58-468f-867b-b7248a148f5d.mp4",
+   "titulo": "Essa lua parece um PASTEL (e a borda é feita de anel) 🥟",
+   "texto": "Essa lua parece um PASTEL (e a borda é feita de anel) 🥟\n\nFonte: NASA Science\n\nParece montagem, mas é foto de verdade, da sonda Cassini: uma lua com formato de pastel.\n\n#astronomia #ciencia #aula #neuralupdate"
   },
   {
-   "slug": "viral-o-sete-estrelo-voltou",
+   "slug": "viral-amanha-a-estrela-mais-brilhante-nao-e-estrela",
    "tipo": "viral",
-   "dueAt": "2026-11-10T23:23:00.000Z",
-   "url": "https://ygsfgttlrgvjizeubjws.supabase.co/storage/v1/object/public/rqp-videos/neural-update-recovery/viral-o-sete-estrelo-voltou-tt.mp4",
-   "titulo": "Já viu o SETE-ESTRELO? Ele voltou pro céu de novembro ✨",
-   "texto": "Já viu o SETE-ESTRELO? Ele voltou pro céu de novembro ✨\n\nFonte: Posições calculadas para São Paulo\n\nEsse montinho de estrelas que aparece no céu de novembro tem nome: Sete-Estrelo.\n\n#astronomia #espaco #ciencia #neuralupdate\n\nComenta ROTINA 👇"
+   "dueAt": "2026-11-13T23:23:00.000Z",
+   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEgp6kMSvGt3fNBef4FRA7wKUO/d27d100b-e96d-4bda-9ee0-687ea8fdbd3f.mp4",
+   "titulo": "AMANHÃ cedo a 'estrela' mais brilhante do céu NÃO é estrela (e tem fase de Lua) ✨",
+   "texto": "AMANHÃ cedo a 'estrela' mais brilhante do céu NÃO é estrela (e tem fase de Lua) ✨\n\nFonte: Posições e brilho calculados\n\nAmanhã cedo, a estrela mais brilhante do céu não é estrela.\n\n#astronomia #espaco #ciencia #neuralupdate"
   },
   {
-   "slug": "nw-hera-chegando-na-cena-da-batida",
+   "slug": "nw-marte-pode-ter-vulcao-vivo",
    "tipo": "news",
-   "dueAt": "2026-11-11T15:17:00.000Z",
-   "url": "https://ygsfgttlrgvjizeubjws.supabase.co/storage/v1/object/public/rqp-videos/neural-update-recovery/nw-hera-chegando-na-cena-da-batida-tt.mp4",
-   "titulo": "A sonda que vai investigar a BATIDA da NASA num asteroide está chegando ☄️",
-   "texto": "A sonda que vai investigar a BATIDA da NASA num asteroide está chegando ☄️\n\nFonte: ESA\n\nA sonda que vai investigar a cena de um crime espacial já está chegando.\n\n#astronomia #espaco #ciencia #neuralupdate\n\nComenta ROTINA 👇"
+   "dueAt": "2026-11-14T15:17:00.000Z",
+   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEgp6kMSvGt3fNBef4FRA7wKUO/930d4f59-5dc8-487f-8dbd-aa5e2f0c0d72.mp4",
+   "titulo": "Marte pode NÃO estar morto: saiu gás de vulcão de uma rachadura 🌋",
+   "texto": "Marte pode NÃO estar morto: saiu gás de vulcão de uma rachadura 🌋\n\nFonte: Science Advances\n\nMarte pode não estar tão morto quanto a gente pensava.\n\n#astronomia #espaco #ciencia #neuralupdate"
   },
   {
-   "slug": "pl96-eris-o-mundo-que-derrubou-plutao",
+   "slug": "pl99-jano-e-epimeteu-trocam-de-lugar",
    "tipo": "aula",
-   "dueAt": "2026-11-11T20:07:00.000Z",
-   "url": "https://ygsfgttlrgvjizeubjws.supabase.co/storage/v1/object/public/rqp-videos/neural-update-recovery/pl96-eris-o-mundo-que-derrubou-plutao-tt.mp4",
-   "titulo": "O mundo que TIROU Plutão da lista dos planetas 🪐",
-   "texto": "O mundo que TIROU Plutão da lista dos planetas 🪐\n\nFonte: NASA Science\n\nUm mundo gelado tirou Plutão da lista dos planetas.\n\n#astronomia #ciencia #aula #neuralupdate"
+   "dueAt": "2026-11-14T20:07:00.000Z",
+   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEgp6kMSvGt3fNBef4FRA7wKUO/a13c8f94-6cdf-4d1e-952d-31c7c2f72836.mp4",
+   "titulo": "Duas luas de Saturno TROCAM de lugar a cada 4 anos (e nunca batem) 🔄",
+   "texto": "Duas luas de Saturno TROCAM de lugar a cada 4 anos (e nunca batem) 🔄\n\nFonte: NASA Science\n\nImagina dois carros na mesma pista, quase encostando.\n\n#astronomia #ciencia #aula #neuralupdate"
   },
   {
-   "slug": "viral-hoje-a-lua-volta-fininha",
+   "slug": "viral-amanha-a-lua-aparece-de-dia",
    "tipo": "viral",
-   "dueAt": "2026-11-11T23:23:00.000Z",
-   "url": "https://ygsfgttlrgvjizeubjws.supabase.co/storage/v1/object/public/rqp-videos/neural-update-recovery/viral-hoje-a-lua-volta-fininha-tt.mp4",
-   "titulo": "HOJE a Lua VOLTA, fininha, logo depois do pôr do sol 🌙",
-   "texto": "HOJE a Lua VOLTA, fininha, logo depois do pôr do sol 🌙\n\nFonte: Cálculo para São Paulo\n\nHoje, logo depois do pôr do sol, a Lua volta pro céu, fininha.\n\n#astronomia #espaco #ciencia #neuralupdate\n\nComenta ROTINA 👇"
+   "dueAt": "2026-11-14T23:23:00.000Z",
+   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEgp6kMSvGt3fNBef4FRA7wKUO/43e5d441-bedd-4eec-ab64-037369608754.mp4",
+   "titulo": "AMANHÃ à tarde a Lua aparece de DIA (e a China fica sem Sol e sem Lua) 🌓",
+   "texto": "AMANHÃ à tarde a Lua aparece de DIA (e a China fica sem Sol e sem Lua) 🌓\n\nFonte: Posições calculadas\n\nNa escola ensinaram que, quando é dia no Brasil, a Lua tá lá na China.\n\n#astronomia #espaco #ciencia #neuralupdate"
   },
   {
-   "slug": "nw-buracos-negros-podem-se-partir",
+   "slug": "nw-agua-da-terra-pode-ter-nascido-do-fogo",
    "tipo": "news",
-   "dueAt": "2026-11-12T15:17:00.000Z",
-   "url": "https://ygsfgttlrgvjizeubjws.supabase.co/storage/v1/object/public/rqp-videos/neural-update-recovery/nw-buracos-negros-podem-se-partir-tt.mp4",
-   "titulo": "Buracos negros podem se PARTIR em dois (e a física deixa) ⚫",
-   "texto": "Buracos negros podem se PARTIR em dois (e a física deixa) ⚫\n\nFonte: University of Southern Denmark / Physical Review D\n\nBuracos negros podem se partir em dois.\n\n#astronomia #espaco #ciencia #neuralupdate\n\nComenta ROTINA 👇"
+   "dueAt": "2026-11-15T15:17:00.000Z",
+   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEgp6kMSvGt3fNBef4FRA7wKUO/c47fd29f-305f-4c62-8455-b682b1058697.mp4",
+   "titulo": "A água da Terra pode ter nascido do FOGO (e não dos cometas) 🔥💧",
+   "texto": "A água da Terra pode ter nascido do FOGO (e não dos cometas) 🔥💧\n\nFonte: Nature Geoscience\n\nA água do mar pode ter nascido do fogo, e não de cometa.\n\n#astronomia #espaco #ciencia #neuralupdate"
   },
   {
-   "slug": "pl97-makemake-o-mundo-com-nome-de-deus",
+   "slug": "pl100-dactilo-o-asteroide-que-tem-lua",
    "tipo": "aula",
-   "dueAt": "2026-11-12T20:07:00.000Z",
-   "url": "https://ygsfgttlrgvjizeubjws.supabase.co/storage/v1/object/public/rqp-videos/neural-update-recovery/pl97-makemake-o-mundo-com-nome-de-deus-tt.mp4",
-   "titulo": "Esse mundo gelado tem nome de DEUS da Ilha de Páscoa 🗿",
-   "texto": "Esse mundo gelado tem nome de DEUS da Ilha de Páscoa 🗿\n\nFonte: NASA Science\n\nEsse mundo gelado tem nome de deus da Ilha de Páscoa.\n\n#astronomia #ciencia #aula #neuralupdate"
+   "dueAt": "2026-11-15T20:07:00.000Z",
+   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEgp6kMSvGt3fNBef4FRA7wKUO/9b1bab78-373a-4269-ab21-130cd21b79c6.mp4",
+   "titulo": "Esse asteroide tem uma LUA (e ela tem só 1 km) 🌑",
+   "texto": "Esse asteroide tem uma LUA (e ela tem só 1 km) 🌑\n\nFonte: NASA Science\n\nAté mil novecentos e noventa e três, ninguém sabia se asteroide tinha lua.\n\n#astronomia #ciencia #aula #neuralupdate"
   },
   {
-   "slug": "viral-dia-17-chuva-de-meteoros-leonidas",
+   "slug": "viral-amanha-marte-encosta-em-jupiter",
    "tipo": "viral",
-   "dueAt": "2026-11-12T23:23:00.000Z",
-   "url": "https://ygsfgttlrgvjizeubjws.supabase.co/storage/v1/object/public/rqp-videos/neural-update-recovery/viral-dia-17-chuva-de-meteoros-leonidas-tt.mp4",
-   "titulo": "Dia 17 tem CHUVA DE METEOROS (as Leônidas): veja o melhor horário ☄️",
-   "texto": "Dia 17 tem CHUVA DE METEOROS (as Leônidas): veja o melhor horário ☄️\n\nFonte: IMO 2026\n\nNa madrugada de terça pra quarta, dia dezessete, tem chuva de meteoros.\n\n#astronomia #espaco #ciencia #neuralupdate"
+   "dueAt": "2026-11-15T23:23:00.000Z",
+   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEgp6kMSvGt3fNBef4FRA7wKUO/c5a3c359-88d8-4fe4-aa80-7b94a501d48c.mp4",
+   "titulo": "AMANHÃ de madrugada Marte ENCOSTA em Júpiter (assim de novo, só em 2033) 🔴🪐",
+   "texto": "AMANHÃ de madrugada Marte ENCOSTA em Júpiter (assim de novo, só em 2033) 🔴🪐\n\nFonte: Posições e distâncias calculadas\n\nMarte encosta em Júpiter no céu na madrugada de segunda, 16/11/2026.\n\n#astronomia #espaco #ciencia #neuralupdate"
+  },
+  {
+   "slug": "nw-telescopio-acha-vizinhos-escondidos-da-via-lactea",
+   "tipo": "news",
+   "dueAt": "2026-11-16T15:17:00.000Z",
+   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEgp6kMSvGt3fNBef4FRA7wKUO/af13d8a7-318d-41d9-86bf-dc1db9a3c7cd.mp4",
+   "titulo": "Um telescópio novo achou 2 VIZINHOS escondidos da Via Láctea 🌌",
+   "texto": "Um telescópio novo achou 2 VIZINHOS escondidos da Via Láctea 🌌\n\nFonte: University of Washington\n\nUm telescópio novo no Chile, com brasileiros no time, achou dois vizinhos escondidos da Via Láctea.\n\n#astronomia #espaco #ciencia #neuralupdate"
+  },
+  {
+   "slug": "pl101-o-hexagono-de-saturno",
+   "tipo": "aula",
+   "dueAt": "2026-11-16T20:07:00.000Z",
+   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEgp6kMSvGt3fNBef4FRA7wKUO/703c5e07-22ad-44e3-90d1-812d59529628.mp4",
+   "titulo": "Saturno tem um HEXÁGONO no polo (e cada lado é maior que a Terra) ⬡",
+   "texto": "Saturno tem um HEXÁGONO no polo (e cada lado é maior que a Terra) ⬡\n\nFonte: NASA Science\n\nNo polo norte de Saturno tem uma tempestade de seis lados, igual favo de mel.\n\n#astronomia #ciencia #aula #neuralupdate"
+  },
+  {
+   "slug": "viral-hoje-de-madrugada-chuva-de-meteoros-leonidas",
+   "tipo": "viral",
+   "dueAt": "2026-11-16T23:23:00.000Z",
+   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEgp6kMSvGt3fNBef4FRA7wKUO/2362103e-6176-4a5e-bc84-279ae9da7e6f.mp4",
+   "titulo": "HOJE de madrugada tem CHUVA DE METEOROS (saindo do lado de Júpiter) ☄️",
+   "texto": "HOJE de madrugada tem CHUVA DE METEOROS (saindo do lado de Júpiter) ☄️\n\nFonte: Posições calculadas para São Paulo\n\nEsta madrugada tem chuva de meteoros: as Leônidas.\n\n#astronomia #espaco #ciencia #neuralupdate"
+  },
+  {
+   "slug": "nw-cometas-podem-ter-destruido-os-ingredientes-da-vida",
+   "tipo": "news",
+   "dueAt": "2026-11-17T15:17:00.000Z",
+   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEgp6kMSvGt3fNBef4FRA7wKUO/7e81b63e-2895-4a68-af38-ce72ed762b57.mp4",
+   "titulo": "Os cometas podem ter DESTRUÍDO os ingredientes da vida (e não trazido) ☄️",
+   "texto": "Os cometas podem ter DESTRUÍDO os ingredientes da vida (e não trazido) ☄️\n\nFonte: Universidade de Cambridge, Scientific Reports\n\nAprendemos que os cometas trouxeram os ingredientes da vida.\n\n#astronomia #espaco #ciencia #neuralupdate"
+  },
+  {
+   "slug": "pl102-quaoar-o-anel-que-nao-podia-existir",
+   "tipo": "aula",
+   "dueAt": "2026-11-17T20:07:00.000Z",
+   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEgp6kMSvGt3fNBef4FRA7wKUO/00fc2c6b-7737-4af0-b530-776b3a20ad45.mp4",
+   "titulo": "Esse anel NÃO podia existir (e quem achou foi um brasileiro) 💍",
+   "texto": "Esse anel NÃO podia existir (e quem achou foi um brasileiro) 💍\n\nFonte: Morgado et al., Nature\n\nEsse anel não devia existir, e quem achou foi um astrônomo brasileiro.\n\n#astronomia #ciencia #aula #neuralupdate"
+  },
+  {
+   "slug": "viral-a-lua-nao-fica-maior-no-horizonte",
+   "tipo": "viral",
+   "dueAt": "2026-11-17T23:23:00.000Z",
+   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEgp6kMSvGt3fNBef4FRA7wKUO/df23771e-bf9e-4791-80f4-c0dd103b3d58.mp4",
+   "titulo": "A Lua NÃO fica maior no horizonte (quem aumenta é o seu cérebro) 🌕",
+   "texto": "A Lua NÃO fica maior no horizonte (quem aumenta é o seu cérebro) 🌕\n\nA Lua nascendo parece enorme, mas ela não aumentou nada.\n\n#astronomia #espaco #ciencia #neuralupdate"
+  },
+  {
+   "slug": "nw-hoje-a-voyager-1-chega-a-um-dia-luz",
+   "tipo": "news",
+   "dueAt": "2026-11-18T15:17:00.000Z",
+   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEgp6kMSvGt3fNBef4FRA7wKUO/21959275-94fb-42f0-bd0b-10abacabea06.mp4",
+   "titulo": "HOJE a Voyager 1 chegou a um DIA-LUZ da Terra (1ª vez na história) 🛰️",
+   "texto": "HOJE a Voyager 1 chegou a um DIA-LUZ da Terra (1ª vez na história) 🛰️\n\nFonte: NASA/JPL\n\nHoje de manhã, às sete e dezesseis, a Voyager 1 chegou a um dia-luz da Terra.\n\n#astronomia #espaco #ciencia #neuralupdate"
+  },
+  {
+   "slug": "pl103-o-cometa-com-forma-de-patinho",
+   "tipo": "aula",
+   "dueAt": "2026-11-18T20:07:00.000Z",
+   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEgp6kMSvGt3fNBef4FRA7wKUO/7e349aeb-6190-4d0e-9340-bc3dc8feab81.mp4",
+   "titulo": "Esse cometa tem formato de PATINHO de borracha (e cheira mal) 🦆",
+   "texto": "Esse cometa tem formato de PATINHO de borracha (e cheira mal) 🦆\n\nFonte: ESA\n\nEsse cometa tem formato de patinho de borracha, com cabeça e corpo.\n\n#astronomia #ciencia #aula #neuralupdate"
+  },
+  {
+   "slug": "viral-as-tres-marias-voltaram-e-orion-esta-de-ponta-cabeca",
+   "tipo": "viral",
+   "dueAt": "2026-11-18T23:23:00.000Z",
+   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEgp6kMSvGt3fNBef4FRA7wKUO/aaef75db-a733-425e-9b2e-b0234056f50e.mp4",
+   "titulo": "No Brasil, o ÓRION aparece de PONTA-CABEÇA (as Três Marias explicam) ✨",
+   "texto": "No Brasil, o ÓRION aparece de PONTA-CABEÇA (as Três Marias explicam) ✨\n\nSabe as Três Marias? Aqui no Brasil, a constelação delas aparece de ponta-cabeça.\n\n#astronomia #espaco #ciencia #neuralupdate"
+  },
+  {
+   "slug": "nw-sonda-chega-a-mercurio-neste-sabado",
+   "tipo": "news",
+   "dueAt": "2026-11-19T15:17:00.000Z",
+   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEgp6kMSvGt3fNBef4FRA7wKUO/8c55700f-d134-406c-bcd1-10f5ad6d4bc2.mp4",
+   "titulo": "Depois de 8 anos de viagem, uma sonda chega a MERCÚRIO neste sábado ☿️",
+   "texto": "Depois de 8 anos de viagem, uma sonda chega a MERCÚRIO neste sábado ☿️\n\nFonte: ESA\n\nNeste sábado, depois de oito anos, uma sonda entra na órbita de Mercúrio.\n\n#astronomia #espaco #ciencia #neuralupdate"
+  },
+  {
+   "slug": "pl104-deimos-a-lua-de-onde-voce-pula-pro-espaco",
+   "tipo": "aula",
+   "dueAt": "2026-11-19T20:07:00.000Z",
+   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEgp6kMSvGt3fNBef4FRA7wKUO/de7db300-31ec-438c-b124-338d7e4061f6.mp4",
+   "titulo": "Nessa lua dá pra ir pro espaço CORRENDO (é só pular) 🏃",
+   "texto": "Nessa lua dá pra ir pro espaço CORRENDO (é só pular) 🏃\n\nFonte: NASA Science\n\nExiste uma lua tão pequena que, se você correr e pular, sai pro espaço.\n\n#astronomia #ciencia #aula #neuralupdate"
+  },
+  {
+   "slug": "viral-amanha-a-lua-aponta-pra-saturno",
+   "tipo": "viral",
+   "dueAt": "2026-11-19T23:23:00.000Z",
+   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEgp6kMSvGt3fNBef4FRA7wKUO/afbdf2ed-431f-4b76-aed6-0c910d990ca0.mp4",
+   "titulo": "AMANHÃ à noite a Lua aponta pra SATURNO (e dá pra achar ele sem telescópio) 🪐",
+   "texto": "AMANHÃ à noite a Lua aponta pra SATURNO (e dá pra achar ele sem telescópio) 🪐\n\nFonte: Posições calculadas para São Paulo\n\nAmanhã à noite, a Lua vai apontar direto pra Saturno.\n\n#astronomia #espaco #ciencia #neuralupdate"
   }
  ]
 }
