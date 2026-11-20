@@ -1,7 +1,7 @@
 {
  "_leiame": "Plano do TikTok (gerado por tiktok-plano.js no PC). O tiktok-fila-nuvem.js mantém no Buffer os 10 próximos. Não editar à mão.",
- "geradoEm": "2026-11-13T16:56:12.717Z",
- "ate": "2026-11-19",
+ "geradoEm": "2026-11-20T09:44:00.809Z",
+ "ate": "2026-11-20",
  "itens": [
   {
    "slug": "pl98-pan-a-lua-pastel",
@@ -162,6 +162,30 @@
    "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEgp6kMSvGt3fNBef4FRA7wKUO/afbdf2ed-431f-4b76-aed6-0c910d990ca0.mp4",
    "titulo": "AMANHÃ à noite a Lua aponta pra SATURNO (e dá pra achar ele sem telescópio) 🪐",
    "texto": "AMANHÃ à noite a Lua aponta pra SATURNO (e dá pra achar ele sem telescópio) 🪐\n\nFonte: Posições calculadas para São Paulo\n\nAmanhã à noite, a Lua vai apontar direto pra Saturno.\n\n#astronomia #espaco #ciencia #neuralupdate"
+  },
+  {
+   "slug": "nw-uma-estrela-explodiu-e-o-brasil-ve-melhor",
+   "tipo": "news",
+   "dueAt": "2026-11-20T15:17:00.000Z",
+   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEgp6kMSvGt3fNBef4FRA7wKUO/2067ade9-8dcf-4555-add6-95b58583b865.mp4",
+   "titulo": "Uma estrela EXPLODIU e o Brasil tem lugar na primeira fila (a Europa nem vê) 💥",
+   "texto": "Uma estrela EXPLODIU e o Brasil tem lugar na primeira fila (a Europa nem vê) 💥\n\nFonte: NSF NOIRLab\n\nUma estrela explodiu na galáxia NGC 1433, a uns 50 milhões de anos-luz, e foi pega bem no começo.\n\n#supernova #astronomia #espaco #ciencia #neuralupdate"
+  },
+  {
+   "slug": "pl107-dimorfo-o-asteroide-que-a-gente-empurrou",
+   "tipo": "aula",
+   "dueAt": "2026-11-20T20:07:00.000Z",
+   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEgp6kMSvGt3fNBef4FRA7wKUO/2dd5ce3e-25cd-4570-9100-e14a06a10ba9.mp4",
+   "titulo": "A gente JÁ empurrou um asteroide (e a órbita dele mudou) ☄️",
+   "texto": "A gente JÁ empurrou um asteroide (e a órbita dele mudou) ☄️\n\nFonte: NASA / Johns Hopkins APL, missão DART\n\nEm 26/09/2022 a NASA bateu a nave DART, de propósito, no asteroide Dimorfo, uma pedra de uns 160 metros que gira em volta de outro asteroide, Didymos.\n\n#asteroide #astronomia #nasa #ciencia #neuralupdate"
+  },
+  {
+   "slug": "viral-se-o-sol-virasse-buraco-negro",
+   "tipo": "viral",
+   "dueAt": "2026-11-20T23:23:00.000Z",
+   "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEgp6kMSvGt3fNBef4FRA7wKUO/0924f033-6d5f-463f-af8b-e0bbc70f91b3.mp4",
+   "titulo": "Se o Sol virasse BURACO NEGRO, a Terra NÃO seria sugada (o perigo é outro) 🕳️",
+   "texto": "Se o Sol virasse BURACO NEGRO, a Terra NÃO seria sugada (o perigo é outro) 🕳️\n\nFonte: NASA Science\n\nSe o Sol virasse um buraco negro com a mesma massa, a Terra continuaria na mesma órbita: a gravidade depende da massa e da distância, e as duas seriam iguais.\n\n#buraconegro #astronomia #espaco #ciencia #neuralupdate"
   }
  ]
 }
