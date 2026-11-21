@@ -1,6 +1,6 @@
 {
   "_leiame": "Plano do TikTok (gerado por tiktok-plano.js no PC). O tiktok-fila-nuvem.js mantém no Buffer os 10 próximos. Não editar à mão.",
-  "geradoEm": "2026-11-21T21:40:00.539Z",
+  "geradoEm": "2026-11-21T22:02:08.327Z",
   "ate": "2026-11-26T23:23:00.000Z",
   "itens": [
     {
@@ -220,6 +220,14 @@
       "texto": "A nave mais DISTANTE da Terra parou de mandar dados (mas ainda dá sinal) 📡\n\nFonte: NASA, release 26-098\n\nA Voyager 1 chegou a um dia-luz da Terra em 18/11/2026: uns 25,9 bilhões de quilômetros, depois de 49 anos de viagem.\n\n#voyager #nasa #espaco #astronomia #ciencia #neuralupdate"
     },
     {
+      "slug": "pl109-bennu-o-asteroide-que-engoliu-o-braco",
+      "tipo": "aula",
+      "dueAt": "2026-11-22T20:07:00.000Z",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEgp6kMSvGt3fNBef4FRA7wKUO/3fc5ab90-4830-458f-9a9d-3576187ce3fc.mp4",
+      "titulo": "A NASA encostou num asteroide e o braço AFUNDOU (era uma piscina de bolinhas) ☄️",
+      "texto": "A NASA encostou num asteroide e o braço AFUNDOU (era uma piscina de bolinhas) ☄️\n\nFonte: NASA\n\nEm 20/10/2020, a sonda OSIRIS-REx, da NASA, encostou o braço no asteroide Bennu, de uns 490 metros, pra recolher poeira.\n\n#asteroide #astronomia #nasa #ciencia #neuralupdate"
+    },
+    {
       "slug": "viral-tem-mais-arvore-que-estrela",
       "tipo": "viral",
       "dueAt": "2026-11-22T23:23:00.000Z",
@@ -306,6 +314,14 @@
       "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEgp6kMSvGt3fNBef4FRA7wKUO/7f10add8-b225-4bdd-b7fe-627fb77b9bc3.mp4",
       "titulo": "Um telescópio soltou um mapa com mais de 1 BILHÃO de objetos (e essa galáxia dá pra ver daqui) 🌌",
       "texto": "Um telescópio soltou um mapa com mais de 1 BILHÃO de objetos (e essa galáxia dá pra ver daqui) 🌌\n\nFonte: ESA\n\nO telescópio espacial Euclid, da ESA, soltou seu primeiro grande pacote de dados (DR1-Foundation): mais de um bilhão de objetos, num mosaico de quase 500 gigapixels que cobre ~1.\n\n#euclid #galaxias #astronomia #ciencia #neuralupdate"
+    },
+    {
+      "slug": "pl113-lutecia-o-asteroide-com-saturno-na-foto",
+      "tipo": "aula",
+      "dueAt": "2026-11-26T20:07:00.000Z",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEgp6kMSvGt3fNBef4FRA7wKUO/dc9f801e-69ad-4df1-a05a-f1bf1c7eb2fe.mp4",
+      "titulo": "Uma nave passou UM minuto ao lado desse asteroide (e Saturno apareceu na foto) 🪐",
+      "texto": "Uma nave passou UM minuto ao lado desse asteroide (e Saturno apareceu na foto) 🪐\n\nFonte: ESA\n\nEm 10/07/2010, a sonda europeia Rosetta passou a 3.\n\n#asteroide #esa #aula #astronomia #ciencia #neuralupdate"
     },
     {
       "slug": "viral-o-ano-ja-teve-400-dias",
