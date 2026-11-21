@@ -1,7 +1,7 @@
 {
   "_leiame": "Plano do TikTok (gerado por tiktok-plano.js no PC). O tiktok-fila-nuvem.js mantém no Buffer os 10 próximos. Não editar à mão.",
-  "geradoEm": "2026-11-21T15:20:02.177Z",
-  "ate": "2026-11-21T23:23:00.000Z",
+  "geradoEm": "2026-11-21T21:40:00.539Z",
+  "ate": "2026-11-26T23:23:00.000Z",
   "itens": [
     {
       "slug": "pl98-pan-a-lua-pastel",
@@ -210,6 +210,110 @@
       "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEgp6kMSvGt3fNBef4FRA7wKUO/ba767f76-9b3d-4ba0-af34-b50144431e29.mp4",
       "titulo": "AMANHÃ antes do Sol nascer tem 4 PLANETAS no céu (e um quase ninguém já viu) 🪐",
       "texto": "AMANHÃ antes do Sol nascer tem 4 PLANETAS no céu (e um quase ninguém já viu) 🪐\n\nFonte: Posições e brilho calculados\n\nDomingo, 22/11/2026, de madrugada: olhe pro leste lá pelas 4h40 (horário de Brasília).\n\n#astronomia #ceu #planetas #ciencia #neuralupdate"
+    },
+    {
+      "slug": "nw-voyager-1-parou-de-mandar-dados",
+      "tipo": "news",
+      "dueAt": "2026-11-22T15:17:00.000Z",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEgp6kMSvGt3fNBef4FRA7wKUO/ab877095-e775-49aa-944c-d9ff5891aed5.mp4",
+      "titulo": "A nave mais DISTANTE da Terra parou de mandar dados (mas ainda dá sinal) 📡",
+      "texto": "A nave mais DISTANTE da Terra parou de mandar dados (mas ainda dá sinal) 📡\n\nFonte: NASA, release 26-098\n\nA Voyager 1 chegou a um dia-luz da Terra em 18/11/2026: uns 25,9 bilhões de quilômetros, depois de 49 anos de viagem.\n\n#voyager #nasa #espaco #astronomia #ciencia #neuralupdate"
+    },
+    {
+      "slug": "viral-tem-mais-arvore-que-estrela",
+      "tipo": "viral",
+      "dueAt": "2026-11-22T23:23:00.000Z",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEgp6kMSvGt3fNBef4FRA7wKUO/ef2a7f6b-8f1c-440f-ae59-a8d00f30a82d.mp4",
+      "titulo": "Tem mais ÁRVORE na Terra do que ESTRELA na nossa galáxia (e a Amazônia sozinha empata) 🌳✨",
+      "texto": "Tem mais ÁRVORE na Terra do que ESTRELA na nossa galáxia (e a Amazônia sozinha empata) 🌳✨\n\nFonte: Crowther et al., Nature\n\nA Via Láctea tem entre 100 e 400 bilhões de estrelas.\n\n#amazonia #vialactea #curiosidades #astronomia #ciencia #neuralupdate"
+    },
+    {
+      "slug": "nw-estrela-morta-pisca-em-radio-a-cada-8-minutos",
+      "tipo": "news",
+      "dueAt": "2026-11-23T15:17:00.000Z",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEgp6kMSvGt3fNBef4FRA7wKUO/32469b06-e268-4679-8c7d-7e2bd39d2fad.mp4",
+      "titulo": "Uma estrela MORTA manda um pulso de rádio a cada 8 minutos (e tem uma vizinha igual ao Sol) 📡",
+      "texto": "Uma estrela MORTA manda um pulso de rádio a cada 8 minutos (e tem uma vizinha igual ao Sol) 📡\n\nFonte: Curtin University / ICRAR\n\nAstrônomos da Curtin University (ICRAR, Austrália) ligaram pulsos de rádio que se repetem a cada 8 minutos a uma anã branca (o caroço que sobra de uma estrela) em par com uma estrela parecida com o Sol, a mais de 5.\n\n#astronomia #radiotelescopio #espaco #ciencia #neuralupdate"
+    },
+    {
+      "slug": "pl110-tetis-a-lua-da-cratera-gigante",
+      "tipo": "aula",
+      "dueAt": "2026-11-23T20:07:00.000Z",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEgp6kMSvGt3fNBef4FRA7wKUO/b9fe1ad1-b9ad-4200-920b-9c59c8ed5e14.mp4",
+      "titulo": "Essa lua tem uma cratera do tamanho de quase METADE dela (e não se partiu) 🪐",
+      "texto": "Essa lua tem uma cratera do tamanho de quase METADE dela (e não se partiu) 🪐\n\nFonte: NASA Science\n\nTétis é uma lua de Saturno com 1.\n\n#saturno #astronomia #aula #ciencia #neuralupdate"
+    },
+    {
+      "slug": "viral-amanha-tem-superlua",
+      "tipo": "viral",
+      "dueAt": "2026-11-23T23:23:00.000Z",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEgp6kMSvGt3fNBef4FRA7wKUO/585c2f87-c499-479a-ad88-b7234e053492.mp4",
+      "titulo": "AMANHÃ tem SUPERLUA (e a do Natal vai ser ainda maior) 🌕",
+      "texto": "AMANHÃ tem SUPERLUA (e a do Natal vai ser ainda maior) 🌕\n\nFonte: Cálculo\n\nTerça, 24/11/2026: Lua cheia às 11h54 (Brasília), a 360.\n\n#superlua #luacheia #astronomia #ciencia #neuralupdate"
+    },
+    {
+      "slug": "nw-hera-chegou-no-asteroide-que-a-gente-empurrou",
+      "tipo": "news",
+      "dueAt": "2026-11-24T15:17:00.000Z",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEgp6kMSvGt3fNBef4FRA7wKUO/8510720d-9a07-47e2-91fd-e53218915759.mp4",
+      "titulo": "Uma nave chegou pra ver o ESTRAGO no asteroide que a gente empurrou (amanhã tem foto ao vivo) ☄️",
+      "texto": "Uma nave chegou pra ver o ESTRAGO no asteroide que a gente empurrou (amanhã tem foto ao vivo) ☄️\n\nFonte: ESA\n\nEm 26/09/2022, a nave DART, da NASA, bateu de propósito no asteroide Dimorfo.\n\n#asteroide #esa #astronomia #ciencia #neuralupdate"
+    },
+    {
+      "slug": "pl111-eros-a-nave-que-pousou-sem-poder",
+      "tipo": "aula",
+      "dueAt": "2026-11-24T20:07:00.000Z",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEgp6kMSvGt3fNBef4FRA7wKUO/85e2c59e-67d0-4bed-8674-a2239101b259.mp4",
+      "titulo": "A NASA POUSOU uma nave que não foi feita pra pousar (e ela sobreviveu) ☄️",
+      "texto": "A NASA POUSOU uma nave que não foi feita pra pousar (e ela sobreviveu) ☄️\n\nFonte: NASA\n\nA sonda NEAR Shoemaker entrou na órbita do asteroide Eros (34 km de comprimento) em 14/02/2000, a primeira a orbitar um asteroide.\n\n#asteroide #nasa #aula #astronomia #ciencia #neuralupdate"
+    },
+    {
+      "slug": "viral-essa-luz-saiu-antes-de-cabral",
+      "tipo": "viral",
+      "dueAt": "2026-11-24T23:23:00.000Z",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEgp6kMSvGt3fNBef4FRA7wKUO/3d86c227-7968-4fde-8587-644369394c9f.mp4",
+      "titulo": "Essa estrela que você vê hoje é uma luz de ANTES de Cabral chegar ao Brasil ⭐",
+      "texto": "Essa estrela que você vê hoje é uma luz de ANTES de Cabral chegar ao Brasil ⭐\n\nFonte: Distância de Betelgeuse\n\nBetelgeuse, a estrela avermelhada de Órion (perto das Três Marias), está a uns 550 a 700 anos-luz, segundo as medições mais recentes.\n\n#betelgeuse #orion #astronomia #ciencia #neuralupdate"
+    },
+    {
+      "slug": "nw-trio-de-estrelas-que-nao-deveria-existir",
+      "tipo": "news",
+      "dueAt": "2026-11-25T15:17:00.000Z",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEgp6kMSvGt3fNBef4FRA7wKUO/16363934-64a8-42c7-94b4-291375401e05.mp4",
+      "titulo": "Acharam um trio de estrelas que NÃO deveria existir (e fica aqui do lado) ⭐",
+      "texto": "Acharam um trio de estrelas que NÃO deveria existir (e fica aqui do lado) ⭐\n\nFonte: Institut Trottier de recherche sur les exoplanètes\n\nWelopōʻai é um sistema de três estrelas a 28 anos-luz do Sol: duas anãs brancas (estrelas que já morreram) e uma anã vermelha.\n\n#estrelas #astronomia #espaco #ciencia #neuralupdate"
+    },
+    {
+      "slug": "pl112-hartley-2-o-cometa-que-faz-nevasca",
+      "tipo": "aula",
+      "dueAt": "2026-11-25T20:07:00.000Z",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEgp6kMSvGt3fNBef4FRA7wKUO/c1d1b306-6f6c-4319-9e47-d740b22c269f.mp4",
+      "titulo": "Esse cometa tem formato de AMENDOIM e faz uma nevasca no espaço ❄️",
+      "texto": "Esse cometa tem formato de AMENDOIM e faz uma nevasca no espaço ❄️\n\nFonte: NASA/JPL\n\nEm 04/11/2010, a sonda EPOXI (a antiga Deep Impact, da NASA) passou a 694 km do cometa 103P/Hartley 2, a 12,3 km/s.\n\n#cometa #nasa #aula #astronomia #ciencia #neuralupdate"
+    },
+    {
+      "slug": "viral-cade-o-cruzeiro-do-sul",
+      "tipo": "viral",
+      "dueAt": "2026-11-25T23:23:00.000Z",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEgp6kMSvGt3fNBef4FRA7wKUO/8b8d48e9-5bf4-4963-98f5-3448c5bea73b.mp4",
+      "titulo": "Procurou o CRUZEIRO DO SUL hoje e NÃO achou? Ele não sumiu (só muda de hora) ✝️",
+      "texto": "Procurou o CRUZEIRO DO SUL hoje e NÃO achou? Ele não sumiu (só muda de hora) ✝️\n\nFonte: Posições calculadas\n\nEm novembro, no começo da noite, o Cruzeiro do Sul fica abaixo do horizonte, no sul, pra quem está em São Paulo e boa parte do Brasil.\n\n#cruzeirodosul #ceu #astronomia #ciencia #neuralupdate"
+    },
+    {
+      "slug": "nw-euclid-mapa-de-um-bilhao-de-objetos",
+      "tipo": "news",
+      "dueAt": "2026-11-26T15:17:00.000Z",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEgp6kMSvGt3fNBef4FRA7wKUO/7f10add8-b225-4bdd-b7fe-627fb77b9bc3.mp4",
+      "titulo": "Um telescópio soltou um mapa com mais de 1 BILHÃO de objetos (e essa galáxia dá pra ver daqui) 🌌",
+      "texto": "Um telescópio soltou um mapa com mais de 1 BILHÃO de objetos (e essa galáxia dá pra ver daqui) 🌌\n\nFonte: ESA\n\nO telescópio espacial Euclid, da ESA, soltou seu primeiro grande pacote de dados (DR1-Foundation): mais de um bilhão de objetos, num mosaico de quase 500 gigapixels que cobre ~1.\n\n#euclid #galaxias #astronomia #ciencia #neuralupdate"
+    },
+    {
+      "slug": "viral-o-ano-ja-teve-400-dias",
+      "tipo": "viral",
+      "dueAt": "2026-11-26T23:23:00.000Z",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3FEgp6kMSvGt3fNBef4FRA7wKUO/2239ca0f-a92b-488c-97f1-b83c82c6507b.mp4",
+      "titulo": "O ano já teve 400 DIAS (e a culpa é da Lua) 🌍🌙",
+      "texto": "O ano já teve 400 DIAS (e a culpa é da Lua) 🌍🌙\n\nFonte: Wells, \"Coral growth and geochronometry\", Nature 197\n\nHá uns 400 milhões de anos, no Devoniano, o ano tinha cerca de 400 dias: não porque o ano era mais longo, mas porque o dia durava umas 22 horas.\n\n#lua #terra #ciencia #astronomia #neuralupdate"
     }
   ]
 }
